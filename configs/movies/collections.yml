@@ -11,6 +11,7 @@ templates:
 collections:
   28 Days Later:
     template: {name: tmdb, collection: 1565}
+    test: true
   Alien:
     template: {name: tmdb, collection: "8091, 135416, 115762"}
   A Quiet Place:
