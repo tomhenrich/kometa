@@ -1,0 +1,31 @@
+templates:
+  tmdb:
+    optional:
+      - collection
+      - show
+    tmdb_collection_details: <<collection>>
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    move_prefix: The,A
+collections:
+  Stargate:
+    template: {name: tmdb, show: "4629, 2290, 5148, 72925"}
+    file_poster: Collections\collection-stargate.jpg
+  Star Trek:
+    template: {name: tmdb, show: "253, 655, 1855, 314, 67198, 85949, 103516"}
+    file_poster: Collections\collection-startrek.jpg
+  Star Wars:
+    template: {name: tmdb, show: "92830, 115036, 82856"}
+    file_poster: Collections\collection-starwars.jpg
+  "Battlestar Galactica (Reboot)":
+    #template: {name: tmdb, show: "71365, 1972, 33240"}
+    sort_title: Battlestar Galactica 2003
+    plex_search:
+      all:
+        release.after: 2002-01-01
+        title.begins: Battlestar
+    file_poster: Collections\collection-battlestar.jpg
+  Twilight Zone:
+    template: {name: tmdb, show: "6357, 1918, 83135, 16399"}
+    file_poster: Collections\collection-twilightzone.jpg
