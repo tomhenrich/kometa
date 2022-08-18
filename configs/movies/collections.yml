@@ -10,6 +10,8 @@ templates:
     collection_order: release
     move_prefix: The,A
 collections:
+  28 Days Later:
+    template: {name: tmdb, collection: 1565}
   Alien:
     template: {name: tmdb, collection: "8091, 135416, 115762"}
   A Quiet Place:
@@ -25,9 +27,7 @@ collections:
   Bourne:
     template: {name: tmdb, collection: 31562}
   The Chronicles of Riddick:
-    template:
-      name: tmdb
-      collection: 2794
+    template: {name: tmdb, collection: 2794, movie: 2791}
     sort_title: Chronicles of Riddick
     collection_order: title.asc
     name_mapping: Riddick
@@ -81,7 +81,6 @@ collections:
     template: {name: tmdb, collection: 495527}
   Jurassic Park:
     template: {name: tmdb, collection: 328, movie: 630322, postername: jurassicpark}
-    test: true
   Kurosawa Samurai:
     template: {name: tmdb}
     tmdb_list_details: 8191238
