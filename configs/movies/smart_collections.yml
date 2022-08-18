@@ -104,11 +104,3 @@ collections:
       sort_by: release.asc
     sort_title: zzDecade1980
     file_poster: Collections\decades\decade-1980s.jpg
-  Oscar Noms 2021:
-    trakt_list: https://trakt.tv/users/mdoom/lists/2021-oscar-nominations?sort=title,asc
-    smart_label:
-      sort_by: title.asc
-      all:
-        label: <<smart_label>>
-    sort_title: ^Oscars 2021
-    file_poster: Collections\oscars\oscar-nominees-2021.png
