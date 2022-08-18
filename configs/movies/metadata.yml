@@ -63,7 +63,7 @@ metadata:
     year: 2013
     sort_title: Hobbit 2
   "The Hobbit: The Battle of the Five Armies":
-    alt_title: "The Hobbit: THe Battle of Five Armies"
+    alt_title: "The Hobbit: The Battle of Five Armies"
     year: 2014
     sort_title: Hobbit 3
   The Matrix:
@@ -114,4 +114,13 @@ metadata:
     alt_title: "Fantastic Beasts: The Crimes of Grindelwald"
   The Secrets of Dumbledore:
     alt_title: "Fantastic Beasts: The Secrets of Dumbledore"
+  Pitch Black:
+    sort_title: Riddick 1
+  Dark Fury:
+    alt_title: "The Chronicles of Riddick: Dark Fury"
+    sort_title: Riddick 1.5
+  The Chronicles of Riddick:
+    sort_title: Riddick 2
+  Riddick:
+    sort_title: Riddick 3
     
