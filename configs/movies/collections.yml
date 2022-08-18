@@ -26,9 +26,7 @@ collections:
   Bourne:
     template: {name: tmdb, collection: 31562}
   The Chronicles of Riddick:
-    template:
-      name: tmdb
-      collection: 2794
+    template: {name: tmdb, collection: 2794, movie: 2791}
     sort_title: Chronicles of Riddick
     collection_order: title.asc
     name_mapping: Riddick
