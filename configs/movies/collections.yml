@@ -3,7 +3,6 @@ templates:
     optional:
       - collection
       - movie
-      - postername
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     sync_mode: sync
@@ -80,7 +79,7 @@ collections:
   Jumanji:
     template: {name: tmdb, collection: 495527}
   Jurassic Park:
-    template: {name: tmdb, collection: 328, movie: 630322, postername: jurassicpark}
+    template: {name: tmdb, collection: 328, movie: 630322}
   Kurosawa Samurai:
     template: {name: tmdb}
     tmdb_list_details: 8191238
