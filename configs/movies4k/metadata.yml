@@ -1,0 +1,62 @@
+metadata:
+  "The Fellowship of the Ring":
+    title: "The Lord of the Rings: The Fellowship of the Ring"
+    year: 2001
+    original_title: "The Lord of the Rings: The Fellowship of the Ring"
+    summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+    sort_title: LOTR 1
+  "The Two Towers":
+    title: "The Lord of the Rings: The Two Towers"
+    year: 2002
+    original_title: "The Lord of the Rings: The Two Towers"
+    summary: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    sort_title: LOTR 2
+  "The Return of the King":
+    title: "The Lord of the Rings: The Return of the King"
+    year: 2003
+    original_title: "The Lord of the Rings: The Return of the King"
+    summary: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    sort_title: LOTR 3
+  "The Hobbit: An Unexpected Journey":
+    year: 2012
+    sort_title: Hobbit 1
+  "The Hobbit: The Desolation of Smaug":
+    year: 2013
+    sort_title: Hobbit 2
+  "The Hobbit: The Battle of the Five Armies":
+    alt_title: "The Hobbit: The Battle of Five Armies"
+    year: 2014
+    sort_title: Hobbit 3
+  The Matrix:
+    sort_title: Matrix 1
+  The Animatrix:
+    sort_title: Matrix 1.5
+  The Matrix Reloaded:
+    sort_title: Matrix 2
+  The Matrix Revolutions:
+    sort_title: Matrix 3
+  The Matrix Resurrections:
+    sort_title: Matrix 4
+  Godzilla (1954):
+    title: Godzilla
+    year: 1954
+    sort_title: Godzilla 1954
+    collection.remove: "Godzilla (Showa)"
+  Godzilla (2014):
+    title: Godzilla
+    year: 2014
+    sort_title: Godzilla MV 2014
+    label: MonsterVerse
+  GodzillaKOTM:
+    title: 'Godzilla: King of the Monsters'
+    year: 2019
+    sort_title: Godzilla MV 2019
+    label: MonsterVerse
+  Godzilla vs. Kong:
+    title: Godzilla vs. Kong
+    year: 2021
+    sort_title: Godzilla MV 2021
+    label: MonsterVerse
+  Shin Godzilla:
+    sort_title: z Godzilla Shin 2016
+    content_rating: R
