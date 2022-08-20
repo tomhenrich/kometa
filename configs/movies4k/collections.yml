@@ -1,0 +1,24 @@
+templates:
+  tmdb:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    move_prefix: The,A
+collections:
+  The Dark Knight:
+    template: {name: tmdb, collection: 263}
+    name_mapping: "Batman (Dark Knight)"
+    sort_title: "Batman (Dark Knight)"
+    summary: "Christopher Nolan's reboot of the Batman franchise, starring Christian Bale as the Dark Knight."
+  Godzilla:
+    template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
+    collection_order: title.asc
+  John Wick:
+    template: {name: tmdb, collection: 404609}
+  A Quiet Place:
+    template: {name: tmdb, collection: 521226}
+    name_mapping: Quiet Place
