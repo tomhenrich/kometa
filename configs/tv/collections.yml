@@ -9,6 +9,10 @@ templates:
     collection_order: release
     move_prefix: The,A
 collections:
+  Serenity:
+    template: {name: tmdb, show: 1437}
+    minimum_items: 1
+    collection_mode: hide
   Stargate:
     template: {name: tmdb, show: "4629, 2290, 5148, 72925"}
     file_poster: Collections\collection-stargate.jpg
