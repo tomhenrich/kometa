@@ -118,6 +118,10 @@ collections:
     template: {name: tmdb, collection: 5547, movie: 97020}
   Rocky:
     template: {name: tmdb, collection: "1575, 553717"}
+  Serenity:
+    template: {name: tmdb, movie: 16320}
+    minimum_items: 1
+    collection_mode: hide
   The Shining:
     template: {name: tmdb, collection: 530064}
     name_mapping: Shining
