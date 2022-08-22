@@ -159,6 +159,8 @@ collections:
   The Thing:
     template: {name: tmdb, collection: 479888}
     name_mapping: Thing
+  Top Gun:
+    template: {name: tmdb, collection: 531330}
   Toy Story:
     template: {name: tmdb, collection: 10194}
   Transformers:
