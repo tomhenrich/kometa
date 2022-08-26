@@ -60,7 +60,7 @@ collections:
     template: {name: tmdb, collection: 89137}
   I Am Legend:
     tmdb_list_details: 8193503
-    file_poster: Collections\poster-iamlegend.jpg
+    file_poster: E:\NVIDIA_SHIELD\Movies\Collections\poster-iamlegend.jpg
   The Incredibles:
     template: {name: tmdb, collection: 468222}
     name_mapping: Incredibles
