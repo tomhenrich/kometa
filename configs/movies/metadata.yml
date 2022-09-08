@@ -108,13 +108,22 @@ metadata:
     sort_title: Godzilla MV 2021
     label: MonsterVerse
   Shin Godzilla:
-    sort_title: z Godzilla Shin 2016
+    sort_title: Godzilla Shin 2016
     content_rating: R
   KongSkullIsland:
     title: "Kong: Skull Island"
     year: 2017
     label: MonsterVerse
     sort_title: Kong MV 2017
+  "Godzilla: Planet of the Monsters":
+    year: 2017
+    sort_title: Godzilla zAnime 1
+  "Godzilla: City on the Edge of Battle":
+    year: 2018
+    sort_title: Godzilla zAnime 2
+  "Godzilla: The Planet Eater":
+    year: 2018
+    sort_title: Godzilla zAnime 3
   Harakiri:
     year: 1962
     label: Samurai
