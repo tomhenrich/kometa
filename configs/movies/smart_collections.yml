@@ -56,7 +56,7 @@ collections:
         label:
           - Godzilla
           - MonsterVerse
-   collection_order: title.asc
+      sort_by: title.asc
    name_mapping: Godzilla MonsterVerse
   "Godzilla (Anime)":
     test: true
@@ -65,7 +65,7 @@ collections:
         label:
           - Godzilla
           - Anime
-   collection_order: title.asc
+      sort_by: title.asc
    name_mapping: Godzilla Anime
   MonsterVerse:
     smart_filter:
