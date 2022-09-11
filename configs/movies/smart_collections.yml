@@ -29,6 +29,17 @@ collections:
           - Anime
       sort_by: title.asc
     test: true
+    name_mapping: Godzilla Anime
+    collection_mode: hide
+  "Godzilla (MonsterVerse)":
+    smart_filter:
+      all:
+        label:
+          - Godzilla
+          - MonsterVerse
+      sort_by: title.asc
+    test: true
+    name_mapping: Godzilla MonsterVerse
     collection_mode: hide
   Hitchcock:
     plex_search:
