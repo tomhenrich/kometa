@@ -61,7 +61,7 @@ collections:
     collection_mode: hide_items
     name_mapping: Godzilla MonsterVerse
     test: true
-  "Godzilla (Anime)":
+  Godzilla (Anime):
     template: {name: tmdb, collection: 535790}
     item_label: Godzilla,Anime
     collection_order: title.asc
