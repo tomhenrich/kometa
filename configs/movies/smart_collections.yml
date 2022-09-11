@@ -1,4 +1,19 @@
 collections:
+  "Sarah's Netflix":
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+    smart_label: title.asc
+    sort_title: "zSarahs Netflix"
+    file_poster: Collections\sarahs-netflix.jpg
+    test: true
+  "Sarah's Unwatched":
+    smart_label:
+      all:
+        label: "Sarah's Netflix"
+        unplayed: true
+      sort_by: title.asc
+    sort_title: "^Sarahs Unwatched"
+    file_poster: Collections\sarahs-unwatched.jpg
+    test: true
   Non-English:
     smart_filter:
       any:
@@ -35,23 +50,6 @@ collections:
       sort_by: release.asc
     file_poster: Collections\collection-middleearth.jpg
     file_background: Collections\background-middleearth.jpg
-  "Godzilla (MonsterVerse)":
-    test: true
-    smart_filter:
-      all:
-        label:
-          - Godzilla
-          - MonsterVerse
-      sort_by: title.asc
-   name_mapping: Godzilla MonsterVerse
-  Godzilla (Anime):
-    test: true
-    smart_filter:
-      all:
-        label:
-          - Godzilla
-          - Anime
-      sort_by: title.asc
   MonsterVerse:
     smart_filter:
       any:
