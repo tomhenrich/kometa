@@ -54,17 +54,15 @@ collections:
 #    collection_order: title.asc
   "Godzilla (MonsterVerse)":
     template: {name: tmdb, collection: 535313}
-    collection_order: title.asc
     item_label: Godzilla
-    collection_order: alpha
+    collection_order: title.asc
     collection_mode: hide
     name_mapping: Godzilla MonsterVerse
     test: true
   "Godzilla (Anime)":
     template: {name: tmdb, collection: 535790}
-    collection_order: title.asc
     item_label: Godzilla
-    collection_order: alpha
+    collection_order: title.asc
     collection_mode: hide
     name_mapping: Godzilla Anime
     test: true
