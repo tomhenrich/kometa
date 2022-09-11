@@ -50,6 +50,7 @@ collections:
     file_poster: Collections\collection-middleearth.jpg
     file_background: Collections\background-middleearth.jpg
   Godzilla:
+      test: true
       tmdb_collection:
         - 374509
         - 374511
