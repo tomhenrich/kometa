@@ -56,14 +56,14 @@ collections:
     template: {name: tmdb, collection: 535313}
     item_label: Godzilla
     collection_order: title.asc
-    collection_mode: hide
+    collection_mode: hide_items
     name_mapping: Godzilla MonsterVerse
     test: true
   "Godzilla (Anime)":
     template: {name: tmdb, collection: 535790}
     item_label: Godzilla
     collection_order: title.asc
-    collection_mode: hide
+    collection_mode: hide_items
     name_mapping: Godzilla Anime
     test: true
   The Hobbit:
