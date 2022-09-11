@@ -50,16 +50,18 @@ collections:
     file_poster: Collections\collection-middleearth.jpg
     file_background: Collections\background-middleearth.jpg
   Godzilla:
-      test: true
-      tmdb_collection:
-        - 374509
-        - 374511
-        - 374512
-        - 535790
-        - 535313
-      tmdb_movie:
-        - 929
-        - 315011
+    test: true
+    tmdb_collection:
+      - 374509
+      - 374511
+      - 374512
+      - 535790
+      - 535313
+    tmdb_movie:
+      - 929
+      - 315011
+   item_label: Godzilla
+   collection_order: alpha
   MonsterVerse:
     smart_filter:
       any:
