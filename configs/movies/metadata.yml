@@ -50,6 +50,7 @@ metadata:
     collection: Star Wars
     label: Star Wars
     tmdb_show: 92830
+    test: true
   "The Fellowship of the Ring":
     title: "The Lord of the Rings: The Fellowship of the Ring"
     year: 2001
