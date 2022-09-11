@@ -28,11 +28,15 @@ collections:
           - Godzilla
           - Anime
       sort_by: title.asc
-    test: true
     name_mapping: Godzilla Anime
     collection_mode: hide
   "Godzilla (MonsterVerse)":
-    tmdb_collection: 535313
+    smart_filter:
+      all:
+        label:
+          - Godzilla
+          - MonsterVerse
+      sort_by: title.asc
     test: true
     name_mapping: Godzilla MonsterVerse
     collection_mode: hide
