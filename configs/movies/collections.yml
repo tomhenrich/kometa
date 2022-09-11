@@ -53,21 +53,20 @@ collections:
     template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
     collection_order: title.asc
     item_label: Godzilla
-    test: true
-  "Godzilla (MonsterVerse)":
-    template: {name: tmdb, collection: 535313}
-    item_label: Godzilla,MonsterVerse
-    collection_order: title.asc
-    collection_mode: hide_items
-    name_mapping: Godzilla MonsterVerse
-    test: true
-  Godzilla (Anime):
-    template: {name: tmdb, collection: 535790}
-    item_label: Godzilla,Anime
-    collection_order: title.asc
-    collection_mode: hide_items
-    name_mapping: Godzilla Anime
-    test: true
+#  Godzilla (MonsterVerse):
+#    template: {name: tmdb, collection: 535313}
+#    item_label: Godzilla,MonsterVerse
+#    collection_order: title.asc
+#    collection_mode: hide_items
+#    name_mapping: Godzilla MonsterVerse
+#    test: true
+#  Godzilla (Anime):
+#    template: {name: tmdb, collection: 535790}
+#    item_label: Godzilla,Anime
+#    collection_order: title.asc
+#    collection_mode: hide_items
+#    name_mapping: Godzilla Anime
+#    test: true
   The Hobbit:
     template: {name: tmdb, collection: 121938}
     name_mapping: Hobbit
