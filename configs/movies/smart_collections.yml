@@ -24,8 +24,9 @@ collections:
   Godzilla (Anime):
     smart_filter:
       all:
-        label: Godzilla
-        label: Anime
+        label:
+          - Godzilla
+          - Anime
       sort_by: title.asc
     test: true
     collection_mode: hide
