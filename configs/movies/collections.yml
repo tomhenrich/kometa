@@ -58,6 +58,7 @@ collections:
     item_label: Godzilla
     collection_order: alpha
     collection_mode: hide
+    name_mapping: Godzilla MonsterVerse
     test: true
   "Godzilla (Anime)":
     template: {name: tmdb, collection: 535790}
@@ -65,7 +66,7 @@ collections:
     item_label: Godzilla
     collection_order: alpha
     collection_mode: hide
-    file_poster: Godzilla (Anime)\poster.jpg
+    name_mapping: Godzilla Anime
     test: true
   The Hobbit:
     template: {name: tmdb, collection: 121938}
