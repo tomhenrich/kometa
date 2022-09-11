@@ -21,25 +21,13 @@ collections:
       sort_by: title.asc
     sort_title: "^Non-English"
     file_poster: Collections\collection-nonenglish.jpg
-  "Godzilla (Anime)":
+  Godzilla:
     smart_filter:
       all:
         label:
           - Godzilla
-          - Anime
       sort_by: title.asc
-    name_mapping: Godzilla Anime
-    collection_mode: hide
-  "Godzilla (MonsterVerse)":
-    smart_filter:
-      all:
-        label:
-          - Godzilla
-          - MonsterVerse
-      sort_by: title.asc
-    test: true
-    name_mapping: Godzilla MonsterVerse
-    collection_mode: hide
+    collection_mode: hide_items
   Hitchcock:
     plex_search:
       all:
