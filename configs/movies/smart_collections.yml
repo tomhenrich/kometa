@@ -49,19 +49,24 @@ collections:
       sort_by: release.asc
     file_poster: Collections\collection-middleearth.jpg
     file_background: Collections\background-middleearth.jpg
-  Godzilla:
+  "Godzilla (MonsterVerse)":
     test: true
-    tmdb_collection:
-      - 374509
-      - 374511
-      - 374512
-      - 535790
-      - 535313
-    tmdb_movie:
-      - 929
-      - 315011
-   item_label: Godzilla
-   collection_order: alpha
+    smart_filter:
+      all:
+        label:
+          - Godzilla
+          - MonsterVerse
+   collection_order: title.asc
+   name_mapping: Godzilla MonsterVerse
+  "Godzilla (Anime)":
+    test: true
+    smart_filter:
+      all:
+        label:
+          - Godzilla
+          - Anime
+   collection_order: title.asc
+   name_mapping: Godzilla Anime
   MonsterVerse:
     smart_filter:
       any:
