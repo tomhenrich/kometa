@@ -56,10 +56,12 @@ collections:
     template: {name: tmdb, collection: 535313}
     collection_order: title.asc
     item_label: Godzilla
+    test: true
   "Godzilla (Anime)":
     template: {name: tmdb, collection: 535790}
     collection_order: title.asc
     item_label: Godzilla
+    test: true
   The Hobbit:
     template: {name: tmdb, collection: 121938}
     name_mapping: Hobbit
