@@ -49,6 +49,16 @@ collections:
       sort_by: release.asc
     file_poster: Collections\collection-middleearth.jpg
     file_background: Collections\background-middleearth.jpg
+  Godzilla:
+      tmdb_collection:
+        - 374509
+        - 374511
+        - 374512
+        - 535790
+        - 535313
+      tmdb_movie:
+        - 929
+        - 315011
   MonsterVerse:
     smart_filter:
       any:
