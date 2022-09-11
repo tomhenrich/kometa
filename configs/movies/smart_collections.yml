@@ -21,7 +21,7 @@ collections:
       sort_by: title.asc
     sort_title: "^Non-English"
     file_poster: Collections\collection-nonenglish.jpg
-  Godzilla (Anime):
+  "Godzilla (Anime)":
     smart_filter:
       all:
         label:
