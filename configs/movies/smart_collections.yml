@@ -5,7 +5,7 @@ collections:
     sort_title: "zSarahs Netflix"
     file_poster: Collections\sarahs-netflix.jpg
   "Sarah's Unwatched":
-    smart_filter:
+    smart_label:
       all:
         label: "Sarah's Netflix"
         unplayed: true
