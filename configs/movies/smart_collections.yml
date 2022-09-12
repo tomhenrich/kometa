@@ -49,6 +49,11 @@ collections:
       any:
         label: MonsterVerse
       sort_by: title.asc
+  Star Wars:
+    plex_search:
+      any:
+        label: Star Wars
+    collection_order: alpha
   Universal Monsters:
     smart_filter:
       any:
