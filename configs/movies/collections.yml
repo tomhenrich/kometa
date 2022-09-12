@@ -115,7 +115,7 @@ collections:
     name_mapping: Matrix
     collection_order: alpha
   Men In Black:
-    template: {name: tmdb, collection: 86055}
+    template: {name: tmdb, collection: 86055, movie: 479455}
   The Mummy:
     template: {name: tmdb, collection: 1733}
     name_mapping: Mummy
@@ -144,20 +144,20 @@ collections:
     template: {name: tmdb, collection: 151}
     sort_title: "Star Trek C1: TOS"
     item_label.sync: "Star Trek"
-    file_poster: E:\NVIDIA_SHIELD\Movies\Star Trek\TOS\poster.jpg
-    file_background: E:\NVIDIA_SHIELD\Movies\Star Trek\TOS\background.jpg
+    file_poster: Movies\Star Trek\TOS\poster.jpg
+    file_background: Movies\Star Trek\TOS\background.jpg
   "Star Trek: TNG":
     template: {name: tmdb, collection: 115570}
     sort_title: "Star Trek C2: TNG"
     item_label.sync: "Star Trek"
-    file_poster: E:\NVIDIA_SHIELD\Movies\Star Trek\TNG\poster.jpg
-    file_background: E:\NVIDIA_SHIELD\Movies\Star Trek\TNG\background.jpg
+    file_poster: \Movies\Star Trek\TNG\poster.jpg
+    file_background: \Movies\Star Trek\TNG\background.jpg
   "Star Trek: Kelvin":
     template: {name: tmdb, collection: 115575}
     sort_title: "Star Trek C3: Kelvin"
     item_label.sync: "Star Trek"
-    file_poster: E:\NVIDIA_SHIELD\Movies\Star Trek\Kelvin\poster.jpg
-    file_background: E:\NVIDIA_SHIELD\Movies\Star Trek\Kelvin\background.jpg
+    file_poster: \Movies\Star Trek\Kelvin\poster.jpg
+    file_background: \Movies\Star Trek\Kelvin\background.jpg
   Star Wars:
     template: {name: tmdb, collection: 10, movie: "330459, 348350, 74849, 732670"}
     item_label: "Star Wars"
