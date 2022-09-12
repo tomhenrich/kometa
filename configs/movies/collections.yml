@@ -3,10 +3,10 @@ templates:
     optional:
       - collection
       - movie
-      - label
+      - tag
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    label: <<label>>
+    label: <<tag>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
@@ -162,9 +162,10 @@ collections:
     file_poster: \Movies\Star Trek\Kelvin\poster.jpg
     file_background: \Movies\Star Trek\Kelvin\background.jpg
   Star Wars:
-    template: {name: tmdb, collection: 10, movie: "330459, 348350, 74849, 732670", label: Star Wars}
+    template: {name: tmdb, collection: 10, movie: "330459, 348350, 74849, 732670", tag: "Star Wars"}
     item_label: "Star Wars"
     collection_order: alpha
+    test: true
   Studio Ghibli:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
