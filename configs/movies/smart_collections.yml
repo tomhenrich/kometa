@@ -4,11 +4,12 @@ collections:
     smart_label: title.asc
     sort_title: "zSarahs Netflix"
     file_poster: Collections\sarahs-netflix.jpg
+    item_label: SarahsNetflix
     test: true
   "Sarah's Unwatched":
     smart_filter:
       all:
-        collection: "Sarah's Netflix"
+        tag: SarahsNetflix
         unplayed: true
       sort_by: title.asc
     sort_title: "^Sarahs Unwatched"
@@ -21,6 +22,7 @@ collections:
       sort_by: title.asc
     sort_title: "^Non-English"
     file_poster: Collections\collection-nonenglish.jpg
+    test: true
   Godzilla:
     smart_filter:
       all:
