@@ -148,20 +148,17 @@ collections:
     template: {name: tmdb, collection: 151}
     sort_title: "Star Trek C1: TOS"
     item_label.sync: "Star Trek"
-    file_poster: Movies\Star Trek\TOS\poster.jpg
-    file_background: Movies\Star Trek\TOS\background.jpg
+    name_mapping: Star Trek TOS
   "Star Trek: TNG":
     template: {name: tmdb, collection: 115570}
     sort_title: "Star Trek C2: TNG"
     item_label.sync: "Star Trek"
-    file_poster: \Movies\Star Trek\TNG\poster.jpg
-    file_background: \Movies\Star Trek\TNG\background.jpg
-  "Star Trek: Kelvin":
+    name_mapping: Star Trek TNG
+  "Star Trek: Kelvin Timeline":
     template: {name: tmdb, collection: 115575}
     sort_title: "Star Trek C3: Kelvin"
     item_label.sync: "Star Trek"
-    file_poster: \Movies\Star Trek\Kelvin\poster.jpg
-    file_background: \Movies\Star Trek\Kelvin\background.jpg
+    name_mapping: Star Trek Kelvin
   Star Wars:
     template: {name: tmdb, collection: 10, movie: "330459, 348350, 74849, 732670", tag: "Star Wars"}
     item_label: "Star Wars"
