@@ -3,7 +3,7 @@ collections:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
     smart_label: title.asc
     sort_title: "zSarahs Netflix"
-    file_poster: Collections\sarahs-netflix.jpg
+    name_mapping: Sarahs Netflix
     item_label: SarahsNetflix
     test: true
   "Sarah's Unwatched":
@@ -13,7 +13,7 @@ collections:
         unplayed: true
       sort_by: title.asc
     sort_title: "^Sarahs Unwatched"
-    file_poster: Collections\sarahs-unwatched.jpg
+    name_mapping: Sarahs Unwatched
     test: true
   Non-English:
     smart_filter:
@@ -21,7 +21,6 @@ collections:
         audio_language.not: English
       sort_by: title.asc
     sort_title: "^Non-English"
-    file_poster: Collections\collection-nonenglish.jpg
     test: true
   Godzilla:
     smart_filter:
@@ -37,19 +36,16 @@ collections:
         director: Alfred Hitchcock
     collection_order: release
     collection_mode: hide_items
-    file_poster: Collections\collection-hitchcock.jpg
   Marvel Cinematic Universe:
     smart_filter:
       any:
         label: MCU
       sort_by: release.asc
-    file_poster: collections\collection-mcu.jpg
   Marvel Extended Universe:
     smart_filter:
       any:
         label: MCEU
       sort_by: release.asc
-    file_poster: collections\collection-mceu.jpg
   Middle Earth:
     smart_filter:
       any:
@@ -58,60 +54,14 @@ collections:
           - Hobbit
           - Middle Earth
       sort_by: release.asc
-    file_poster: Collections\collection-middleearth.jpg
-    file_background: Collections\background-middleearth.jpg
   MonsterVerse:
     smart_filter:
       any:
         label: MonsterVerse
       sort_by: title.asc
-    file_poster: Collections\collection-monsterverse.jpg
   Universal Monsters:
     smart_filter:
       any:
         label: Universal Monsters
       sort_by: release.asc
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
-    file_poster: Collections\collection-universalmonsters.jpg
-  The 1930s:
-    smart_filter:
-      any:
-        decade: 1930
-      sort_by: release.asc
-    sort_title: zzDecade1930
-    file_poster: Collections\decades\decade-1930s.jpg
-  The 1940s:
-    smart_filter:
-      any:
-        decade: 1940
-      sort_by: release.asc
-    sort_title: zzDecade1940
-    file_poster: Collections\decades\decade-1940s.jpg
-  The 1950s:
-    smart_filter:
-      any:
-        decade: 1950
-      sort_by: release.asc
-    sort_title: zzDecade1950
-    file_poster: Collections\decades\decade-1950s.jpg
-  The 1960s:
-    smart_filter:
-      any:
-        decade: 1960
-      sort_by: release.asc
-    sort_title: zzDecade1960
-    file_poster: Collections\decades\decade-1960s.jpg
-  The 1970s:
-    smart_filter:
-      any:
-        decade: 1970
-      sort_by: release.asc
-    sort_title: zzDecade1970
-    file_poster: Collections\decades\decade-1970s.jpg
-  The 1980s:
-    smart_filter:
-      any:
-        decade: 1980
-      sort_by: release.asc
-    sort_title: zzDecade1980
-    file_poster: Collections\decades\decade-1980s.jpg
