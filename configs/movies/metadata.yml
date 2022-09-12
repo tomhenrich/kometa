@@ -3,46 +3,57 @@ metadata:
     alt_title: "Star Wars: Episode I - The Phantom Menace"
     year: 1999
     sort_title: Star Wars 1
+    label: Star Wars
   Attack of the Clones:
     alt_title: "Star Wars: Episode II - Attack of the Clones"
     year: 2002
     sort_title: Star Wars 2
+    label: Star Wars
   Revenge of the Sith:
     alt_title: "Star Wars: Episode III - Revenge of the Sith"
     year: 2005
     sort_title: Star Wars 3
+    label: Star Wars
   A New Hope:
     alt_title: "Star Wars"
     year: 1977
     sort_title: Star Wars 4
+    label: Star Wars
   The Empire Strikes Back:
     alt_title: "Star Wars: Episode V - The Empire Strikes Back"
     year: 1980
     sort_title: Star Wars 5
+    label: Star Wars
   Return of the Jedi:
     alt_title: "Star Wars: Episode VI - Return of the Jedi"
     year: 1983
     sort_title: Star Wars 6
+    label: Star Wars
   The Force Awakens:
     alt_title: "Star Wars: The Force Awakens"
     year: 2015
     sort_title: Star Wars 7
+    label: Star Wars
   The Last Jedi:
     alt_title: "Star Wars: The Last Jedi"
     year: 2017
     sort_title: Star Wars 8
+    label: Star Wars
   The Rise of Skywalker:
     alt_title: "Star Wars: The Rise of Skywalker"
     year: 2019
     sort_title: Star Wars 9
+    label: Star Wars
   Solo:
     alt_title: "Solo: A Star Wars Story"
     year: 2018
     sort_title: Star Wars 3.5
+    label: Star Wars
   Rogue One:
     alt_title: "Rogue One: A Star Wars Story"
     year: 2016
     sort_title: Star Wars 3.9
+    label: Star Wars
   "Obi-Wan Kenobi - The Patterson Cut":
     alt_title: "Obi-Wan Kenobi: The Patterson Cut"
     year: 2022
@@ -50,7 +61,6 @@ metadata:
     collection: Star Wars
     label: Star Wars
     tmdb_show: 92830
-    test: true
   "The Fellowship of the Ring":
     title: "The Lord of the Rings: The Fellowship of the Ring"
     year: 2001
