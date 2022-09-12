@@ -1,10 +1,10 @@
 collections:
-#  "Sarah's Netflix":
-#    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
-#    smart_label: title.asc
-#    sort_title: "zSarahs Netflix"
-#    file_poster: Collections\sarahs-netflix.jpg
-#    test: true
+  "Sarah's Netflix":
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+    smart_label: title.asc
+    sort_title: "zSarahs Netflix"
+    file_poster: Collections\sarahs-netflix.jpg
+    test: true
 #  "Sarah's Unwatched":
 #    smart_filter:
 #      all:
@@ -28,6 +28,7 @@ collections:
           - Godzilla
       sort_by: title.asc
     collection_mode: hide_items
+    summary: "Films following the King of the Monsters, Godzilla."
   Hitchcock:
     plex_search:
       all:
