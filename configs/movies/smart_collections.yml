@@ -9,7 +9,7 @@ collections:
   "Sarah's Unwatched":
     smart_filter:
       all:
-        tag: SarahsNetflix
+        label: SarahsNetflix
         unplayed: true
       sort_by: title.asc
     sort_title: "^Sarahs Unwatched"
