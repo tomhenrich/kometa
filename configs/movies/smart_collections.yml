@@ -50,10 +50,12 @@ collections:
         label: MonsterVerse
       sort_by: title.asc
   Star Wars:
+    tmdb_list: https://www.themoviedb.org/list/8216924
     plex_search:
       any:
         label: Star Wars
     collection_order: alpha
+    test: true
   Universal Monsters:
     smart_filter:
       any:
