@@ -14,22 +14,12 @@ collections:
       sort_by: title.asc
     sort_title: "^Sarahs Unwatched"
     name_mapping: Sarahs Unwatched
-    test: true
   Non-English:
     smart_filter:
       any:
         audio_language.not: English
       sort_by: title.asc
     sort_title: "^Non-English"
-    test: true
-  Godzilla:
-    smart_filter:
-      all:
-        label:
-          - Godzilla
-      sort_by: title.asc
-    collection_mode: hide_items
-    summary: "Films following the King of the Monsters, Godzilla."
   Hitchcock:
     plex_search:
       all:
