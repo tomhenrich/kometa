@@ -5,15 +5,15 @@ collections:
     sort_title: "zSarahs Netflix"
     file_poster: Collections\sarahs-netflix.jpg
     test: true
-#  "Sarah's Unwatched":
-#    smart_filter:
-#      all:
-#        label: "Sarah's Netflix"
-#        unplayed: true
-#      sort_by: title.asc
-#    sort_title: "^Sarahs Unwatched"
-#    file_poster: Collections\sarahs-unwatched.jpg
-#    test: true
+  "Sarah's Unwatched":
+    smart_filter:
+      all:
+        collection: "Sarah's Netflix"
+        unplayed: true
+      sort_by: title.asc
+    sort_title: "^Sarahs Unwatched"
+    file_poster: Collections\sarahs-unwatched.jpg
+    test: true
   Non-English:
     smart_filter:
       any:
