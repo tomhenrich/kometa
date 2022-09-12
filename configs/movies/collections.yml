@@ -159,6 +159,7 @@ collections:
     sort_title: "Star Trek C3: Kelvin"
     item_label.sync: "Star Trek"
     name_mapping: Star Trek Kelvin
+    test: true
   Star Wars:
     template: {name: tmdb, collection: 10, movie: "330459, 348350, 74849, 732670", tag: "Star Wars"}
     item_label: "Star Wars"
