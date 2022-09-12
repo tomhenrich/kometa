@@ -5,7 +5,6 @@ collections:
     sort_title: "zSarahs Netflix"
     name_mapping: Sarahs Netflix
     item_label: SarahsNetflix
-    test: true
   "Sarah's Unwatched":
     smart_filter:
       all:
@@ -49,13 +48,6 @@ collections:
       any:
         label: MonsterVerse
       sort_by: title.asc
-  #Star Wars:
-  #  trakt_list: https://trakt.tv/users/tomhenrich/lists/star-wars?sort=released,desc
-  #  plex_search:
-  #    any:
-  #      label: Star Wars
-  #  collection_order: alpha
-  #  test: true
   Universal Monsters:
     smart_filter:
       any:
