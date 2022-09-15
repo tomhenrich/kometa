@@ -54,3 +54,8 @@ collections:
         label: Universal Monsters
       sort_by: release.asc
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
+  Star Trek:
+    smart_filter:
+      all:
+        label: Star Trek
+      sort_by: release.asc
