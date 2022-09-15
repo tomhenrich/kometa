@@ -80,10 +80,6 @@ collections:
     collection_order: title.asc
     collection_mode: hide_items
     name_mapping: Godzilla Anime
-  The Hobbit:
-    template: {name: tmdb, collection: 121938}
-    name_mapping: Hobbit
-    item_label: Hobbit,Middle Earth
   How to Train Your Dragon:
     template: {name: tmdb, collection: 89137}
   I Am Legend:
@@ -117,10 +113,6 @@ collections:
     template: {name: tmdb, collection: 325470, movie: 324849}
   Living Dead:
     template: {name: tmdb, collection: 261590}
-  The Lord of the Rings:
-    template: {name: tmdb, collection: 119}
-    name_mapping: "Lord of the Rings"
-    item_label: LOTR,Middle Earth
   The Manchurian Candidate:
     template: {name: tmdb, movie: "982, 14462"}
     name_mapping: Manchurian Candidate
@@ -131,13 +123,16 @@ collections:
     collection_order: alpha
   Men In Black:
     template: {name: tmdb, collection: 86055, movie: 479455}
+  Middle Earth:
+    template: {name: tmdb, collection: "121938, 119"}
+    item_label.append: Middle Earth
+    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
   The Mummy:
     template: {name: tmdb, collection: 1733}
     name_mapping: Mummy
   "Ocean's Heists":
     template: {name: tmdb, collection: 304, movie: 402900}
     name_mapping: Oceans
-    test: true
   Pacific Rim:
     template: {name: tmdb, collection: 363369}
   Predator:
@@ -160,7 +155,6 @@ collections:
   "Star Trek":
     template: {name: tmdb, collection: "151, 115570, 115575"}
     item_label: Star Trek
-    test: true
     summary: "All films from the icon Star Trek franchise."
   Star Wars:
     template: {name: tmdb_or_tag, collection: 10, movie: "330459, 348350, 74849, 732670", tag: "Star Wars"}
@@ -235,24 +229,14 @@ collections:
     template: {name: tmdb, collection: 912503}
     minimum_items: 1
   Spider-Man:
-    template: {name: tmdb, collection: 556}
-    name_mapping: "Spider-Man (Raimi)"
-    sort_title: "Spider-Man 2002"
-    item_label: MCEU
-  The Amazing Spider-Man:
-    template: {name: tmdb, collection: 125574}
-    name_mapping: Amazing Spider-Man
-    sort_title: "Spider-Man 2012"
-    item_label: MCEU
+    template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
+    name_mapping: "Spider-Man"
+    item_label: Spider-Man
   "Spider-Man (Avengers)":
     template: {name: tmdb, collection: 531241}
     name_mapping: "Spider-Man (MCU)"
     sort_title: "Spider-Man 2017"
-    item_label: MCU
-  "Spider-Verse":
-    template: {name: tmdb, collection: 573436}
-    item_label: MCEU
-    minimum_items: 1
+    item_label: MCU, Spider-Man
   Thor:
     template: {name: tmdb, collection: 131296}
     item_label: MCU
@@ -261,7 +245,7 @@ collections:
     item_label: MCEU
   X-Men:
     template: {name: tmdb, collection: "748, 453993", movie: 340102}
-    item_label: MCEU,"X-Men"
+    item_label: MCEU,X-Men
 
 ########################################
 # DC Movies
