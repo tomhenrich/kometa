@@ -34,7 +34,7 @@ collections:
     smart_filter:
       any:
         label: MCEU
-      sort_by: release.asc
+      sort_by: title.asc
   Middle Earth:
     smart_filter:
       any:
