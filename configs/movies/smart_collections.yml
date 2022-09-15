@@ -11,14 +11,14 @@ collections:
         label: SarahsNetflix
         unplayed: true
       sort_by: title.asc
-    sort_title: "^Sarahs Unwatched"
+    sort_title: "+Sarahs Unwatched"
     name_mapping: Sarahs Unwatched
   Non-English:
     smart_filter:
       any:
         audio_language.not: English
       sort_by: title.asc
-    sort_title: "^Non-English"
+    sort_title: "+Non-English"
   Hitchcock:
     plex_search:
       all:
