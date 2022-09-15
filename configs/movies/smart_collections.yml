@@ -54,26 +54,24 @@ collections:
         label: Universal Monsters
       sort_by: release.asc
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
-#  Star Trek:
-#    smart_filter:
-#      all:
-#        label: Star Trek
-#      sort_by: release.asc
   "Star Trek: TOS":
     tmdb_collection: 151
     smart_label: title.asc
     sort_title: "Star Trek C1: TOS"
     item_label: Star Trek, Star Trek TOS
     name_mapping: Star Trek TOS
+    collection_mode: hide
   "Star Trek: TNG":
     tmdb_collection: 115570
     smart_label: title.asc
     sort_title: "Star Trek C2: TNG"
     item_label: Star Trek, Star Trek TNG
     name_mapping: Star Trek TNG
+    collection_mode: hide
   "Star Trek: Kelvin Timeline":
     tmdb_collection: 115575
     smart_label: title.asc
     sort_title: "Star Trek C3: Kelvin"
     item_label: Star Trek, Star Trek KEL
     name_mapping: Star Trek Kelvin
+    collection_mode: hide
