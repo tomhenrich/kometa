@@ -3,8 +3,10 @@ templates:
     optional:
       - collection
       - movie
+      - summary
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+    summary: <<summary>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
@@ -13,11 +15,13 @@ templates:
       - collection
       - movie
       - tag
+      - summary
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     plex_search:
       all:
         label: <<tag>>
+    summary: <<summary>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
