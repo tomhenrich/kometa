@@ -268,30 +268,30 @@ collections:
 ########################################
   "Dracula (Universal)":
     template: {name: tmdb, collection: 221539}
-    item_label.sync: Universal Monsters
+    item_label: Universal Monsters
     name_mapping: Dracula
   "Frankenstein (Universal)":
     template: {name: tmdb, collection: 218406}
-    item_label.sync: Universal Monsters
+    item_label: Universal Monsters
     name_mapping: Frankenstein
   "The Invisible Man (Universal)":
     template: {name: tmdb, collection: 259401}
     sort_title: "Invisible Man (Universal)"
-    item_label.sync: Universal Monsters
+    item_label: Universal Monsters
     name_mapping: "Invisible Man (Universal)"
   "The Mummy (Universal)":
     template: {name: tmdb, collection: 221544}
     sort_title: "Mummy (Universal)"
-    item_label.sync: Universal Monsters
+    item_label: Universal Monsters
     name_mapping: "Mummy (Universal)"
   "The Phantom of the Opera":
     template: {name: tmdb, movie: 964}
     sort_title: "Phantom of the Opera"
     minimum_items: 1
-    item_label.sync: Universal Monsters
+    item_label: Universal Monsters
   "The Wolf Man (Universal)":
     template: {name: tmdb, collection: 259027}
     sort_title: "Wolf Man (Universal)"
-    item_label.sync: Universal Monsters
+    item_label: Universal Monsters
     name_mapping: "Wolf Man (Universal)"
 
