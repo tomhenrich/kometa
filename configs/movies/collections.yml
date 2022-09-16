@@ -296,7 +296,7 @@ collections:
     minimum_items: 1
     item_label: Universal Monsters
   "The Wolf Man (Universal)":
-    template: {name: tmdb, collection: 259027}
+    template: {name: tmdb, collection: 259027, movie: 27970}
     sort_title: "Wolf Man (Universal)"
     item_label: Universal Monsters
     name_mapping: "Wolf Man (Universal)"
