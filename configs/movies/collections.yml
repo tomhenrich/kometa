@@ -65,6 +65,7 @@ collections:
     template: {name: tmdb, collection: 2980, movie: 43074}
   Godzilla:
     template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
+    summary: "The King of the Monsters first debuted in 1954 and spawned the longest-running movie franchise in history."
     collection_order: title.asc
     collection_mode: hide_items
     item_label: Godzilla
@@ -230,6 +231,7 @@ collections:
     minimum_items: 1
   Spider-Man:
     template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
+    summary: "Marvel's friendly neighborhood web-slinger throughout the years, including Sam Raimi's trilogy with Tobey Maguire, Andrew Garfield's fling with Gwen Stacy, and beyond."
     name_mapping: "Spider-Man"
     item_label: Spider-Man
   "Spider-Man (Avengers)":
