@@ -16,6 +16,7 @@ collections:
   Stargate:
     template: {name: tmdb, show: "4629, 2290, 5148, 72925"}
     file_poster: Collections\collection-stargate.jpg
+    summary: "The missions and adventures of teams sent through an ancient alien wormhole network."
   Star Trek:
     template: {name: tmdb, show: "253, 655, 1855, 314, 67198, 85949, 103516"}
     file_poster: Collections\collection-startrek.jpg
@@ -25,12 +26,12 @@ collections:
     file_poster: Collections\collection-starwars.jpg
     minimum_items: 1
   "Battlestar Galactica (Reboot)":
-    #template: {name: tmdb, show: "71365, 1972, 33240"}
+    template: {name: tmdb, show: "71365, 1972, 33240"}
     sort_title: Battlestar Galactica 2003
-    plex_search:
-      all:
-        release.after: 2002-01-01
-        title.begins: Battlestar
+#    plex_search:
+#      all:
+#        release.after: 2002-01-01
+#        title.begins: Battlestar
     file_poster: Collections\collection-battlestar.jpg
   Twilight Zone:
     template: {name: tmdb, show: "6357, 1918, 83135, 16399"}
