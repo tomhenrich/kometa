@@ -1,19 +1,23 @@
 metadata:
-  Battlestar Galactica 1978:
-    title: Battlestar Galactica
+  "Battlestar Galactica (1978)":
+    alt_title: "Battlestar Galactica"
+    title: "Battlestar Galactica (1978)"
     year: 1978
     tmdb_show: 501
+    label: Battlestar
   Battlestar Galactica 2003:
-    title: Battlestar Galactica (Miniseries)
+    alt_title: "Battlestar Galactica"
+    title: "Battlestar Galactica (Miniseries)"
     year: 2003
     tmdb_show: 71365
     tvdb_show: 73545
-    item_label: Battlestar,Reboot
+    label: Battlestar,Reboot
   Battlestar Galactica 2004:
     title: Battlestar Galactica
     year: 2004
     tmdb_show: 1972
     tvdb_show: 73545
-    item_label: Battlestar,Reboot
+    label: Battlestar,Reboot
   Mystery Science Theater 3000:
     summary: "Joel Robinson is held captive by mad scientists, forced to watch B-Grade movies with his robot friends. (Limited episode availability due to haphazard DVD releases.)"
+    name_mapping: Mystery 
