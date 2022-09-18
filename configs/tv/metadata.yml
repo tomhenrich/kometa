@@ -7,9 +7,13 @@ metadata:
     title: "Battlestar Galactica"
     year: 2003
     tmdb_show: 71365
+    tvdb_show: 73545
+    item_label: Battlestar,Reboot
   "Battlestar Galactica": # 4-season show
-    title: "Battlestar Galactica (2004"
+    title: "Battlestar Galactica (2004)"
     year: 2004
     tmdb_show: 1972
+    tvdb_show: 73545
+    item_label: Battlestar,Reboot
   Mystery Science Theater 3000:
     summary: "Joel Robinson is held captive by mad scientists, forced to watch B-Grade movies with his robot friends. (Limited episode availability due to haphazard DVD releases.)"
