@@ -23,6 +23,10 @@ templates:
     collection_order: release
     move_prefix: The,A
 collections:
+  Middle Earth:
+    template: {name: tmdb, show: 84773}
+    minimum_items: 1
+    collection_mode: hide
   Serenity:
     template: {name: tmdb, show: 1437}
     minimum_items: 1
