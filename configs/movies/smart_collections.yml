@@ -13,6 +13,12 @@ collections:
     sort_title: "+Sarahs Watchlist"
     name_mapping: Sarahs Watchlist
     label: noshare
+  Non-English:
+    smart_filter:
+      any:
+        audio_language.not: English
+      sort_by: title.asc
+    sort_title: "+Non-English"
   Hitchcock:
     plex_search:
       all:
