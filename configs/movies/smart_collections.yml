@@ -1,18 +1,15 @@
 collections:
-  "Sarah's Watchlist Source":
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
-    smart_label: title.asc
-    item_label: SarahsWatchlist
-    build_collection: false
   "Sarah's Watchlist":
-    smart_filter:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+    smart_label:
       all:
-        label: SarahsWatchlist
+        label: <<smart_label>>
         unplayed: true
       sort_by: title.asc
     sort_title: "+Sarahs Watchlist"
     name_mapping: Sarahs Watchlist
     label: noshare
+    item_label.remove: SarahsWatchlist
   Non-English:
     smart_filter:
       any:
