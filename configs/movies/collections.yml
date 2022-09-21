@@ -163,11 +163,12 @@ collections:
   "Star Trek":
     template: {name: tmdb, collection: "151, 115570, 115575"}
     item_label: Star Trek
-    summary: "All films from the iconic Star Trek franchise."
+    summary: "Boldly going where no one has gone before."
   Star Wars:
     template: {name: tmdb_or_tag, collection: 10, movie: "330459, 348350, 74849, 732670", tag: "Star Wars"}
     item_label: "Star Wars"
     collection_order: alpha
+    summary: "Tales from a galaxy far, far away."
   Studio Ghibli:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
