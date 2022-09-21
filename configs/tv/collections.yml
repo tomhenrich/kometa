@@ -37,7 +37,7 @@ collections:
         unplayed_episodes: true
       sort_by: title.asc
     sort_title: "+Sarahs Watchlist"
-    name_mapping: Sarahs Unwatched
+    name_mapping: Sarahs Watchlist
 
   "Battlestar Galactica (Reboot)":
     sort_title: Battlestar Galactica 2003
