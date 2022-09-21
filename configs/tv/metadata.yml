@@ -2,18 +2,21 @@ metadata:
   "Battlestar Galactica (1978)":
     alt_title: "Battlestar Galactica"
     title: "Battlestar Galactica (1978)"
+    sort_title: Battlestar Galactica 1978
     year: 1978
     tmdb_show: 501
     label.sync: Battlestar Galactica
   Battlestar Galactica 2003:
     alt_title: "Battlestar Galactica"
     title: "Battlestar Galactica (Miniseries)"
+    sort_title: Battlestar Galactica 2003
     year: 2003
     tmdb_show: 71365
     tvdb_show: 73545
     label.sync: Battlestar Galactica,Reboot
   Battlestar Galactica 2004:
     title: Battlestar Galactica
+    sort_title: Battlestar Galactica 2004
     year: 2004
     tmdb_show: 1972
     tvdb_show: 73545
