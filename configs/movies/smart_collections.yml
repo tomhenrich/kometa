@@ -1,14 +1,16 @@
 collections:
-  "Sarah's Netflix":
+  "Sarah's Watchlist":
     trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
     smart_label: title.asc
-    sort_title: "zSarahs Netflix"
-    name_mapping: Sarahs Netflix
-    item_label: SarahsNetflix
+    sort_title: "zSarahs Watchlist"
+    name_mapping: Sarahs Watchlist
+    item_label: SarahsWatchlist
+    item_label.remove: SarahsNetflix
+    build_collection: false
   "Sarah's Unwatched":
     smart_filter:
       all:
-        label: SarahsNetflix
+        label: SarahsWatchlist
         unplayed: true
       sort_by: title.asc
     sort_title: "+Sarahs Unwatched"
