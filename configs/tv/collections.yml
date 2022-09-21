@@ -35,23 +35,16 @@ collections:
     name_mapping: Sarahs Watchlist
     label: noshare
    
-#  "Battlestar Galactica (Reboot)":
-#    sort_title: Battlestar Galactica 2003
-#    summary: A re-imagining of the original series in which a "rag-tag fugitive fleet" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth.
-#    minimum_items: 1
-#    plex_search:
-#      all:
-#        label:
-#          - Battlestar
-#          - Reboot
   "Battlestar Galactica (Reboot)":
-    tmdb_show:
-      - https://www.themoviedb.org/tv/71365   # Miniseries
-      - https://www.themoviedb.org/tv/1972    # 4-season show
-      - https://www.themoviedb.org/tv/33240   # Blood & Chrome
-      - https://www.themoviedb.org/tv/129631  # The Resistance
-      - https://www.themoviedb.org/tv/129621  # The Face of the Enemy
+    sort_title: Battlestar Galactica 2003
+    summary: A re-imagining of the original series in which a "rag-tag fugitive fleet" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth.
     minimum_items: 1
+    plex_search:
+      all:
+        label:
+          - Battlestar Galactica
+          - Reboot
+    minimum_items: 2
     summary: A re-imagining of the original series in which a "rag-tag fugitive fleet" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth.
     sort_title: Battlestar Galactica 2003
     collection_mode: hide
@@ -68,9 +61,12 @@ collections:
     summary: "The missions and adventures of teams sent through an ancient alien wormhole network."
   Star Trek:
     template: {name: tmdb, show: "253, 655, 1855, 314, 67198, 85949, 103516"}
+    summary: "The continuing adventures of those who boldly go where no one has gone before."
     minimum_items: 1
   Star Wars:
     template: {name: tmdb, show: "92830, 115036, 82856"}
+    summary: "Stories from a galaxy far, far away."
     minimum_items: 1
   Twilight Zone:
     template: {name: tmdb, show: "6357, 1918, 83135, 16399"}
+    summary: "A series of unrelated stories containing drama, psychological thriller, fantasy, science fiction, suspense, and/or horror, often concluding with a macabre or unexpected twist."
