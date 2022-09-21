@@ -5,16 +5,15 @@ collections:
     sort_title: "zSarahs Watchlist"
     name_mapping: Sarahs Watchlist
     item_label: SarahsWatchlist
-    item_label.remove: SarahsNetflix
     build_collection: false
-  "Sarah's Unwatched":
+  "Sarah's Watchlist":
     smart_filter:
       all:
         label: SarahsWatchlist
         unplayed: true
       sort_by: title.asc
-    sort_title: "+Sarahs Unwatched"
-    name_mapping: Sarahs Unwatched
+    sort_title: "+Sarahs Watchlist"
+    name_mapping: Sarahs Watchlist
   Non-English:
     smart_filter:
       any:
