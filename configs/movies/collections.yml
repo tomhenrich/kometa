@@ -50,6 +50,9 @@ collections:
     name_mapping: Riddick
   Cloverfield:
     tmdb_list_details: 8193347
+  The Craft:
+    template: {name: tmdb, collection: 758369}
+    name_mapping: Craft
   The Croods:
     template: {name: tmdb, collection: 464577}
     name_mapping: Croods
