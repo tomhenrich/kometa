@@ -38,6 +38,7 @@ collections:
       sort_by: title.asc
     sort_title: "+Sarahs Unwatched"
     name_mapping: Sarahs Unwatched
+    test: true
   Middle Earth:
     template: {name: tmdb, show: 84773}
     minimum_items: 1
