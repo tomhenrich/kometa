@@ -34,7 +34,7 @@ collections:
     smart_filter:
       all:
         label: SarahsNetflix
-        unplayed: true
+        unplayed_episodes: true
       sort_by: title.asc
     sort_title: "+Sarahs Unwatched"
     name_mapping: Sarahs Unwatched
