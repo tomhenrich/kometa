@@ -22,7 +22,22 @@ templates:
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
+
 collections:
+  "Sarah's Netflix":
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+    smart_label: title.asc
+    sort_title: "zSarahs Netflix"
+    name_mapping: Sarahs Netflix
+    item_label: SarahsNetflix
+  "Sarah's Unwatched":
+    smart_filter:
+      all:
+        label: SarahsNetflix
+        unplayed: true
+      sort_by: title.asc
+    sort_title: "+Sarahs Unwatched"
+    name_mapping: Sarahs Unwatched
   Middle Earth:
     template: {name: tmdb, show: 84773}
     minimum_items: 1
