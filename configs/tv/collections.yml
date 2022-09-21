@@ -24,16 +24,16 @@ templates:
     move_prefix: The,A
 
 collections:
-  "Sarah's Watchlist Source":
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
-    smart_label: title.asc
-    sort_title: "zSarahs Watchlist"
-    item_label: SarahsWatchlist
-    build_collection: false
+#  "Sarah's Watchlist Source":
+#    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+#    smart_label: title.asc
+#    sort_title: "zSarahs Watchlist"
+#    item_label: SarahsWatchlist
+#    build_collection: false
   "Sarah's Watchlist":
-    smart_filter:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+    smart_label:
       all:
-        label: SarahsWatchlist
         unplayed_episodes: true
       sort_by: title.asc
     sort_title: "+Sarahs Watchlist"
