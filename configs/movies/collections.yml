@@ -31,6 +31,10 @@ collections:
   Alien:
     template: {name: tmdb, collection: "8091, 135416, 115762"}
     item_label: Xenomorph
+  Aliens vs Predators:
+    template: {name: tmdb, collection: 115762}
+    item_label: Xenomorph, Predator
+    build_collection: false
   A Quiet Place:
     template: {name: tmdb, collection: 521226}
     name_mapping: Quiet Place
