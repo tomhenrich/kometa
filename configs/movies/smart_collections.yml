@@ -16,6 +16,12 @@ collections:
         audio_language.not: English
       sort_by: title.asc
     sort_title: "+Non-English"
+  Aliens vs Predators:
+    smart_filter:
+      any:
+        label: Xenomorph, Predator
+      sort_by: release.asc
+    summary: The crossover universe including both the Alien and Predator franchises, including their occasional run-ins with each other.
   Hitchcock:
     plex_search:
       all:
