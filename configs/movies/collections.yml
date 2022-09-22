@@ -93,7 +93,6 @@ collections:
   I Am Legend:
     template: {name: tmdb, movie: "21159, 11234, 6479"}
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
-    file_poster: Collections\poster-iamlegend.jpg
   The Incredibles:
     template: {name: tmdb, collection: 468222}
     name_mapping: Incredibles
