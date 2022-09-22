@@ -143,7 +143,7 @@ collections:
   Pacific Rim:
     template: {name: tmdb, collection: 363369}
   Predator:
-    template: {name: tmdb, collection: 399}
+    template: {name: tmdb, collection: "399, 115762"}
     item_label: Predator
   Resident Evil:
     template: {name: tmdb, collection: 17255}
