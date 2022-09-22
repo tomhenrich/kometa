@@ -1,6 +1,16 @@
 collections:
+  "Tom's Watchlist":
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?sort=rank,asc
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+    sort_title: "+Toms Watchlist"
+    name_mapping: Toms Watchlist
+    label: noshare
+    minimum_items: 1
   "Sarah's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?sort=title,asc
     smart_label:
       all:
         label: <<smart_label>>
@@ -9,7 +19,7 @@ collections:
     sort_title: "+Sarahs Watchlist"
     name_mapping: Sarahs Watchlist
     label: noshare
-    item_label.remove: SarahsWatchlist
+    minimum_items: 1
   Non-English:
     smart_filter:
       any:
