@@ -29,12 +29,11 @@ collections:
   28 Days Later:
     template: {name: tmdb, collection: 1565}
   Alien:
-    template: {name: tmdb, collection: "8091, 135416, 115762"}
+    template: {name: tmdb, collection: "8091, 135416"}
     item_label: Xenomorph
   Aliens vs Predators:
     template: {name: tmdb, collection: 115762}
     item_label: Xenomorph, Predator
-    build_collection: false
   A Quiet Place:
     template: {name: tmdb, collection: 521226}
     name_mapping: Quiet Place
@@ -147,7 +146,7 @@ collections:
   Pacific Rim:
     template: {name: tmdb, collection: 363369}
   Predator:
-    template: {name: tmdb, collection: "399, 115762"}
+    template: {name: tmdb, collection: 399}
     item_label: Predator
   Resident Evil:
     template: {name: tmdb, collection: 17255}
