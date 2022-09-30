@@ -26,6 +26,12 @@ collections:
         audio_language.not: English
       sort_by: title.asc
     sort_title: "+Non-English"
+  Aliens vs Predators:
+    smart_filter:
+      any:
+        label: Xenomorph, Predator
+      sort_by: release.asc
+    summary: The crossover universe including both the Alien and Predator franchises, including their occasional run-ins with each other.
   Hitchcock:
     plex_search:
       all:
@@ -42,17 +48,13 @@ collections:
       any:
         label: MCEU
       sort_by: title.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
   MonsterVerse:
     smart_filter:
       any:
         label: MonsterVerse
       sort_by: title.asc
-  Universal Monsters:
-    smart_filter:
-      any:
-        label: Universal Monsters
-      sort_by: release.asc
-    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
+    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
   "Star Trek: TOS":
     tmdb_collection_details: 151
     smart_label: title.asc
