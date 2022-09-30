@@ -3,10 +3,8 @@ templates:
     optional:
       - collection
       - movie
-      - summary
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    summary: <<summary>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
@@ -15,13 +13,11 @@ templates:
       - collection
       - movie
       - tag
-      - summary
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     plex_search:
       all:
         label: <<tag>>
-    summary: <<summary>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
@@ -29,11 +25,8 @@ collections:
   28 Days Later:
     template: {name: tmdb, collection: 1565}
   Alien:
-    template: {name: tmdb, collection: "8091, 135416"}
+    template: {name: tmdb, collection: "8091, 135416, 115762"}
     item_label: Xenomorph
-  Aliens vs Predators:
-    template: {name: tmdb, collection: 115762}
-    item_label: Xenomorph, Predator
   A Quiet Place:
     template: {name: tmdb, collection: 521226}
     name_mapping: Quiet Place
@@ -53,9 +46,6 @@ collections:
     name_mapping: Riddick
   Cloverfield:
     tmdb_list_details: 8193347
-  The Craft:
-    template: {name: tmdb, collection: 758369}
-    name_mapping: Craft
   The Croods:
     template: {name: tmdb, collection: 464577}
     name_mapping: Croods
@@ -75,7 +65,6 @@ collections:
     template: {name: tmdb, collection: 2980, movie: 43074}
   Godzilla:
     template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
-    summary: "The King of the Monsters first debuted in 1954 and spawned the longest-running movie franchise in history."
     collection_order: title.asc
     collection_mode: hide_items
     item_label: Godzilla
@@ -96,6 +85,7 @@ collections:
   I Am Legend:
     template: {name: tmdb, movie: "21159, 11234, 6479"}
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
+    file_poster: Collections\poster-iamlegend.jpg
   The Incredibles:
     template: {name: tmdb, collection: 468222}
     name_mapping: Incredibles
@@ -165,12 +155,11 @@ collections:
   "Star Trek":
     template: {name: tmdb, collection: "151, 115570, 115575"}
     item_label: Star Trek
-    summary: "Boldly going where no one has gone before."
+    summary: "All films from the icon Star Trek franchise."
   Star Wars:
     template: {name: tmdb_or_tag, collection: 10, movie: "330459, 348350, 74849, 732670", tag: "Star Wars"}
     item_label: "Star Wars"
     collection_order: alpha
-    summary: "Tales from a galaxy far, far away."
   Studio Ghibli:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
@@ -241,7 +230,6 @@ collections:
     minimum_items: 1
   Spider-Man:
     template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
-    summary: "A superhero film series based on the Marvel Comics character Spider-Man. The series is centered on Peter Parker, who gets bitten by a genetically modified spider and gains spider-like abilities — all of which he uses to fight crime as a spider-masked vigilante."
     name_mapping: "Spider-Man"
     item_label: Spider-Man
   "Spider-Man (Avengers)":
@@ -278,32 +266,22 @@ collections:
 ########################################
 # Universal Monsters
 ########################################
-  "Dracula (Universal)":
-    template: {name: tmdb, collection: 221539}
-    item_label: Universal Monsters
-    name_mapping: Dracula
-  "Frankenstein (Universal)":
-    template: {name: tmdb, collection: 218406}
-    item_label: Universal Monsters
-    name_mapping: Frankenstein
-  "The Invisible Man (Universal)":
-    template: {name: tmdb, collection: 259401}
-    sort_title: "Invisible Man (Universal)"
-    item_label: Universal Monsters
-    name_mapping: "Invisible Man (Universal)"
-  "The Mummy (Universal)":
-    template: {name: tmdb, collection: 221544}
-    sort_title: "Mummy (Universal)"
-    item_label: Universal Monsters
-    name_mapping: "Mummy (Universal)"
-  "The Phantom of the Opera":
-    template: {name: tmdb, movie: 964}
-    sort_title: "Phantom of the Opera"
-    minimum_items: 1
-    item_label: Universal Monsters
-  "The Wolf Man (Universal)":
-    template: {name: tmdb, collection: 259027, movie: 27970}
-    sort_title: "Wolf Man (Universal)"
-    item_label: Universal Monsters
-    name_mapping: "Wolf Man (Universal)"
-
+  Universal Monsters:
+    template:
+      name: tmdb
+      collection:
+        - 221539 # Dracula
+        - 218406 # Frankenstein
+        - 259401 # Invisible Man
+        - 221544 # The Mummy
+        - 259027 # Wolf-Man
+        - 221537 # creature from the black lagoon
+      movie:
+        - 964 # the-phantom-of-the-opera
+        - 27970 # werewolf-of-london
+        - 24106 # the-black-cat
+        - 17907 # the-raven
+        - 106296 # monster and the girl
+        - 84719 # man-made monsters
+        - 45322 # she-wolf of london
+    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
