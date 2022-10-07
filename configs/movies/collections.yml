@@ -178,6 +178,8 @@ collections:
     template: {name: tmdb, collection: 8650, movie: 424783}
   TRON:
     template: {name: tmdb, collection: 63043}
+  Vengeance Trilogy:
+    template: {name: tmdb, movie: "4689, 670, 4550"}
   "Wallace & Gromit":
     template: {name: tmdb, collection: 529, movie: 533}
     name_mapping: Wallace and Gromit
