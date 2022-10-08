@@ -25,7 +25,9 @@ templates:
 
 collections:
   "Sarah's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+    trakt_list:
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
+      - https://trakt.tv/users/nursesawa/watchlist?sort=rank,asc
     smart_label:
       all:
         unplayed_episodes: true
