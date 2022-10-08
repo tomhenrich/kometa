@@ -10,7 +10,9 @@ collections:
     label: noshare
     minimum_items: 1
   "Sarah's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?sort=title,asc
+    trakt_list: 
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?sort=title,asc
+      - https://trakt.tv/users/nursesawa/watchlist?sort=rank,asc
     smart_label:
       all:
         label: <<smart_label>>
