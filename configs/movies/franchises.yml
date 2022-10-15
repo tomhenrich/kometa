@@ -1,0 +1,140 @@
+templates:
+  collection:
+    default:
+      collection_order: release
+      minimum_items: 2
+    optional:
+      - collection
+      - movie
+      - name_mapping
+      - sort_title
+      - build_collection
+      - item_label
+      - collection_order
+      - minimum_items
+    cache_builders: 1
+    minimum_items: <<minimum_items>>
+    tmdb_collection_details: <<value>>
+    tmdb_movie: <<movie>>
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    build_collection: <<build_collection>>
+    sync_mode: sync
+    collection_order: <<collection_order>>
+    item_label: <<item_label>>
+
+dynamic_collections:
+  TMDb Collections:
+    type: tmdb_collection
+    remove_prefix: The
+    remove_suffix: Collection
+    template: collection
+
+    exclude:
+      - 91697   # BSG
+      - 119     # LOTR
+      - 121938  # Hobbit
+      - 374509  # Godzilla (Showa)
+      - 374511  # Godzilla (Heisei)
+      - 374512  # Godzilla (Millennium)
+      - 535790  # Godzilla (Anime)
+      - 325470  # LEGO Movies
+      - 151     # Star Trek TOS
+      - 115570  # Star Trek TNG
+      - 115575  # Star Trek Kelvin
+      - 10      # Star Wars
+      - 556     # Spider-Man (Raimi)
+      - 125574  # Amazing Spider-Man 
+      - 573436  # Spider-Verse
+      - 120794  # Batman (Burton)
+      - 263     # Batman (Dark Knight)
+      - 221539  # Dracula
+      - 218406  # Frankenstein
+      - 259401  # Invisible Man
+      - 221544  # The Mummy
+      - 259027  # Wolf-Man
+      - 221537  # Creature from the Black Lagoon
+      - 627389  # Sanjuro
+
+    addons: # combine collections
+      8091:       # Alien
+        - 135416    # Prometheus
+      86066:      # Despicable Me
+        - 544669    # Minions
+      1575:       # Rocky
+        - 553717    # Creed
+      748:        # X-Men
+        - 453993    # The Wolverine
+
+    title_override:
+      115762: Alien vs Predator
+      2344: The Matrix
+      1733: The Mummy # 1999 cinematic masterpiece
+      304: "Ocean's Heists"
+      2794: The Chronicles of Riddick
+      325470: LEGO Movies
+      479888: The Thing
+      758369: The Craft
+      464577: The Croods
+      468222: The Incredibles
+
+    template_variables:
+
+      movie: # what movies should be part of collections but TMDB doesn't agree?
+        2980:       # Ghostbusters
+          - 43074     # Ghostbusters (2016)
+        328:        # Jurassic Park
+          - 630322    # Battle at Big Rock
+        645:        # James Bond
+          - 12208     # Casino Royale (1967)
+        325470:     # LEGO Movies
+          - 324849    # LEGO Batman
+        2344:       # The Matrix
+          - 55931     # The Animatrix
+        86055:      # Men in Black
+          - 479455    # MIB International
+        304:        # Oceans Heists
+          - 402900    # Oceans 8
+        2794:        # Riddick
+          - 2791    # Dark Fury
+        5547:       # Robocop
+          - 97020     # Robocop Reboot
+        8650:       # Transformers
+          - 424783    # Bumblebee
+        529:        # Wallace and Gromit
+          - 533       # Curse of the Were-Rabbit
+        748:        # X-Men
+          - 340102    # New Mutants
+
+      name_mapping: # where does the folder name not match the collection name?
+                    # must include any where title_override value starts with "The"
+        1565: 28 Days Later
+        115762: Aliens vs Predators
+        91697: Battlestar Galactica
+        535313: Godzilla MonsterVerse
+        535790: Godzilla Anime
+        521226: Quiet Place
+        325470: LEGO Movies
+        304: Oceans
+        2794: Riddick
+        529: Wallace and Gromit
+        531241: "Spider-Man (MCU)"
+        479888: Thing
+        758369: Craft
+        464577: Croods
+        468222: Incredibles
+        2344: Matrix
+        1733: Mummy # 1999 cinematic masterpiece
+
+      item_label:
+        435259: Wizarding World
+        535313: MonsterVerse
+        
+      collection_order:
+        2344: alpha
+
+      minimum_items:
+        529892: 1     # Black Panther
+        623911: 1     # Captain Marvel
+        912503: 1     # Shang-Chi
+        
