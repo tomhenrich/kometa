@@ -27,36 +27,22 @@ collections:
       any:
         audio_language.not: English
       sort_by: title.asc
-    sort_title: "+Non-English"
-  Aliens vs Predators:
-    smart_filter:
-      any:
-        label: Xenomorph, Predator
-      sort_by: release.asc
-    summary: The crossover universe including both the Alien and Predator franchises, including their occasional run-ins with each other.
+    sort_title: "++Non-English"
   Hitchcock:
     plex_search:
       all:
         director: Alfred Hitchcock
     collection_order: release
     collection_mode: hide_items
-  Marvel Cinematic Universe:
-    smart_filter:
-      any:
-        label: MCU
-      sort_by: release.asc
-  Marvel Extended Universe:
-    smart_filter:
-      any:
-        label: MCEU
-      sort_by: title.asc
-    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
   MonsterVerse:
     smart_filter:
       any:
         label: MonsterVerse
       sort_by: title.asc
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
+
+# STAR TREK
+
   "Star Trek: TOS":
     tmdb_collection_details: 151
     smart_label: title.asc
@@ -78,6 +64,19 @@ collections:
     item_label: Star Trek, Star Trek KEL
     name_mapping: Star Trek Kelvin
     collection_mode: hide
+
+# MARVEL CINEMATIC UNIVERSE
+  Marvel Cinematic Universe:
+    smart_filter:
+      any:
+        label: MCU
+      sort_by: release.asc
+  Marvel Extended Universe:
+    smart_filter:
+      any:
+        label: MCEU
+      sort_by: title.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
   Spider-Man:
     tmdb_collection_details: 556
     name_mapping: "Spider-Man (Raimi)"
@@ -97,6 +96,9 @@ collections:
     item_label: MCEU,Spider-Man
     collection_mode: hide
     minimum_items: 1
+
+# MIDDLE EARTH
+
   The Hobbit:
     tmdb_collection_details: 121938
     smart_label: title.asc
