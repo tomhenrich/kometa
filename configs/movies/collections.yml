@@ -21,138 +21,46 @@ templates:
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
+  tmdb_keyword:
+    tmdb_keyword: <<keyword>>
+    sync_mode: sync
+    collection_order: release
+    move_prefix: The,A
+
 collections:
-  28 Days Later:
-    template: {name: tmdb, collection: 1565}
-  Alien:
-    template: {name: tmdb, collection: "8091, 135416, 115762"}
-    item_label: Xenomorph
-  A Quiet Place:
-    template: {name: tmdb, collection: 521226}
-    name_mapping: Quiet Place
   Battlestar Galactica:
     template: {name: tmdb, collection: 91697}
     summary: "Follows the trials of the Colonial Fleet vessel Battlestar Galactica as it leads the last remaining humans on a search for Earth."
-  Back to the Future:
-    template: {name: tmdb, collection: 264}
-  Blade Runner:
-    template: {name: tmdb, collection: 422837}
-  Bourne:
-    template: {name: tmdb, collection: 31562}
-  The Chronicles of Riddick:
-    template: {name: tmdb, collection: 2794, movie: 2791}
-    sort_title: Chronicles of Riddick
-    collection_order: title.asc
-    name_mapping: Riddick
   Cloverfield:
-    tmdb_list_details: 8193347
-  The Croods:
-    template: {name: tmdb, collection: 464577}
-    name_mapping: Croods
-  Despicable Me:
-    template: {name: tmdb, collection: "86066, 544669"}
-  Die Hard:
-    template: {name: tmdb, collection: 1570}
-  Fantastic Beasts:
-    template: {name: tmdb, collection: 435259}
-    item_label: Wizarding World
+    template: {name: tmdb, movie: "7191, 333371, 384521"}
   Eastrail 177:
-    template: {name: tmdb}
-    tmdb_list_details: https://www.themoviedb.org/list/8191242
-  Finding Nemo:
-    template: {name: tmdb, collection: 137697}
-  Ghostbusters:
-    template: {name: tmdb, collection: 2980, movie: 43074}
+    template: {name: tmdb, movie: "9741, 381288, 450465"}
+    summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
   Godzilla:
     template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
     collection_order: title.asc
     collection_mode: hide_items
     item_label: Godzilla
-  Godzilla (MonsterVerse):
-    template: {name: tmdb, collection: 535313}
-    item_label: Godzilla,MonsterVerse
-    collection_order: title.asc
-    collection_mode: hide_items
-    name_mapping: Godzilla MonsterVerse
-  Godzilla (Anime Trilogy):
-    template: {name: tmdb, collection: 535790}
-    item_label: Godzilla,Anime
-    collection_order: title.asc
-    collection_mode: hide_items
-    name_mapping: Godzilla Anime
-  How to Train Your Dragon:
-    template: {name: tmdb, collection: 89137}
   I Am Legend:
     template: {name: tmdb, movie: "21159, 11234, 6479"}
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
-    file_poster: Collections\poster-iamlegend.jpg
-  The Incredibles:
-    template: {name: tmdb, collection: 468222}
-    name_mapping: Incredibles
-  Independence Day:
-    template: {name: tmdb, collection: 304378}
-  Indiana Jones:
-    template: {name: tmdb, collection: 84}
-  It:
-    template: {name: tmdb, collection: 477962}
-  James Bond:
-    template: {name: tmdb, collection: 645, movie: 12208}
-  Jaws:
-    template: {name: tmdb, collection: 2366}
-  John Wick:
-    template: {name: tmdb, collection: 404609}
-  Jumanji:
-    template: {name: tmdb, collection: 495527}
-  Jurassic Park:
-    template: {name: tmdb, collection: 328, movie: 630322}
   Kurosawa Samurai:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
     item_label: Samurai
-  LEGO Movies:
-    template: {name: tmdb, collection: 325470, movie: 324849}
-  Living Dead:
-    template: {name: tmdb, collection: 261590}
   The Manchurian Candidate:
     template: {name: tmdb, movie: "982, 14462"}
     name_mapping: Manchurian Candidate
     summary: "Film adaptations of Richard Condon's 1959 novel about an American who is brainwashed into being an unwitting assassin."
-  The Matrix:
-    template: {name: tmdb, collection: 2344, movie: 55931}
-    name_mapping: Matrix
-    collection_order: alpha
-  Men In Black:
-    template: {name: tmdb, collection: 86055, movie: 479455}
   Middle Earth:
     template: {name: tmdb, collection: "121938, 119"}
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
-  The Mummy:
-    template: {name: tmdb, collection: 1733}
-    name_mapping: Mummy
-  "Ocean's Heists":
-    template: {name: tmdb, collection: 304, movie: 402900}
-    name_mapping: Oceans
-  Pacific Rim:
-    template: {name: tmdb, collection: 363369}
-  Predator:
-    template: {name: tmdb, collection: 399}
-    item_label: Predator
-  Resident Evil:
-    template: {name: tmdb, collection: 17255}
-  RoboCop:
-    template: {name: tmdb, collection: 5547, movie: 97020}
-  Rocky:
-    template: {name: tmdb, collection: "1575, 553717"}
   Serenity:
     template: {name: tmdb, movie: 16320}
     minimum_items: 1
     collection_mode: hide
-  The Shining:
-    template: {name: tmdb, collection: 530064}
-    name_mapping: Shining
-    sort_title: Shining
-  "Star Trek":
+  Star Trek:
     template: {name: tmdb, collection: "151, 115570, 115575"}
     item_label: Star Trek
     summary: "All films from the icon Star Trek franchise."
@@ -164,110 +72,6 @@ collections:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
     item_label: Ghibli
-  The Terminator:
-    template: {name: tmdb, collection: 528}
-    name_mapping: Terminator
-  The Thing:
-    template: {name: tmdb, collection: 479888}
-    name_mapping: Thing
-  Top Gun:
-    template: {name: tmdb, collection: 531330}
-  Toy Story:
-    template: {name: tmdb, collection: 10194}
-  Transformers:
-    template: {name: tmdb, collection: 8650, movie: 424783}
-  TRON:
-    template: {name: tmdb, collection: 63043}
-  Vengeance Trilogy:
-    template: {name: tmdb, movie: "4689, 670, 4550"}
-  "Wallace & Gromit":
-    template: {name: tmdb, collection: 529, movie: 533}
-    name_mapping: Wallace and Gromit
-  Wreck-It Ralph:
-    template: {name: tmdb, collection: 404825}
-
-########################################
-# Marvel Movies
-########################################
-  Ant-Man:
-    template: {name: tmdb, collection: 422834}
-    item_label: MCU
-  The Avengers:
-    template: {name: tmdb, collection: 86311}
-    name_mapping: Avengers
-    item_label: MCU
-  Black Panther:
-    template: {name: tmdb, collection: 529892}
-    item_label: MCU
-    minimum_items: 1
-  Black Widow:
-    template: {name: tmdb, movie: 497698}
-    item_label: MCU
-    minimum_items: 1
-  Captain America:
-    template: {name: tmdb, collection: 131295}
-    item_label: MCU
-  Captain Marvel:
-    template: {name: tmdb, collection: 623911}
-    item_label: MCU
-    minimum_items: 1
-  Deadpool:
-    template: {name: tmdb, collection: 448150, movie: 567604}
-    item_label: MCEU
-  Doctor Strange:
-    template: {name: tmdb, collection: 618529}
-    item_label: MCU
-  Guardians of the Galaxy:
-    template: {name: tmdb, collection: 284433}
-    item_label: MCU
-  Incredible Hulk:
-    template: {name: tmdb, movie: 1724}
-    item_label: MCU
-    minimum_items: 1
-  Iron Man:
-    template: {name: tmdb, collection: 131292}
-    item_label: MCU
-  Shang-Chi:
-    template: {name: tmdb, collection: 912503}
-    minimum_items: 1
-  Spider-Man:
-    template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
-    name_mapping: "Spider-Man"
-    item_label: Spider-Man
-  "Spider-Man (Avengers)":
-    template: {name: tmdb, collection: 531241}
-    name_mapping: "Spider-Man (MCU)"
-    sort_title: "Spider-Man 2017"
-    item_label: MCU, Spider-Man
-  Thor:
-    template: {name: tmdb, collection: 131296}
-    item_label: MCU
-  Venom:
-    template: {name: tmdb, collection: 558216}
-    item_label: MCEU
-  X-Men:
-    template: {name: tmdb, collection: "748, 453993", movie: 340102}
-    item_label: MCEU,X-Men
-
-########################################
-# DC Movies
-########################################
-  Batman:
-    template: {name: tmdb, collection: 120794}
-    name_mapping: "Batman (Burton)"
-    sort_title: "Batman (Burton)"
-    summary: "Tim Burton and Joel Schumacher's 4-film series of the icon DC Comics caped crusader."
-  The Dark Knight:
-    template: {name: tmdb, collection: 263}
-    name_mapping: "Batman (Dark Knight)"
-    sort_title: "Batman (Dark Knight)"
-    summary: "Christopher Nolan's reboot of the Batman franchise, starring Christian Bale as the Dark Knight."
-  Wonder Woman:
-    template: {name: tmdb, collection: 468552}
-
-########################################
-# Universal Monsters
-########################################
   Universal Monsters:
     template:
       name: tmdb
@@ -287,3 +91,73 @@ collections:
         - 84719 # man-made monsters
         - 45322 # she-wolf of london
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
+  Vengeance Trilogy:
+    template: {name: tmdb, movie: "4689, 670, 4550"}
+  MCU:
+    build_collection: false
+    template:
+      name: tmdb
+      collection:
+        - 422834
+        - 86311
+        - 529892
+        - 497698
+        - 131295
+        - 623911
+        - 618529
+        - 284433
+        - 131292
+        - 912503
+        - 531241
+        - 131296
+      movie:
+        - 1724    # Incredible Hulk
+    item_label: MCU
+  MCEU:
+    build_collection: false
+    template:
+      name: tmdb
+      collection:
+        - 448150
+        - 556
+        - 125574
+        - 573436
+        - 556
+        - 125574
+        - 573436
+        - 558216
+        - 748
+        - 453993
+      movie:
+        - 340102
+    item_label: MCEU
+
+########################################
+# Marvel Movies
+########################################
+  Black Widow:
+    template: {name: tmdb, movie: 497698}
+    item_label: MCU
+    minimum_items: 1
+  Incredible Hulk:
+    template: {name: tmdb, movie: 1724}
+    item_label: MCU
+    minimum_items: 1
+  Spider-Man:
+    template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
+    name_mapping: "Spider-Man"
+    item_label: Spider-Man
+
+########################################
+# DC Movies
+########################################
+  Batman:
+    template: {name: tmdb, collection: 120794}
+    name_mapping: "Batman (Burton)"
+    sort_title: "Batman (Burton)"
+    summary: "Tim Burton and Joel Schumacher's 4-film series of the icon DC Comics caped crusader."
+  The Dark Knight:
+    template: {name: tmdb, collection: 263}
+    name_mapping: "Batman (Dark Knight)"
+    sort_title: "Batman (Dark Knight)"
+    summary: "Christopher Nolan's reboot of the Batman franchise, starring Christian Bale as the Dark Knight."
