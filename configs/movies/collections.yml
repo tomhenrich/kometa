@@ -52,10 +52,6 @@ collections:
     template: {name: tmdb, movie: "982, 14462"}
     name_mapping: Manchurian Candidate
     summary: "Film adaptations of Richard Condon's 1959 novel about an American who is brainwashed into being an unwitting assassin."
-  Middle Earth:
-    template: {name: tmdb, collection: "121938, 119"}
-    item_label.append: Middle Earth
-    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
   Serenity:
     template: {name: tmdb, movie: 16320}
     minimum_items: 1
