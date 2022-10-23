@@ -40,13 +40,15 @@ collections:
         label: MonsterVerse
       sort_by: title.asc
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
-
   Middle Earth:
     smart_label: title.asc
     item_label: Middle Earth
-    template: {name: tmdb, collection: "119,121938"}
+    tmdb_collection:
+      - 119
+      - 121938
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
+
 
 # STAR TREK
 
