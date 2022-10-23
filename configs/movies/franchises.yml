@@ -32,8 +32,6 @@ dynamic_collections:
 
     exclude:
       - 91697   # BSG
-      - 119     # LOTR
-      - 121938  # Hobbit
       - 374509  # Godzilla (Showa)
       - 374511  # Godzilla (Heisei)
       - 374512  # Godzilla (Millennium)
@@ -73,6 +71,8 @@ dynamic_collections:
       304: "Ocean's Heists"
       2794: The Chronicles of Riddick
       325470: LEGO Movies
+      119: The Lord of the Rings
+      121938: The Hobbit
       479888: The Thing
       758369: The Craft
       464577: The Croods
@@ -119,6 +119,8 @@ dynamic_collections:
         2794: Riddick
         529: Wallace and Gromit
         531241: "Spider-Man (MCU)"
+        119: Lord of the Rings
+        121938: Hobbit
         479888: Thing
         758369: Craft
         464577: Croods
