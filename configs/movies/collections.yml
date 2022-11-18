@@ -108,7 +108,6 @@ collections:
     minimum_items: 1
   Spider-Man:
     template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
-    name_mapping: "Spider-Man"
     item_label: Spider-Man
 
   MCU:
