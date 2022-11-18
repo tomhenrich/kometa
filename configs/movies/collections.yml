@@ -27,6 +27,10 @@ templates:
     collection_order: release
     move_prefix: The,A
 
+#
+# MANUALLY CREATED COLLECTIONS
+# Curated -- either not official TMDB collections, or specific combinations of movies
+#
 collections:
   Battlestar Galactica:
     template: {name: tmdb, collection: 91697}
@@ -79,16 +83,33 @@ collections:
         - 259027 # Wolf-Man
         - 221537 # creature from the black lagoon
       movie:
-        - 964 # the-phantom-of-the-opera
-        - 27970 # werewolf-of-london
-        - 24106 # the-black-cat
-        - 17907 # the-raven
+        - 15855  # phantom of the opera
+        - 27970  # werewolf-of-london
+        - 24106  # the-black-cat
+        - 17907  # the-raven
         - 106296 # monster and the girl
-        - 84719 # man-made monsters
-        - 45322 # she-wolf of london
+        - 84719  # man-made monsters
+        - 45322  # she-wolf of london
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
   Vengeance Trilogy:
     template: {name: tmdb, movie: "4689, 670, 4550"}
+
+
+########################################
+# Marvel Movies
+########################################
+  Black Widow:
+    template: {name: tmdb, movie: 497698}
+    item_label: MCU
+    minimum_items: 1
+  Incredible Hulk:
+    template: {name: tmdb, movie: 1724}
+    item_label: MCU
+    minimum_items: 1
+  Spider-Man:
+    template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
+    name_mapping: "Spider-Man"
+    item_label: Spider-Man
   MCU:
     build_collection: false
     template:
@@ -129,22 +150,6 @@ collections:
     item_label: MCEU
 
 ########################################
-# Marvel Movies
-########################################
-  Black Widow:
-    template: {name: tmdb, movie: 497698}
-    item_label: MCU
-    minimum_items: 1
-  Incredible Hulk:
-    template: {name: tmdb, movie: 1724}
-    item_label: MCU
-    minimum_items: 1
-  Spider-Man:
-    template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
-    name_mapping: "Spider-Man"
-    item_label: Spider-Man
-
-########################################
 # DC Movies
 ########################################
   Batman:
@@ -152,8 +157,133 @@ collections:
     name_mapping: "Batman (Burton)"
     sort_title: "Batman (Burton)"
     summary: "Tim Burton and Joel Schumacher's 4-film series of the icon DC Comics caped crusader."
+    item_label: DC
   The Dark Knight:
     template: {name: tmdb, collection: 263}
     name_mapping: "Batman (Dark Knight)"
     sort_title: "Batman (Dark Knight)"
     summary: "Christopher Nolan's reboot of the Batman franchise, starring Christian Bale as the Dark Knight."
+    item_label: DC
+
+########################################
+# SMART COLLECTIONS
+########################################
+
+  "Tom's Watchlist":
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?sort=rank,asc
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+    sort_title: "+Toms Watchlist"
+    name_mapping: Toms Watchlist
+    label: noshare
+    minimum_items: 1
+
+  "Sarah's Watchlist":
+    trakt_list: 
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?sort=title,asc
+      - https://trakt.tv/users/nursesawa/watchlist?sort=rank,asc
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+      sort_by: title.asc
+    sort_title: "+Sarahs Watchlist"
+    name_mapping: Sarahs Watchlist
+    label: noshare
+    minimum_items: 1
+
+  Non-English:
+    smart_filter:
+      any:
+        audio_language.not: English
+      sort_by: title.asc
+    sort_title: "++Non-English"
+
+  Hitchcock:
+    plex_search:
+      all:
+        director: Alfred Hitchcock
+    collection_order: release
+    collection_mode: hide_items
+
+  MonsterVerse:
+    smart_filter:
+      any:
+        label: MonsterVerse
+      sort_by: title.asc
+    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
+
+  Middle Earth:
+    smart_label: title.asc
+    tmdb_collection:
+      - 119
+      - 121938
+    item_label.append: Middle Earth
+    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
+
+  The Hobbit:
+    tmdb_collection_details: 121938
+    build_collection: false
+    item_label: Hobbit
+
+  The Lord of the Rings:
+    tmdb_collection_details: 119
+    build_collection: false
+    item_label: LOTR
+
+  "Star Trek: TOS":
+    tmdb_collection_details: 151
+    smart_label: title.asc
+    sort_title: "Star Trek C1: TOS"
+    item_label: Star Trek, Star Trek TOS
+    name_mapping: Star Trek TOS
+    collection_mode: hide
+
+  "Star Trek: TNG":
+    tmdb_collection_details: 115570
+    smart_label: title.asc
+    sort_title: "Star Trek C2: TNG"
+    item_label: Star Trek, Star Trek TNG
+    name_mapping: Star Trek TNG
+    collection_mode: hide
+
+  "Star Trek: Kelvin Timeline":
+    tmdb_collection_details: 115575
+    smart_label: title.asc
+    sort_title: "Star Trek C3: Kelvin"
+    item_label: Star Trek, Star Trek KEL
+    name_mapping: Star Trek Kelvin
+    collection_mode: hide
+
+  Marvel Cinematic Universe:
+    smart_filter:
+      any:
+        label: MCU
+      sort_by: release.asc
+  Marvel Extended Universe:
+    smart_filter:
+      any:
+        label: MCEU
+      sort_by: title.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
+  Spider-Man:
+    tmdb_collection_details: 556
+    name_mapping: "Spider-Man (Raimi)"
+    smart_label: title.asc
+    sort_title: "Spider-Man 2002"
+    collection_mode: hide
+  The Amazing Spider-Man:
+    tmdb_collection_details: 125574
+    name_mapping: Amazing Spider-Man
+    smart_label: title.asc
+    sort_title: "Spider-Man 2012"
+    item_label: MCEU,Spider-Man
+    collection_mode: hide
+  "Spider-Verse":
+    tmdb_collection_details: 573436
+    smart_label: title.asc
+    item_label: MCEU,Spider-Man
+    collection_mode: hide
+    minimum_items: 1
