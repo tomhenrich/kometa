@@ -110,6 +110,7 @@ collections:
     template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
     name_mapping: "Spider-Man"
     item_label: Spider-Man
+
   MCU:
     build_collection: false
     template:
@@ -130,6 +131,7 @@ collections:
       movie:
         - 1724    # Incredible Hulk
     item_label: MCU
+
   MCEU:
     build_collection: false
     template:
@@ -262,13 +264,15 @@ collections:
       any:
         label: MCU
       sort_by: release.asc
+
   Marvel Extended Universe:
     smart_filter:
       any:
         label: MCEU
       sort_by: title.asc
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
-  Spider-Man:
+
+  "Spider-Man (Raimi Trilogy)":
     tmdb_collection_details: 556
     name_mapping: "Spider-Man (Raimi)"
     smart_label: title.asc
