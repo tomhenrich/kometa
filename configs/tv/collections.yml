@@ -61,7 +61,12 @@ collections:
     summary: "The continuing adventures of those who boldly go where no one has gone before."
     minimum_items: 1
   Star Wars:
-    template: {name: tmdb, show: "92830, 115036, 82856"}
+    template:
+      name: tmdb
+      show:
+        - 92830    # Obi-Wan
+        - 115036   # Boba Fett
+        - 82856    # Mandalorian
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
   Twilight Zone:
