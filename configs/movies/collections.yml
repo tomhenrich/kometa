@@ -166,6 +166,18 @@ collections:
     summary: "Christopher Nolan's reboot of the Batman franchise, starring Christian Bale as the Dark Knight."
     item_label: DC
 
+  DC Universe:
+    trakt_list: 
+      - https://trakt.tv/users/zosoleary/lists/dc-cinematic-universe
+      - https://trakt.tv/users/malicekodi2/lists/dc
+      - https://trakt.tv/lists/20583443
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    minimum_items: 1
+    item_label: DCU
+
 ########################################
 # SMART COLLECTIONS
 ########################################
