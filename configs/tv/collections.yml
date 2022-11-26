@@ -37,17 +37,17 @@ collections:
     name_mapping: Sarahs Watchlist
     label: noshare
  
-   "Tom's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?sort=rank,asc
+  "Tom's Watchlist":
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?sort=title,asc
     smart_label:
       all:
+        unplayed_episodes: true
         label: <<smart_label>>
-        unplayed: true
+      sort_by: title.asc
     sort_title: "+Toms Watchlist"
     name_mapping: Toms Watchlist
     label: noshare
-    minimum_items: 1
-    
+     
   "Battlestar Galactica (Reboot)":
     sort_title: Battlestar Galactica 2003
     summary: A re-imagining of the original series in which a "rag-tag fugitive fleet" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth.
