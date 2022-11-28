@@ -10,7 +10,6 @@ templates:
       - sort_title
       - build_collection
       - item_label
-      - collection_order
     cache_builders: 1
     minimum_items: <<minimum_items>>
     tmdb_collection_details: <<value>>
