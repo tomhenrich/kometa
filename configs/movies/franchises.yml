@@ -35,6 +35,7 @@ dynamic_collections:
       - 374512  # Godzilla (Millennium)
       - 535790  # Godzilla (Anime)
       - 325470  # LEGO Movies
+      - 945984  # I Am Legend
       - 151     # Star Trek TOS
       - 115570  # Star Trek TNG
       - 115575  # Star Trek Kelvin
@@ -70,6 +71,7 @@ dynamic_collections:
       2794: The Chronicles of Riddick
       325470: LEGO Movies
       119: The Lord of the Rings
+      535313: "Godzilla (MonsterVerse)"
       121938: The Hobbit
       479888: The Thing
       758369: The Craft
@@ -110,7 +112,6 @@ dynamic_collections:
         115762: Aliens vs Predators
         91697: Battlestar Galactica
         535313: Godzilla MonsterVerse
-        535790: Godzilla Anime
         521226: Quiet Place
         325470: LEGO Movies
         304: Oceans
@@ -129,6 +130,8 @@ dynamic_collections:
       item_label:
         435259: Wizarding World
         535313: MonsterVerse
+        119: LOTR,Middle-Earth
+        121938: Hobbit,Middle-Earth
         
       collection_order:
         2344: alpha

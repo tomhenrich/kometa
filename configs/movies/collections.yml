@@ -40,13 +40,15 @@ collections:
   Eastrail 177:
     template: {name: tmdb, movie: "9741, 381288, 450465"}
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
-  Godzilla:
+  "Godzilla: King of the Monsters":
     template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
+    summary: "The King of the Monsters."
     collection_order: title.asc
-    collection_mode: hide_items
     item_label: Godzilla
+    name_mapping: Godzilla
+    sort_title: "Godzilla (0)"
   I Am Legend:
-    template: {name: tmdb, movie: "21159, 11234, 6479"}
+    template: {name: tmdb, collection: 945984, movie: "21159, 11234, 6479"}
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
   Kurosawa Samurai:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
@@ -235,16 +237,6 @@ collections:
       - 121938
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
-
-  The Hobbit:
-    tmdb_collection_details: 121938
-    build_collection: false
-    item_label: Hobbit
-
-  The Lord of the Rings:
-    tmdb_collection_details: 119
-    build_collection: false
-    item_label: LOTR
 
   "Star Trek: TOS":
     tmdb_collection_details: 151
