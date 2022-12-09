@@ -82,15 +82,15 @@ dynamic_collections:
 
       movie: # what movies should be part of collections but TMDB doesn't agree?
         2980:       # Ghostbusters
-          - 43074     # Ghostbusters (2016)
+          - https://www.themoviedb.org/movie/43074-ghostbusters
         328:        # Jurassic Park
-          - 630322    # Battle at Big Rock
+          - https://www.themoviedb.org/movie/630322-battle-at-big-rock
         645:        # James Bond
-          - 12208     # Casino Royale (1967)
+          - https://www.themoviedb.org/movie/12208-casino-royale
         325470:     # LEGO Movies
-          - 324849    # LEGO Batman
+          - https://www.themoviedb.org/movie/324849-the-lego-batman-movie
         2344:       # The Matrix
-          - 55931     # The Animatrix
+          - https://www.themoviedb.org/movie/55931-the-animatrix
         86055:      # Men in Black
           - 479455    # MIB International
         304:        # Oceans Heists
