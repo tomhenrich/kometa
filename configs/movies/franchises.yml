@@ -34,7 +34,7 @@ dynamic_collections:
       - 374511  # Godzilla (Heisei)
       - 374512  # Godzilla (Millennium)
       - 535790  # Godzilla (Anime)
-      - https://www.themoviedb.org/collection/325470-the-lego-movie-collection
+      - 325470  # LEGO Movies
       - 945984  # I Am Legend
       - 151     # Star Trek TOS
       - 115570  # Star Trek TNG
@@ -55,7 +55,7 @@ dynamic_collections:
 
     addons: # combine collections
       8091:       # Alien
-        - https://www.themoviedb.org/collection/135416-prometheus-collection
+        - 135416    # Prometheus
       86066:      # Despicable Me
         - 544669    # Minions
       1575:       # Rocky
@@ -82,15 +82,15 @@ dynamic_collections:
 
       movie: # what movies should be part of collections but TMDB doesn't agree?
         2980:       # Ghostbusters
-          - https://www.themoviedb.org/movie/43074-ghostbusters
+          - 43074     # Ghostbusters 2016
         328:        # Jurassic Park
-          - https://www.themoviedb.org/movie/630322-battle-at-big-rock
+          - 630322    # Battle at Big Rock
         645:        # James Bond
-          - https://www.themoviedb.org/movie/12208-casino-royale
+          - 12208     # Casino Royale 1967
         325470:     # LEGO Movies
-          - https://www.themoviedb.org/movie/324849-the-lego-batman-movie
+          - 324849    # LEGO Batman Movie
         2344:       # The Matrix
-          - https://www.themoviedb.org/movie/55931-the-animatrix
+          - 55931     # The Animatrix
         86055:      # Men in Black
           - 479455    # MIB International
         304:        # Oceans Heists
@@ -134,7 +134,7 @@ dynamic_collections:
         121938: Hobbit,Middle-Earth
         
       collection_order:
-        2344: alpha
+        2344: alpha   # The Matrix
 
       minimum_items:
         529892: 1     # Black Panther
