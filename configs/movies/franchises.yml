@@ -34,7 +34,7 @@ dynamic_collections:
       - 374511  # Godzilla (Heisei)
       - 374512  # Godzilla (Millennium)
       - 535790  # Godzilla (Anime)
-      - 325470  # LEGO Movies
+      - https://www.themoviedb.org/collection/325470-the-lego-movie-collection
       - 945984  # I Am Legend
       - 151     # Star Trek TOS
       - 115570  # Star Trek TNG
@@ -55,7 +55,7 @@ dynamic_collections:
 
     addons: # combine collections
       8091:       # Alien
-        - 135416    # Prometheus
+        - https://www.themoviedb.org/collection/135416-prometheus-collection
       86066:      # Despicable Me
         - 544669    # Minions
       1575:       # Rocky
