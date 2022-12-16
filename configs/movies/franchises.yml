@@ -132,6 +132,7 @@ dynamic_collections:
         535313: MonsterVerse
         119: LOTR,Middle-Earth
         121938: Hobbit,Middle-Earth
+        748: MCEU  # X-Men Collection
         
       collection_order:
         2344: alpha   # The Matrix
