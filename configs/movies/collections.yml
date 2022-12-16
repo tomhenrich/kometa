@@ -102,7 +102,6 @@ collections:
 ########################################
   Black Widow:
     template: {name: tmdb, movie: 497698}
-    item_label: MCU
     minimum_items: 1
   Incredible Hulk:
     template: {name: tmdb, movie: 1724}
@@ -114,42 +113,21 @@ collections:
 
   MCU:
     build_collection: false
-    template:
-      name: tmdb
-      collection:
-        - 422834
-        - 86311
-        - 529892
-        - 497698
-        - 131295
-        - 623911
-        - 618529
-        - 284433
-        - 131292
-        - 912503
-        - 531241
-        - 131296
-      movie:
-        - 1724    # Incredible Hulk
-    item_label: MCU
+    trakt_list:
+      - https://trakt.tv/users/signoftheshadow/lists/mcu?display=movie&sort=rank,asc
 
   MCEU:
     build_collection: false
     template:
       name: tmdb
       collection:
-        - 448150
-        - 556
-        - 125574
-        - 573436
-        - 556
-        - 125574
-        - 573436
-        - 558216
-        - 748
-        - 453993
-      movie:
-        - 340102
+        - https://www.themoviedb.org/collection/448150-deadpool-collection
+        - https://www.themoviedb.org/collection/556-spider-man-collection
+        - https://www.themoviedb.org/collection/125574-the-amazing-spider-man-collection
+        - https://www.themoviedb.org/collection/573436-spider-man-spider-verse-collection
+        - https://www.themoviedb.org/collection/558216-venom-collection
+        - https://www.themoviedb.org/collection/748-x-men-collection
+        - https://www.themoviedb.org/collection/453993-the-wolverine-collection
     item_label: MCEU
 
 ########################################
