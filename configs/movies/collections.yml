@@ -32,9 +32,6 @@ templates:
 # Curated -- either not official TMDB collections, or specific combinations of movies
 #
 collections:
-  Battlestar Galactica:
-    template: {name: tmdb, collection: 91697}
-    summary: "Follows the trials of the Colonial Fleet vessel Battlestar Galactica as it leads the last remaining humans on a search for Earth."
   Cloverfield:
     template: {name: tmdb, movie: "7191, 333371, 384521"}
   Eastrail 177:
