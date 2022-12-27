@@ -9,19 +9,7 @@ templates:
     collection_order: release
     move_prefix: The,A
 collections:
-  The Lord of the Rings:
-    template: {name: tmdb, collection: 119}
-    name_mapping: Lord of the Rings
-    item_label: LOTR,Middle Earth
-  The Dark Knight:
-    template: {name: tmdb, collection: 263}
-    name_mapping: Dark Knight
-    sort_title: Dark Knight
-    summary: "Christopher Nolan's reboot of the Batman franchise, starring Christian Bale as the Dark Knight."
-  Godzilla:
-    template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
-    collection_order: title.asc
-  John Wick:
-    template: {name: tmdb, collection: 404609}
-  A Quiet Place:
-    template: {name: tmdb, collection: 521226}
+#  The Lord of the Rings:
+#    template: {name: tmdb, collection: 119}
+#    name_mapping: Lord of the Rings
+#    item_label: LOTR,Middle Earth
