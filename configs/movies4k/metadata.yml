@@ -17,16 +17,6 @@ metadata:
     original_title: "The Lord of the Rings: The Return of the King"
     summary: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
     sort_title: LOTR 3
-  "The Hobbit: An Unexpected Journey":
-    year: 2012
-    sort_title: Hobbit 1
-  "The Hobbit: The Desolation of Smaug":
-    year: 2013
-    sort_title: Hobbit 2
-  "The Hobbit: The Battle of the Five Armies":
-    alt_title: "The Hobbit: The Battle of Five Armies"
-    year: 2014
-    sort_title: Hobbit 3
   The Matrix:
     sort_title: Matrix 1
   The Animatrix:
@@ -52,11 +42,3 @@ metadata:
     year: 2019
     sort_title: Godzilla MV 2019
     label: MonsterVerse
-  Godzilla vs. Kong:
-    title: Godzilla vs. Kong
-    year: 2021
-    sort_title: Godzilla MV 2021
-    label: MonsterVerse
-  Shin Godzilla:
-    sort_title: z Godzilla Shin 2016
-    content_rating: R
