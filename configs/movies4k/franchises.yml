@@ -28,10 +28,10 @@ dynamic_collections:
     remove_suffix: Collection
     template: collection
 
-    exclude:
+#    exclude:
 #      - 374509  # Godzilla (Showa)
 
-    addons: # combine collections
+#    addons: # combine collections
 #      8091:       # Alien
 #        - 135416    # Prometheus
 
@@ -41,7 +41,7 @@ dynamic_collections:
 
     template_variables:
 
-      movie: # what movies should be part of collections but TMDB doesn't agree?
+#      movie: # what movies should be part of collections but TMDB doesn't agree?
 #        2980:       # Ghostbusters
 #          - 43074     # Ghostbusters 2016
 
@@ -58,5 +58,5 @@ dynamic_collections:
         2344: alpha   # The Matrix
 
       minimum_items:
-#        529892: 1     # Black Panther
+        529892: 1     # Black Panther
         
