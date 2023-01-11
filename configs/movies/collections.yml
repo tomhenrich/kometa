@@ -63,22 +63,22 @@ collections:
     template:
       name: tmdb
       collection:
-        - https://www.themoviedb.org/collection/151-star-trek-the-original-series-collection
-        - https://www.themoviedb.org/collection/115570-star-trek-the-next-generation-collection
-        - https://www.themoviedb.org/collection/115575-star-trek-alternate-reality-collection
+        - 151
+        - 115570
+        - 115575
     item_label: Star Trek
     summary: "All films from the iconic Star Trek franchise."
   Star Wars:
     template:
       name: tmdb
       collection:
-        - https://www.themoviedb.org/collection/10-star-wars-collection
+        - 10
       movie:
-        - https://www.themoviedb.org/movie/330459-rogue-one-a-star-wars-story
-        - https://www.themoviedb.org/movie/348350-solo-a-star-wars-story
-        - https://www.themoviedb.org/movie/74849-star-wars-holiday-special
-        - https://www.themoviedb.org/movie/732670-lego-star-wars-holiday-special
-        - https://www.themoviedb.org/movie/12180-star-wars-the-clone-wars
+        - 330459
+        - 348350
+        - 74849
+        - 732670
+        - 12180
     item_label: "Star Wars"
     collection_order: alpha
   Studio Ghibli:
@@ -89,28 +89,28 @@ collections:
     template:
       name: tmdb
       collection:
-        - https://www.themoviedb.org/collection/221539-dracula-universal-collection
-        - https://www.themoviedb.org/collection/218406-frankenstein-universal-collection
-        - https://www.themoviedb.org/collection/259401-the-invisible-man-collection
-        - https://www.themoviedb.org/collection/221544-the-mummy-universal-collection
-        - https://www.themoviedb.org/collection/259027-the-wolf-man-collection
-        - https://www.themoviedb.org/collection/221537-creature-from-the-black-lagoon-collection
+        - 221539
+        - 218406
+        - 259401
+        - 221544
+        - 259027
+        - 221537
       movie:
-        - https://www.themoviedb.org/movie/15855-phantom-of-the-opera
-        - https://www.themoviedb.org/movie/27970-werewolf-of-london
-        - https://www.themoviedb.org/movie/24106-the-black-cat
-        - https://www.themoviedb.org/movie/17907-the-raven
-        - https://www.themoviedb.org/movie/106296-the-monster-and-the-girl
-        - https://www.themoviedb.org/movie/84719-man-made-monster
-        - https://www.themoviedb.org/movie/45322-she-wolf-of-london
+        - 15855
+        - 27970
+        - 24106
+        - 17907
+        - 106296
+        - 84719
+        - 45322
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
   Vengeance Trilogy:
     template:
       name: tmdb
       movie:
-        - https://www.themoviedb.org/movie/4689-mr-vengeance
-        - https://www.themoviedb.org/movie/670-oldboy
-        - https://www.themoviedb.org/movie/4550-sympathy-for-lady-vengeance
+        - 4689
+        - 670
+        - 4550
 
 
 ########################################
@@ -133,22 +133,22 @@ collections:
     template:
       name: tmdb
       collection:
-        - https://www.themoviedb.org/collection/422834-ant-man-collection
-        - https://www.themoviedb.org/collection/86311-the-avengers-collection
-        - https://www.themoviedb.org/collection/529892-black-panther-collection
-        - https://www.themoviedb.org/collection/131295-captain-america-collection
-        - https://www.themoviedb.org/collection/623911-captain-marvel-collection
-        - https://www.themoviedb.org/collection/618529-doctor-strange-collection
-        - https://www.themoviedb.org/collection/1011336-eternals-collection
-        - https://www.themoviedb.org/collection/284433-guardians-of-the-galaxy-collection
-        - https://www.themoviedb.org/collection/131292-iron-man-collection
-        - https://www.themoviedb.org/collection/912503-shang-chi-collection
-        - https://www.themoviedb.org/collection/531241-spider-man-avengers-collection
-        - https://www.themoviedb.org/collection/131296-thor-collection
+        - 422834
+        - 86311
+        - 529892
+        - 131295
+        - 623911
+        - 618529
+        - 1011336
+        - 284433
+        - 131292
+        - 912503
+        - 531241
+        - 131296
       movie:
-        - https://www.themoviedb.org/movie/497698-black-widow
-        - https://www.themoviedb.org/movie/1724-the-incredible-hulk
-        - https://www.themoviedb.org/movie/894205-werewolf-by-night
+        - 497698
+        - 1724
+        - 894205
   MCEU:
     build_collection: false
     trakt_list:
