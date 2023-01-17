@@ -78,6 +78,9 @@ dynamic_collections:
       468222: The Incredibles
       2344: The Matrix
 
+    summary:
+      2344: "The series features a cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of self-aware machines that imprisoned mankind in a virtual reality system—the Matrix—to be farmed as a power source."
+
     template_variables:
 
       movie: # what movies should be part of collections but TMDB doesn't agree?
@@ -141,6 +144,3 @@ dynamic_collections:
         529892: 1     # Black Panther
         623911: 1     # Captain Marvel
         912503: 1     # Shang-Chi
-
-      summary:
-        2344: "The series features a cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of self-aware machines that imprisoned mankind in a virtual reality system—the Matrix—to be farmed as a power source."
