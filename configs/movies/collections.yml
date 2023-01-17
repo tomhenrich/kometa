@@ -37,7 +37,7 @@ collections:
   Eastrail 177:
     template: {name: tmdb, movie: "9741, 381288, 450465"}
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
-  "Godzilla: King of the Monsters":
+  "Godzilla (All)":
     template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
     summary: "The King of the Monsters."
     collection_order: title.asc
