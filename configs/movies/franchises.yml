@@ -10,6 +10,7 @@ templates:
       - sort_title
       - build_collection
       - item_label
+      - summary
     cache_builders: 1
     minimum_items: <<minimum_items>>
     tmdb_collection_details: <<value>>
@@ -29,7 +30,6 @@ dynamic_collections:
     template: collection
 
     exclude:
-      - 2344    # The Matrix
       - 374509  # Godzilla (Showa)
       - 374511  # Godzilla (Heisei)
       - 374512  # Godzilla (Millennium)
@@ -76,6 +76,7 @@ dynamic_collections:
       758369: The Craft
       464577: The Croods
       468222: The Incredibles
+      2344: The Matrix
 
     template_variables:
 
@@ -88,6 +89,8 @@ dynamic_collections:
           - 12208     # Casino Royale 1967
         325470:     # LEGO Movies
           - 324849    # LEGO Batman Movie
+        2344:       # Matrix
+          - 55931     # Animatrix
         86055:      # Men in Black
           - 479455    # MIB International
         304:        # Oceans Heists
@@ -121,6 +124,7 @@ dynamic_collections:
         758369: Craft
         464577: Croods
         468222: Incredibles
+        2344: Matrix
         1733: Mummy # 1999 cinematic masterpiece
 
       item_label:
@@ -137,4 +141,6 @@ dynamic_collections:
         529892: 1     # Black Panther
         623911: 1     # Captain Marvel
         912503: 1     # Shang-Chi
-        
+
+      summary:
+        2344: "The series features a cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of self-aware machines that imprisoned mankind in a virtual reality system—the Matrix—to be farmed as a power source."
