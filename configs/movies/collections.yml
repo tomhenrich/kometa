@@ -55,11 +55,6 @@ collections:
     template: {name: tmdb, movie: "982, 14462"}
     name_mapping: Manchurian Candidate
     summary: "Film adaptations of Richard Condon's 1959 novel about an American who is brainwashed into being an unwitting assassin."
-  The Matrix:
-    template: {name: tmdb, collection: 2344, movie: 55931}
-    summary: "The series features a cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of self-aware machines that imprisoned mankind in a virtual reality system—the Matrix—to be farmed as a power source."
-    name_mapping: Matrix
-    collection_order: alpha
   Serenity:
     template: {name: tmdb, movie: 16320}
     minimum_items: 1
