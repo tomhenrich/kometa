@@ -29,6 +29,7 @@ dynamic_collections:
     template: collection
 
     exclude:
+      - 2344    # The Matrix
       - 374509  # Godzilla (Showa)
       - 374511  # Godzilla (Heisei)
       - 374512  # Godzilla (Millennium)
@@ -64,7 +65,6 @@ dynamic_collections:
 
     title_override:
       115762: Alien vs Predator
-      2344: The Matrix
       1733: The Mummy # 1999 cinematic masterpiece
       304: "Ocean's Heists"
       2794: The Chronicles of Riddick
@@ -88,8 +88,6 @@ dynamic_collections:
           - 12208     # Casino Royale 1967
         325470:     # LEGO Movies
           - 324849    # LEGO Batman Movie
-        2344:       # The Matrix
-          - 55931     # The Animatrix
         86055:      # Men in Black
           - 479455    # MIB International
         304:        # Oceans Heists
@@ -123,7 +121,6 @@ dynamic_collections:
         758369: Craft
         464577: Croods
         468222: Incredibles
-        2344: Matrix
         1733: Mummy # 1999 cinematic masterpiece
 
       item_label:
