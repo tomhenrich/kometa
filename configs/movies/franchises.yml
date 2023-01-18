@@ -28,6 +28,7 @@ dynamic_collections:
     remove_prefix: The
     remove_suffix: Collection
     template: collection
+    sync: true
 
     exclude:
       - 374509  # Godzilla (Showa)
