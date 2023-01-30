@@ -110,13 +110,7 @@ collections:
         - 45322
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
   Vengeance Trilogy:
-    template:
-      name: tmdb
-      movie:
-        - 4689
-        - 670
-        - 4550
-
+    tmdb_list: https://www.themoviedb.org/list/8238285
 
 ########################################
 # Marvel Movies
