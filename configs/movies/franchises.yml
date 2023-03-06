@@ -54,6 +54,7 @@ dynamic_collections:
       - 221537  # Creature from the Black Lagoon
       - 627389  # Sanjuro
       - 2344    # The Matrix
+      - 1072931
 
     addons: # combine collections
       8091:       # Alien
