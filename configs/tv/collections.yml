@@ -80,6 +80,7 @@ collections:
         - 92830    # Obi-Wan
         - 115036   # Boba Fett
         - 82856    # Mandalorian
+        - 83867    # Andor
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
   Twilight Zone:
