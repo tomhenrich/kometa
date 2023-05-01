@@ -43,7 +43,14 @@ collections:
     collection_order: title.asc
     item_label: Godzilla
     name_mapping: Godzilla
-    sort_title: "Godzilla (0)"
+    sort_title: "Godzilla 0"
+  "Godzilla (Classic Era)":
+    template: {name: tmdb, collection: "374509, 374511, 374512"}
+    summary: "Godzilla movies from the Showa (1954–1975), Heisei (1984–1995), and Millennium eras (1999-2004)."
+    collection_order: title.asc
+    item_label: Godzilla
+    name_mapping: "Godzilla (Classic)"
+    sort_title: "Godzilla Classic"
   I Am Legend:
     template: {name: tmdb, collection: 945984, movie: "21159, 11234, 6479"}
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
