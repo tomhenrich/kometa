@@ -34,7 +34,7 @@ dynamic_collections:
       - 374509  # Godzilla (Showa)
       - 374511  # Godzilla (Heisei)
       - 374512  # Godzilla (Millennium)
-      - 535790  # Godzilla (Anime)
+      #- 535790  # Godzilla (Anime)
       - 325470  # LEGO Movies
       - 945984  # I Am Legend
       - 151     # Star Trek TOS
@@ -74,6 +74,7 @@ dynamic_collections:
       325470: LEGO Movies
       119: The Lord of the Rings
       535313: "Godzilla (MonsterVerse)"
+      535790: "Godzilla (Anime)"
       9485: The Fast and the Furious
       121938: The Hobbit
       479888: The Thing
@@ -115,6 +116,7 @@ dynamic_collections:
         91697: Battlestar Galactica
         9485: Fast and Furious
         535313: Godzilla MonsterVerse
+        535790: Godzilla Anime
         521226: Quiet Place
         325470: LEGO Movies
         304: Oceans
