@@ -112,7 +112,7 @@ collections:
   Toho Extended Universe:
     trakt_list_details: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,asc
     item_label: "Toho EU"
-    build_collection: false
+    collection_mode: hide
     test: true
   Universal Monsters:
     template:
