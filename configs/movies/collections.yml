@@ -113,6 +113,7 @@ collections:
     trakt_list_details: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,asc
     item_label: "Toho EU"
     build_collection: false
+    test: true
   Universal Monsters:
     template:
       name: tmdb
@@ -324,6 +325,7 @@ collections:
     plex_search:
       all:
         label: "Toho EU"
-        label.isnot: Godzilla
+        label.not: Godzilla
     minimum_items: 1
+    test: true
 
