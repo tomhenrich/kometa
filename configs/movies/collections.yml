@@ -111,7 +111,7 @@ collections:
     item_label: Ghibli
   Toho Extended Universe:
     trakt_list_details: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,asc
-    item_label: "Toho Kaiju"
+    item_label: "Toho EU"
     build_collection: false
   Universal Monsters:
     template:
@@ -321,10 +321,9 @@ collections:
     minimum_items: 1
 
   Toho Kaiju:
-    trakt_list: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,asc
-    smart_label:
+    plex_search:
       all:
-        label: <<smart_label>>
+        label: "Toho EU"
         label.isnot: Godzilla
     minimum_items: 1
 
