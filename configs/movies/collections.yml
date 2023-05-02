@@ -28,7 +28,7 @@ templates:
     move_prefix: The,A
 
 #
-# MANUALLY CREATED COLLECTIONS
+# CURATED COLLECTIONS
 # Curated -- either not official TMDB collections, or specific combinations of movies
 #
 collections:
@@ -37,20 +37,6 @@ collections:
   Eastrail 177:
     template: {name: tmdb, movie: "9741, 381288, 450465"}
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
-  "Godzilla (All)":
-    template: {name: tmdb, collection: "374509, 374511, 374512, 535790, 535313", movie: "929, 315011"}
-    summary: "The King of the Monsters."
-    collection_order: title.asc
-    item_label: Godzilla
-    name_mapping: Godzilla
-    sort_title: "Godzilla 0"
-  "Godzilla (Classic Era)":
-    template: {name: tmdb, collection: "374509, 374511, 374512"}
-    summary: "Godzilla movies from the Showa (1954–1975), Heisei (1984–1995), and Millennium eras (1999-2004)."
-    collection_order: title.asc
-    item_label: Godzilla
-    name_mapping: "Godzilla (Classic)"
-    sort_title: "Godzilla Classic"
   I Am Legend:
     template: {name: tmdb, collection: 945984, movie: "21159, 11234, 6479"}
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
@@ -62,15 +48,41 @@ collections:
     template: {name: tmdb, movie: "982, 14462"}
     name_mapping: Manchurian Candidate
     summary: "Film adaptations of Richard Condon's 1959 novel about an American who is brainwashed into being an unwitting assassin."
+  Serenity:
+    template: {name: tmdb, movie: 16320}
+    minimum_items: 1
+    collection_mode: hide
+
+  "Godzilla (All)":
+    template:
+      name: tmdb
+      collection:
+        - 374509  # Godzilla (Showa)
+        - 374511  # Godzilla (Heisei)
+        - 374512  # Godzilla (Millennium)
+        - 535790  # Godzilla (Anime)
+        - 535313  # Godzilla (MonsterVerse)
+      movie:
+        - 929     # Godzilla 1998
+        - 315011  # Shin Godzilla
+    summary: "The King of the Monsters."
+    collection_order: title.asc
+    item_label: Godzilla
+    name_mapping: Godzilla
+    sort_title: "Godzilla +"
+  "Godzilla (Classic Era)":
+    template: {name: tmdb, collection: "374509, 374511, 374512"}
+    summary: "Godzilla movies from the Showa (1954–1975), Heisei (1984–1995), and Millennium eras (1999-2004)."
+    collection_order: title.asc
+    item_label: Godzilla
+    name_mapping: "Godzilla (Classic)"
+    sort_title: "Godzilla Classic"
+
   The Matrix:
     template: {name: tmdb, collection: 2344, movie: 55931}
     summary: "The series features a cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of self-aware machines that imprisoned mankind in a virtual reality system — the Matrix — to be farmed as a power source."
     name_mapping: Matrix
     collection_order: alpha
-  Serenity:
-    template: {name: tmdb, movie: 16320}
-    minimum_items: 1
-    collection_mode: hide
   Star Trek:
     template:
       name: tmdb
@@ -97,6 +109,10 @@ collections:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
     item_label: Ghibli
+  Toho Extended Universe:
+    trakt_list_details: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,asc
+    item_label: "Toho Kaiju"
+    build_collection: false
   Universal Monsters:
     template:
       name: tmdb
@@ -232,6 +248,19 @@ collections:
     collection_order: release
     collection_mode: hide_items
 
+  Marvel Cinematic Universe:
+    smart_filter:
+      any:
+        label: MCU
+      sort_by: release.asc
+
+  Marvel Extended Universe:
+    smart_filter:
+      any:
+        label: MCEU
+      sort_by: title.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
+
   MonsterVerse:
     smart_filter:
       any:
@@ -271,19 +300,6 @@ collections:
     name_mapping: Star Trek Kelvin
     collection_mode: hide
 
-  Marvel Cinematic Universe:
-    smart_filter:
-      any:
-        label: MCU
-      sort_by: release.asc
-
-  Marvel Extended Universe:
-    smart_filter:
-      any:
-        label: MCEU
-      sort_by: title.asc
-    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
-
   "Spider-Man (Raimi Trilogy)":
     tmdb_collection_details: 556
     name_mapping: "Spider-Man (Raimi)"
@@ -303,3 +319,12 @@ collections:
     item_label: MCEU,Spider-Man
     collection_mode: hide
     minimum_items: 1
+
+  Toho Kaiju:
+    trakt_list: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,asc
+    smart_label:
+      all:
+        label: <<smart_label>>
+        label.isnot: Godzilla
+    minimum_items: 1
+
