@@ -114,6 +114,7 @@ collections:
     item_label: "Toho EU"
     collection_mode: hide
     test: true
+    build_collection: false
   Universal Monsters:
     template:
       name: tmdb
