@@ -68,6 +68,8 @@ dynamic_collections:
         - 553717    #+ Creed
       748:        # X-Men
         - 453993    #+ The Wolverine
+      161766:     # Gamera
+        - 657313    #+ Gamera (Heisei)
 
     title_override:
       115762: Alien vs Predator
