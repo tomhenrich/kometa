@@ -74,7 +74,7 @@ collections:
     template: {name: tmdb, collection: "374509, 374511, 374512"}
     summary: "Godzilla movies from the Showa (1954–1975), Heisei (1984–1995), and Millennium eras (1999-2004)."
     collection_order: title.asc
-    item_label: Godzilla
+    item_label: Godzilla,"GodzillaClassic"
     name_mapping: "Godzilla (Classic)"
     sort_title: "Godzilla Classic"
   "Godzilla (Showa Era)":
@@ -330,16 +330,17 @@ collections:
     minimum_items: 1
 
   "Godzilla (No Share)":
-    plex_search:
+    smart_filter:
       all:
-        label.is: Godzilla
-        label:
-          - Showa
-          - Heisei
+        collection: tmdb
         title.isnot: Godzilla
         year.not: 1954
+      tmdb_collection:
+        - 374509
+        - 374511
     item_label: noshare
     build_collection: false
+    test: true
 
   Toho Kaiju:
     plex_search:
@@ -347,5 +348,3 @@ collections:
         label: "Toho EU"
         label.not: Godzilla
     minimum_items: 1
-    test: true
-
