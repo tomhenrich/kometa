@@ -333,6 +333,9 @@ collections:
     plex_search:
       all:
         label: Godzilla
+        label:
+          - Showa
+          - Heisei
         title.isnot: Godzilla
         year.not: 1954
     item_label: noshare
