@@ -332,7 +332,7 @@ collections:
   "Godzilla (No Share)":
     plex_search:
       all:
-        label: Godzilla
+        label.is: Godzilla
         label:
           - Showa
           - Heisei
