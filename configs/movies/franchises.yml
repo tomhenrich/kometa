@@ -152,3 +152,9 @@ dynamic_collections:
       minimum_items:
         623911: 1     # Captain Marvel
         912503: 1     # Shang-Chi
+
+
+      sort_title:
+        535313: "Godzilla 2014"
+        535790: "Godzilla 2017"
+        
