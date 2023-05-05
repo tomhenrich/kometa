@@ -53,7 +53,7 @@ collections:
     minimum_items: 1
     collection_mode: hide
 
-  "Godzilla (All)":
+  Godzilla:
     template:
       name: tmdb
       collection:
@@ -68,26 +68,26 @@ collections:
     summary: "The King of the Monsters."
     collection_order: title.asc
     item_label: Godzilla
-    name_mapping: Godzilla
     sort_title: "Godzilla +"
-  "Godzilla (Classic Era)":
-    template: {name: tmdb, collection: "374509, 374511, 374512"}
-    summary: "Godzilla movies from the Showa (1954–1975), Heisei (1984–1995), and Millennium eras (1999-2004)."
-    collection_order: title.asc
-    item_label: Godzilla,"GodzillaClassic"
-    name_mapping: "Godzilla (Classic)"
-    sort_title: "Godzilla Classic"
+    test: true
+
   "Godzilla (Showa Era)":
     template: {name: tmdb, collection: 374509}
-    item_label: Showa
+    item_label: Godzilla,GodzillaClassic,GodzillaShowa
     build_collection: false
+    test: true
   "Godzilla (Heisei Era)":
     template: {name: tmdb, collection: 374511}
-    item_label: Heisei
+    item_label: Godzilla,GodzillaClassic,GodzillaHeisei
     build_collection: false
+  "Godzilla (Millennium Era)":
+    template: {name: tmdb, collection: 374512}
+    item_label: Godzilla,GodzillaClassic,GodzillaMillennium
+    build_collection: false
+
   The Matrix:
     template: {name: tmdb, collection: 2344, movie: 55931}
-    summary: "The series features a cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of self-aware machines that imprisoned mankind in a virtual reality system — the Matrix — to be farmed as a power source."
+    summary: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
     name_mapping: Matrix
     collection_order: alpha
   Star Trek:
@@ -120,7 +120,6 @@ collections:
     trakt_list_details: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,asc
     item_label: "Toho EU"
     collection_mode: hide
-    test: true
     build_collection: false
   Universal Monsters:
     template:
@@ -329,15 +328,23 @@ collections:
     collection_mode: hide
     minimum_items: 1
 
+  "Godzilla (Classic Era)":
+    smart_filter:
+      all:
+        label: GodzillaClassic
+      sort_by: release.asc
+    summary: "Godzilla movies from the Showa (1954–1975), Heisei (1984–1995), and Millennium eras (1999-2004)."
+    name_mapping: "Godzilla Classic"
+    sort_title: "Godzilla Classic"
+    collection_mode: hide
+
   "Godzilla (No Share)":
     smart_filter:
       all:
-        collection: tmdb
+        label: GodzillaClassic
         title.isnot: Godzilla
         year.not: 1954
-      tmdb_collection:
-        - 374509
-        - 374511
+      sort_by: release.asc
     item_label: noshare
     build_collection: false
     test: true
