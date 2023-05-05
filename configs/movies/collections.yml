@@ -337,9 +337,10 @@ collections:
     name_mapping: "Godzilla Classic"
     sort_title: "Godzilla Classic"
     collection_mode: hide
+    test: true
 
   "Godzilla (No Share)":
-    smart_filter:
+    plex_search:
       all:
         label: GodzillaClassic
         title.isnot: Godzilla
