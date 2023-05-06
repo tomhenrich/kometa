@@ -88,6 +88,8 @@ dynamic_collections:
       464577: The Croods
       468222: The Incredibles
       9649: El Mariachi
+      120794: "Batman (Burton)"
+      263: "Batman (Dark Knight)"
 
     template_variables:
 
@@ -137,6 +139,8 @@ dynamic_collections:
         468222: Incredibles
         1733: Mummy # the 1999 cinematic masterpiece
         9649: Mariachi
+        120794: "Batman (Burton)"
+        263: "Batman (Dark Knight)"
 
 
       item_label:
@@ -145,7 +149,9 @@ dynamic_collections:
         119: LOTR,Middle-Earth
         121938: Hobbit,Middle-Earth
         748: MCEU  # X-Men Collection
-        
+        120794: DC
+        263: DC
+
 #      collection_order:
 #        2344: alpha   # The Matrix
 
@@ -157,4 +163,6 @@ dynamic_collections:
       sort_title:
         535313: "Godzilla 2014"
         535790: "Godzilla 2017"
+        120794: "Batman (Burton)"
+        263: "Batman (Dark Knight)"
         
