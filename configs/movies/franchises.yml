@@ -32,7 +32,6 @@ dynamic_collections:
 
     exclude:
       - 1072931 # Unknown
-      - 2344    # The Matrix
       - 325470  # LEGO Movies
       - 945984  # I Am Legend
       - 151     # Star Trek TOS
@@ -90,6 +89,7 @@ dynamic_collections:
       9649: El Mariachi
       120794: "Batman (Burton)"
       263: "Batman (Dark Knight)"
+      2344: The Matrix
 
     template_variables:
 
@@ -116,6 +116,8 @@ dynamic_collections:
           - 533       #+ Curse of the Were-Rabbit
         748:        # X-Men
           - 340102    #+ New Mutants
+        2344:       # The Matrix
+          - 55931    #+ Animatrix
 
       name_mapping: # where does the folder name not match the collection name?
                     # must include any where title_override value starts with "The"
@@ -141,6 +143,7 @@ dynamic_collections:
         9649: Mariachi
         120794: "Batman (Burton)"
         263: "Batman (Dark Knight)"
+        2344: Matrix
 
 
       item_label:
@@ -152,8 +155,8 @@ dynamic_collections:
         120794: DC
         263: DC
 
-#      collection_order:
-#        2344: alpha   # The Matrix
+      collection_order:
+        2344: alpha   # The Matrix
 
       minimum_items:
         623911: 1     # Captain Marvel
@@ -166,3 +169,5 @@ dynamic_collections:
         120794: "Batman (Burton)"
         263: "Batman (Dark Knight)"
         
+      summary:
+        2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
