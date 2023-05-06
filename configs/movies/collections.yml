@@ -69,13 +69,11 @@ collections:
     collection_order: title.asc
     item_label: Godzilla
     sort_title: "Godzilla +"
-    test: true
 
   "Godzilla (Showa Era)":
     template: {name: tmdb, collection: 374509}
     item_label: Godzilla,GodzillaClassic,GodzillaShowa
     build_collection: false
-    test: true
   "Godzilla (Heisei Era)":
     template: {name: tmdb, collection: 374511}
     item_label: Godzilla,GodzillaClassic,GodzillaHeisei
@@ -85,49 +83,16 @@ collections:
     item_label: Godzilla,GodzillaClassic,GodzillaMillennium
     build_collection: false
 
-  The Matrix:
-    template: {name: tmdb, collection: 2344, movie: 55931}
-    summary: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
-    name_mapping: Matrix
-    collection_order: alpha
-
-  "Star Trek: TOS":
-    template: {name: tmdb, collection: 151}
-    sort_title: "Star Trek C1: TOS"
-    item_label.sync: "Star Trek"
-    name_mapping: Star Trek TOS
-    collection_mode: hide
-    collection_order: release
-
-  "Star Trek: TNG":
-    template: {name: tmdb, collection: 115570}
-    sort_title: "Star Trek C2: TNG"
-    item_label.sync: "Star Trek"
-    name_mapping: Star Trek TNG
-    collection_mode: hide
-    collection_order: release
-
-  "Star Trek: Kelvin Timeline":
-    template: {name: tmdb, collection: 115575}
-    sort_title: "Star Trek C3: Kelvin"
-    item_label.sync: "Star Trek"
-    name_mapping: Star Trek Kelvin
-    collection_mode: hide
-    collection_order: release
-
-  Star Wars:
+  Star Trek:
     template:
       name: tmdb
       collection:
-        - 10
-      movie:
-        - 330459
-        - 348350
-        - 74849
-        - 732670
-        - 12180
-    item_label: "Star Wars"
-    collection_order: alpha
+        - 151
+        - 115570
+        - 115575
+    item_label: Star Trek
+    summary: "All films from the iconic Star Trek franchise."
+
   Studio Ghibli:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
@@ -169,29 +134,19 @@ collections:
     template: {name: tmdb, movie: 1724}
     item_label: MCU
     minimum_items: 1
-  "Spider-Man (Raimi Trilogy)":
-    tmdb_collection: https://www.themoviedb.org/collection/556
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-    name_mapping: "Spider-Man (Raimi)"
-    sort_title: "Spider-Man 2002"
-    item_label: MCEU,"Spider-Man"
-    collection_order: release
-  The Amazing Spider-Man:
-    template: {name: tmdb, collection: 125574}
-    name_mapping: Amazing Spider-Man
-    sort_title: "Spider-Man 2012"
-    item_label: MCEU,"Spider-Man"
-    collection_mode: hide
-    collection_order: release
-  "Spider-Verse":
-    template: {name: tmdb, collection: 573436}
-    item_label: MCEU,"Spider-Man"
-    collection_mode: hide
-    collection_order: release
-    minimum_items: 1
+  Spider-Man:
+    template:
+      name: tmdb
+      collection:
+        - 556     # Maguire
+        - 125574  # Garfield
+        - 531241  # Holland (Avengers)
+        - 573436  # Spider-Verse
+    summary: "Films starring the Marvel Comics character Peter Parker, who gains spider-like abilities and learns that with great power comes great responsibility."
+    item_label: Spider-Man
+    test: true
+
+
   MCU:
     build_collection: false
     template:
@@ -216,24 +171,12 @@ collections:
   MCEU:
     build_collection: false
     trakt_list:
-      - https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=rank,asc
+      - https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=release,asc
     item_label: MCEU
 
 ########################################
 # DC Movies
 ########################################
-  Batman:
-    template: {name: tmdb, collection: 120794}
-    name_mapping: "Batman (Burton)"
-    sort_title: "Batman (Burton)"
-    summary: "Tim Burton and Joel Schumacher's 4-film series of the icon DC Comics caped crusader."
-    item_label: DC
-  The Dark Knight:
-    template: {name: tmdb, collection: 263}
-    name_mapping: "Batman (Dark Knight)"
-    sort_title: "Batman (Dark Knight)"
-    summary: "Christopher Nolan's reboot of the Batman franchise, starring Christian Bale as the Dark Knight."
-    item_label: DC
 
   DC Universe:
     trakt_list: 
@@ -283,56 +226,6 @@ collections:
       sort_by: title.asc
     sort_title: "++Non-English"
 
-  Hitchcock:
-    plex_search:
-      all:
-        director: Alfred Hitchcock
-    collection_order: release
-    collection_mode: hide_items
-
-  Spider-Man:
-    smart_filter:
-      any:
-        label: "Spider-Man"
-      sort_by: release.asc
-    summary: "Films centered around the Marvel Comics character Peter Parker, who gains spider-like abilities and learns that with great power comes great responsibility."
-    item_label: MCU
-
-  Marvel Cinematic Universe:
-    smart_filter:
-      any:
-        label: MCU
-      sort_by: release.asc
-
-  Marvel Extended Universe:
-    smart_filter:
-      any:
-        label: MCEU
-      sort_by: title.asc
-    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
-
-  MonsterVerse:
-    smart_filter:
-      any:
-        label: MonsterVerse
-      sort_by: title.asc
-    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
-
-  Middle Earth:
-    smart_label: title.asc
-    tmdb_collection:
-      - 119
-      - 121938
-    item_label.append: Middle Earth
-    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
-
-  Star Trek:
-    smart_filter:
-      any:
-        label: "Star Trek"
-      sort_by: release.asc
-    summary: "All films from the iconic Star Trek franchise."
-
   "Godzilla (Classic Era)":
     smart_filter:
       all:
@@ -342,7 +235,6 @@ collections:
     name_mapping: "Godzilla Classic"
     sort_title: "Godzilla Classic"
     collection_mode: hide
-    test: true
 
   "Godzilla (No Share)":
     plex_search:
@@ -353,7 +245,82 @@ collections:
       sort_by: release.asc
     item_label: noshare
     build_collection: false
+
+  Hitchcock:
+    plex_search:
+      all:
+        director: Alfred Hitchcock
+    collection_order: release
+    collection_mode: hide_items
+
+  Marvel Cinematic Universe:
+    smart_filter:
+      any:
+        label: MCU
+      sort_by: release.asc
+
+  Middle Earth:
+    smart_label: title.asc
+    tmdb_collection:
+      - 119
+      - 121938
+    item_label.append: Middle Earth
+    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
+
+  MonsterVerse:
+    smart_filter:
+      any:
+        label: MonsterVerse
+      sort_by: title.asc
+    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
+
+  "Spider-Man (Raimi Trilogy)":
+    tmdb_collection_details: 556
+    name_mapping: "Spider-Man (Raimi)"
+    smart_label: title.asc
+    sort_title: "Spider-Man 2002"
+    collection_mode: hide
     test: true
+  The Amazing Spider-Man:
+    tmdb_collection_details: 125574
+    name_mapping: Amazing Spider-Man
+    smart_label: title.asc
+    sort_title: "Spider-Man 2012"
+    item_label: MCEU,Spider-Man
+    collection_mode: hide
+    test: true
+  "Spider-Verse":
+    tmdb_collection_details: 573436
+    smart_label: title.asc
+    item_label: MCEU,Spider-Man
+    collection_mode: hide
+    minimum_items: 1
+    test: true
+
+
+  "Star Trek: TOS":
+    tmdb_collection_details: 151
+    smart_label: title.asc
+    sort_title: "Star Trek C1: TOS"
+    item_label: Star Trek, Star Trek TOS
+    name_mapping: Star Trek TOS
+    collection_mode: hide
+
+  "Star Trek: TNG":
+    tmdb_collection_details: 115570
+    smart_label: title.asc
+    sort_title: "Star Trek C2: TNG"
+    item_label: Star Trek, Star Trek TNG
+    name_mapping: Star Trek TNG
+    collection_mode: hide
+
+  "Star Trek: Kelvin Timeline":
+    tmdb_collection_details: 115575
+    smart_label: title.asc
+    sort_title: "Star Trek C3: Kelvin"
+    item_label: Star Trek, Star Trek KEL
+    name_mapping: Star Trek Kelvin
+    collection_mode: hide
 
   Toho Kaiju:
     plex_search:
@@ -361,3 +328,12 @@ collections:
         label: "Toho EU"
         label.not: Godzilla
     minimum_items: 1
+
+
+  Marvel Extended Universe:
+    smart_filter:
+      any:
+        label: MCEU
+      sort_by: title.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
+
