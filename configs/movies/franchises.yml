@@ -21,6 +21,7 @@ templates:
     sync_mode: sync
     collection_order: <<collection_order>>
     item_label: <<item_label>>
+    summary: <<summary>>
 
 dynamic_collections:
   TMDb Collections:
@@ -37,7 +38,6 @@ dynamic_collections:
       - 151     # Star Trek TOS
       - 115570  # Star Trek TNG
       - 115575  # Star Trek Kelvin
-      - 10      # Star Wars
       - 627389  # Sanjuro
       ## Marvel/DC
       - 556     # Spider-Man (Raimi)
@@ -94,6 +94,12 @@ dynamic_collections:
     template_variables:
 
       movie: # what movies should be part of collections but TMDB doesn't agree?
+        10:         # Star Wars
+          - 330459
+          - 348350
+          - 74849
+          - 732670
+          - 12180
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
         328:        # Jurassic Park
@@ -156,6 +162,7 @@ dynamic_collections:
         263: DC
 
       collection_order:
+        10: alpha     # Star Wars
         2344: alpha   # The Matrix
 
       minimum_items:
