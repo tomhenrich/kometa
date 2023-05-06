@@ -90,15 +90,31 @@ collections:
     summary: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
     name_mapping: Matrix
     collection_order: alpha
-  Star Trek:
-    template:
-      name: tmdb
-      collection:
-        - 151
-        - 115570
-        - 115575
-    item_label: Star Trek
-    summary: "All films from the iconic Star Trek franchise."
+
+  "Star Trek: TOS":
+    template: {name: tmdb, collection: 151}
+    sort_title: "Star Trek C1: TOS"
+    item_label.sync: "Star Trek"
+    name_mapping: Star Trek TOS
+    collection_mode: hide
+    collection_order: release
+
+  "Star Trek: TNG":
+    template: {name: tmdb, collection: 115570}
+    sort_title: "Star Trek C2: TNG"
+    item_label.sync: "Star Trek"
+    name_mapping: Star Trek TNG
+    collection_mode: hide
+    collection_order: release
+
+  "Star Trek: Kelvin Timeline":
+    template: {name: tmdb, collection: 115575}
+    sort_title: "Star Trek C3: Kelvin"
+    item_label.sync: "Star Trek"
+    name_mapping: Star Trek Kelvin
+    collection_mode: hide
+    collection_order: release
+
   Star Wars:
     template:
       name: tmdb
@@ -153,11 +169,26 @@ collections:
     template: {name: tmdb, movie: 1724}
     item_label: MCU
     minimum_items: 1
-  Spider-Man:
-    template: {name: tmdb, collection: "556, 125574, 531241, 573436"}
-    summary: "Films starring the Marvel Comics character Peter Parker, who gains spider-like abilities and learns that with great power comes great responsibility."
-    item_label: Spider-Man
-
+  "Spider-Man (Raimi Trilogy)":
+    template: {name: tmdb, collection: 556}
+    name_mapping: "Spider-Man (Raimi)"
+    sort_title: "Spider-Man 2002"
+    item_label: MCEU,"Spider-Man"
+    collection_mode: hide
+    collection_order: release
+  The Amazing Spider-Man:
+    template: {name: tmdb, collection: 125574}
+    name_mapping: Amazing Spider-Man
+    sort_title: "Spider-Man 2012"
+    item_label: MCEU,"Spider-Man"
+    collection_mode: hide
+    collection_order: release
+  "Spider-Verse":
+    template: {name: tmdb, collection: 573436}
+    item_label: MCEU,"Spider-Man"
+    collection_mode: hide
+    collection_order: release
+    minimum_items: 1
   MCU:
     build_collection: false
     template:
@@ -256,6 +287,14 @@ collections:
     collection_order: release
     collection_mode: hide_items
 
+  Spider-Man:
+    smart_filter:
+      any:
+        label: "Spider-Man"
+      sort_by: release.asc
+    summary: "Films centered around the Marvel Comics character Peter Parker, who gains spider-like abilities and learns that with great power comes great responsibility."
+    item_label: MCU
+
   Marvel Cinematic Universe:
     smart_filter:
       any:
@@ -284,49 +323,12 @@ collections:
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
 
-  "Star Trek: TOS":
-    tmdb_collection_details: 151
-    smart_label: title.asc
-    sort_title: "Star Trek C1: TOS"
-    item_label: Star Trek, Star Trek TOS
-    name_mapping: Star Trek TOS
-    collection_mode: hide
-
-  "Star Trek: TNG":
-    tmdb_collection_details: 115570
-    smart_label: title.asc
-    sort_title: "Star Trek C2: TNG"
-    item_label: Star Trek, Star Trek TNG
-    name_mapping: Star Trek TNG
-    collection_mode: hide
-
-  "Star Trek: Kelvin Timeline":
-    tmdb_collection_details: 115575
-    smart_label: title.asc
-    sort_title: "Star Trek C3: Kelvin"
-    item_label: Star Trek, Star Trek KEL
-    name_mapping: Star Trek Kelvin
-    collection_mode: hide
-
-  "Spider-Man (Raimi Trilogy)":
-    tmdb_collection_details: 556
-    name_mapping: "Spider-Man (Raimi)"
-    smart_label: title.asc
-    sort_title: "Spider-Man 2002"
-    collection_mode: hide
-  The Amazing Spider-Man:
-    tmdb_collection_details: 125574
-    name_mapping: Amazing Spider-Man
-    smart_label: title.asc
-    sort_title: "Spider-Man 2012"
-    item_label: MCEU,Spider-Man
-    collection_mode: hide
-  "Spider-Verse":
-    tmdb_collection_details: 573436
-    smart_label: title.asc
-    item_label: MCEU,Spider-Man
-    collection_mode: hide
-    minimum_items: 1
+  Star Trek:
+    smart_filter:
+      any:
+        label: "Star Trek"
+      sort_by: release.asc
+    summary: "All films from the iconic Star Trek franchise."
 
   "Godzilla (Classic Era)":
     smart_filter:
