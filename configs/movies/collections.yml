@@ -236,16 +236,6 @@ collections:
     sort_title: "Godzilla Classic"
     collection_mode: hide
 
-  "Godzilla (No Share)":
-    plex_search:
-      all:
-        label: GodzillaClassic
-        title.isnot: Godzilla
-        year.not: 1954
-      sort_by: release.asc
-    item_label: noshare
-    build_collection: false
-
   Hitchcock:
     plex_search:
       all:
