@@ -170,7 +170,7 @@ collections:
     item_label: MCU
     minimum_items: 1
   "Spider-Man (Raimi Trilogy)":
-    https://www.themoviedb.org/collection/556
+    tmdb_collection: https://www.themoviedb.org/collection/556
     smart_label:
       sort_by: release.desc
       all:
