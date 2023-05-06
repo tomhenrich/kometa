@@ -170,11 +170,14 @@ collections:
     item_label: MCU
     minimum_items: 1
   "Spider-Man (Raimi Trilogy)":
-    template: {name: tmdb, collection: 556}
+    https://www.themoviedb.org/collection/556
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
     name_mapping: "Spider-Man (Raimi)"
     sort_title: "Spider-Man 2002"
     item_label: MCEU,"Spider-Man"
-    collection_mode: hide
     collection_order: release
   The Amazing Spider-Man:
     template: {name: tmdb, collection: 125574}
