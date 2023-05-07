@@ -54,7 +54,6 @@ collections:
     collection_mode: hide
 
   Godzilla:
-    template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/godzilla?sort=rank,asc
     summary: "The King of the Monsters."
     collection_order: custom
