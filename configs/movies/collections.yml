@@ -54,19 +54,10 @@ collections:
     collection_mode: hide
 
   Godzilla:
-    template:
-      name: tmdb
-      collection:
-        - 374509  # Godzilla (Showa)
-        - 374511  # Godzilla (Heisei)
-        - 374512  # Godzilla (Millennium)
-        - 535790  # Godzilla (Anime)
-        - 535313  # Godzilla (MonsterVerse)
-      movie:
-        - 929     # Godzilla 1998
-        - 315011  # Shin Godzilla
+    template: {name: tmdb}
+    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/godzilla?sort=rank,asc
     summary: "The King of the Monsters."
-    collection_order: release.asc
+    collection_order: custom
     item_label: Godzilla
     sort_title: "Godzilla +"
 
