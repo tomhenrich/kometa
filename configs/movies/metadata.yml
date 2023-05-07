@@ -92,47 +92,6 @@ metadata:
     sort_title: Matrix 3
   The Matrix Resurrections:
     sort_title: Matrix 4
-  Godzilla (1954):
-    title: Godzilla
-    year: 1954
-    sort_title: Godzilla 1954
-    collection.remove: "Godzilla (Showa)"
-  Godzilla (2014):
-    title: Godzilla
-    year: 2014
-    sort_title: Godzilla MV 2014
-    label: Godzilla,MonsterVerse
-  GodzillaKOTM:
-    title: 'Godzilla: King of the Monsters'
-    year: 2019
-    sort_title: Godzilla MV 2019
-    label: Godzilla,MonsterVerse
-  Godzilla vs. Kong:
-    title: Godzilla vs. Kong
-    year: 2021
-    sort_title: Godzilla MV 2021
-    label: Godzilla,MonsterVerse
-  Shin Godzilla:
-    sort_title: Godzilla Shin 2016
-    content_rating: R
-    label: Godzilla
-  KongSkullIsland:
-    title: "Kong: Skull Island"
-    year: 2017
-    label: King Kong,MonsterVerse
-    sort_title: Kong MV 2017
-  "Godzilla: Planet of the Monsters":
-    year: 2017
-    sort_title: Godzilla zAnime 1
-    label: Godzilla,Anime
-  "Godzilla: City on the Edge of Battle":
-    year: 2018
-    sort_title: Godzilla zAnime 2
-    label: Godzilla,Anime
-  "Godzilla: The Planet Eater":
-    year: 2018
-    sort_title: Godzilla zAnime 3
-    label: Godzilla,Anime
   Harakiri:
     year: 1962
     label: Samurai
