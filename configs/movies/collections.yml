@@ -88,9 +88,9 @@ collections:
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
     item_label: Ghibli
   Toho Extended Universe:
-    trakt_list_details: https://trakt.tv/users/jaygreene/lists/godzilla-toho-extended-universe?sort=released,desc
-    item_label: "Toho EU"
-    collection_mode: hide
+    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/toho-kaiju?sort=released,desc
+    item_label.remove: "Toho EU"
+    item_label: "Toho Kaiju"
     build_collection: false
   Universal Monsters:
     template:
@@ -305,7 +305,7 @@ collections:
   Toho Kaiju:
     plex_search:
       all:
-        label: "Toho EU"
+        label: "Toho Kaiju"
         label.not: Godzilla
     minimum_items: 1
 
