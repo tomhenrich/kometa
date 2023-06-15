@@ -35,15 +35,9 @@ dynamic_collections:
       - 1072931 # Unknown
       - 325470  # LEGO Movies
       - 945984  # I Am Legend
-      - 151     # Star Trek TOS
-      - 115570  # Star Trek TNG
-      - 115575  # Star Trek Kelvin
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
       ## Marvel/DC
-      - 556     # Spider-Man (Raimi)
-      - 125574  # Amazing Spider-Man 
-      - 573436  # Spider-Verse
       - 120794  # Batman (Burton)
       - 263     # Batman (Dark Knight)
       ## Toho Kaiju Series
@@ -52,7 +46,7 @@ dynamic_collections:
       - 374512  # Godzilla (Millennium)
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
-      - 491768  # Frankenstein/Gargantuas
+      - 491768  # Toho Frankenstein/Gargantuas
       ## Universal Monsters:
       - 221539  # Dracula
       - 218406  # Frankenstein
@@ -93,6 +87,9 @@ dynamic_collections:
       120794: "Batman (Burton)"
       263: "Batman (Dark Knight)"
       2344: The Matrix
+      115570: "Star Trek: TOS"
+      151: "Star Trek: TNG"
+      115575: "Star Trek: Kelvin Timeline"
 
     template_variables:
 
@@ -132,16 +129,15 @@ dynamic_collections:
                     # must include any where title_override value starts with "The"
         1565: 28 Days Later
         115762: Aliens vs Predators
+        120794: "Batman (Burton)"
+        263: "Batman (Dark Knight)"
         91697: Battlestar Galactica
         9485: Fast and Furious
         535313: Godzilla MonsterVerse
         535790: Godzilla Anime
-        521226: Quiet Place
         325470: LEGO Movies
         304: Oceans
         2794: Riddick
-        529: Wallace and Gromit
-        531241: "Spider-Man (MCU)"
         119: Lord of the Rings
         121938: Hobbit
         479888: Thing
@@ -150,10 +146,15 @@ dynamic_collections:
         468222: Incredibles
         1733: Mummy # the 1999 cinematic masterpiece
         9649: Mariachi
-        120794: "Batman (Burton)"
-        263: "Batman (Dark Knight)"
         2344: Matrix
-
+        531241: "Spider-Man (MCU)"
+        556: "Spider-Man (Raimi)"
+        125574: "Amazing Spider-Man"
+        115570: Star Trek TOS
+        151: Star Trek TNG
+        115575: Star Trek Kelvin
+        521226: Quiet Place
+        529: Wallace and Gromit
 
       item_label:
         435259: Wizarding World
@@ -163,6 +164,13 @@ dynamic_collections:
         748: MCEU  # X-Men Collection
         120794: DC
         263: DC
+        556: MCEU,"Spider-Man"
+        125574: MCEU,"Spider-Man"
+        573436: MCEU,"Spider-Man"
+        151: Star Trek
+        115570: Star Trek
+        151: Star Trek
+        115575: Star Trek
 
       collection_order:
         10: alpha     # Star Wars
@@ -171,6 +179,7 @@ dynamic_collections:
       minimum_items:
         623911: 1     # Captain Marvel
         912503: 1     # Shang-Chi
+        573436: 1     # Spider-Verse
 
 
       sort_title:
@@ -178,6 +187,8 @@ dynamic_collections:
         535790: "Godzilla 2017"
         120794: "Batman (Burton)"
         263: "Batman (Dark Knight)"
+        556: "Spider-Man 2002"
+        125574: "Spider-Man 2012"
         
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
