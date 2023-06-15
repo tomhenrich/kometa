@@ -73,16 +73,6 @@ collections:
     item_label: Godzilla,GodzillaClassic,GodzillaMillennium
     build_collection: false
 
-  Star Trek:
-    template:
-      name: tmdb
-      collection:
-        - 151
-        - 115570
-        - 115575
-    item_label: Star Trek
-    summary: "All films from the iconic Star Trek franchise."
-
   Studio Ghibli:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
@@ -275,3 +265,9 @@ collections:
       sort_by: title.asc
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
 
+
+  Star Trek:
+    plex_search:
+      all:
+        label: "Star Trek"
+    summary: "All films from the iconic Star Trek franchise."
