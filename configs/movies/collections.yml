@@ -104,7 +104,7 @@ collections:
   Vengeance Trilogy:
     template:
       name: tmdb
-      collection:
+      movie:
         - 4689  # Sympathy for Mr Vengeance
         - 670   # Oldboy
         - 4550  # Lady Vengeance
