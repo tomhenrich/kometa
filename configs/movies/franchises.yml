@@ -41,9 +41,6 @@ dynamic_collections:
       - 120794  # Batman (Burton)
       - 263     # Batman (Dark Knight)
       ## Toho Kaiju Series
-      - 374509  # Godzilla (Showa)
-      - 374511  # Godzilla (Heisei)
-      - 374512  # Godzilla (Millennium)
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
       - 491768  # Toho Frankenstein/Gargantuas
@@ -102,6 +99,10 @@ dynamic_collections:
           - 12180
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
+        374509:     # Godzilla Showa
+          - 813157    # Godzilla, King of the Monsters (US)
+          - 329237    # Gigantis the Fire Monster (US Version of Godzilla Raids Again)
+          - 686487    # King Kong vs Godzilla (US)
         328:        # Jurassic Park
           - 630322    #+ Battle at Big Rock
         645:        # James Bond
@@ -135,6 +136,10 @@ dynamic_collections:
         9485: Fast and Furious
         535313: Godzilla MonsterVerse
         535790: Godzilla Anime
+        374509: Godzilla Showa
+        374511: Godzilla Heisei
+        374512: Godzilla Millennium
+        1137316: Godzilla Reiwa
         325470: LEGO Movies
         304: Oceans
         2794: Riddick
@@ -167,9 +172,13 @@ dynamic_collections:
         556: MCEU,"Spider-Man"
         125574: MCEU,"Spider-Man"
         573436: MCEU,"Spider-Man"
-        151: Star Trek
-        115570: Star Trek
-        115575: Star Trek
+        151: Star Trek     # TOS
+        115570: Star Trek  # TNG
+        115575: Star Trek  # KEL
+        535790: Godzilla,GodzillaAnime
+        374509: Godzilla,GodzillaClassic  # Showa
+        374511: Godzilla,GodzillaClassic  # Heisei
+        374512: Godzilla,GodzillaClassic  # Millennium
 
       collection_order:
         10: alpha     # Star Wars
@@ -179,7 +188,7 @@ dynamic_collections:
         623911: 1     # Captain Marvel
         912503: 1     # Shang-Chi
         573436: 1     # Spider-Verse
-
+        1137316: 1    # Godzilla (Reiwa)
 
       sort_title:
         535313: "Godzilla 2014"
@@ -188,6 +197,11 @@ dynamic_collections:
         263: "Batman (Dark Knight)"
         556: "Spider-Man 2002"
         125574: "Spider-Man 2012"
-        
+        374509: Godzilla Era 1954
+        374511: Godzilla Era 1984
+        374512: Godzilla Era 1999
+        535313: Godzilla Era 2014
+        1137316: Godzilla Era 2016
+
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
