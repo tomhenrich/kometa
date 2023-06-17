@@ -60,19 +60,6 @@ collections:
     item_label: Godzilla
     sort_title: "Godzilla +"
 
-  "Godzilla (Showa Era)":
-    template: {name: tmdb, collection: 374509}
-    item_label: Godzilla,GodzillaClassic,GodzillaShowa
-    build_collection: false
-  "Godzilla (Heisei Era)":
-    template: {name: tmdb, collection: 374511}
-    item_label: Godzilla,GodzillaClassic,GodzillaHeisei
-    build_collection: false
-  "Godzilla (Millennium Era)":
-    template: {name: tmdb, collection: 374512}
-    item_label: Godzilla,GodzillaClassic,GodzillaMillennium
-    build_collection: false
-
   Studio Ghibli:
     template: {name: tmdb}
     trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
@@ -125,8 +112,6 @@ collections:
         - 573436  # Spider-Verse
     summary: "Films starring the Marvel Comics character Peter Parker, who gains spider-like abilities and learns that with great power comes great responsibility."
     item_label: Spider-Man
-    test: true
-
 
   MCU:
     build_collection: false
@@ -200,22 +185,13 @@ collections:
     label: noshare
     minimum_items: 1
 
+
   Non-English:
     smart_filter:
       any:
         audio_language.not: English
       sort_by: title.asc
     sort_title: "++Non-English"
-
-  "Godzilla (Classic Era)":
-    smart_filter:
-      all:
-        label: GodzillaClassic
-      sort_by: release.asc
-    summary: "Godzilla movies from the Showa (1954–1975), Heisei (1984–1995), and Millennium eras (1999-2004)."
-    name_mapping: "Godzilla Classic"
-    sort_title: "Godzilla Classic"
-    collection_mode: hide
 
   Hitchcock:
     plex_search:
