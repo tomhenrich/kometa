@@ -123,12 +123,8 @@ collections:
 
   Toho Kaiju:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
-    smart_label:
-      all:
-        label: <<smart_label>>
-        label.not: Godzilla
-    minimum_items: 1
     collection_order: release
+    minimum_items: 1
 
 ########################################
 # Marvel/DC Movies
