@@ -117,13 +117,18 @@ collections:
 ########################################
 
   Studio Ghibli:
-    trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
+    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
+    sort_by: release.asc
     item_label: Ghibli
-#  Toho Extended Universe:
-#    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/toho-kaiju?sort=released,desc
-#    item_label.remove: "Toho EU"
-#    item_label: "Toho Kaiju"
-#    build_collection: false
+
+  Toho Kaiju:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
+    smart_label:
+      all:
+        label: <<smart_label>>
+        label.not: Godzilla
+    minimum_items: 1
+    sort_by: release.asc
 
 ########################################
 # Marvel/DC Movies
@@ -167,7 +172,7 @@ collections:
     item_label: DCU
 
 ########################################
-# SMART COLLECTIONS
+# OTHER
 ########################################
 
   "Tom's Watchlist":
@@ -223,14 +228,6 @@ collections:
         label: MonsterVerse
       sort_by: title.asc
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
-
-  Toho Kaiju:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju?sort=released,desc
-    smart_label:
-      all:
-        label: <<smart_label>>
-        label.not: Godzilla
-    minimum_items: 1
 
   Star Trek:
     plex_search:
