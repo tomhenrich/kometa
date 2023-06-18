@@ -118,7 +118,7 @@ collections:
 
   Studio Ghibli:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
-    sort_by: release.asc
+    collection_order: release
     item_label: Ghibli
 
   Toho Kaiju:
@@ -128,7 +128,7 @@ collections:
         label: <<smart_label>>
         label.not: Godzilla
     minimum_items: 1
-    sort_by: release.asc
+    collection_order: release
 
 ########################################
 # Marvel/DC Movies
