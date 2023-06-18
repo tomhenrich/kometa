@@ -1,42 +1,34 @@
 metadata:
-  Godzilla Raids Again:
-    alt_title: Gojira no Gyakushū
-    year: 1955
+
+# STAR WARS
   The Phantom Menace:
     alt_title: "Star Wars: Episode I - The Phantom Menace"
     year: 1999
     sort_title: Star Wars 1
-    label: Star Wars
   Attack of the Clones:
     alt_title: "Star Wars: Episode II - Attack of the Clones"
     year: 2002
     sort_title: Star Wars 2
-    label: Star Wars
   Revenge of the Sith:
     alt_title: "Star Wars: Episode III - Revenge of the Sith"
     year: 2005
     sort_title: Star Wars 3
-    label: Star Wars
   A New Hope:
     alt_title: "Star Wars"
     year: 1977
     sort_title: Star Wars 4
-    label: Star Wars
   The Empire Strikes Back:
     alt_title: "Star Wars: Episode V - The Empire Strikes Back"
     year: 1980
     sort_title: Star Wars 5
-    label: Star Wars
   Return of the Jedi:
     alt_title: "Star Wars: Episode VI - Return of the Jedi"
     year: 1983
     sort_title: Star Wars 6
-    label: Star Wars
   The Force Awakens:
     alt_title: "Star Wars: The Force Awakens"
     year: 2015
     sort_title: Star Wars 7
-    label: Star Wars
   The Last Jedi:
     alt_title: "Star Wars: The Last Jedi"
     year: 2017
@@ -46,34 +38,37 @@ metadata:
     alt_title: "Star Wars: The Rise of Skywalker"
     year: 2019
     sort_title: Star Wars 9
-    label: Star Wars
   Solo:
     alt_title: "Solo: A Star Wars Story"
     year: 2018
     sort_title: Star Wars 3.5
-    label: Star Wars
   Rogue One:
     alt_title: "Rogue One: A Star Wars Story"
     year: 2016
     sort_title: Star Wars 3.9
-    label: Star Wars
+  The LEGO Star Wars Holiday Special:
+    alt_title: The Lego Star Wars Holiday Special
+    year: 2020
+    sort_title: Star Wars 9999
+
+# MIDDLE EARTH
   "The Fellowship of the Ring":
     title: "The Lord of the Rings: The Fellowship of the Ring"
     year: 2001
     original_title: "The Lord of the Rings: The Fellowship of the Ring"
-    summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+    summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron."
     sort_title: LOTR 1
   "The Two Towers":
     title: "The Lord of the Rings: The Two Towers"
     year: 2002
     original_title: "The Lord of the Rings: The Two Towers"
-    summary: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    summary: "While Frodo and Sam edge closer to Mordor with the help of Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman."
     sort_title: LOTR 2
   "The Return of the King":
     title: "The Lord of the Rings: The Return of the King"
     year: 2003
     original_title: "The Lord of the Rings: The Return of the King"
-    summary: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    summary: "Gandalf and Aragorn lead the world of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
     sort_title: LOTR 3
   "The Hobbit: An Unexpected Journey":
     year: 2012
@@ -85,26 +80,19 @@ metadata:
     alt_title: "The Hobbit: The Battle of Five Armies"
     year: 2014
     sort_title: Hobbit 3
-  The Matrix:
-    sort_title: Matrix 1
-  The Animatrix:
-    sort_title: Matrix 1.5
-  The Matrix Reloaded:
-    sort_title: Matrix 2
-  The Matrix Revolutions:
-    sort_title: Matrix 3
-  The Matrix Resurrections:
-    sort_title: Matrix 4
-  Harakiri:
-    year: 1962
-    label: Samurai
-  Morbius:
-    year: 2022
-    label: MCEU
+
+# GODZILLA
+  Godzilla Raids Again:
+    alt_title: Gojira no Gyakushū
+    year: 1955
+
+# WIZARDING WORLD
   The Crimes of Grindelwald:
     alt_title: "Fantastic Beasts: The Crimes of Grindelwald"
   The Secrets of Dumbledore:
     alt_title: "Fantastic Beasts: The Secrets of Dumbledore"
+
+# CHRONICLES OF RIDDICK
   Pitch Black:
     sort_title: Riddick 1
   Dark Fury:
@@ -116,6 +104,8 @@ metadata:
     content_rating: Unrated
   Riddick:
     sort_title: Riddick 3
+
+# JURASSIC PARK
   Jurassic Park:
     sort_title: Jurassic Park 1
   "The Lost World: Jurassic Park":
