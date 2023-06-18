@@ -37,9 +37,6 @@ dynamic_collections:
       - 945984  # I Am Legend
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
-      ## Marvel/DC
-      - 120794  # Batman (Burton)
-      - 263     # Batman (Dark Knight)
       ## Toho Kaiju Series
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
@@ -81,7 +78,6 @@ dynamic_collections:
       464577: The Croods
       468222: The Incredibles
       9649: El Mariachi
-      120794: "Batman (Burton)"
       263: "Batman (Dark Knight)"
       2344: The Matrix
       115570: "Star Trek: TOS"
@@ -92,17 +88,17 @@ dynamic_collections:
 
       movie: # what movies should be part of collections but TMDB doesn't agree?
         10:         # Star Wars
-          - 330459
-          - 348350
-          - 74849
-          - 732670
-          - 12180
+          - 330459    #+ Rogue One
+          - 348350    #+ Solo
+          - 74849     #+ Holiday Special
+          - 732670    #+ Lego Holiday Special
+          - 12180     #+ The Clone Wars (2008)
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
         374509:     # Godzilla Showa
-          - 813157    # Godzilla, King of the Monsters (US)
-          - 329237    # Gigantis the Fire Monster (US Version of Godzilla Raids Again)
-          - 686487    # King Kong vs Godzilla (US)
+          - 813157    #+ Godzilla, King of the Monsters (US)
+          - 329237    #+ Gigantis the Fire Monster (US Version of Godzilla Raids Again)
+          - 686487    #+ King Kong vs Godzilla (US)
         328:        # Jurassic Park
           - 630322    #+ Battle at Big Rock
         645:        # James Bond
@@ -166,12 +162,6 @@ dynamic_collections:
         535313: MonsterVerse
         119: LOTR,Middle-Earth
         121938: Hobbit,Middle-Earth
-        748: MCEU  # X-Men Collection
-        120794: DC
-        263: DC
-        556: MCEU,"Spider-Man"
-        125574: MCEU,"Spider-Man"
-        573436: MCEU,"Spider-Man"
         151: Star Trek     # TOS
         115570: Star Trek  # TNG
         115575: Star Trek  # KEL
@@ -191,8 +181,8 @@ dynamic_collections:
         1137316: 1    # Godzilla (Reiwa)
 
       sort_title:
-        120794: "Batman - Burton"
-        263: "Batman - Dark Knight"
+        120794: "Batman 1: Burton"
+        263: "Batman 2: Dark Knight"
         556: "Spider-Man 2002"
         125574: "Spider-Man 2012"
         374509: Godzilla Era 1954
@@ -201,6 +191,9 @@ dynamic_collections:
         535313: Godzilla Era 2014
         1137316: Godzilla Era 2016
         535790: Godzilla Era 2017 Anime
+        151: Star Trek 1
+        115570: Star Trek 2
+        115575: Star Trek 3
 
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
