@@ -3,23 +3,33 @@ templates:
     optional:
       - collection
       - movie
+      - tmdb_summary
+      - summary
+      - order
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+    tmdb_summary: <<tmdb_summary>>
+    summary: <<summary>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
+
   tmdb_or_tag:
     optional:
       - collection
       - movie
       - tag
+      - tmdb_summary
+      - summary
+      - order
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+    tmdb_summary: <<tmdb_summary>>
     plex_search:
       all:
         label: <<tag>>
     sync_mode: sync
-    collection_order: release
+    collection_order: <<order>>
     move_prefix: The,A
   tmdb_keyword:
     tmdb_keyword: <<keyword>>
@@ -33,23 +43,37 @@ templates:
 #
 collections:
   Cloverfield:
-    template: {name: tmdb, movie: "7191, 333371, 384521"}
+    template:
+      name: tmdb
+      movie: 
+        - 7191    # Cloverfield
+        - 333371  # 10 Cloverfield Lane
+        - 384521  # Cloverfield Paradox
   Eastrail 177:
-    template: {name: tmdb, movie: "9741, 381288, 450465"}
+    template:
+      name: tmdb
+      movie: 
+        - 9741    # Unbreakable
+        - 381288  # Split
+        - 450465  # Glass
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
   I Am Legend:
-    template: {name: tmdb, collection: 945984, movie: "21159, 11234, 6479"}
+    template:
+      name: tmdb
+      collection: 945984
+      movie:
+        - 21159 # The Last Man on Earth
+        - 11234 # Omega Man
+        - 6479  # I Am Legend
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
   Kurosawa Samurai:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
     item_label: Samurai
-  The Manchurian Candidate:
-    template: {name: tmdb, movie: "982, 14462"}
-    name_mapping: Manchurian Candidate
-    summary: "Film adaptations of Richard Condon's 1959 novel about an American who is brainwashed into being an unwitting assassin."
   Serenity:
-    template: {name: tmdb, movie: 16320}
+    template:
+      name: tmdb
+      movie: 16320
     minimum_items: 1
     collection_mode: hide
 
@@ -60,15 +84,6 @@ collections:
     item_label: Godzilla
     sort_title: "Godzilla +"
 
-  Studio Ghibli:
-    template: {name: tmdb}
-    trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
-    item_label: Ghibli
-  Toho Extended Universe:
-    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/toho-kaiju?sort=released,desc
-    item_label.remove: "Toho EU"
-    item_label: "Toho Kaiju"
-    build_collection: false
   Universal Monsters:
     template:
       name: tmdb
@@ -89,60 +104,55 @@ collections:
         - 45322
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
   Vengeance Trilogy:
-    template: {name: tmdb, movie: "4689, 670, 4550"}
+    template:
+      name: tmdb
+      movie:
+        - 4689  # Sympathy for Mr Vengeance
+        - 670   # Oldboy
+        - 4550  # Lady Vengeance
     summary: "Park Chan-wook’s Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
 
 ########################################
-# Marvel Movies
+# TRAKT-BASED COLLECTIONS
+########################################
+
+  Studio Ghibli:
+    trakt_list_details: https://trakt.tv/users/draackje/lists/studio-ghibli-feature-films?sort=released,asc
+    item_label: Ghibli
+#  Toho Extended Universe:
+#    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/toho-kaiju?sort=released,desc
+#    item_label.remove: "Toho EU"
+#    item_label: "Toho Kaiju"
+#    build_collection: false
+
+########################################
+# Marvel/DC Movies
 ########################################
   Black Widow:
     template: {name: tmdb, movie: 497698}
+    item_label: MCU
     minimum_items: 1
   Incredible Hulk:
     template: {name: tmdb, movie: 1724}
     item_label: MCU
     minimum_items: 1
-  Spider-Man:
-    template:
-      name: tmdb
-      collection:
-        - 556     # Maguire
-        - 125574  # Garfield
-        - 531241  # Holland (Avengers)
-        - 573436  # Spider-Verse
-    summary: "Films starring the Marvel Comics character Peter Parker, who gains spider-like abilities and learns that with great power comes great responsibility."
-    item_label: Spider-Man
 
-  MCU:
-    build_collection: false
-    template:
-      name: tmdb
-      collection:
-        - 422834
-        - 86311
-        - 529892
-        - 131295
-        - 623911
-        - 618529
-        - 1011336
-        - 284433
-        - 131292
-        - 912503
-        - 531241
-        - 131296
-      movie:
-        - 497698
-        - 1724
-        - 894205
-  MCEU:
-    build_collection: false
-    trakt_list:
-      - https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=release,asc
+  Marvel Cinematic Universe:
+    trakt_list: https://trakt.tv/users/asterlea/lists/mcu?display=movie&sort=release,asc
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    item_label: MCU
+
+  Marvel Extended Universe:
+    trakt_list: https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=release,asc
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
     item_label: MCEU
-
-########################################
-# DC Movies
-########################################
 
   DC Universe:
     trakt_list: 
@@ -185,7 +195,6 @@ collections:
     label: noshare
     minimum_items: 1
 
-
   Non-English:
     smart_filter:
       any:
@@ -199,12 +208,6 @@ collections:
         director: Alfred Hitchcock
     collection_order: release
     collection_mode: hide_items
-
-  Marvel Cinematic Universe:
-    smart_filter:
-      any:
-        label: MCU
-      sort_by: release.asc
 
   Middle Earth:
     smart_label: title.asc
@@ -222,20 +225,12 @@ collections:
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
 
   Toho Kaiju:
-    plex_search:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju?sort=released,desc
+    smart_label:
       all:
-        label: "Toho Kaiju"
+        label: <<smart_label>>
         label.not: Godzilla
     minimum_items: 1
-
-
-  Marvel Extended Universe:
-    smart_filter:
-      any:
-        label: MCEU
-      sort_by: title.asc
-    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
-
 
   Star Trek:
     plex_search:
