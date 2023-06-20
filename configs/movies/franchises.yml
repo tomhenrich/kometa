@@ -78,7 +78,7 @@ dynamic_collections:
       464577: The Croods
       468222: The Incredibles
       9649: El Mariachi
-      263: "Batman (Dark Knight)"
+      263: The Dark Knight
       2344: The Matrix
       573436: "Spider-Verse"
       115570: "Star Trek: TOS"
@@ -127,8 +127,7 @@ dynamic_collections:
                     # must include any where title_override value starts with "The"
         1565: 28 Days Later
         115762: Aliens vs Predators
-        120794: "Batman (Burton)"
-        263: "Batman (Dark Knight)"
+        263: Dark Knight
         91697: Battlestar Galactica
         9485: Fast and Furious
         535313: Godzilla MonsterVerse
@@ -182,8 +181,8 @@ dynamic_collections:
         1137316: 1    # Godzilla (Reiwa)
 
       sort_title:
-        120794: "Batman 1: Burton"
-        263: "Batman 2: Dark Knight"
+        120794: "Batman C1: Burton"
+        263: "Batman C2: Dark Knight"
         556: "Spider-Man 2002"
         125574: "Spider-Man 2012"
         374509: Godzilla Era 1954
