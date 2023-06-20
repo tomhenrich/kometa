@@ -97,7 +97,7 @@ dynamic_collections:
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
         374509:     # Godzilla Showa
-          - 813157    #+ Godzilla, King of the Monsters (US)
+          - 18983     #+ Godzilla, King of the Monsters (US)
           - 329237    #+ Gigantis the Fire Monster (US Version of Godzilla Raids Again)
           - 686487    #+ King Kong vs Godzilla (US)
         328:        # Jurassic Park
@@ -197,3 +197,9 @@ dynamic_collections:
 
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
+        374509: "Godzilla films from the Showa era, 1954-1975."
+        374511: "Godzilla films from the Heisei era, 1984-1995. nicknamed the 'Versus Series'. The Heisei films follow a different continuity from the Showa films, ignoring every movie except the original 1954 Godzilla, all taking place in a single timeline."
+        374512: "Godzilla films from the Millennium series, 1999-2004. Most of its movies do not follow a set timeline or occur in the same continuity (except for Godzilla Against Mechagodzilla and Godzilla: Tokyo SOS)."
+        1137316: "Godzilla films released from 2016 onwards, concurrently with Legendary Pictures' MonsterVerse series of films, following an anthology format beginning with the standalone 2016 film 'Shin Godzilla' and branching off into the canonically unrelated Godzilla anime trilogy."
+
+
