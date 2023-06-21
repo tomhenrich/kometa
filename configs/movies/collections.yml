@@ -78,11 +78,13 @@ collections:
     collection_mode: hide
 
   Godzilla:
-    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/godzilla?sort=rank,asc
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/godzilla?sort=rank,asc
     summary: "The King of the Monsters."
+    sync_mode: sync
     collection_order: custom
     item_label: Godzilla
     sort_title: "Godzilla +"
+    build_collection: false
 
   Universal Monsters:
     template:
