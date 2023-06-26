@@ -46,7 +46,7 @@ dynamic_collections:
       - 259027  # Wolf-Man
       - 221537  # Creature from the Black Lagoon
 
-    append_addons: # combine collections
+    addons: # combine collections
       8091:       # Alien
         - 135416    #+ Prometheus
       1575:       # Rocky
