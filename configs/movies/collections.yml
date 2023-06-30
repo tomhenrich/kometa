@@ -86,6 +86,21 @@ collections:
     sort_title: "Godzilla +"
     build_collection: false
 
+  Gamera:
+    template:
+      name: tmdb
+      collection:
+        - 161766 # Showa
+        - 657313 # Heisei
+      movie: 
+        - 60160    # Gamera the Brave
+        - 664048  # Gamera (2015 fan short)
+      tag:
+        - 203502
+    sync_mode: sync
+    collection_order: release.asc
+    item_label: Toho Kaiju
+
   Universal Monsters:
     template:
       name: tmdb
