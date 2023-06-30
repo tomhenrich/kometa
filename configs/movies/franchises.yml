@@ -38,6 +38,8 @@ dynamic_collections:
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
       - 491768  # Toho Frankenstein/Gargantuas
+      - 161766  # Gamera (Showa)
+      - 657313  # Gamera (Heisei)
       ## Universal Monsters:
       - 221539  # Dracula
       - 218406  # Frankenstein
@@ -51,8 +53,6 @@ dynamic_collections:
         - 135416    #+ Prometheus
       1575:       # Rocky
         - 553717    #+ Creed
-      161766:     # Gamera
-        - 657313    #+ Gamera (Heisei)
 
     title_override:
       115762: Alien vs Predator
@@ -93,9 +93,6 @@ dynamic_collections:
           - 18983     #+ Godzilla, King of the Monsters (US)
           - 329237    #+ Gigantis the Fire Monster (US Version of Godzilla Raids Again)
           - 686487    #+ King Kong vs Godzilla (US)
-        161766:     # Gamera (Showa)
-          - 664048    #+ Gamera (2015 fan short)
-          - 60160     #+ Gamera the Brave
         328:        # Jurassic Park
           - 630322    #+ Battle at Big Rock
         645:        # James Bond
