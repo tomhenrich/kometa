@@ -60,7 +60,8 @@ collections:
   I Am Legend:
     template:
       name: tmdb
-      collection: 945984
+      collection:
+        - 945984 # I am Legend (Will Smith)
       movie:
         - 21159 # The Last Man on Earth
         - 11234 # Omega Man
@@ -76,16 +77,6 @@ collections:
       movie: 16320
     minimum_items: 1
     collection_mode: hide
-
-  Godzilla:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/godzilla?sort=rank,asc
-    summary: "The King of the Monsters."
-    sync_mode: sync
-    collection_order: custom
-    item_label: Godzilla
-    sort_title: "Godzilla +"
-    build_collection: false
-
   Gamera:
     template:
       name: tmdb
@@ -100,7 +91,6 @@ collections:
     sync_mode: sync
     collection_order: release.asc
     item_label: Toho Kaiju
-
   Universal Monsters:
     template:
       name: tmdb
@@ -123,7 +113,7 @@ collections:
   Vengeance Trilogy:
     template:
       name: tmdb
-      movie:
+      movie: 
         - 4689  # Sympathy for Mr Vengeance
         - 670   # Oldboy
         - 4550  # Lady Vengeance
@@ -132,6 +122,15 @@ collections:
 ########################################
 # TRAKT-BASED COLLECTIONS
 ########################################
+
+  Godzilla:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/godzilla?sort=rank,asc
+    summary: "The King of the Monsters."
+    sync_mode: sync
+    collection_order: custom
+    item_label: Godzilla
+    sort_title: "Godzilla +"
+    build_collection: false
 
   Studio Ghibli:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
