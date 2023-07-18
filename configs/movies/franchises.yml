@@ -4,17 +4,20 @@ templates:
       collection_order: release
       minimum_items: 2
     optional:
-      - add_movies
+      - collection
+      - movie
       - name_mapping
       - sort_title
+      - build_collection
       - item_label
       - summary
     cache_builders: 1
     minimum_items: <<minimum_items>>
     tmdb_collection_details: <<value>>
-    tmdb_movie: <<add_movies>>
+    tmdb_movie: <<movie>>
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    build_collection: <<build_collection>>
     sync_mode: sync
     collection_order: <<collection_order>>
     item_label: <<item_label>>
@@ -34,12 +37,14 @@ dynamic_collections:
       - 945984  # I Am Legend
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
+      - 1149089 # Vengeance Trilogy (unavailable on TMDB)
+      ## Marvel/DC
+      - 120794  # Batman (Burton)
+      - 263     # Batman (Dark Knight)
       ## Toho Kaiju Series
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
       - 491768  # Toho Frankenstein/Gargantuas
-      - 161766  # Gamera (Showa)
-      - 657313  # Gamera (Heisei)
       ## Universal Monsters:
       - 221539  # Dracula
       - 218406  # Frankenstein
@@ -49,12 +54,16 @@ dynamic_collections:
       - 221537  # Creature from the Black Lagoon
 
     addons: # combine collections
-      8091:      # Alien
+      8091:       # Alien
         - 135416    #+ Prometheus
-      1575:      # Rocky
-        - 553717   #+ Creed
-      8650:      # Transformers
-        - 939352   # Rise of the Beasts
+      86066:      # Despicable Me
+        - 544669    #+ Minions
+      1575:       # Rocky
+        - 553717    #+ Creed
+      748:        # X-Men
+        - 453993    #+ The Wolverine
+      161766:     # Gamera
+        - 657313    #+ Gamera (Heisei)
 
     title_override:
       115762: Alien vs Predator
@@ -73,7 +82,8 @@ dynamic_collections:
       464577: The Croods
       468222: The Incredibles
       9649: El Mariachi
-      263: The Dark Knight
+      120794: "Batman (Burton)"
+      263: "Batman (Dark Knight)"
       2344: The Matrix
       573436: "Spider-Verse"
       115570: "Star Trek: TOS"
@@ -82,21 +92,19 @@ dynamic_collections:
 
     template_variables:
 
-      add_movies: # what movies should be part of collections but TMDB doesn't agree?
+      movie: # what movies should be part of collections but TMDB doesn't agree?
         10:         # Star Wars
-          - 330459    #+ Rogue One
-          - 348350    #+ Solo
-          - 74849     #+ Holiday Special
-          - 732670    #+ Lego Holiday Special
-          - 12180     #+ The Clone Wars (2008)
+          - 330459
+          - 348350
+          - 74849
+          - 732670
+          - 12180
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
         374509:     # Godzilla Showa
-          - 18983     #+ Godzilla, King of the Monsters (US)
-          - 329237    #+ Gigantis the Fire Monster (US Version of Godzilla Raids Again)
-          - 686487    #+ King Kong vs Godzilla (US)
-        535313:     # Godzilla (Monsterverse)
-          - 823464    #+ Godzilla x Kong
+          - 813157    # Godzilla, King of the Monsters (US)
+          - 329237    # Gigantis the Fire Monster (US Version of Godzilla Raids Again)
+          - 686487    # King Kong vs Godzilla (US)
         328:        # Jurassic Park
           - 630322    #+ Battle at Big Rock
         645:        # James Bond
@@ -124,11 +132,16 @@ dynamic_collections:
                     # must include any where title_override value starts with "The"
         1565: 28 Days Later
         115762: Aliens vs Predators
-        263: Dark Knight
+        120794: "Batman (Burton)"
+        263: "Batman (Dark Knight)"
         91697: Battlestar Galactica
         9485: Fast and Furious
-        535313: Godzilla (MonsterVerse)
-        535790: Godzilla (Anime)
+        535313: Godzilla MonsterVerse
+        535790: Godzilla Anime
+        374509: Godzilla Showa
+        374511: Godzilla Heisei
+        374512: Godzilla Millennium
+        1137316: Godzilla Reiwa
         325470: LEGO Movies
         304: Oceans
         2794: Riddick
@@ -155,6 +168,12 @@ dynamic_collections:
         535313: MonsterVerse
         119: LOTR,Middle-Earth
         121938: Hobbit,Middle-Earth
+        748: MCEU  # X-Men Collection
+        120794: DC
+        263: DC
+        556: MCEU,"Spider-Man"
+        125574: MCEU,"Spider-Man"
+        573436: MCEU,"Spider-Man"
         151: Star Trek     # TOS
         115570: Star Trek  # TNG
         115575: Star Trek  # KEL
@@ -174,8 +193,10 @@ dynamic_collections:
         1137316: 1    # Godzilla (Reiwa)
 
       sort_title:
-        120794: "Batman C1: Burton"
-        263: "Batman C2: Dark Knight"
+        535313: "Godzilla 2014"
+        535790: "Godzilla 2017"
+        120794: "Batman (Burton)"
+        263: "Batman (Dark Knight)"
         556: "Spider-Man 2002"
         125574: "Spider-Man 2012"
         374509: Godzilla Era 1954
@@ -183,16 +204,6 @@ dynamic_collections:
         374512: Godzilla Era 1999
         535313: Godzilla Era 2014
         1137316: Godzilla Era 2016
-        535790: Godzilla Era 2017 Anime
-        151: Star Trek 1
-        115570: Star Trek 2
-        115575: Star Trek 3
 
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
-        374509: "Godzilla films from the Showa era, 1954-1975."
-        374511: "Godzilla films from the Heisei era, 1984-1995. nicknamed the 'Versus Series'. The Heisei films follow a different continuity from the Showa films, ignoring every movie except the original 1954 Godzilla, all taking place in a single timeline."
-        374512: "Godzilla films from the Millennium series, 1999-2004. Most of its movies do not follow a set timeline or occur in the same continuity (except for Godzilla Against Mechagodzilla and Godzilla: Tokyo SOS)."
-        1137316: "Godzilla films released from 2016 onwards, concurrently with Legendary Pictures' MonsterVerse series of films, following an anthology format beginning with the standalone 2016 film 'Shin Godzilla' and branching off into the canonically unrelated Godzilla anime trilogy."
-
-
