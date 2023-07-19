@@ -38,9 +38,6 @@ dynamic_collections:
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
       - 1149089 # Vengeance Trilogy (unavailable on TMDB)
-      ## Marvel/DC
-      - 120794  # Batman (Burton)
-      - 263     # Batman (Dark Knight)
       ## Toho Kaiju Series
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
@@ -82,8 +79,6 @@ dynamic_collections:
       464577: The Croods
       468222: The Incredibles
       9649: El Mariachi
-      120794: "Batman (Burton)"
-      263: "Batman (Dark Knight)"
       2344: The Matrix
       573436: "Spider-Verse"
       115570: "Star Trek: TOS"
@@ -126,14 +121,13 @@ dynamic_collections:
         748:        # X-Men
           - 340102    #+ New Mutants
         2344:       # The Matrix
-          - 55931    #+ Animatrix
+          - 55931     #+ Animatrix
 
       name_mapping: # where does the folder name not match the collection name?
                     # must include any where title_override value starts with "The"
         1565: 28 Days Later
         115762: Aliens vs Predators
-        120794: "Batman (Burton)"
-        263: "Batman (Dark Knight)"
+        263: "Dark Knight"
         91697: Battlestar Galactica
         9485: Fast and Furious
         535313: Godzilla MonsterVerse
@@ -193,16 +187,13 @@ dynamic_collections:
         1137316: 1    # Godzilla (Reiwa)
 
       sort_title:
-        120794: "Batman (Burton)"
         263: "Batman (Dark Knight)"
-        556: "Spider-Man 2002"
-        125574: "Spider-Man 2012"
         374509: Godzilla Era 1954
         374511: Godzilla Era 1984
         374512: Godzilla Era 1999
         535313: Godzilla Era 2014
         1137316: Godzilla Era 2016
-        535790: "Godzilla 2017"
+        535790: Godzilla Era 2017
 
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
