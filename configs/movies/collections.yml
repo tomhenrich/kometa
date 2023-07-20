@@ -77,20 +77,6 @@ collections:
       movie: 16320
     minimum_items: 1
     collection_mode: hide
-  Gamera:
-    template:
-      name: tmdb
-      collection:
-        - 161766 # Showa
-        - 657313 # Heisei
-      movie: 
-        - 60160    # Gamera the Brave
-        - 664048  # Gamera (2015 fan short)
-      tag:
-        - 203502
-    sync_mode: sync
-    collection_order: release.asc
-    item_label: Toho Kaiju
   Universal Monsters:
     template:
       name: tmdb
