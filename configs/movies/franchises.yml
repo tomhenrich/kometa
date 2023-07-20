@@ -94,8 +94,9 @@ dynamic_collections:
           - 74849
           - 732670
           - 12180
-        161766:    # Gamera
-          - 664048
+        161766:     # Gamera
+          - 60160     #+ Gamera the Brave
+          - 664048    #+ Gamera (2015 fan short)
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
         374509:     # Godzilla Showa
@@ -173,6 +174,7 @@ dynamic_collections:
         374509: Godzilla,GodzillaClassic  # Showa
         374511: Godzilla,GodzillaClassic  # Heisei
         374512: Godzilla,GodzillaClassic  # Millennium
+        161766: Toho Kaiju # Gamera
 
       collection_order:
         10: alpha     # Star Wars
