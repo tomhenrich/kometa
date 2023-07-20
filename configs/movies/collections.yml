@@ -244,7 +244,8 @@ collections:
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
 
   Star Trek:
-    plex_search:
-      all:
-        label: "Star Trek"
+    smart_filter:
+      any:
+        label: Star Trek
+      sort_by: release.asc
     summary: "All films from the iconic Star Trek franchise."
