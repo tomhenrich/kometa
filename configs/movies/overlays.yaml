@@ -1,0 +1,9 @@
+overlays:
+  versions:
+    name: versions
+    vertical_align: bottom
+    horizontal_align: left
+    plex_search:
+      all:
+        versions.gte: 2
+    repo: configs/overlays/versions.png
