@@ -1,10 +1,4 @@
 metadata:
-
-  M3GAN:
-    edition_contains: Unrated
-    content_rating: UR
-
-# STAR WARS
   The Phantom Menace:
     alt_title: "Star Wars: Episode I - The Phantom Menace"
     year: 1999
@@ -55,7 +49,7 @@ metadata:
     year: 2020
     sort_title: Star Wars 9999
 
-# MIDDLE EARTH
+# MIDDLE-EARTH
   "The Fellowship of the Ring":
     title: "The Lord of the Rings: The Fellowship of the Ring"
     year: 2001
@@ -89,34 +83,34 @@ metadata:
   Godzilla Raids Again:
     alt_title: Gojira no Gyakushū
     year: 1955
-
-  Godzilla vs. Biollante:
+  "Godzilla vs. Biollante":
     year: 1989
     summary: Concerned over Godzilla's possible return after the previous attack, the Japanese government uses his cells to create a new bioweapon, Anti-Nuclear Energy Bacteria. They enlist geneticist Genshiro Shiragami, whose experiments result in a new monstrous mutation.
   Godzilla vs. SpaceGodzilla:
     year: 1994
-    summary: Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole.
-
-  "Godzilla 2000: Millennium":
+    summary: "Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole."
+  Godzilla2000:
+    title: "Godzilla 2000: Millennium"
     year: 1999
     summary: Godzilla is a literal force of nature to Japan. Scientists find a sixty-million-year-old UFO deep in the Japan Trench. As they attempt to raise the UFO to study it, it takes off into the sky on its own, searching for genetic information that only Godzilla possesses.
-  Godzilla vs. Megaguirus:
+  "Godzilla vs. Megaguirus":
     year: 2000
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
-  "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack":
+  "GMKAllOutAttack":
+    title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack":
     year: 2001
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
   Godzilla Against MechaGodzilla:
     year: 2002
     summary: When a new Godzilla emerges, a cyborg version named Kiryu is constructed from the remains of the 1954 monster. The machine is discovered to harbor the restless soul of the original Godzilla as JSDF pilot Akane Yashiro must learn to find value in her own life as well.
-  "Godzilla: Tokyo S.O.S.":
+  GodzillaTokyoSOS:
+    title: "Godzilla: Tokyo S.O.S.":
     year: 2003
     summary: In this sequel to "Godzilla Against MechaGodzilla", Mothra and her fairies return to Japan to warn mankind that Kiryu must be returned to the sea, for the dead must not be disturbed. However, Godzilla has survived to menace Japan, leaving MechaGodzilla as the nation's only defense.
-  "Godzilla: Final Wars":
+  GodzillaFinalWars:
+    title: "Godzilla: Final Wars":
     year: 2004
     summary: Ignoring all prior movies, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla.
-
-
 
 
 # WIZARDING WORLD
