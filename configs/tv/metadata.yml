@@ -21,5 +21,9 @@ metadata:
     tmdb_show: 1972
     tvdb_show: 73545
     label.sync: Battlestar Galactica,Reboot
+  Firefly:
+    tmdb_show: 1437
+    tvdb_show: 78874
+    episode_ordering: tvdb_dvd
   Mystery Science Theater 3000:
     summary: "Joel Robinson is held captive by mad scientists, forced to watch B-Grade movies with his robot friends. (Limited episode availability due to haphazard DVD releases.)"
