@@ -24,6 +24,6 @@ metadata:
   Firefly:
     tmdb_show: 1437
     tvdb_show: 78874
-    episode_ordering: tvdb_dvd
+    episode_ordering: tvdb_absolute
   Mystery Science Theater 3000:
     summary: "Joel Robinson is held captive by mad scientists, forced to watch B-Grade movies with his robot friends. (Limited episode availability due to haphazard DVD releases.)"
