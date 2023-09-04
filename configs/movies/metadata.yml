@@ -147,3 +147,13 @@ metadata:
     sort_title: Jurassic World 2.5
   Jurassic World Dominion:
     sort_title: Jurassic World 3
+
+  Batman Returns:
+    year: 1992
+    summary: "While Batman deals with a deformed man calling himself the Penguin, an employee of a corrupt businessman transforms into the Catwoman."
+  Batman Forever:
+    year: 1995
+    summary: "Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat."
+  "Batman & Robin":
+    year: 1997
+    summary: "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City."
