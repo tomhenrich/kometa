@@ -162,10 +162,12 @@ metadata:
     alt_title: "Gamera: Guardian of the Universe"
     year: 1995
     summary: "A monstrous new species of bird appears just as a teenage girl is gifted an amulet that was found on a mysterious atoll. As the creatures begin to attack, an ancient guardian emerges."
-  "Gamera 2: Attack of Legion":
+  Gamera 2 Attack of Legion:
     alt_title: "Gamera 2: Attack of the Legion"
+    title: "Gamera 2: Attack of Legion"
     year: 1996
     summary: "A meteor lands in Japan and unleashes hundreds of insect-like 'Legion' creatures. Gamera shows up to deal with the ever-evolving adversary, but the battle may result in him losing his bond with humanity."
-  "Gamera 3: Revenge of Iris":
+  Gamera 3:
+    title: "Gamera 3: Revenge of Iris"
     year: 1999
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
