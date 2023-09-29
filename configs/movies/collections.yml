@@ -37,6 +37,15 @@ templates:
     collection_order: release
     move_prefix: The,A
 
+  Actor:
+    plex_search:
+      all:
+        actor: tmdb
+    tmdb_person: <<person>>
+    sort_title: "!_<<collection_name>>"
+    sync_mode: sync
+    collection_order: release
+
 #
 # CURATED COLLECTIONS
 # Curated -- either not official TMDB collections, or specific combinations of movies
@@ -231,13 +240,14 @@ collections:
 
   Best of Robin Williams:
     sort_title: Robin Williams
+    sort_by: release.asc
+    template:
+      name: Actor
+      person: 2157
     smart_filter:
-      all:
-        actor: Robin Williams
       any:
         audience_rating.gte: 7
         critic_rating.gte: 7
-      sort_by: release.asc
     summary: Films starring Robin Williams that received a 70% or higher score from critics or audiences.
 
   Star Trek:
