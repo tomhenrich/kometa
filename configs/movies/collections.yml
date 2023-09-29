@@ -42,9 +42,7 @@ templates:
       all:
         actor: tmdb
     tmdb_person: <<person>>
-    sort_title: "!_<<collection_name>>"
     sync_mode: sync
-    collection_order: release
 
 #
 # CURATED COLLECTIONS
