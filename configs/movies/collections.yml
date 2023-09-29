@@ -229,6 +229,14 @@ collections:
       sort_by: title.asc
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
 
+  Best of Robin Williams:
+    sort_title: Robin Williams
+    smart_filter:
+      all:
+        actor: Robin Williams
+        audience_rating.gte: 6
+      sort_by: release.asc
+
   Star Trek:
     smart_filter:
       any:
