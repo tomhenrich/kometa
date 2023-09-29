@@ -234,8 +234,11 @@ collections:
     smart_filter:
       all:
         actor: Robin Williams
-        audience_rating.gte: 6
+      any:
+        audience_rating.gte: 7
+        critic_rating.gte: 7
       sort_by: release.asc
+    summary: Films starring Robin Williams that received a 70% or higher score from critics or audiences.
 
   Star Trek:
     smart_filter:
