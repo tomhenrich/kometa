@@ -238,14 +238,12 @@ collections:
 
   Best of Robin Williams:
     sort_title: Robin Williams
-    template:
-      name: Actor
-      person: 2157
     smart_filter:
-      any:
+      all:
+        actor: tmdb
         audience_rating.gte: 7
-        critic_rating.gte: 7
-    summary: Films starring Robin Williams that received a 70% or higher score from critics or audiences.
+    tmdb_person: 2157
+    summary: Films starring Robin Williams that received a 70% or higher score from audiences.
 
   Star Trek:
     smart_filter:
