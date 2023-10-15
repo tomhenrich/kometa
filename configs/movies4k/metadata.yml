@@ -1,21 +1,21 @@
 metadata:
-  "The Fellowship of the Ring":
-    title: "The Lord of the Rings: The Fellowship of the Ring"
-    year: 2001
+  The Fellowship of the Ring:
+    match:
+      mapping_id: 120
     original_title: "The Lord of the Rings: The Fellowship of the Ring"
-    summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+    summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron."
     sort_title: LOTR 1
-  "The Two Towers":
-    title: "The Lord of the Rings: The Two Towers"
-    year: 2002
+  The Two Towers:
+    match:
+      mapping_id: 121
     original_title: "The Lord of the Rings: The Two Towers"
-    summary: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    summary: "While Frodo and Sam edge closer to Mordor with the help of Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman."
     sort_title: LOTR 2
-  "The Return of the King":
-    title: "The Lord of the Rings: The Return of the King"
-    year: 2003
+  The Return of the King:
+    match:
+      mapping_id: 122
     original_title: "The Lord of the Rings: The Return of the King"
-    summary: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    summary: "Gandalf and Aragorn lead the world of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
     sort_title: LOTR 3
   The Matrix:
     sort_title: Matrix 1
@@ -27,18 +27,28 @@ metadata:
     sort_title: Matrix 3
   The Matrix Resurrections:
     sort_title: Matrix 4
-  Godzilla (1954):
+  Godzilla1954:
+    match:
+      mapping_id: 1678
     title: Godzilla
     year: 1954
     sort_title: Godzilla 1954
     collection.remove: "Godzilla (Showa)"
-  Godzilla (2014):
+  Godzilla2014:
+    match:
+      mapping_id: 124905
     title: Godzilla
-    year: 2014
     sort_title: Godzilla MV 2014
     label: MonsterVerse
   GodzillaKOTM:
-    title: 'Godzilla: King of the Monsters'
-    year: 2019
+    match:
+      mapping_id: 373571
+    title: "Godzilla: King of the Monsters"
     sort_title: Godzilla MV 2019
+    label: MonsterVerse
+  GodzillaKong2021:
+    match:
+      mapping_id: 399566
+    title: "Godzilla vs. Kong"
+    sort_title: Godzilla MV 2021
     label: MonsterVerse
