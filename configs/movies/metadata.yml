@@ -45,11 +45,11 @@ metadata:
       mapping_id: 181812
     title: "Star Wars IX: The Rise of Skywalker"
     sort_title: Star Wars 9
-  "Solo: A Star Wars Story"
+  "Solo: A Star Wars Story":
     match:
       mapping_id: 348350
     sort_title: Star Wars 3.5
-  "Rogue One: A Star Wars Story"
+  "Rogue One: A Star Wars Story":
     match:
       mapping_id: 330459
     sort_title: Star Wars 3.9
