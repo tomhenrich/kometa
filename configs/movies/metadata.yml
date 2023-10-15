@@ -1,135 +1,166 @@
 metadata:
   The Phantom Menace:
-    alt_title: "Star Wars: Episode I - The Phantom Menace"
-    year: 1999
+    match:
+      mapping_id: 1893
+    title: "Star Wars I: The Phantom Menace"
     sort_title: Star Wars 1
   Attack of the Clones:
-    alt_title: "Star Wars: Episode II - Attack of the Clones"
-    year: 2002
+    match:
+      mapping_id: 1894
+    title: "Star Wars II: Attack of the Clones"
     sort_title: Star Wars 2
   Revenge of the Sith:
-    alt_title: "Star Wars: Episode III - Revenge of the Sith"
-    year: 2005
+    match:
+      mapping_id: 1895
+    title: "Star Wars III: Revenge of the Sith"
     sort_title: Star Wars 3
   A New Hope:
-    alt_title: "Star Wars"
-    year: 1977
+    match:
+      mapping_id: 11
+    title: "Star Wars V: A New Hope"
     sort_title: Star Wars 4
   The Empire Strikes Back:
-    alt_title: "Star Wars: Episode V - The Empire Strikes Back"
-    year: 1980
+    match:
+      mapping_id: 1891
+    title: "Star Wars V: The Empire Strikes Back"
     sort_title: Star Wars 5
   Return of the Jedi:
-    alt_title: "Star Wars: Episode VI - Return of the Jedi"
-    year: 1983
+    match:
+      mapping_id: 1892
+    title: "Star Wars VI: Return of the Jedi"
     sort_title: Star Wars 6
   The Force Awakens:
-    alt_title: "Star Wars: The Force Awakens"
-    year: 2015
+    match:
+      mapping_id: 140607
+    title: "Star Wars VII: The Force Awakens"
     sort_title: Star Wars 7
   The Last Jedi:
-    alt_title: "Star Wars: The Last Jedi"
-    year: 2017
+    match:
+      mapping_id: 181808
+    title: "Star Wars VIII: The Last Jedi"
     sort_title: Star Wars 8
     label: Star Wars
   The Rise of Skywalker:
-    alt_title: "Star Wars: The Rise of Skywalker"
-    year: 2019
+    match:
+      mapping_id: 181812
+    title: "Star Wars IX: The Rise of Skywalker"
     sort_title: Star Wars 9
-  Solo:
-    alt_title: "Solo: A Star Wars Story"
-    year: 2018
+  "Solo: A Star Wars Story"
+    match:
+      mapping_id: 348350
     sort_title: Star Wars 3.5
-  Rogue One:
-    alt_title: "Rogue One: A Star Wars Story"
-    year: 2016
+  "Rogue One: A Star Wars Story"
+    match:
+      mapping_id: 330459
     sort_title: Star Wars 3.9
   The LEGO Star Wars Holiday Special:
-    alt_title: The Lego Star Wars Holiday Special
-    year: 2020
+    match:
+      mapping_id: 732670
     sort_title: Star Wars 9999
 
 # MIDDLE-EARTH
-  "The Fellowship of the Ring":
-    title: "The Lord of the Rings: The Fellowship of the Ring"
-    year: 2001
+  The Fellowship of the Ring:
+    match:
+      mapping_id: 120
     original_title: "The Lord of the Rings: The Fellowship of the Ring"
     summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron."
     sort_title: LOTR 1
-  "The Two Towers":
-    title: "The Lord of the Rings: The Two Towers"
-    year: 2002
+  The Two Towers:
+    match:
+      mapping_id: 121
     original_title: "The Lord of the Rings: The Two Towers"
     summary: "While Frodo and Sam edge closer to Mordor with the help of Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman."
     sort_title: LOTR 2
-  "The Return of the King":
-    title: "The Lord of the Rings: The Return of the King"
-    year: 2003
+  The Return of the King:
+    match:
+      mapping_id: 122
     original_title: "The Lord of the Rings: The Return of the King"
     summary: "Gandalf and Aragorn lead the world of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
     sort_title: LOTR 3
   "The Hobbit: An Unexpected Journey":
-    year: 2012
+    match:
+      mapping_id: 49051
     sort_title: Hobbit 1
   "The Hobbit: The Desolation of Smaug":
-    year: 2013
+    match:
+      mapping_id: 57158
     sort_title: Hobbit 2
   "The Hobbit: The Battle of the Five Armies":
-    alt_title: "The Hobbit: The Battle of Five Armies"
-    year: 2014
+    match:
+      mapping_id: 122917
     sort_title: Hobbit 3
 
 # GODZILLA
   Godzilla Raids Again:
+    match:
+      mapping_id: 1679
     alt_title: Gojira no Gyakushū
     year: 1955
   "Godzilla vs. Biollante":
-    year: 1989
+    match:
+      mapping_id: 18289
     summary: Concerned over Godzilla's possible return after the previous attack, the Japanese government uses his cells to create a new bioweapon, Anti-Nuclear Energy Bacteria. They enlist geneticist Genshiro Shiragami, whose experiments result in a new monstrous mutation.
   Godzilla vs. SpaceGodzilla:
-    year: 1994
+    match:
+      mapping_id: 39466
     summary: "Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole."
-  Godzilla2000:
+  Godzilla 2000:
+    match:
+      mapping_id: 10643
     title: "Godzilla 2000: Millennium"
-    year: 1999
     summary: Godzilla is a literal force of nature to Japan. Scientists find a sixty-million-year-old UFO deep in the Japan Trench. As they attempt to raise the UFO to study it, it takes off into the sky on its own, searching for genetic information that only Godzilla possesses.
-  "Godzilla vs. Megaguirus":
-    year: 2000
+  Godzilla vs. Megaguirus:
+    match:
+      mapping_id: 39468
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
-  "GMKAllOutAttack":
+  GMKAllOutAttack:
+    match:
+      mapping_id: 36243
     title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack"
-    year: 2001
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
   Godzilla Against MechaGodzilla:
-    year: 2002
+    match:
+      mapping_id: 12636
     summary: When a new Godzilla emerges, a cyborg version named Kiryu is constructed from the remains of the 1954 monster. The machine is discovered to harbor the restless soul of the original Godzilla as JSDF pilot Akane Yashiro must learn to find value in her own life as well.
   GodzillaTokyoSOS:
+    match:
+      mapping_id: 39469
     title: "Godzilla: Tokyo S.O.S."
     year: 2003
     summary: In this sequel to "Godzilla Against MechaGodzilla", Mothra and her fairies return to Japan to warn mankind that Kiryu must be returned to the sea, for the dead must not be disturbed. However, Godzilla has survived to menace Japan, leaving MechaGodzilla as the nation's only defense.
   GodzillaFinalWars:
     title: "Godzilla: Final Wars"
     year: 2004
-    summary: "Ignoring all prior movies, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla."
+    summary: "Ignoring all prior movies from this era, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla."
 
 
 # WIZARDING WORLD
   The Crimes of Grindelwald:
+    match:
+      mapping_id: 338952
     alt_title: "Fantastic Beasts: The Crimes of Grindelwald"
   The Secrets of Dumbledore:
+    match:
+      mapping_id: 338953
     alt_title: "Fantastic Beasts: The Secrets of Dumbledore"
 
 # CHRONICLES OF RIDDICK
   Pitch Black:
     sort_title: Riddick 1
   Dark Fury:
+    match:
+      mapping_id: 2791
     alt_title: "The Chronicles of Riddick: Dark Fury"
     sort_title: Riddick 1.5
   The Chronicles of Riddick:
+    match:
+      mapping_id: 2789
     sort_title: Riddick 2
     edition: "Director's Cut"
     content_rating: Unrated
   Riddick:
+    match:
+      mapping_id: 87421
     sort_title: Riddick 3
 
 # JURASSIC PARK
@@ -158,18 +189,17 @@ metadata:
     year: 1997
     summary: "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City."
 
-  "Gamera, the Guardian of the Universe":
-    alt_title: "Gamera: Guardian of the Universe"
-    year: 1995
+  "Gamera: the Guardian of the Universe":
+    match:
+      mapping_id: 54433
     summary: "A monstrous new species of bird appears just as a teenage girl is gifted an amulet that was found on a mysterious atoll. As the creatures begin to attack, an ancient guardian emerges."
-  Gamera 2 Attack of Legion:
-    alt_title: "Gamera 2: Attack of the Legion"
-    title: "Gamera 2: Attack of Legion"
-    year: 1996
+  "Gamera 2: Attack of Legion":
+    match:
+      mapping_id: 59480
     summary: "A meteor lands in Japan and unleashes hundreds of insect-like 'Legion' creatures. Gamera shows up to deal with the ever-evolving adversary, but the battle may result in him losing his bond with humanity."
-  Gamera 3:
-    title: "Gamera 3: Revenge of Iris"
-    year: 1999
+  "Gamera 3: Revenge of Iris":
+    match:
+      mapping_id: 60159
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
 
   Princess Mononoke:
