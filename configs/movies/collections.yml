@@ -156,6 +156,7 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     item_label: MCU
+    validate: false
 
   Marvel Extended Universe:
     trakt_list: https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=release,asc
@@ -165,6 +166,7 @@ collections:
       sort_by: release.asc
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
     item_label: MCEU
+    validate: false
 
   DC Universe:
     trakt_list: 
@@ -177,6 +179,7 @@ collections:
       sort_by: release.asc
     minimum_items: 1
     item_label: DCU
+    validate: false
 
 ########################################
 # OTHER
