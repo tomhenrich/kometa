@@ -18,20 +18,13 @@ metadata:
     summary: "Gandalf and Aragorn lead the world of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
     sort_title: LOTR 3
   The Matrix:
+    match:
+      mapping_id: 603
     sort_title: Matrix 1
-  The Animatrix:
-    sort_title: Matrix 1.5
-  The Matrix Reloaded:
-    sort_title: Matrix 2
-  The Matrix Revolutions:
-    sort_title: Matrix 3
-  The Matrix Resurrections:
-    sort_title: Matrix 4
   Godzilla1954:
     match:
       mapping_id: 1678
     title: Godzilla
-    year: 1954
     sort_title: Godzilla 1954
     collection.remove: "Godzilla (Showa)"
   Godzilla2014:
