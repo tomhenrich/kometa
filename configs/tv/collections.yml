@@ -54,8 +54,8 @@ collections:
     plex_search:
       all:
         label: Battlestar Galactica, Reboot
-    minimum_items: 2
-    collection_mode: hide_items
+    minimum_items: 1
+    collection_mode: hide
   Letterkenny:
     template: {name: tmdb, show: "65798, 158756"}
   Middle Earth:
