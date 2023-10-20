@@ -17,7 +17,7 @@ metadata:
   A New Hope:
     match:
       mapping_id: 11
-    title: "Star Wars V: A New Hope"
+    title: "Star Wars IV: A New Hope"
     sort_title: Star Wars 4
   The Empire Strikes Back:
     match:
