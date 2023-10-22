@@ -20,7 +20,7 @@ templates:
         label: <<tag>>
     summary: <<summary>>
     sync_mode: sync
-    collection_order: release
+    collection_order: release_date
     move_prefix: The,A
 
 collections:
