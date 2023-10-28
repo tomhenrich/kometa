@@ -91,10 +91,16 @@ metadata:
     sort_title: Hobbit 3
 
 # GODZILLA
+  Godzilla1954:
+    match:
+      mapping_id: 1678
+    title: Godzilla
   Godzilla Raids Again:
     match:
       mapping_id: 1679
-    year: 1955
+      year: 1955
+      title: Gojira no Gyakushū
+    title: Godzilla Raids Again
   "Godzilla vs. Biollante":
     match:
       mapping_id: 18289
