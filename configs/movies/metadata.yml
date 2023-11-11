@@ -170,16 +170,28 @@ metadata:
   Jurassic Park:
     sort_title: Jurassic Park 1
   "The Lost World: Jurassic Park":
+    match:
+      mapping_id: 330
     sort_title: Jurassic Park 2
   Jurassic Park III:
+    match:
+      mapping_id: 331
     sort_title: Jurassic Park 3
   Jurassic World:
+    match:
+      mapping_id: 135397
     sort_title: Jurassic World 1
   "Jurassic World: Fallen Kingdom":
+    match:
+      mapping_id: 351286
     sort_title: Jurassic World 2
   Battle at Big Rock:
+    match:
+      mapping_id: 630322
     sort_title: Jurassic World 2.5
   Jurassic World Dominion:
+    match:
+      mapping_id: 507086
     sort_title: Jurassic World 3
 
   Batman Returns:
@@ -189,6 +201,8 @@ metadata:
     year: 1995
     summary: "Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat."
   "Batman & Robin":
+    match:
+      mapping_id: 415
     year: 1997
     summary: "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City."
 
@@ -206,5 +220,7 @@ metadata:
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
 
   Princess Mononoke:
+    match:
+      mapping_id: 128
     year: 1997
     summary: "Ashitaka is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he meets San, a human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it."
