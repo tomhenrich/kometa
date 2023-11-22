@@ -39,6 +39,7 @@ dynamic_collections:
       - 578704  # Edge of Tomorrow
       - 1162276 # Shin Japan Heroes
       - 1149089 # Vengeance Trilogy (unavailable on TMDB)
+      - 1198260 # Star Wars Anthology Series (unavailable on TMDB)
       ## Toho Kaiju Series
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
@@ -62,6 +63,9 @@ dynamic_collections:
         - 453993    #+ The Wolverine
       161766:     # Gamera
         - 657313    #+ Gamera (Heisei)
+      10:         # Star Wars
+        - 392331    #+ LEGO Star Wars
+        - 1004630   #+ LEGO Star Wars (Seasonal)
 
     title_override:
       115762: Alien vs Predator
