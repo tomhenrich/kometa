@@ -94,11 +94,12 @@ dynamic_collections:
 
       movie: # what movies should be part of collections but TMDB doesn't agree?
         10:         # Star Wars
-          - 330459
-          - 348350
-          - 74849
-          - 732670
-          - 12180
+          - 330459    # Rogue One
+          - 348350    # Solo
+          - 74849     # Holiday Special
+          - 765673    # Disturbance in the Force
+          - 732670    # LEGO Holiday Special
+          - 12180     # The Clone Wars animated movie
         161766:     # Gamera
           - 60160     #+ Gamera the Brave
           - 664048    #+ Gamera (2015 fan short)
