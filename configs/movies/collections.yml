@@ -158,7 +158,8 @@ collections:
     item_label: MCU
 
   Marvel Extended Universe:
-    trakt_list: https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=release,asc
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/mceu?display=movie&sort=released,desc
+    # https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=release,asc
     smart_label:
       all:
         label: <<smart_label>>
