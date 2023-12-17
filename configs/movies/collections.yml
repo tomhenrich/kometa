@@ -168,9 +168,9 @@ collections:
 
   DC Universe:
     trakt_list: 
-      - https://trakt.tv/users/zosoleary/lists/dc-cinematic-universe
-      - https://trakt.tv/users/malicekodi2/lists/dc
-      - https://trakt.tv/lists/20583443
+      - https://trakt.tv/users/zosoleary/lists/dc-cinematic-universe?display=movie&sort=release,asc
+      - https://trakt.tv/users/malicekodi2/lists/dc?display=movie&sort=release,asc
+      - https://trakt.tv/lists/20583443?display=movie&sort=release,asc
     smart_label:
       all:
         label: <<smart_label>>
@@ -183,7 +183,7 @@ collections:
 ########################################
 
   "Tom's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?sort=rank,asc
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie&sort=rank,asc
     smart_label:
       all:
         label: <<smart_label>>
@@ -195,8 +195,8 @@ collections:
 
   "Sarah's Watchlist":
     trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?sort=title,asc
-      - https://trakt.tv/users/nursesawa/watchlist?sort=rank,asc
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie&sort=rank,asc
+      - https://trakt.tv/users/nursesawa/watchlist?display=movie&sort=rank,asc
     smart_label:
       all:
         label: <<smart_label>>
