@@ -149,7 +149,8 @@ collections:
     minimum_items: 1
 
   Marvel Cinematic Universe:
-    trakt_list: https://trakt.tv/users/asterlea/lists/mcu?display=movie&sort=release,asc
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/mcu?display=movie&sort=released,desc
+    # https://trakt.tv/users/asterlea/lists/mcu?display=movie&sort=release,asc
     smart_label:
       all:
         label: <<smart_label>>
