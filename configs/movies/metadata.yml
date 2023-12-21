@@ -61,7 +61,11 @@ metadata:
   The LEGO Star Wars Holiday Special:
     match:
       mapping_id: 732670
-    sort_title: Star Wars 9999
+    sort_title: Star Wars 900
+  A Disturbance in the Force:
+    match:
+      mapping_id: 765673
+    sort_title: Star Wars 999
 
 # MIDDLE-EARTH
   The Fellowship of the Ring:
