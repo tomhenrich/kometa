@@ -239,3 +239,19 @@ metadata:
       mapping_id: 128
     year: 1997
     summary: "Ashitaka is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he meets San, a human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it."
+
+  Daimajin:
+    match:
+      mapping_id: 28719
+    year: 1966
+    sort_title: Daimajin 1
+  Return of Daimajin:
+    match:
+      mapping_id: 28857
+    year: 1966
+    sort_title: Daimajin 2
+  Wrath of Daimajin:
+    match:
+      mapping_id: 28856
+    year: 1966
+    sort_title: Daimajin 3
