@@ -222,6 +222,11 @@ collections:
     collection_order: release
     collection_mode: hide_items
 
+  Laika:
+    smart_filter:
+      all:
+        studio: Laika Entertainment
+
   Middle Earth:
     smart_label: title.asc
     tmdb_collection:
