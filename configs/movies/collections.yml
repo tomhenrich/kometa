@@ -226,7 +226,7 @@ collections:
     smart_filter:
       all:
         studio.begins: Laika
-    collection_order: release
+    sort_by: release.asc
 
   Middle Earth:
     smart_label: title.asc
@@ -245,6 +245,7 @@ collections:
 
   Best of Robin Williams:
     sort_title: Robin Williams
+    sort_by: release.asc
     smart_filter:
       all:
         actor: tmdb
