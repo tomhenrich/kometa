@@ -225,7 +225,7 @@ collections:
   Laika:
     smart_filter:
       all:
-        studio: Laika Entertainment
+        studio.begins: Laika
 
   Middle Earth:
     smart_label: title.asc
