@@ -4,6 +4,10 @@ metadata:
       mapping_id: 603
     summary: "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth."
 
+# ####################
+# STAR WARS
+# ####################
+
   The Phantom Menace:
     match:
       mapping_id: 1893
@@ -67,7 +71,10 @@ metadata:
       mapping_id: 765673
     sort_title: Star Wars 999
 
+# ####################
 # MIDDLE-EARTH
+# ####################
+
   The Fellowship of the Ring:
     match:
       mapping_id: 120
@@ -99,60 +106,93 @@ metadata:
       mapping_id: 122917
     sort_title: Hobbit 3
 
+
+# ####################
 # GODZILLA
-  Godzilla1954:
-    match:
-      mapping_id: 1678
+# ####################
+
+  1678: #-- Godzilla
     title: Godzilla
-  Godzilla Raids Again:
-    match:
-      mapping_id: 1679
-      year: 1955
-      title: Gojira no Gyakushū
+    sort_title: Godzilla Era 1 - 1
+  1679: #-- Godzilla Raids Again
     title: Godzilla Raids Again
-  "Godzilla vs. Biollante":
-    match:
-      mapping_id: 18289
+    sort_title: Godzilla Era 1 - 2
+  1680: #-- King Kong vs. Godzilla
+    sort_title: Godzilla Era 1 - 3
+  1682: #-- Mothra vs. Godzilla
+    sort_title: Godzilla Era 1 - 4
+  15766: #-- Ghidorah, the Three-Headed Monster
+    sort_title: Godzilla Era 1 - 5
+  19545: #-- Invasion of Astro-Monster
+    sort_title: Godzilla Era 1 - 6
+  3115: #-- Ebirah, Horror of the Deep
+    sort_title: Godzilla Era 1 - 7
+  18627: #-- Son of Godzilla
+    sort_title: Godzilla Era 1 - 8
+  3107: #-- Destroy All Monsters
+    sort_title: Godzilla Era 1 - 9
+  39462: #-- All Monsters Attack
+    sort_title: Godzilla Era 1 - 10
+  39464: #-- Godzilla vs. Hedorah
+    sort_title: Godzilla Era 1 - 11
+  19336: #-- Godzilla vs. Gigan
+    sort_title: Godzilla Era 1 - 12
+  39264: #-- Godzilla vs. Megalon
+    sort_title: Godzilla Era 1 - 13
+  38582: #-- Godzilla vs. Mechagodzilla
+    sort_title: Godzilla Era 1 - 14
+  19333: #-- Terror of Mechagodzilla
+    sort_title: Godzilla Era 1 - 15
+
+  18983: #-- Godzilla KOTM (US)
+    sort_title: Godzilla Era 1 - 2.5
+  813157: #-- KKvsG (US)
+    sort_title: Godzilla Era 1 - 3.5
+
+  421467: #-- Return of Godzilla
+    sort_title: Godzilla Era 2 - 1
+  18289: #-- Godzilla vs. Biollante
+    sort_title: Godzilla Era 2 - 2
     summary: Concerned over Godzilla's possible return after the previous attack, the Japanese government uses his cells to create a new bioweapon, Anti-Nuclear Energy Bacteria. They enlist geneticist Genshiro Shiragami, whose experiments result in a new monstrous mutation.
-  Godzilla vs. SpaceGodzilla:
-    match:
-      mapping_id: 39466
+  36679: #-- Godzilla vs. King Ghidorah
+    sort_title: Godzilla Era 2 - 3
+  39465: #-- Godzilla vs. Mothra
+    sort_title: Godzilla Era 2 - 4
+  6593: #-- Godzilla vs. MechaGodzilla II
+    sort_title: Godzilla Era 2 - 5
+  39466: #-- Godzilla vs. SpaceGodzilla
+    sort_title: Godzilla Era 2 - 6
     summary: "Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole."
-  Godzilla 2000:
-    match:
-      mapping_id: 10643
+  12561: #-- Godzilla vs. Destoroyah
+    sort_title: Godzilla Era 2 - 7
+
+  10643: #-- Godzilla 2000
     title: "Godzilla 2000: Millennium"
+    sort_title: Godzilla Era3 - 1
     summary: Godzilla is a literal force of nature to Japan. Scientists find a sixty-million-year-old UFO deep in the Japan Trench. As they attempt to raise the UFO to study it, it takes off into the sky on its own, searching for genetic information that only Godzilla possesses.
-  Godzilla vs. Megaguirus:
-    match:
-      mapping_id: 39468
+  39468: #-- Godzilla vs. Megaguirus
+    sort_title: Godzilla Era3 - 2
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
-  GMKAllOutAttack:
-    match:
-      mapping_id: 36243
-    title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack"
+  36243: #-- GMK
+    sort_title: Godzilla Era3 - 3
+    title: "Giant Monsters All-Out Attack":
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
-  Godzilla Against MechaGodzilla:
-    match:
-      mapping_id: 12636
+  12636: #-- Godzilla Against MechaGodzilla
+    sort_title: Godzilla Era3 - 4
     summary: When a new Godzilla emerges, a cyborg version named Kiryu is constructed from the remains of the 1954 monster. The machine is discovered to harbor the restless soul of the original Godzilla as JSDF pilot Akane Yashiro must learn to find value in her own life as well.
-  "Godzilla: Tokyo S.O.S.":
-    match:
-      mapping_id: 39469
+  39469: #-- Godzilla Tokyo SOS
+    sort_title: Godzilla Era3 - 5
     summary: In this sequel to "Godzilla Against MechaGodzilla", Mothra and her fairies return to Japan to warn mankind that Kiryu must be returned to the sea, for the dead must not be disturbed. However, Godzilla has survived to menace Japan, leaving MechaGodzilla as the nation's only defense.
-  "Godzilla: Final Wars":
-    match:
-      mapping_id: 15767
+  15767: #-- Godzilla Final Wars
+    sort_title: Godzilla Era3 - 6
     summary: "Ignoring all prior movies from this era, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla."
-  Godzilla1998:
-    match:
-      mapping_id: 929
-      year: 1998
+
+  929: #-- Godzilla 1998
     title: Godzilla
-    sort_title: "Godzilla Era 98"
+    sort_title: Godzilla Era 98
 
+# ####################
 
-# WIZARDING WORLD
   The Crimes of Grindelwald:
     match:
       mapping_id: 338952
@@ -162,77 +202,84 @@ metadata:
       mapping_id: 338953
     alt_title: "Fantastic Beasts: The Secrets of Dumbledore"
 
-# CHRONICLES OF RIDDICK
+# ####################
+
   Pitch Black:
-    sort_title: Riddick 1
+    sort_title: Chronicles of Riddick 1
   Dark Fury:
     match:
       mapping_id: 2791
     alt_title: "The Chronicles of Riddick: Dark Fury"
-    sort_title: Riddick 1.5
+    sort_title: Chronicles of Riddick 1.5
   The Chronicles of Riddick:
     match:
       mapping_id: 2789
-    sort_title: Riddick 2
+    sort_title: Chronicles of Riddick 2
     edition: "Director's Cut"
     content_rating: Unrated
   Riddick:
     match:
       mapping_id: 87421
-    sort_title: Riddick 3
+    sort_title: Chronicles of Riddick 3
 
-# JURASSIC PARK
-  Jurassic Park:
+# ####################
+
+  329:
     sort_title: Jurassic Park 1
-  "The Lost World: Jurassic Park":
-    match:
-      mapping_id: 330
+  330: 
     sort_title: Jurassic Park 2
-  Jurassic Park III:
-    match:
-      mapping_id: 331
+  331: 
     sort_title: Jurassic Park 3
-  Jurassic World:
-    match:
-      mapping_id: 135397
+  135397: 
     sort_title: Jurassic World 1
-  "Jurassic World: Fallen Kingdom":
-    match:
-      mapping_id: 351286
+  351286: 
     sort_title: Jurassic World 2
-  Battle at Big Rock:
-    match:
-      mapping_id: 630322
+  630322: #-- Battle at Big Rock
     sort_title: Jurassic World 2.5
-  Jurassic World Dominion:
-    match:
-      mapping_id: 507086
+  507086: 
     sort_title: Jurassic World 3
 
-  Batman Returns:
-    year: 1992
+
+# ####################
+
+  268:
+    sort_title: Batman 1
+  364:
+    sort_title: Batman 2
     summary: "While Batman deals with a deformed man calling himself the Penguin, an employee of a corrupt businessman transforms into the Catwoman."
-  Batman Forever:
-    year: 1995
+  414:
+    sort_title: Batman 3
     summary: "Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat."
-  "Batman & Robin":
-    match:
-      mapping_id: 415
-    year: 1997
+  415:
+    sort_title: Batman 4
     summary: "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City."
+
+  272:
+    sort_title: Dark Knight 1
+  155:
+    sort_title: Dark Knight 2
+  49026:
+    sort_title: Dark Knight 3
+
+# ####################
 
   "Gamera: the Guardian of the Universe":
     match:
       mapping_id: 54433
     summary: "A monstrous new species of bird appears just as a teenage girl is gifted an amulet that was found on a mysterious atoll. As the creatures begin to attack, an ancient guardian emerges."
+    sort_title: Gamera Heisei 1
   "Gamera 2: Attack of Legion":
     match:
       mapping_id: 59480
     summary: "A meteor lands in Japan and unleashes hundreds of insect-like 'Legion' creatures. Gamera shows up to deal with the ever-evolving adversary, but the battle may result in him losing his bond with humanity."
+    sort_title: Gamera Heisei 2
   "Gamera 3: Revenge of Iris":
     match:
       mapping_id: 60159
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
+    sort_title: Gamera Heisei 3
+
+# ####################
 
   Princess Mononoke:
     match:
@@ -240,21 +287,7 @@ metadata:
     year: 1997
     summary: "Ashitaka is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he meets San, a human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it."
 
-  Daimajin:
-    match:
-      mapping_id: 28719
-    year: 1966
-    sort_title: Daimajin 1
-  Return of Daimajin:
-    match:
-      mapping_id: 28857
-    year: 1966
-    sort_title: Daimajin 2
-  Wrath of Daimajin:
-    match:
-      mapping_id: 28856
-    year: 1966
-    sort_title: Daimajin 3
+# ####################
 
   36647:
     sort_title: Blade 1
