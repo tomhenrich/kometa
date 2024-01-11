@@ -226,7 +226,7 @@ collections:
     smart_filter:
       all:
         studio.begins: Laika
-    sort_by: release.asc
+      sort_by: release.asc
 
   Middle Earth:
     smart_label: title.asc
