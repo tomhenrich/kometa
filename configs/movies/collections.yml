@@ -118,14 +118,6 @@ collections:
 # TRAKT-BASED COLLECTIONS
 ########################################
 
-  Godzilla:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/godzilla?sort=rank,asc
-    summary: "The King of the Monsters."
-    collection_order: custom
-    item_label: Godzilla
-    sort_title: "Godzilla +"
-    build_collection: false
-
   Studio Ghibli:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
     collection_order: release
@@ -245,11 +237,11 @@ collections:
 
   Best of Robin Williams:
     sort_title: Robin Williams
-    sort_by: release.asc
     smart_filter:
       all:
         actor: tmdb
         audience_rating.gte: 7
+      sort_by: release.asc
     tmdb_person: 2157
     summary: Films starring Robin Williams that received a 70% or higher score from audiences.
 
