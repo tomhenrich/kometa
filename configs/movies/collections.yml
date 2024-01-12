@@ -113,6 +113,15 @@ collections:
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
     collection_order: release
     name_mapping: "Vengeance Trilogy"
+  Wonka:
+    template:
+      name: tmdb
+      movie:
+        - 252
+        - 118
+        - 787699
+    summary: "Come with me... and you'll be... in a world of pure imagination..."
+    collection_order: release
 
 ########################################
 # TRAKT-BASED COLLECTIONS
