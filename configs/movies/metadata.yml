@@ -114,8 +114,12 @@ metadata:
 # GODZILLA
 # ####################
 
-  1678: #-- Godzilla
+  Gozilla: #-- Godzilla
     title: Godzilla
+    match:
+      mapping_id: 1678
+      title: Godzilla
+      year: 1954
     sort_title: Godzilla Era 1 - 1
   1679: #-- Godzilla Raids Again
     title: Godzilla Raids Again
