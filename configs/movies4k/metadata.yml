@@ -21,12 +21,6 @@ metadata:
     match:
       mapping_id: 603
     sort_title: Matrix 1
-  Godzilla1954:
-    match:
-      mapping_id: 1678
-    title: Godzilla
-    sort_title: Godzilla 1954
-    collection.remove: "Godzilla (Showa)"
   Godzilla2014:
     match:
       mapping_id: 124905
