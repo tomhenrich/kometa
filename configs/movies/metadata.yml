@@ -6,7 +6,40 @@ metadata:
 
   85:
     sort_title: Indiana Jones 1
+  87:
+    sort_title: Indiana Jones 2
+  89:
+    sort_title: Indiana Jones 3
+  217:
+    sort_title: Indiana Jones 4
+  335977:
+    sort_title: Indiana Jones 5
 
+  353486:
+    sort_title: Jumanji 2
+  512200:
+    sort_title: Jumanji 3
+
+
+  608:
+    sort_title: Men in Black 2
+  479455:
+    sort_title: Men in Black 4
+
+  564:
+    sort_title: Mummy 1
+  1734:
+    sort_title: Mummy 2
+  1735:
+    sort_title: Mummy 3
+
+  1577:
+    sort_title: Resident Evil 2
+  7737:
+    sort_title: Resident Evil 3
+  35791:
+    sort_title: Resident Evil 4
+  
 # ####################
 # STAR WARS
 # ####################
@@ -74,6 +107,41 @@ metadata:
       mapping_id: 765673
     sort_title: Star Wars 999
 
+
+# ####################
+# STAR TREK
+# ####################
+
+  152:
+    sort_title: Star Trek 1
+  154:
+    sort_title: Star Trek 2
+  157:
+    sort_title: Star Trek 3
+  168:
+    sort_title: Star Trek 4
+  172:
+    sort_title: Star Trek 5
+  174:
+    sort_title: Star Trek 6
+  
+  193:
+    sort_title: Star Trek 7
+  199:
+    sort_title: Star Trek 8
+  200:
+    sort_title: Star Trek 9
+  201:
+    sort_title: Star Trek 10
+
+  13475:
+    sort_title: Star Trek 2009
+  54138:
+    sort_title: Star Trek 2013
+  188927:
+    sort_title: Star Trek 2016
+  
+
 # ####################
 # MIDDLE-EARTH
 # ####################
@@ -108,88 +176,6 @@ metadata:
     match:
       mapping_id: 122917
     sort_title: Hobbit 3
-
-  "Battlestar Galactica: Razor":
-    match:
-      mapping_id: 69315
-    sort_title: Battlestar Reboot 1
-  "Battlestar Galactica: The Plan":
-    match:
-      mapping_id: 105077
-    sort_title: Battlestar Reboot 2
-  "Battlestar Galactica: Blood & Chrome":
-    match:
-      mapping_id: 257368
-    sort_title: Battlestar Reboot 3
-
-  2978:
-    sort_title: Ghostbusters 1989
-  43074:
-    sort_title: Ghostbusters 2016
-  425909:
-    sort_title: Ghostbusters 2021
-
-  9799:
-    sort_title: Fast and Furious 1
-  584:
-    sort_title: Fast and Furious 2
-  9615:
-    sort_title: Fast and Furious 3
-  13804:
-    sort_title: Fast and Furious 4
-  51497:
-    sort_title: Fast and Furious 5
-  82992:
-    sort_title: Fast and Furious 6
-  168259:
-    sort_title: Fast and Furious 7
-  337339:
-    sort_title: Fast and Furious 8
-  385128:
-    sort_title: Fast and Furious 9
-  385687:
-    sort_title: Fast and Furious 10
-
-
-  24428:
-    sort_title: Avengers 1
-  99861:
-    sort_title: Avengers 2
-  299536:
-    sort_title: Avengers 3
-  299534:
-    sort_title: Avengers 4
-
-
-  348:
-    sort_title: Alien 1
-  679:
-    sort_title: Alien 2
-  8077:
-    sort_title: Alien 3
-  8078:
-    sort_title: Alien 4
-  70981:
-    sort_title: Alien 5
-  126889:
-    sort_title: Alien 6
-
-
-  395:
-    sort_title: Alien vs Predator 1
-  440:
-    sort_title: Alien vs Predator 2
-
-  2501:
-    sort_title: Bourne 1
-  2502:
-    sort_title: Bourne 2
-  2503:
-    sort_title: Bourne 3
-  49040:
-    sort_title: Bourne 4
-  324668:
-    sort_title: Bourne 2
 
 
 # ####################
@@ -333,6 +319,11 @@ metadata:
 
 # ####################
 
+  Superman Returns:
+    match:
+      mapping_id: 1452
+    sort_title: Superman 5
+
   268:
     sort_title: Batman 1
   364:
@@ -386,3 +377,169 @@ metadata:
     sort_title: Blade 2
   36648:
     sort_title: Blade 3
+
+
+  "Battlestar Galactica: Razor":
+    match:
+      mapping_id: 69315
+    sort_title: Battlestar Reboot 1
+  "Battlestar Galactica: The Plan":
+    match:
+      mapping_id: 105077
+    sort_title: Battlestar Reboot 2
+  "Battlestar Galactica: Blood & Chrome":
+    match:
+      mapping_id: 257368
+    sort_title: Battlestar Reboot 3
+
+  333371:
+    sort_title: Cloverfield 2
+  384521:
+    sort_title: Cloverfield 3
+  
+  2978:
+    sort_title: Ghostbusters 1989
+  43074:
+    sort_title: Ghostbusters 2016
+  425909:
+    sort_title: Ghostbusters 2021
+
+  9799:
+    sort_title: Fast and Furious 1
+  584:
+    sort_title: Fast and Furious 2
+  9615:
+    sort_title: Fast and Furious 3
+  13804:
+    sort_title: Fast and Furious 4
+  51497:
+    sort_title: Fast and Furious 5
+  82992:
+    sort_title: Fast and Furious 6
+  168259:
+    sort_title: Fast and Furious 7
+  337339:
+    sort_title: Fast and Furious 8
+  385128:
+    sort_title: Fast and Furious 9
+  385687:
+    sort_title: Fast and Furious 10
+
+
+  24428:
+    sort_title: Avengers 1
+  99861:
+    sort_title: Avengers 2
+  299536:
+    sort_title: Avengers 3
+  299534:
+    sort_title: Avengers 4
+
+  1771:
+    sort_title: Captain America 1
+  100402:
+    sort_title: Captain America 2
+  271110:
+    sort_title: Captain America 3
+
+  76338:
+    sort_title: Thor 2
+  284053:
+    sort_title: Thor 3
+  616037:
+    sort_title: Thor 4
+
+  36658:
+    title: "X2: X-Men United"
+    sort_title: X-Men 2
+  36668:
+    sort_title: X-Men 3
+  "X-Men: First Class":
+    match:
+      mapping_id: 49538
+    sort_title: X-Men 4
+  "X-Men: Days of Future Past":
+    match:
+      mapping_id: 127585
+    sort_title: X-Men 5
+  "X-Men: Apocalypse":
+    match:
+      mapping_id: 246655
+    sort_title: X-Men 6
+
+  324857:
+    sort_title: Spider-Verse 1
+  569094:
+    sort_title: Spider-Verse 2
+
+  348:
+    sort_title: Alien 1
+  679:
+    sort_title: Alien 2
+  8077:
+    sort_title: Alien 3
+  8078:
+    sort_title: Alien 4
+  70981:
+    sort_title: Alien 5
+  126889:
+    sort_title: Alien 6
+
+
+  1685:
+    sort_title: Planet of the Apes 2
+  1687:
+    sort_title: Planet of the Apes 3
+  1688:
+    sort_title: Planet of the Apes 4
+  1705:
+    sort_title: Planet of the Apes 5
+
+  61791:
+    sort_title: Planet of the Apes Reboot 1
+  119450:
+    sort_title: Planet of the Apes Reboot 2
+  281338:
+    sort_title: Planet of the Apes Reboot 3
+
+
+  395:
+    sort_title: Alien vs Predator 1
+
+  2501:
+    sort_title: Bourne 1
+  2502:
+    sort_title: Bourne 2
+  2503:
+    sort_title: Bourne 3
+  49040:
+    sort_title: Bourne 4
+  324668:
+    sort_title: Bourne 5
+
+  1572:
+    sort_title: Die Hard 3
+  1571:
+    sort_title: Die Hard 4
+
+
+  "Transformers: Revenge of the Fallen":
+    match:
+      mapping_id: 8373
+    sort_title: Transformers 2
+  "Transformers: Dark of the Moon":
+    match:
+      mapping_id: 38356
+    sort_title: Transformers 3
+  "Transformers: Age of Extinction":
+    match:
+      mapping_id: 91314
+    sort_title: Transformers 4
+  "Transformers: The Last Knight":
+    match:
+      mapping_id: 335988
+    sort_title: Transformers 5
+
+
+  Finding Dory:
+    sort_title: Finding Nemo 2
