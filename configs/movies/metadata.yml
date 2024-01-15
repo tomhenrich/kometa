@@ -109,6 +109,88 @@ metadata:
       mapping_id: 122917
     sort_title: Hobbit 3
 
+  "Battlestar Galactica: Razor":
+    match:
+      mapping_id: 69315
+    sort_title: Battlestar Reboot 1
+  "Battlestar Galactica: The Plan":
+    match:
+      mapping_id: 105077
+    sort_title: Battlestar Reboot 2
+  "Battlestar Galactica: Blood & Chrome":
+    match:
+      mapping_id: 257368
+    sort_title: Battlestar Reboot 3
+
+  2978:
+    sort_title: Ghostbusters 1989
+  43074:
+    sort_title: Ghostbusters 2016
+  425909:
+    sort_title: Ghostbusters 2021
+
+  9799:
+    sort_title: Fast and Furious 1
+  584:
+    sort_title: Fast and Furious 2
+  9615:
+    sort_title: Fast and Furious 3
+  13804:
+    sort_title: Fast and Furious 4
+  51497:
+    sort_title: Fast and Furious 5
+  82992:
+    sort_title: Fast and Furious 6
+  168259:
+    sort_title: Fast and Furious 7
+  337339:
+    sort_title: Fast and Furious 8
+  385128:
+    sort_title: Fast and Furious 9
+  385687:
+    sort_title: Fast and Furious 10
+
+
+  24428:
+    sort_title: Avengers 1
+  99861:
+    sort_title: Avengers 2
+  299536:
+    sort_title: Avengers 3
+  299534:
+    sort_title: Avengers 4
+
+
+  348:
+    sort_title: Alien 1
+  679:
+    sort_title: Alien 2
+  8077:
+    sort_title: Alien 3
+  8078:
+    sort_title: Alien 4
+  70981:
+    sort_title: Alien 5
+  126889:
+    sort_title: Alien 6
+
+
+  395:
+    sort_title: Alien vs Predator 1
+  440:
+    sort_title: Alien vs Predator 2
+
+  2501:
+    sort_title: Bourne 1
+  2502:
+    sort_title: Bourne 2
+  2503:
+    sort_title: Bourne 3
+  49040:
+    sort_title: Bourne 4
+  324668:
+    sort_title: Bourne 2
+
 
 # ####################
 # GODZILLA
