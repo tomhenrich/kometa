@@ -591,6 +591,13 @@ metadata:
   1735:
     sort_title: Mummy 3
 
+  534:
+    sort_title: Terminator 4
+  87101:
+    sort_title: Terminator 5
+  290859:
+    sort_title: Terminator 6
+
   1577:
     sort_title: Resident Evil 2
   7737:
@@ -635,3 +642,24 @@ metadata:
     match:
       mapping_id: 3103
     sort_title: Frankenstein Universal 5
+
+  The Mummy:
+    match:
+      mapping_id: 15849
+    sort_title: Mummy Universal 1
+  "The Mummy's Hand":
+    match:
+      mapping_id: 31498
+    sort_title: Mummy Universal 2
+  "The Mummy's Tomb":
+    match:
+      mapping_id: 29239
+    sort_title: Mummy Universal 3
+  "The Mummy's Ghost":
+    match:
+      mapping_id: 29243
+    sort_title: Mummy Universal 4
+  "The Mummy's Curse":
+    match:
+      mapping_id: 29242
+    sort_title: Mummy Universal 5
