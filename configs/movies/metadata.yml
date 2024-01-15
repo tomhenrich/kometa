@@ -345,6 +345,43 @@ metadata:
 
 # ####################
 
+  "Gamera, the Giant Monster":
+    match:
+      mapping_id: 21930
+    sort_title: Gamera 1
+  Gamera vs. Barugon:
+    match:
+      mapping_id: 22899
+    sort_title: Gamera 2
+  Gamera vs. Gyaos:
+    match:
+      mapping_id: 52728
+    sort_title: Gamera 3
+  Gamera vs. Viras:
+    match:
+      mapping_id: 34131
+    sort_title: Gamera 4
+  Gamera vs. Guiron:
+    match:
+      mapping_id: 26947
+    sort_title: Gamera 5
+  Gamera vs. Jiger:
+    match:
+      mapping_id: 70327
+    sort_title: Gamera 6
+  Gamera vs. Zigra:
+    match:
+      mapping_id: 72322
+    sort_title: Gamera 7
+  "Gamera: Super Monster":
+    match:
+      mapping_id: 70358
+    sort_title: Gamera 8
+  Gamera the Brave:
+    match:
+      mapping_id: 60160
+    sort_title: Gamera 9
+
   "Gamera: the Guardian of the Universe":
     match:
       mapping_id: 54433
@@ -360,6 +397,12 @@ metadata:
       mapping_id: 60159
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
     sort_title: Gamera Heisei 3
+
+  Gamera:
+    match:
+      mapping_id: 664048
+    sort_title: Gamera 2015
+
 
 # ####################
 
@@ -448,6 +491,19 @@ metadata:
     sort_title: Thor 3
   616037:
     sort_title: Thor 4
+
+  "Spider-Man: Homecoming"
+    match:
+      mapping_id: 315635
+    sort_title: Spider-Man Avengers 1
+  "Spider-Man: Far From Home"
+    match:
+      mapping_id: 429617
+    sort_title: Spider-Man Avengers 2
+  "Spider-Man: No Way Home"
+    match:
+      mapping_id: 634649
+    sort_title: Spider-Man Avengers 3
 
   36658:
     title: "X2: X-Men United"
