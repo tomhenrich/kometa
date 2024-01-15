@@ -3,42 +3,6 @@ metadata:
     match:
       mapping_id: 603
     summary: "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth."
-
-  85:
-    sort_title: Indiana Jones 1
-  87:
-    sort_title: Indiana Jones 2
-  89:
-    sort_title: Indiana Jones 3
-  217:
-    sort_title: Indiana Jones 4
-  335977:
-    sort_title: Indiana Jones 5
-
-  353486:
-    sort_title: Jumanji 2
-  512200:
-    sort_title: Jumanji 3
-
-
-  608:
-    sort_title: Men in Black 2
-  479455:
-    sort_title: Men in Black 4
-
-  564:
-    sort_title: Mummy 1
-  1734:
-    sort_title: Mummy 2
-  1735:
-    sort_title: Mummy 3
-
-  1577:
-    sort_title: Resident Evil 2
-  7737:
-    sort_title: Resident Evil 3
-  35791:
-    sort_title: Resident Evil 4
   
 # ####################
 # STAR WARS
@@ -300,6 +264,8 @@ metadata:
     sort_title: Chronicles of Riddick 3
 
 # ####################
+# JURASSIC PARK
+# ####################
 
   329:
     sort_title: Jurassic Park 1
@@ -317,6 +283,8 @@ metadata:
     sort_title: Jurassic World 3
 
 
+# ####################
+# DC
 # ####################
 
   Superman Returns:
@@ -403,71 +371,9 @@ metadata:
       mapping_id: 664048
     sort_title: Gamera 2015
 
-
 # ####################
-
-  Princess Mononoke:
-    match:
-      mapping_id: 128
-    year: 1997
-    summary: "Ashitaka is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he meets San, a human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it."
-
+# MARVEL
 # ####################
-
-  36647:
-    sort_title: Blade 1
-  36586:
-    sort_title: Blade 2
-  36648:
-    sort_title: Blade 3
-
-
-  "Battlestar Galactica: Razor":
-    match:
-      mapping_id: 69315
-    sort_title: Battlestar Reboot 1
-  "Battlestar Galactica: The Plan":
-    match:
-      mapping_id: 105077
-    sort_title: Battlestar Reboot 2
-  "Battlestar Galactica: Blood & Chrome":
-    match:
-      mapping_id: 257368
-    sort_title: Battlestar Reboot 3
-
-  333371:
-    sort_title: Cloverfield 2
-  384521:
-    sort_title: Cloverfield 3
-  
-  2978:
-    sort_title: Ghostbusters 1989
-  43074:
-    sort_title: Ghostbusters 2016
-  425909:
-    sort_title: Ghostbusters 2021
-
-  9799:
-    sort_title: Fast and Furious 1
-  584:
-    sort_title: Fast and Furious 2
-  9615:
-    sort_title: Fast and Furious 3
-  13804:
-    sort_title: Fast and Furious 4
-  51497:
-    sort_title: Fast and Furious 5
-  82992:
-    sort_title: Fast and Furious 6
-  168259:
-    sort_title: Fast and Furious 7
-  337339:
-    sort_title: Fast and Furious 8
-  385128:
-    sort_title: Fast and Furious 9
-  385687:
-    sort_title: Fast and Furious 10
-
 
   24428:
     sort_title: Avengers 1
@@ -528,6 +434,67 @@ metadata:
   569094:
     sort_title: Spider-Verse 2
 
+  36647:
+    sort_title: Blade 1
+  36586:
+    sort_title: Blade 2
+  36648:
+    sort_title: Blade 3
+
+# ####################
+
+  Princess Mononoke:
+    match:
+      mapping_id: 128
+    year: 1997
+    summary: "Ashitaka is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he meets San, a human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it."
+
+  "Battlestar Galactica: Razor":
+    match:
+      mapping_id: 69315
+    sort_title: Battlestar Reboot 1
+  "Battlestar Galactica: The Plan":
+    match:
+      mapping_id: 105077
+    sort_title: Battlestar Reboot 2
+  "Battlestar Galactica: Blood & Chrome":
+    match:
+      mapping_id: 257368
+    sort_title: Battlestar Reboot 3
+
+  333371:
+    sort_title: Cloverfield 2
+  384521:
+    sort_title: Cloverfield 3
+  
+  2978:
+    sort_title: Ghostbusters 1989
+  43074:
+    sort_title: Ghostbusters 2016
+  425909:
+    sort_title: Ghostbusters 2021
+
+  9799:
+    sort_title: Fast and Furious 1
+  584:
+    sort_title: Fast and Furious 2
+  9615:
+    sort_title: Fast and Furious 3
+  13804:
+    sort_title: Fast and Furious 4
+  51497:
+    sort_title: Fast and Furious 5
+  82992:
+    sort_title: Fast and Furious 6
+  168259:
+    sort_title: Fast and Furious 7
+  337339:
+    sort_title: Fast and Furious 8
+  385128:
+    sort_title: Fast and Furious 9
+  385687:
+    sort_title: Fast and Furious 10
+
   348:
     sort_title: Alien 1
   679:
@@ -541,6 +508,8 @@ metadata:
   126889:
     sort_title: Alien 6
 
+  395:
+    sort_title: Alien vs Predator 1
 
   1685:
     sort_title: Planet of the Apes 2
@@ -558,10 +527,6 @@ metadata:
   281338:
     sort_title: Planet of the Apes Reboot 3
 
-
-  395:
-    sort_title: Alien vs Predator 1
-
   2501:
     sort_title: Bourne 1
   2502:
@@ -577,7 +542,6 @@ metadata:
     sort_title: Die Hard 3
   1571:
     sort_title: Die Hard 4
-
 
   "Transformers: Revenge of the Fallen":
     match:
@@ -596,6 +560,78 @@ metadata:
       mapping_id: 335988
     sort_title: Transformers 5
 
-
   Finding Dory:
     sort_title: Finding Nemo 2
+
+  85:
+    sort_title: Indiana Jones 1
+  87:
+    sort_title: Indiana Jones 2
+  89:
+    sort_title: Indiana Jones 3
+  217:
+    sort_title: Indiana Jones 4
+  335977:
+    sort_title: Indiana Jones 5
+
+  353486:
+    sort_title: Jumanji 2
+  512200:
+    sort_title: Jumanji 3
+
+  608:
+    sort_title: Men in Black 2
+  479455:
+    sort_title: Men in Black 4
+
+  564:
+    sort_title: Mummy 1
+  1734:
+    sort_title: Mummy 2
+  1735:
+    sort_title: Mummy 3
+
+  1577:
+    sort_title: Resident Evil 2
+  7737:
+    sort_title: Resident Evil 3
+  35791:
+    sort_title: Resident Evil 4
+
+  Dracula:
+    match:
+      mapping_id: 138
+    sort_title: Dracula Universal 1
+  "Dracula's Daughter":
+    match:
+      mapping_id: 22440
+    sort_title: Dracula Universal 2
+  Son of Dracula:
+    match:
+      mapping_id: 32023
+    sort_title: Dracula Universal 3
+  House of Dracula:
+    match:
+      mapping_id: 30793
+    sort_title: Dracula Universal 4
+
+  Frankenstein:
+    match:
+      mapping_id: 3035
+    sort_title: Frankenstein Universal 1
+  The Bride of Frankenstein:
+    match:
+      mapping_id: 229
+    sort_title: Frankenstein Universal 2
+  Son of Frankenstein:
+    match:
+      mapping_id: 3077
+    sort_title: Frankenstein Universal 3
+  The Ghost of Frankenstein:
+    match:
+      mapping_id: 3074
+    sort_title: Frankenstein Universal 4
+  House of Frankenstein:
+    match:
+      mapping_id: 3103
+    sort_title: Frankenstein Universal 5
