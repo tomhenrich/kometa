@@ -398,15 +398,15 @@ metadata:
   616037:
     sort_title: Thor 4
 
-  "Spider-Man: Homecoming"
+  "Spider-Man: Homecoming":
     match:
       mapping_id: 315635
     sort_title: Spider-Man Avengers 1
-  "Spider-Man: Far From Home"
+  "Spider-Man: Far From Home":
     match:
       mapping_id: 429617
     sort_title: Spider-Man Avengers 2
-  "Spider-Man: No Way Home"
+  "Spider-Man: No Way Home":
     match:
       mapping_id: 634649
     sort_title: Spider-Man Avengers 3
