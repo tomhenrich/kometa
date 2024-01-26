@@ -76,33 +76,35 @@ metadata:
 # STAR TREK
 # ####################
 
-  152:
+  "Star Trek: The Motion Picture":
     sort_title: Star Trek 1
-  154:
+  "Star Trek II: The Wrath of Khan":
     sort_title: Star Trek 2
-  157:
+  "Star Trek III: The Search for Spock":
     sort_title: Star Trek 3
-  168:
+  "Star Trek IV: The Voyage Home":
     sort_title: Star Trek 4
-  172:
+  "Star Trek V: The Final Frontier":
     sort_title: Star Trek 5
-  174:
+  "Star Trek VI: The Undiscovered Country":
     sort_title: Star Trek 6
   
-  193:
+  "Star Trek: Generations":
     sort_title: Star Trek 7
-  199:
+  "Star Trek: First Contact":
     sort_title: Star Trek 8
-  200:
+  "Star Trek: Insurrection":
     sort_title: Star Trek 9
-  201:
+  "Star Trek: Nemesis":
     sort_title: Star Trek 10
 
-  13475:
+  "Star Trek":
+    match:
+      year: 2009
     sort_title: Star Trek 2009
-  54138:
+  "Star Trek Into Darkness":
     sort_title: Star Trek 2013
-  188927:
+  "Star Trek Beyond":
     sort_title: Star Trek 2016
   
 
@@ -153,82 +155,97 @@ metadata:
       title: Godzilla
       year: 1954
     sort_title: Godzilla Era 1 - 1
-  1679: #-- Godzilla Raids Again
-    title: Godzilla Raids Again
+  Godzilla Raids Again:
+    match:
+      year: 1955
     sort_title: Godzilla Era 1 - 2
-  1680: #-- King Kong vs. Godzilla
+  King Kong vs. Godzilla:
     sort_title: Godzilla Era 1 - 3
-  1682: #-- Mothra vs. Godzilla
+  Mothra vs. Godzilla: 
     sort_title: Godzilla Era 1 - 4
-  15766: #-- Ghidorah, the Three-Headed Monster
+  "Ghidorah, the Three-Headed Monster":
     sort_title: Godzilla Era 1 - 5
-  19545: #-- Invasion of Astro-Monster
+  Invasion of Astro-Monster:
     sort_title: Godzilla Era 1 - 6
-  3115: #-- Ebirah, Horror of the Deep
+  "Ebirah, Horror of the Deep":
     sort_title: Godzilla Era 1 - 7
-  18627: #-- Son of Godzilla
+  Son of Godzilla:
     sort_title: Godzilla Era 1 - 8
-  3107: #-- Destroy All Monsters
+  Destroy All Monsters:
     sort_title: Godzilla Era 1 - 9
-  39462: #-- All Monsters Attack
+  All Monsters Attack:
     sort_title: Godzilla Era 1 - 10
-  39464: #-- Godzilla vs. Hedorah
+  Godzilla vs. Hedorah:
     sort_title: Godzilla Era 1 - 11
-  19336: #-- Godzilla vs. Gigan
+  Godzilla vs. Gigan:
     sort_title: Godzilla Era 1 - 12
-  39264: #-- Godzilla vs. Megalon
+  Godzilla vs. Megalon:
     sort_title: Godzilla Era 1 - 13
-  38582: #-- Godzilla vs. Mechagodzilla
+  Godzilla vs. Mechagodzilla:
     sort_title: Godzilla Era 1 - 14
-  19333: #-- Terror of Mechagodzilla
+  Terror of Mechagodzilla:
     sort_title: Godzilla Era 1 - 15
 
-  18983: #-- Godzilla KOTM (US)
+  "Godzilla, King of the Monsters!":
+    match:
+      year: 1956
     sort_title: Godzilla Era 1 - 1956
-  329237: #-- Gigantis the Fire Monster (US)
+    edition: US Version
+  "Gigantis, the Fire Monster":
+    match:
+      year: 1959
     sort_title: Godzilla Era 1 - 1959
-  686487: #-- King Kong vs Godzilla (US)
+    edition: US Version
+  King Kong vs. Godzilla:
+    match:
+      year: 1963
+      mapping_id: 686487
     sort_title: Godzilla Era 1 - 1963
 
-  421467: #-- Return of Godzilla
+  The Return of Godzilla:
     sort_title: Godzilla Era 2 - 1
-  18289: #-- Godzilla vs. Biollante
+  Godzilla vs. Biollante:
     sort_title: Godzilla Era 2 - 2
     summary: Concerned over Godzilla's possible return after the previous attack, the Japanese government uses his cells to create a new bioweapon, Anti-Nuclear Energy Bacteria. They enlist geneticist Genshiro Shiragami, whose experiments result in a new monstrous mutation.
-  36679: #-- Godzilla vs. King Ghidorah
+  Godzilla vs. King Ghidorah:
     sort_title: Godzilla Era 2 - 3
-  39465: #-- Godzilla vs. Mothra
+  Godzilla vs. Mothra:
     sort_title: Godzilla Era 2 - 4
-  6593: #-- Godzilla vs. MechaGodzilla II
+  Godzilla vs. MechaGodzilla II:
     sort_title: Godzilla Era 2 - 5
-  39466: #-- Godzilla vs. SpaceGodzilla
+  Godzilla vs. SpaceGodzilla:
     sort_title: Godzilla Era 2 - 6
     summary: "Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole."
-  12561: #-- Godzilla vs. Destoroyah
+  Godzilla vs. Destoroyah:
     sort_title: Godzilla Era 2 - 7
 
-  10643: #-- Godzilla 2000
+  Godzilla 2000:
+    match:
+      year: 1999
     title: "Godzilla 2000: Millennium"
     sort_title: Godzilla Era3 - 1
     summary: Godzilla is a literal force of nature to Japan. Scientists find a sixty-million-year-old UFO deep in the Japan Trench. As they attempt to raise the UFO to study it, it takes off into the sky on its own, searching for genetic information that only Godzilla possesses.
-  39468: #-- Godzilla vs. Megaguirus
+  Godzilla vs. Megaguirus:
     sort_title: Godzilla Era3 - 2
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
-  36243: #-- GMK
+  "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack":
     sort_title: Godzilla Era3 - 3
     title: "Giant Monsters All-Out Attack"
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
-  12636: #-- Godzilla Against MechaGodzilla
+  Godzilla Against MechaGodzilla:
     sort_title: Godzilla Era3 - 4
     summary: When a new Godzilla emerges, a cyborg version named Kiryu is constructed from the remains of the 1954 monster. The machine is discovered to harbor the restless soul of the original Godzilla as JSDF pilot Akane Yashiro must learn to find value in her own life as well.
-  39469: #-- Godzilla Tokyo SOS
+  "Godzilla: Tokyo S.O.S.":
     sort_title: Godzilla Era3 - 5
     summary: In this sequel to "Godzilla Against MechaGodzilla", Mothra and her fairies return to Japan to warn mankind that Kiryu must be returned to the sea, for the dead must not be disturbed. However, Godzilla has survived to menace Japan, leaving MechaGodzilla as the nation's only defense.
-  15767: #-- Godzilla Final Wars
+  "Godzilla: Final Wars":
     sort_title: Godzilla Era3 - 6
     summary: "Ignoring all prior movies from this era, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla."
 
-  929: #-- Godzilla 1998
+  "Godzilla (1998)": #-- Godzilla 1998
+    match:
+      title: Godzilla
+      year: 1998
     title: Godzilla
     sort_title: Godzilla Era 98
 
@@ -267,19 +284,19 @@ metadata:
 # JURASSIC PARK
 # ####################
 
-  329:
+  Jurassic Park:
     sort_title: Jurassic Park 1
-  330: 
+  "The Lost World: Jurassic Park": 
     sort_title: Jurassic Park 2
-  331: 
+  Jurassic Park III: 
     sort_title: Jurassic Park 3
-  135397: 
+  Jurassic World: 
     sort_title: Jurassic World 1
-  351286: 
+  "Jurassic World: Fallen Kingdom": 
     sort_title: Jurassic World 2
-  630322: #-- Battle at Big Rock
+  Battle at Big Rock: 
     sort_title: Jurassic World 2.5
-  507086: 
+  Jurassic World Dominion: 
     sort_title: Jurassic World 3
 
 
@@ -288,88 +305,93 @@ metadata:
 # ####################
 
   Superman Returns:
-    match:
-      mapping_id: 1452
     sort_title: Superman 5
 
-  268:
+  Batman:
     sort_title: Batman 1
-  364:
+  Batman Returns:
     sort_title: Batman 2
     summary: "While Batman deals with a deformed man calling himself the Penguin, an employee of a corrupt businessman transforms into the Catwoman."
-  414:
+  Batman Forever:
     sort_title: Batman 3
     summary: "Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat."
-  415:
+  "Batman & Robin":
     sort_title: Batman 4
     summary: "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City."
 
-  272:
+  Batman Begins:
+    match:
+      year: 2005
     sort_title: Dark Knight 1
-  155:
+  The Dark Knight:
+    match:
+      year: 2008
     sort_title: Dark Knight 2
-  49026:
+  The Dark Knight Rises:
+    match:
+      year: 2012
     sort_title: Dark Knight 3
 
 # ####################
 
   "Gamera, the Giant Monster":
     match:
-      mapping_id: 21930
+      year: 1965
     sort_title: Gamera 1
   Gamera vs. Barugon:
     match:
-      mapping_id: 22899
+      year: 1966
     sort_title: Gamera 2
   Gamera vs. Gyaos:
     match:
-      mapping_id: 52728
+      year: 1967
     sort_title: Gamera 3
   Gamera vs. Viras:
     match:
-      mapping_id: 34131
+      year: 1968
     sort_title: Gamera 4
   Gamera vs. Guiron:
     match:
-      mapping_id: 26947
+      year: 1969
     sort_title: Gamera 5
   Gamera vs. Jiger:
     match:
-      mapping_id: 70327
+      year: 1970
     sort_title: Gamera 6
   Gamera vs. Zigra:
     match:
-      mapping_id: 72322
+      year: 1971
     sort_title: Gamera 7
   "Gamera: Super Monster":
     match:
-      mapping_id: 70358
+      year: 1980
     sort_title: Gamera 8
   Gamera the Brave:
     match:
-      mapping_id: 60160
+      year: 2006
     sort_title: Gamera 9
 
-  "Gamera: the Guardian of the Universe":
+  "Gamera: Guardian of the Universe":
     match:
-      mapping_id: 54433
+      year: 1995
     summary: "A monstrous new species of bird appears just as a teenage girl is gifted an amulet that was found on a mysterious atoll. As the creatures begin to attack, an ancient guardian emerges."
     sort_title: Gamera Heisei 1
   "Gamera 2: Attack of Legion":
     match:
-      mapping_id: 59480
+      year: 1996
     summary: "A meteor lands in Japan and unleashes hundreds of insect-like 'Legion' creatures. Gamera shows up to deal with the ever-evolving adversary, but the battle may result in him losing his bond with humanity."
     sort_title: Gamera Heisei 2
   "Gamera 3: Revenge of Iris":
     match:
-      mapping_id: 60159
+      year: 1999
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
     sort_title: Gamera Heisei 3
 
   Gamera:
     match:
-      mapping_id: 664048
+      year: 2015
     sort_title: Gamera 2015
+    edition: Short Film
 
 # ####################
 # MARVEL
@@ -462,16 +484,20 @@ metadata:
       mapping_id: 257368
     sort_title: Battlestar Reboot 3
 
-  333371:
+  10 Cloverfiel Lane:
     sort_title: Cloverfield 2
-  384521:
+  The Cloverfield Paradox:
     sort_title: Cloverfield 3
   
-  2978:
+  Ghostbusters:
+    match:
+      year: 1989
     sort_title: Ghostbusters 1989
-  43074:
+  Ghostbusters:
+    match:
+      year: 2016
     sort_title: Ghostbusters 2016
-  425909:
+  "Ghostbusters: Afterlife":
     sort_title: Ghostbusters 2021
 
   9799:
@@ -503,9 +529,13 @@ metadata:
     sort_title: Alien 3
   8078:
     sort_title: Alien 4
-  70981:
+  Prometheus:
+    match:
+      year: 2012
     sort_title: Alien 5
-  126889:
+  "Alien: Covenant":
+    match:
+      year: 2017
     sort_title: Alien 6
 
   395:
@@ -544,133 +574,135 @@ metadata:
     sort_title: Die Hard 4
 
   "Transformers: Revenge of the Fallen":
-    match:
-      mapping_id: 8373
     sort_title: Transformers 2
   "Transformers: Dark of the Moon":
-    match:
-      mapping_id: 38356
     sort_title: Transformers 3
   "Transformers: Age of Extinction":
-    match:
-      mapping_id: 91314
     sort_title: Transformers 4
   "Transformers: The Last Knight":
-    match:
-      mapping_id: 335988
     sort_title: Transformers 5
 
   Finding Dory:
     sort_title: Finding Nemo 2
 
-  85:
+  Raiders of the Lost Ark:
     sort_title: Indiana Jones 1
-  87:
+    title: Indiana Jones and the Raiders of the Lost Ark
+  Indiana Jones and the Temple of Doom:
     sort_title: Indiana Jones 2
-  89:
+  Indiana Jones and the Last Crusade:
     sort_title: Indiana Jones 3
-  217:
+  Indiana Jones and the Kingdom of the Crystal Skull:
     sort_title: Indiana Jones 4
-  335977:
+  Indiana Jones and the Dial of Destiny:
     sort_title: Indiana Jones 5
 
-  353486:
+  "Jumanji: Welcome to the Jungle":
     sort_title: Jumanji 2
-  512200:
+  "Jumanji: The Next Level":
     sort_title: Jumanji 3
 
-  608:
+  Men in Black II:
     sort_title: Men in Black 2
-  479455:
+  "Men in Black: International":
     sort_title: Men in Black 4
 
-  564:
+  The Mummy:
+    match:
+      year: 1999
     sort_title: Mummy 1
-  1734:
+  The Mummy Returns:
+    match:
+      year: 2001
     sort_title: Mummy 2
-  1735:
+  "The Mummy: Tomb of the Dragon Emperor":
+    match:
+      year: 2008
     sort_title: Mummy 3
 
-  534:
+  Terminator Salvation:
     sort_title: Terminator 4
-  87101:
+  Terminator Genisys:
     sort_title: Terminator 5
-  290859:
+  "Terminator: Dark Fate":
     sort_title: Terminator 6
 
-  1577:
+  "Resident Evil: Apocalypse":
     sort_title: Resident Evil 2
-  7737:
+  "Resident Evil: Extinction":
     sort_title: Resident Evil 3
-  35791:
+  "Resident Evil: Afterlife":
     sort_title: Resident Evil 4
 
   Dracula:
     match:
-      mapping_id: 138
+      year: 1931
     sort_title: Dracula Universal 1
   "Dracula's Daughter":
     match:
-      mapping_id: 22440
+      year: 1936
     sort_title: Dracula Universal 2
   Son of Dracula:
     match:
-      mapping_id: 32023
+      year: 1943
     sort_title: Dracula Universal 3
   House of Dracula:
     match:
-      mapping_id: 30793
+      year: 1945
     sort_title: Dracula Universal 4
 
   Frankenstein:
     match:
-      mapping_id: 3035
+      year: 1931
     sort_title: Frankenstein Universal 1
   The Bride of Frankenstein:
     match:
-      mapping_id: 229
+      year: 1935
     sort_title: Frankenstein Universal 2
   Son of Frankenstein:
     match:
-      mapping_id: 3077
+      year: 1939
     sort_title: Frankenstein Universal 3
   The Ghost of Frankenstein:
     match:
-      mapping_id: 3074
+      year: 1942
     sort_title: Frankenstein Universal 4
   House of Frankenstein:
     match:
-      mapping_id: 3103
+      year: 1944
     sort_title: Frankenstein Universal 5
 
   The Mummy:
     match:
-      mapping_id: 15849
+      year: 1932
     sort_title: Mummy Universal 1
   "The Mummy's Hand":
     match:
-      mapping_id: 31498
+      year: 1940
     sort_title: Mummy Universal 2
   "The Mummy's Tomb":
     match:
-      mapping_id: 29239
+      year: 1942
     sort_title: Mummy Universal 3
   "The Mummy's Ghost":
     match:
-      mapping_id: 29243
+      year: 1944
     sort_title: Mummy Universal 4
   "The Mummy's Curse":
     match:
-      mapping_id: 29242
+      year: 1944
     sort_title: Mummy Universal 5
 
 
   Before Sunrise:
-    year: 1995
+    match:
+      year: 1995
     sort_title: Before 1
   Before Sunset:
-    year: 2004
+    match:
+      year: 2004
     sort_title: Before 2
   Before Midnight:
-    year: 2013
+    match:
+      year: 2013
     sort_title: Before 3
