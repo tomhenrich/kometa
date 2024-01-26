@@ -196,8 +196,9 @@ metadata:
       year: 1959
     sort_title: Godzilla Era 1 - 1959
     edition: US Version
-  King Kong vs. Godzilla:
+  King Kong vs. Godzilla 1963:
     match:
+      title: King Kong vs. Godzilla
       year: 1963
       mapping_id: 686487
     sort_title: Godzilla Era 1 - 1963
