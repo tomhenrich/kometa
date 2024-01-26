@@ -663,3 +663,14 @@ metadata:
     match:
       mapping_id: 29242
     sort_title: Mummy Universal 5
+
+
+  Before Sunrise:
+    year: 1995
+    sort_title: Before 1
+  Before Sunset:
+    year: 2004
+    sort_title: Before 2
+  Before Midnight:
+    year: 2013
+    sort_title: Before 3
