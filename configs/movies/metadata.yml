@@ -494,9 +494,10 @@ metadata:
     match:
       year: 1989
     sort_title: Ghostbusters 1989
-  Ghostbusters:
+  Ghostbusters2016:
     match:
       year: 2016
+    title: Ghostbusters
     sort_title: Ghostbusters 2016
   "Ghostbusters: Afterlife":
     sort_title: Ghostbusters 2021
