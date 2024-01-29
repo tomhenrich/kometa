@@ -674,9 +674,11 @@ metadata:
       year: 1944
     sort_title: Frankenstein Universal 5
 
-  The Mummy:
+  The Mummy 1932:
     match:
+      title: The Mummy
       year: 1932
+    title: The Mummy
     sort_title: Mummy Universal 1
   "The Mummy's Hand":
     match:
