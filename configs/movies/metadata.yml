@@ -148,105 +148,88 @@ metadata:
 # GODZILLA
 # ####################
 
-  Gozilla: #-- Godzilla
+  Gojira: #-- Godzilla
     title: Godzilla
     match:
       mapping_id: 1678
-      title: Godzilla
       year: 1954
     sort_title: Godzilla Era 1 - 1
-  Godzilla Raids Again:
-    match:
-      year: 1955
+  1679: #-- Godzilla Raids Again
+    title: Godzilla Raids Again
     sort_title: Godzilla Era 1 - 2
-  King Kong vs. Godzilla:
+  1680: #-- King Kong vs. Godzilla
     sort_title: Godzilla Era 1 - 3
-  Mothra vs. Godzilla: 
+  1682: #-- Mothra vs. Godzilla
     sort_title: Godzilla Era 1 - 4
-  "Ghidorah, the Three-Headed Monster":
+  15766: #-- Ghidorah, the Three-Headed Monster
     sort_title: Godzilla Era 1 - 5
-  Invasion of Astro-Monster:
+  19545: #-- Invasion of Astro-Monster
     sort_title: Godzilla Era 1 - 6
-  "Ebirah, Horror of the Deep":
+  3115: #-- Ebirah, Horror of the Deep
     sort_title: Godzilla Era 1 - 7
-  Son of Godzilla:
+  18627: #-- Son of Godzilla
     sort_title: Godzilla Era 1 - 8
-  Destroy All Monsters:
+  3107: #-- Destroy All Monsters
     sort_title: Godzilla Era 1 - 9
-  All Monsters Attack:
+  39462: #-- All Monsters Attack
     sort_title: Godzilla Era 1 - 10
-  Godzilla vs. Hedorah:
+  39464: #-- Godzilla vs. Hedorah
     sort_title: Godzilla Era 1 - 11
-  Godzilla vs. Gigan:
+  19336: #-- Godzilla vs. Gigan
     sort_title: Godzilla Era 1 - 12
-  Godzilla vs. Megalon:
+  39264: #-- Godzilla vs. Megalon
     sort_title: Godzilla Era 1 - 13
-  Godzilla vs. Mechagodzilla:
+  38582: #-- Godzilla vs. Mechagodzilla
     sort_title: Godzilla Era 1 - 14
-  Terror of Mechagodzilla:
+  19333: #-- Terror of Mechagodzilla
     sort_title: Godzilla Era 1 - 15
 
-  "Godzilla, King of the Monsters!":
-    match:
-      year: 1956
+  18983: #-- Godzilla KOTM (US)
     sort_title: Godzilla Era 1 - 1956
-    edition: US Version
-  "Gigantis, the Fire Monster":
-    match:
-      year: 1959
-    sort_title: Godzilla Era 1 - 1959
-    edition: US Version
-  King Kong vs. Godzilla 1963:
-    match:
-      title: King Kong vs. Godzilla
-      year: 1963
-      mapping_id: 686487
+#  329237: #-- Gigantis the Fire Monster (US)
+#    sort_title: Godzilla Era 1 - 1959
+  686487: #-- King Kong vs Godzilla (US)
     sort_title: Godzilla Era 1 - 1963
 
-  The Return of Godzilla:
+  421467: #-- Return of Godzilla
     sort_title: Godzilla Era 2 - 1
-  Godzilla vs. Biollante:
+  18289: #-- Godzilla vs. Biollante
     sort_title: Godzilla Era 2 - 2
     summary: Concerned over Godzilla's possible return after the previous attack, the Japanese government uses his cells to create a new bioweapon, Anti-Nuclear Energy Bacteria. They enlist geneticist Genshiro Shiragami, whose experiments result in a new monstrous mutation.
-  Godzilla vs. King Ghidorah:
+  36679: #-- Godzilla vs. King Ghidorah
     sort_title: Godzilla Era 2 - 3
-  Godzilla vs. Mothra:
+  39465: #-- Godzilla vs. Mothra
     sort_title: Godzilla Era 2 - 4
-  Godzilla vs. MechaGodzilla II:
+  6593: #-- Godzilla vs. MechaGodzilla II
     sort_title: Godzilla Era 2 - 5
-  Godzilla vs. SpaceGodzilla:
+  39466: #-- Godzilla vs. SpaceGodzilla
     sort_title: Godzilla Era 2 - 6
     summary: "Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole."
-  Godzilla vs. Destoroyah:
+  12561: #-- Godzilla vs. Destoroyah
     sort_title: Godzilla Era 2 - 7
 
-  Godzilla 2000:
-    match:
-      year: 1999
+  10643: #-- Godzilla 2000
     title: "Godzilla 2000: Millennium"
     sort_title: Godzilla Era3 - 1
     summary: Godzilla is a literal force of nature to Japan. Scientists find a sixty-million-year-old UFO deep in the Japan Trench. As they attempt to raise the UFO to study it, it takes off into the sky on its own, searching for genetic information that only Godzilla possesses.
-  Godzilla vs. Megaguirus:
+  39468: #-- Godzilla vs. Megaguirus
     sort_title: Godzilla Era3 - 2
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
-  "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack":
+  36243: #-- GMK
     sort_title: Godzilla Era3 - 3
     title: "Giant Monsters All-Out Attack"
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
-  Godzilla Against MechaGodzilla:
+  12636: #-- Godzilla Against MechaGodzilla
     sort_title: Godzilla Era3 - 4
     summary: When a new Godzilla emerges, a cyborg version named Kiryu is constructed from the remains of the 1954 monster. The machine is discovered to harbor the restless soul of the original Godzilla as JSDF pilot Akane Yashiro must learn to find value in her own life as well.
-  "Godzilla: Tokyo S.O.S.":
+  39469: #-- Godzilla Tokyo SOS
     sort_title: Godzilla Era3 - 5
     summary: In this sequel to "Godzilla Against MechaGodzilla", Mothra and her fairies return to Japan to warn mankind that Kiryu must be returned to the sea, for the dead must not be disturbed. However, Godzilla has survived to menace Japan, leaving MechaGodzilla as the nation's only defense.
-  "Godzilla: Final Wars":
+  15767: #-- Godzilla Final Wars
     sort_title: Godzilla Era3 - 6
     summary: "Ignoring all prior movies from this era, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla."
 
-  "Godzilla (1998)": #-- Godzilla 1998
-    match:
-      title: Godzilla
-      year: 1998
+  929: #-- Godzilla 1998
     title: Godzilla
     sort_title: Godzilla Era 98
 
@@ -485,18 +468,19 @@ metadata:
       mapping_id: 257368
     sort_title: Battlestar Reboot 3
 
-  10 Cloverfiel Lane:
+  10 Cloverfield Lane:
     sort_title: Cloverfield 2
   The Cloverfield Paradox:
     sort_title: Cloverfield 3
   
   Ghostbusters:
     match:
-      year: 1989
-    sort_title: Ghostbusters 1989
+      year: 1984
+    sort_title: Ghostbusters 1984
   Ghostbusters2016:
     match:
       year: 2016
+      title: Ghostbusters
     title: Ghostbusters
     sort_title: Ghostbusters 2016
   "Ghostbusters: Afterlife":
@@ -657,7 +641,7 @@ metadata:
     match:
       year: 1931
     sort_title: Frankenstein Universal 1
-  The Bride of Frankenstein:
+  Bride of Frankenstein:
     match:
       year: 1935
     sort_title: Frankenstein Universal 2
