@@ -160,7 +160,6 @@ collections:
 
   Marvel Extended Universe:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/mceu?display=movie&sort=released,desc
-    # https://trakt.tv/users/asterlea/lists/marvel?display=movie&sort=release,asc
     smart_label:
       all:
         label: <<smart_label>>
@@ -170,9 +169,7 @@ collections:
 
   DC Universe:
     trakt_list: 
-      - https://trakt.tv/users/zosoleary/lists/dc-cinematic-universe?display=movie&sort=release,asc
-      - https://trakt.tv/users/malicekodi2/lists/dc?display=movie&sort=release,asc
-      - https://trakt.tv/lists/20583443?display=movie&sort=release,asc
+      - https://trakt.tv/users/tomhenrich/lists/dc-universe?sort=released,desc
     smart_label:
       all:
         label: <<smart_label>>
