@@ -1,0 +1,6 @@
+# Ignore files with these extensions
+*.idx
+*.sub
+
+# Ignore directories called:
+*Additional Subs/*
