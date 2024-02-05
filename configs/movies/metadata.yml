@@ -694,3 +694,9 @@ metadata:
     match:
       year: 2013
     sort_title: Before 3
+
+
+  Rocky Balboa:
+    match:
+      year: 2006
+    sort_title: Rocky VI
