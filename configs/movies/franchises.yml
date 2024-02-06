@@ -91,6 +91,7 @@ dynamic_collections:
       115570: "Star Trek: TOS"
       151: "Star Trek: TNG"
       115575: "Star Trek: Kelvin Timeline"
+      948485: "The Batman"
 
     template_variables:
 
@@ -163,6 +164,7 @@ dynamic_collections:
         115575: Star Trek Kelvin
         521226: Quiet Place
         529: Wallace and Gromit
+        948485: The Batman
 
       item_label:
         435259: Wizarding World
@@ -195,6 +197,7 @@ dynamic_collections:
 
       sort_title:
         263: "Batman (Dark Knight)"
+        948485: Batman 2022
         374509: Godzilla Era 1954
         374511: Godzilla Era 1984
         374512: Godzilla Era 1999
@@ -204,6 +207,7 @@ dynamic_collections:
         115570: Star Trek 1979
         151: Star Trek 1994
         115575: Star Trek 2009
+
 
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
