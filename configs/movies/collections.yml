@@ -103,7 +103,7 @@ collections:
         - 84719
         - 45322
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
-  Vengeance:
+  Vengeance Trilogy:
     template:
       name: tmdb
       movie: 
@@ -112,7 +112,6 @@ collections:
         - 4550  # Lady Vengeance
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
     collection_order: release
-    name_mapping: "Vengeance Trilogy"
   Wonka:
     template:
       name: tmdb
