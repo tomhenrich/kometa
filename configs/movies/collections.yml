@@ -213,11 +213,10 @@ collections:
     sort_title: "++Non-English"
 
   Hitchcock:
-    plex_search:
+    smart_filter:
       all:
         director: Alfred Hitchcock
-    collection_order: release
-    collection_mode: hide_items
+      sort_by: release.asc
 
   Laika:
     smart_filter:
