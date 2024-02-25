@@ -205,6 +205,13 @@ collections:
     label: noshare
     minimum_items: 1
 
+  Unwatched:
+    smart_filter:
+      all:
+        unplayed: true
+      sort_by: duration.asc
+    sort_title: "zzzUnwatched"
+
   Non-English:
     smart_filter:
       any:
