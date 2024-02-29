@@ -91,25 +91,7 @@ collections:
       movie: 16320
     minimum_items: 1
     collection_mode: hide
-  Universal Monsters:
-    template:
-      name: tmdb
-      collection:
-        - 221539
-        - 218406
-        - 259401
-        - 221544
-        - 259027
-        - 221537
-      movie:
-        - 15855
-        - 27970
-        - 24106
-        - 17907
-        - 106296
-        - 84719
-        - 45322
-    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
+
   Vengeance Trilogy:
     template:
       name: tmdb
@@ -187,17 +169,6 @@ collections:
 # OTHER
 ########################################
 
-  "Tom's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie&sort=rank,asc
-    smart_label:
-      all:
-        label: <<smart_label>>
-        unplayed: true
-    sort_title: "+Toms Watchlist"
-    name_mapping: Toms Watchlist
-    label: noshare
-    minimum_items: 1
-
   "Sarah's Watchlist":
     trakt_list: 
       - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie&sort=rank,asc
@@ -209,6 +180,17 @@ collections:
       sort_by: title.asc
     sort_title: "+Sarahs Watchlist"
     name_mapping: Sarahs Watchlist
+    label: noshare
+    minimum_items: 1
+
+  "Tom's Watchlist":
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie&sort=rank,asc
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+    sort_title: "+Toms Watchlist"
+    name_mapping: Toms Watchlist
     label: noshare
     minimum_items: 1
 
@@ -224,7 +206,17 @@ collections:
       any:
         audio_language.not: English
       sort_by: title.asc
-    sort_title: "++Non-English"
+    sort_title: "zzzNon-English"
+
+  Best of Robin Williams:
+    sort_title: Robin Williams
+    smart_filter:
+      all:
+        actor: tmdb
+        audience_rating.gte: 7
+      sort_by: release.asc
+    tmdb_person: 2157
+    summary: Films starring Robin Williams that received a 70% or higher score from audiences.
 
   Hitchcock:
     smart_filter:
@@ -232,7 +224,7 @@ collections:
         director: Alfred Hitchcock
       sort_by: release.asc
 
-  Laika:
+  Laika Studios:
     smart_filter:
       all:
         studio.begins: Laika
@@ -253,19 +245,31 @@ collections:
       sort_by: title.asc
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
 
-  Best of Robin Williams:
-    sort_title: Robin Williams
-    smart_filter:
-      all:
-        actor: tmdb
-        audience_rating.gte: 7
-      sort_by: release.asc
-    tmdb_person: 2157
-    summary: Films starring Robin Williams that received a 70% or higher score from audiences.
-
   Star Trek:
     smart_filter:
       any:
         label: Star Trek
       sort_by: release.asc
     summary: "All films from the iconic Star Trek franchise."
+
+  Universal Monsters:
+    smart_label: title.asc
+    tmdb_collection:
+      - 221539
+      - 218406
+      - 259401
+      - 221544
+      - 259027
+      - 221537
+    tmdb_movie:
+      - 15855
+      - 27970
+      - 24106
+      - 17907
+      - 106296
+      - 84719
+      - 45322
+    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
+    item_label.append: Middle Earth
+    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
+
