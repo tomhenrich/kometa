@@ -74,6 +74,13 @@ collections:
         - 11234 # Omega Man
         - 6479  # I Am Legend
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
+  Italian Job:
+    template:
+      name: tmdb
+      movie:
+        - 10536 # 1969
+        - 9654  # 2003
+    summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
   Kurosawa Samurai:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
