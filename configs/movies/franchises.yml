@@ -48,13 +48,6 @@ dynamic_collections:
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
       - 491768  # Toho Frankenstein/Gargantuas
-      ## Universal Monsters:
-      - 221539  # Dracula
-      - 218406  # Frankenstein
-      - 259401  # Invisible Man
-      - 221544  # The Mummy
-      - 259027  # Wolf-Man
-      - 221537  # Creature from the Black Lagoon
 
     addons: # combine collections
       8091:       # Alien
