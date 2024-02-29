@@ -33,8 +33,6 @@ dynamic_collections:
 
     exclude:
       - 1072931 # Unknown
-      - 948485  # Robert Pattinson's Batman
-      - 325470  # LEGO Movies
       - 945984  # I Am Legend
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
