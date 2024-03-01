@@ -64,11 +64,26 @@ collections:
         - 381288  # Split
         - 450465  # Glass
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
-  I Am Legend:
+  Gamera:
     template:
       name: tmdb
       collection:
-        - 945984 # I am Legend (Will Smith)
+        - 161766 # Showa
+        - 657313 # Heisei
+      movie:
+        - 60160 # Gamera the Brave
+        - 664048 # 2015 short
+    summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
+  "Godzilla (Reiwa)":
+    template:
+      name: tmdb
+      movie:
+        - 315011 # Shin Godzilla
+        - 940721 # Minus One
+    minimum_items: 1
+  I Am Legend:
+    template:
+      name: tmdb
       movie:
         - 21159 # The Last Man on Earth
         - 11234 # Omega Man
@@ -91,25 +106,6 @@ collections:
       movie: 16320
     minimum_items: 1
     collection_mode: hide
-  Universal Monsters:
-    template:
-      name: tmdb
-      collection:
-        - 221539
-        - 218406
-        - 259401
-        - 221544
-        - 259027
-        - 221537
-      movie:
-        - 15855
-        - 27970
-        - 24106
-        - 17907
-        - 106296
-        - 84719
-        - 45322
-    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
   Vengeance Trilogy:
     template:
       name: tmdb
@@ -264,10 +260,32 @@ collections:
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
 
   Star Trek:
-    smart_filter:
-      any:
-        label: Star Trek
-      sort_by: release.asc
+    smart_label: release.asc
+    tmdb_collection:
+      - 151
+      - 115570
+      - 115575
+    item_label.append: Star Trek
     summary: "All films from the iconic Star Trek franchise."
 
 
+  Universal Monsters:
+    smart_label: release.asc
+    template:
+      name: tmdb
+      collection:
+        - 221539
+        - 218406
+        - 259401
+        - 221544
+        - 259027
+        - 221537
+      movie:
+        - 15855
+        - 27970
+        - 24106
+        - 17907
+        - 106296
+        - 84719
+        - 45322
+    summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
