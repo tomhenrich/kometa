@@ -271,21 +271,19 @@ collections:
 
   Universal Monsters:
     smart_label: release.asc
-    template:
-      name: tmdb
-      collection:
-        - 221539
-        - 218406
-        - 259401
-        - 221544
-        - 259027
-        - 221537
-      movie:
-        - 15855
-        - 27970
-        - 24106
-        - 17907
-        - 106296
-        - 84719
-        - 45322
+    tmdb_collection:
+      - 221539
+      - 218406
+      - 259401
+      - 221544
+      - 259027
+      - 221537
+    tmdb_movie:
+      - 15855
+      - 27970
+      - 24106
+      - 17907
+      - 106296
+      - 84719
+      - 45322
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
