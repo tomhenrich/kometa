@@ -73,6 +73,7 @@ dynamic_collections:
       161766: Gamera
       535313: "Godzilla (MonsterVerse)"
       535790: "Godzilla (Anime)"
+      948485: The Batman
       9485: The Fast and the Furious
       121938: The Hobbit
       479888: The Thing
@@ -136,6 +137,7 @@ dynamic_collections:
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
         1565: 28 Days Later
+        948485: The Batman
         263: Dark Knight
         91697: Battlestar Galactica
         9485: Fast and Furious
