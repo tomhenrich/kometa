@@ -65,7 +65,6 @@ dynamic_collections:
         - 939352    #+ Rise of the Beasts
 
     title_override:
-      115762: Aliens vs Predators
       1733: The Mummy # 1999 cinematic masterpiece
       304: "Ocean's Heists"
       2794: The Chronicles of Riddick
@@ -86,7 +85,9 @@ dynamic_collections:
       115570: "Star Trek: TOS"
       151: "Star Trek: TNG"
       115575: "Star Trek: Kelvin Timeline"
-      948485: "The Batman"
+
+      259401: "Invisible Man (Universal)"
+      259027: "Wolf Man (Universal)"
 
     template_variables:
 
@@ -106,7 +107,7 @@ dynamic_collections:
           - 329237    # Gigantis the Fire Monster (US Version of Godzilla Raids Again)
           - 686487    # King Kong vs Godzilla (US)
         374511:     # Godzilla (Heisei)
-          - 39256     #+ Godzilla 1985
+          - 39256     #+ Godzilla 1985 (US Version)
         328:        # Jurassic Park
           - 630322    #+ Battle at Big Rock
         645:        # James Bond
@@ -129,19 +130,19 @@ dynamic_collections:
           - 340102    #+ New Mutants
         2344:       # The Matrix
           - 55931     #+ Animatrix
+        259027:     # Wolf Man
+          - 27970     #+ Wolf Man of London
 
-      name_mapping: # where does the folder name not match the collection name?
-                    # must include any where title_override value starts with "The"
+      name_mapping: # provide the folder name if it's not identical to the collection name
+                    # include any folders where title_override value specifies that it starts with "The"
         1565: 28 Days Later
-        115762: Aliens vs Predators
-        263: "Dark Knight"
+        263: Dark Knight
         91697: Battlestar Galactica
         9485: Fast and Furious
         535313: Godzilla (MonsterVerse)
         535790: Godzilla (Anime)
         325470: LEGO Movies
         304: Oceans
-        2794: Riddick
         119: Lord of the Rings
         121938: Hobbit
         479888: Thing
@@ -157,17 +158,12 @@ dynamic_collections:
         115575: Star Trek Alternate Reality
         521226: Quiet Place
         529: Wallace and Gromit
-        948485: The Batman
 
       item_label:
         435259: Wizarding World
         535313: MonsterVerse
         119: LOTR,Middle-Earth
         121938: Hobbit,Middle-Earth
-        151: Star Trek     # TOS
-        115570: Star Trek  # TNG
-        115575: Star Trek  # KEL
-
 
       collection_order:
         10: alpha     # Star Wars
@@ -175,7 +171,6 @@ dynamic_collections:
 
       minimum_items:
         912503: 1     # Shang-Chi
-        1137316: 1    # Godzilla (Reiwa)
 
       sort_title:
         263: "Batman (Dark Knight)"
