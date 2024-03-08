@@ -48,8 +48,7 @@ metadata:
       mapping_id: 181808
     title: "Star Wars VIII: The Last Jedi"
     sort_title: Star Wars 8
-    label: Star Wars
-  The Rise of Skywalker:
+ The Rise of Skywalker:
     match:
       mapping_id: 181812
     title: "Star Wars IX: The Rise of Skywalker"
