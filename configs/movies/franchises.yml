@@ -164,8 +164,6 @@ dynamic_collections:
       item_label:
         435259: Wizarding World
         535313: MonsterVerse
-        119: LOTR,Middle-Earth
-        121938: Hobbit,Middle-Earth
 
       collection_order:
         10: alpha     # Star Wars
