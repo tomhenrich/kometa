@@ -105,113 +105,6 @@ collections:
       name: tmdb
       movie: 16320
     minimum_items: 1
-    collection_mode: hidetemplates:
-  tmdb:
-    optional:
-      - collection
-      - movie
-      - tmdb_summary
-      - summary
-      - order
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    tmdb_summary: <<tmdb_summary>>
-    summary: <<summary>>
-    sync_mode: sync
-    collection_order: release
-    move_prefix: The,A
-
-  tmdb_or_tag:
-    optional:
-      - collection
-      - movie
-      - tag
-      - tmdb_summary
-      - summary
-      - order
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    tmdb_summary: <<tmdb_summary>>
-    plex_search:
-      all:
-        label: <<tag>>
-    sync_mode: sync
-    collection_order: <<order>>
-    move_prefix: The,A
-  tmdb_keyword:
-    tmdb_keyword: <<keyword>>
-    sync_mode: sync
-    collection_order: release
-    move_prefix: The,A
-
-  Actor:
-    plex_search:
-      all:
-        actor: tmdb
-    tmdb_person: <<person>>
-    sync_mode: sync
-
-#
-# CURATED COLLECTIONS
-# Curated -- either not official TMDB collections, or specific combinations of movies
-#
-collections:
-  Cloverfield:
-    template:
-      name: tmdb
-      movie: 
-        - 7191    # Cloverfield
-        - 333371  # 10 Cloverfield Lane
-        - 384521  # Cloverfield Paradox
-  Eastrail 177:
-    template:
-      name: tmdb
-      movie: 
-        - 9741    # Unbreakable
-        - 381288  # Split
-        - 450465  # Glass
-    summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
-  Gamera:
-    template:
-      name: tmdb
-      collection:
-        - 161766 # Showa
-        - 657313 # Heisei
-      movie:
-        - 60160 # Gamera the Brave
-        - 664048 # 2015 short
-    summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
-  "Godzilla (Reiwa)":
-    template:
-      name: tmdb
-      movie:
-        - 315011 # Shin Godzilla
-        - 940721 # Minus One
-    minimum_items: 1
-  I Am Legend:
-    template:
-      name: tmdb
-      movie:
-        - 21159 # The Last Man on Earth
-        - 11234 # Omega Man
-        - 6479  # I Am Legend
-    summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
-  Italian Job:
-    template:
-      name: tmdb
-      movie:
-        - 10536 # 1969
-        - 9654  # 2003
-    summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
-  Kurosawa Samurai:
-    template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
-    summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
-    item_label: Samurai
-  Serenity:
-    template:
-      name: tmdb
-      movie: 16320
-    minimum_items: 1
     collection_mode: hide
   Vengeance Trilogy:
     template:
@@ -232,14 +125,10 @@ collections:
     summary: "Come with me... and you'll be... in a world of pure imagination..."
     collection_order: release
 
-########################################
-# TRAKT-BASED COLLECTIONS
-########################################
 
   Studio Ghibli:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
     collection_order: release
-    item_label: Ghibli
 
   Toho Kaiju:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
@@ -251,11 +140,9 @@ collections:
 ########################################
   Black Widow:
     template: {name: tmdb, movie: 497698}
-    item_label: MCU
     minimum_items: 1
   Incredible Hulk:
     template: {name: tmdb, movie: 1724}
-    item_label: MCU
     minimum_items: 1
 
   Marvel Cinematic Universe:
@@ -265,7 +152,6 @@ collections:
       all:
         label: <<smart_label>>
       sort_by: release.asc
-    item_label: MCU
 
   Marvel Extended Universe:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/mceu?display=movie&sort=released,desc
@@ -274,7 +160,6 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
-    item_label: MCEU
 
   DC Universe:
     trakt_list: 
@@ -284,7 +169,6 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     minimum_items: 1
-    item_label: DCU
 
 ########################################
 # OTHER
@@ -329,6 +213,7 @@ collections:
       sort_by: title.asc
     sort_title: "zzzNon-English"
 
+
   Best of Robin Williams:
     sort_title: Robin Williams
     smart_filter:
@@ -351,20 +236,13 @@ collections:
         studio.begins: Laika
       sort_by: release.asc
 
+
   Middle Earth:
     smart_label: title.asc
     tmdb_collection:
       - 119
       - 121938
-    item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
-
-  MonsterVerse:
-    smart_filter:
-      any:
-        label: MonsterVerse
-      sort_by: title.asc
-    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
 
   Star Trek:
     smart_label: release.asc
@@ -396,164 +274,3 @@ collections:
     item_label.append: Universal Monsters
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
 
-  Vengeance Trilogy:
-    template:
-      name: tmdb
-      movie: 
-        - 4689  # Sympathy for Mr Vengeance
-        - 670   # Oldboy
-        - 4550  # Lady Vengeance
-    summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
-    collection_order: release
-  Wonka:
-    template:
-      name: tmdb
-      movie:
-        - 252
-        - 118
-        - 787699
-    summary: "Come with me... and you'll be... in a world of pure imagination..."
-    collection_order: release
-
-########################################
-# TRAKT-BASED COLLECTIONS
-########################################
-
-  Studio Ghibli:
-    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
-    collection_order: release
-    item_label: Ghibli
-
-  Toho Kaiju:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
-    collection_order: release
-    minimum_items: 1
-
-########################################
-# Marvel/DC Movies
-########################################
-  Black Widow:
-    template: {name: tmdb, movie: 497698}
-    item_label: MCU
-    minimum_items: 1
-  Incredible Hulk:
-    template: {name: tmdb, movie: 1724}
-    item_label: MCU
-    minimum_items: 1
-
-  Marvel Cinematic Universe:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/mcu?display=movie&sort=released,desc
-    # https://trakt.tv/users/asterlea/lists/mcu?display=movie&sort=release,asc
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-    item_label: MCU
-
-  Marvel Extended Universe:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/mceu?display=movie&sort=released,desc
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-    summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
-    item_label: MCEU
-
-  DC Universe:
-    trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/dc-universe?sort=released,desc
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
-    minimum_items: 1
-    item_label: DCU
-
-########################################
-# OTHER
-########################################
-
-  "Sarah's Watchlist":
-    trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie&sort=rank,asc
-      - https://trakt.tv/users/nursesawa/watchlist?display=movie&sort=rank,asc
-    smart_label:
-      all:
-        label: <<smart_label>>
-        unplayed: true
-      sort_by: title.asc
-    sort_title: "+Sarahs Watchlist"
-    name_mapping: Sarahs Watchlist
-    label: noshare
-    minimum_items: 1
-
-  "Tom's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie&sort=rank,asc
-    smart_label:
-      all:
-        label: <<smart_label>>
-        unplayed: true
-    sort_title: "+Toms Watchlist"
-    name_mapping: Toms Watchlist
-    label: noshare
-    minimum_items: 1
-
-  Unwatched:
-    smart_filter:
-      all:
-        unplayed: true
-      sort_by: duration.asc
-    sort_title: "zzzUnwatched"
-
-  Non-English:
-    smart_filter:
-      any:
-        audio_language.not: English
-      sort_by: title.asc
-    sort_title: "zzzNon-English"
-
-  Best of Robin Williams:
-    sort_title: Robin Williams
-    smart_filter:
-      all:
-        actor: tmdb
-        audience_rating.gte: 7
-      sort_by: release.asc
-    tmdb_person: 2157
-    summary: Films starring Robin Williams that received a 70% or higher score from audiences.
-
-  Hitchcock:
-    smart_filter:
-      all:
-        director: Alfred Hitchcock
-      sort_by: release.asc
-
-  Laika Studios:
-    smart_filter:
-      all:
-        studio.begins: Laika
-      sort_by: release.asc
-
-  Middle Earth:
-    smart_label: title.asc
-    tmdb_collection:
-      - 119
-      - 121938
-    item_label.append: Middle Earth
-    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
-
-  MonsterVerse:
-    smart_filter:
-      any:
-        label: MonsterVerse
-      sort_by: title.asc
-    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters.
-
-  Star Trek:
-    smart_label: release.asc
-    tmdb_collection:
-      - 151
-      - 115570
-      - 115575
-    item_label.append: Star Trek
-    summary: "All films from the iconic Star Trek franchise."
