@@ -162,8 +162,7 @@ collections:
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
 
   DC Universe:
-    trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/dc-universe?sort=released,desc
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/dc-universe?sort=released,desc
     smart_label:
       all:
         label: <<smart_label>>
@@ -254,23 +253,8 @@ collections:
     summary: "All films from the iconic Star Trek franchise."
 
   Universal Monsters:
-    template:
-      name: tmdb
-      collection:
-        - 221539
-        - 218406
-        - 259401
-        - 221544
-        - 259027
-        - 221537
-      movie:
-        - 15855
-        - 27970
-        - 24106
-        - 17907
-        - 106296
-        - 84719
-        - 45322
+    smart_label: release.asc
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/universal-monsters?display=movie&sort=released,desc
     item_label.append: Universal Monsters
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
 
