@@ -81,6 +81,7 @@ collections:
         - 315011 # Shin Godzilla
         - 940721 # Minus One
     minimum_items: 1
+    sort_title: Godzilla Era 2016
   I Am Legend:
     template:
       name: tmdb
