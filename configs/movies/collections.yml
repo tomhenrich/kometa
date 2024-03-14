@@ -183,7 +183,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
       sort_by: title.asc
-    sort_title: "+Sarahs Watchlist"
+    sort_title: "!Sarahs Watchlist"
     name_mapping: Sarahs Watchlist
     label: noshare
     minimum_items: 1
@@ -194,7 +194,7 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-    sort_title: "+Toms Watchlist"
+    sort_title: "!Toms Watchlist"
     name_mapping: Toms Watchlist
     label: noshare
     minimum_items: 1
