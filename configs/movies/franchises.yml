@@ -67,6 +67,8 @@ dynamic_collections:
       1582:       # TMNT
         - 1156855  #+ Animated TMNT
         - 401562   #+ Reboot TMNT
+      17255:    # Resident Evil
+        - 133352  #+ Animated
 
     title_override:
       1733: The Mummy # 1999 cinematic masterpiece
