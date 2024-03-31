@@ -253,9 +253,10 @@ collections:
     item_label.append: Star Trek
     summary: "All films from the iconic Star Trek franchise."
 
-  Universal Monsters:
-    smart_label: release.asc
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/universal-monsters?display=movie&sort=released,desc
-    item_label.append: Universal Monsters
+  Universal Classic Monsters:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/universal-monsters?sort=released,desc
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
-
