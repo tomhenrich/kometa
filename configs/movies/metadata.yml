@@ -447,6 +447,30 @@ metadata:
     sort_title: Blade 3
 
 # ####################
+  "Mission: Impossible":
+    year: 1996
+    sort_title: Mission Impossible 1
+  "Mission: Impossible II":
+    year: 2000
+    sort_title: Mission Impossible 2
+  "Mission: Impossible III":
+    year: 2006
+    sort_title: Mission Impossible 3
+  "Mission: Impossible - Ghost Protocol":
+    year: 2011
+    sort_title: Mission Impossible 4
+  "Mission: Impossible - Rogue Nation":
+    year: 2015
+    sort_title: Mission Impossible 5
+  "Mission: Impossible - Fallout":
+    year: 2011
+    sort_title: Mission Impossible 6
+  "Mission: Impossible - Fallout":
+    year: 2011
+    sort_title: Mission Impossible 6
+  "Mission: Impossible - Dead Reckoning Part One"
+    year: 2023
+    sort_title: Mission Impossible 7
 
   Princess Mononoke:
     match:
