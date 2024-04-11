@@ -56,20 +56,20 @@ dynamic_collections:
         - 135416    #+ Prometheus
       86066:      # Despicable Me
         - 544669    #+ Minions
-      748:        # X-Men
-        - 453993    #+ The Wolverine
+      10789:      # Pet Sematary
+        - 830781    #+ Reboot
+      17255:      # Resident Evil
+        - 133352    #+ Animated
       10:         # Star Wars
         - 392331    #+ LEGO Star Wars
         - 1004630   #+ LEGO Star Wars (Seasonal)
-      8650:       # Transformers
-        - 939352    #+ Rise of the Beasts
       1582:       # TMNT
         - 1156855   #+ Animated TMNT
         - 401562    #+ Reboot TMNT
-      17255:      # Resident Evil
-        - 133352    #+ Animated
-      10789:      # Pet Sematary
-        - 830781    #+ Reboot
+      8650:       # Transformers
+        - 939352    #+ Rise of the Beasts
+      748:        # X-Men
+        - 453993    #+ The Wolverine
 
     title_override:
       1733: The Mummy # 1999 cinematic masterpiece
