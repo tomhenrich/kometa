@@ -56,6 +56,13 @@ collections:
         - 7191    # Cloverfield
         - 333371  # 10 Cloverfield Lane
         - 384521  # Cloverfield Paradox
+  Cunk:
+    template:
+      name: tmdb
+      movie:
+        - 397385 # Shakespeare
+        - 431605 # Christmas
+    summary: Landmark mockumentary-maker Philomena Cunk guides us through history.
   Eastrail 177:
     template:
       name: tmdb
