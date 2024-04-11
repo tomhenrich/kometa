@@ -56,8 +56,8 @@ dynamic_collections:
         - 135416    #+ Prometheus
       86066:      # Despicable Me
         - 544669    #+ Minions
-      10789:      # Pet Sematary
-        - 830781    #+ Reboot
+      10789: # Pet Sematary
+        - 830781
       17255:      # Resident Evil
         - 133352    #+ Animated
       10:         # Star Wars
