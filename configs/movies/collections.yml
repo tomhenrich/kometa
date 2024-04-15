@@ -219,6 +219,7 @@ collections:
         audio_language.not: English
       sort_by: title.asc
     sort_title: "zzzNon-English"
+    summary: "You're gonna need to be okay with subtitles."
 
 
   Best of Robin Williams:
