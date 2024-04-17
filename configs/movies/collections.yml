@@ -56,6 +56,7 @@ collections:
         - 7191    # Cloverfield
         - 333371  # 10 Cloverfield Lane
         - 384521  # Cloverfield Paradox
+
   Cunk:
     template:
       name: tmdb
@@ -63,6 +64,7 @@ collections:
         - 397385 # Shakespeare
         - 431605 # Christmas
     summary: Landmark mockumentary-maker Philomena Cunk guides us through history.
+
   Eastrail 177:
     template:
       name: tmdb
@@ -71,6 +73,7 @@ collections:
         - 381288  # Split
         - 450465  # Glass
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
+
   Gamera:
     template:
       name: tmdb
@@ -81,6 +84,7 @@ collections:
         - 60160 # Gamera the Brave
         - 664048 # 2015 short
     summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
+
   "Godzilla (Reiwa)":
     template:
       name: tmdb
@@ -89,6 +93,7 @@ collections:
         - 940721 # Minus One
     minimum_items: 1
     sort_title: Godzilla Era 2016
+
   I Am Legend:
     template:
       name: tmdb
@@ -97,6 +102,7 @@ collections:
         - 11234 # Omega Man
         - 6479  # I Am Legend
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
+
   Italian Job:
     template:
       name: tmdb
@@ -104,16 +110,19 @@ collections:
         - 10536 # 1969
         - 9654  # 2003
     summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
+
   Kurosawa Samurai:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
     item_label: Samurai
+
   Serenity:
     template:
       name: tmdb
       movie: 16320
     minimum_items: 1
     collection_mode: hide
+
   Vengeance Trilogy:
     template:
       name: tmdb
@@ -122,6 +131,7 @@ collections:
         - 670   # Oldboy
         - 4550  # Lady Vengeance
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
+
     collection_order: release
   Wonka:
     template:
@@ -132,7 +142,6 @@ collections:
         - 787699
     summary: "Come with me... and you'll be... in a world of pure imagination..."
     collection_order: release
-
 
   Studio Ghibli:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
@@ -221,7 +230,6 @@ collections:
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
 
-
   Best of Robin Williams:
     sort_title: Robin Williams
     smart_filter:
@@ -243,7 +251,6 @@ collections:
       all:
         studio.begins: Laika
       sort_by: release.asc
-
 
   Middle Earth:
     smart_label: title.asc
