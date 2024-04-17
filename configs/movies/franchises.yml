@@ -42,7 +42,6 @@ dynamic_collections:
       - 1198260 # Star Wars Anthology Series (unavailable on TMDB)
       - 1952
       - 1011336 # Random "Eternals" collection that doesn't exist
-      - 948485 # THE Batman
       - 995464 # Moon/Mute
       ## Kaiju Series
       - 813157  # Godzilla (Americanized)
@@ -93,6 +92,7 @@ dynamic_collections:
       115575: "Star Trek: Kelvin Timeline"
       259401: "Invisible Man (Universal)"
       259027: "Wolf Man (Universal)"
+      948485: "The Batman"
 
     template_variables:
 
