@@ -192,8 +192,8 @@ collections:
 
   "Sarah's Watchlist":
     trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie&sort=rank,asc
-      - https://trakt.tv/users/nursesawa/watchlist?display=movie&sort=rank,asc
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie&sort=title,asc
+      - https://trakt.tv/users/nursesawa/watchlist?display=movie&sort=title,asc
     smart_label:
       all:
         label: <<smart_label>>
@@ -205,7 +205,7 @@ collections:
     minimum_items: 1
 
   "Tom's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie&sort=rank,asc
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie&sort=title,asc
     smart_label:
       all:
         label: <<smart_label>>
