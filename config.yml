@@ -1,0 +1,121 @@
+libraries:
+  Movies:
+    schedule: daily
+    metadata_files:
+    - repo: configs/movies/metadata
+    collection_files:
+    - repo: configs/movies/franchises
+    - repo: configs/movies/collections
+    settings:
+      asset_directory:
+      - D:\PlexMedia\Movies
+      - D:\PlexMedia\Movies\Collections
+    operations:
+      assets_for_all: false
+      genre_mapper:
+        Anime: Animation
+        History:
+        Music:
+        TV Movie:
+  Movies (4K):
+    schedule: weekly(sunday)
+    metadata_files:
+    - repo: configs/movies4k/metadata
+    collection_files:
+    - repo: configs/movies/franchises
+    settings:
+      asset_directory:
+      - D:\PlexMedia\Movies4K
+      - D:\PlexMedia\Movies4K\Collections
+    operations:
+      assets_for_all: false
+  TV Shows:
+    schedule: daily
+    metadata_files:
+    - repo: configs/tv/metadata
+    collection_files:
+    - repo: configs/tv/collections
+    operations:
+      assets_for_all: false
+    settings:
+      asset_directory:
+      - E:\TV
+      - E:\TV\Collections
+settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 2
+  create_asset_folders: false
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: sync
+  minimum_items: 2
+  default_collection_order: release
+  delete_below_minimum: false
+  delete_not_scheduled: true
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_unconfigured: true
+  show_filtered: false
+  show_options: true
+  show_missing: false
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_user: all
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo: https://github.com/tomhenrich/pmm/main/
+  check_nightly: false
+webhooks:                        # Can be individually specified per library as well
+  error:
+  version:
+  run_start:
+  run_end:
+  changes:
+  delete:
+plex:
+  url: ##########
+  token: ##########
+  timeout: 180
+  db_cache:
+  clean_bundles: true
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: ##########
+  language: en
+  cache_expiration: 60
+  region: US
+tautulli:
+  url: ##########
+  apikey: ##########
+trakt:
+  client_id: ##########
+  client_secret: ##########
+  pin:
+  authorization:
+    # everything below is autofilled by the script
+    access_token: ##########
+    token_type: Bearer
+    expires_in: 
+    refresh_token: ##########
+    scope: public
+    created_at: 
