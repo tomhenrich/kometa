@@ -217,13 +217,13 @@ CasinoRoyale2006:
   "Star Trek: Nemesis":
     sort_title: Star Trek 10
 
-  "Star Trek":
+  Star Trek:
     match:
       year: 2009
     sort_title: Star Trek 2009
-  "Star Trek Into Darkness":
+  Star Trek Into Darkness:
     sort_title: Star Trek 2013
-  "Star Trek Beyond":
+  Star Trek Beyond:
     sort_title: Star Trek 2016
   
 
@@ -249,6 +249,7 @@ CasinoRoyale2006:
     original_title: "The Lord of the Rings: The Return of the King"
     summary: "Gandalf and Aragorn lead the world of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
     sort_title: LOTR 3
+
   "The Hobbit: An Unexpected Journey":
     match:
       mapping_id: 49051
@@ -272,85 +273,117 @@ CasinoRoyale2006:
     match:
       mapping_id: 1678
       year: 1954
-    sort_title: Godzilla Era 1 - 1
-  1679: #-- Godzilla Raids Again
-    title: Godzilla Raids Again
-    sort_title: Godzilla Era 1 - 2
-  1680: #-- King Kong vs. Godzilla
-    sort_title: Godzilla Era 1 - 3
-  1682: #-- Mothra vs. Godzilla
-    sort_title: Godzilla Era 1 - 4
-  15766: #-- Ghidorah, the Three-Headed Monster
-    sort_title: Godzilla Era 1 - 5
-  19545: #-- Invasion of Astro-Monster
-    sort_title: Godzilla Era 1 - 6
-  3115: #-- Ebirah, Horror of the Deep
-    sort_title: Godzilla Era 1 - 7
-  18627: #-- Son of Godzilla
-    sort_title: Godzilla Era 1 - 8
-  3107: #-- Destroy All Monsters
-    sort_title: Godzilla Era 1 - 9
-  39462: #-- All Monsters Attack
-    sort_title: Godzilla Era 1 - 10
-  39464: #-- Godzilla vs. Hedorah
-    sort_title: Godzilla Era 1 - 11
-  19336: #-- Godzilla vs. Gigan
-    sort_title: Godzilla Era 1 - 12
-  39264: #-- Godzilla vs. Megalon
-    sort_title: Godzilla Era 1 - 13
-  38582: #-- Godzilla vs. Mechagodzilla
-    sort_title: Godzilla Era 1 - 14
-  19333: #-- Terror of Mechagodzilla
-    sort_title: Godzilla Era 1 - 15
+    sort_title: Godzilla 1954
+  Godzilla Raids Again:
+    match:
+      mapping_id: 1679
+    sort_title: Godzilla 1955
+  King Kong vs. Godzilla:
+    sort_title: Godzilla 1962
+  Mothra vs. Godzilla:
+    sort_title: Godzilla 1964
+  Ghidorah, the Three-Headed Monster:
+    sort_title: Godzilla 1964 2
+  Invasion of Astro-Monster:
+    sort_title: Godzilla 1965
+  Ebirah, Horror of the Deep:
+    sort_title: Godzilla 1966
+  Son of Godzilla:
+    sort_title: Godzilla 1967
+  Destroy All Monsters:
+    sort_title: Godzilla 1968
+  All Monsters Attack:
+    sort_title: Godzilla 1969
+  Godzilla vs. Hedorah:
+    sort_title: Godzilla 1971
+  Godzilla vs. Gigan:
+    sort_title: Godzilla 1972
+  Godzilla vs. Megalon:
+    sort_title: Godzilla 1973
+  Godzilla vs. Mechagodzilla:
+    sort_title: Godzilla 1974
+  Terror of Mechagodzilla:
+    sort_title: Godzilla 1975
 
-  18983: #-- Godzilla KOTM (US)
-    sort_title: Godzilla Era 1 - 1956
-#  329237: #-- Gigantis the Fire Monster (US)
-#    sort_title: Godzilla Era 1 - 1959
-  686487: #-- King Kong vs Godzilla (US)
-    sort_title: Godzilla Era 1 - 1963
+  "Godzilla, King of the Monsters!": #US Version
+    sort_title: Godzilla 1956
+  "Gigantis, the Fire Monster": #US Version
+    sort_title: Godzilla 1959
+  King Kong vs. Godzilla 1963: #US Version
+    match:
+      title: King Kong vs. Godzilla
+      year: 1963
+    title: King Kong vs. Godzilla
+    sort_title: Godzilla 1963
 
-  421467: #-- Return of Godzilla
-    sort_title: Godzilla Era 2 - 1
-  18289: #-- Godzilla vs. Biollante
-    sort_title: Godzilla Era 2 - 2
+  Return of Godzilla:
+    sort_title: Godzilla 1984
+  Godzilla vs. Biollante:
+    sort_title: Godzilla 1989
     summary: Concerned over Godzilla's possible return after the previous attack, the Japanese government uses his cells to create a new bioweapon, Anti-Nuclear Energy Bacteria. They enlist geneticist Genshiro Shiragami, whose experiments result in a new monstrous mutation.
-  36679: #-- Godzilla vs. King Ghidorah
-    sort_title: Godzilla Era 2 - 3
-  39465: #-- Godzilla vs. Mothra
-    sort_title: Godzilla Era 2 - 4
-  6593: #-- Godzilla vs. MechaGodzilla II
-    sort_title: Godzilla Era 2 - 5
-  39466: #-- Godzilla vs. SpaceGodzilla
-    sort_title: Godzilla Era 2 - 6
+  Godzilla vs. King Ghidorah:
+    sort_title: Godzilla 1991
+  Godzilla vs. Mothra:
+    sort_title: Godzilla 1992
+  Godzilla vs. MechaGodzilla II:
+    sort_title: Godzilla 1993
+  Godzilla vs. SpaceGodzilla:
+    sort_title: Godzilla 1994
     summary: "Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole."
-  12561: #-- Godzilla vs. Destoroyah
-    sort_title: Godzilla Era 2 - 7
+  Godzilla vs. Destoroyah:
+    sort_title: Godzilla 1995
 
-  10643: #-- Godzilla 2000
-    title: "Godzilla 2000: Millennium"
-    sort_title: Godzilla Era3 - 1
+
+  "Godzilla 2000: Millennium":
+    sort_title: Godzilla 1999
     summary: Godzilla is a literal force of nature to Japan. Scientists find a sixty-million-year-old UFO deep in the Japan Trench. As they attempt to raise the UFO to study it, it takes off into the sky on its own, searching for genetic information that only Godzilla possesses.
-  39468: #-- Godzilla vs. Megaguirus
-    sort_title: Godzilla Era3 - 2
+  Godzilla vs. Megaguirus:
+    sort_title: Godzilla 2000
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
-  36243: #-- GMK
-    sort_title: Godzilla Era3 - 3
-    title: "Giant Monsters All-Out Attack"
+  Giant Monsters All-Out Attack:
+    match:
+      title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack"
+    sort_title: Godzilla 2001
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
-  12636: #-- Godzilla Against MechaGodzilla
-    sort_title: Godzilla Era3 - 4
+  Godzilla Against MechaGodzilla:
+    sort_title: Godzilla Era 2002
     summary: When a new Godzilla emerges, a cyborg version named Kiryu is constructed from the remains of the 1954 monster. The machine is discovered to harbor the restless soul of the original Godzilla as JSDF pilot Akane Yashiro must learn to find value in her own life as well.
-  39469: #-- Godzilla Tokyo SOS
-    sort_title: Godzilla Era3 - 5
+  "Godzilla: Tokyo S.O.S.":
+    sort_title: Godzilla 2003
     summary: In this sequel to "Godzilla Against MechaGodzilla", Mothra and her fairies return to Japan to warn mankind that Kiryu must be returned to the sea, for the dead must not be disturbed. However, Godzilla has survived to menace Japan, leaving MechaGodzilla as the nation's only defense.
-  15767: #-- Godzilla Final Wars
-    sort_title: Godzilla Era3 - 6
+  "Godzilla: Final Wars":
+    sort_title: Godzilla 2004
     summary: "Ignoring all prior movies from this era, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla."
 
-  929: #-- Godzilla 1998
+  "Godzilla: Planet of the Monsters":
+    match:
+      mapping_id: 535790
+    sort_title: Godzilla Anime 1
+  "Godzilla: City on the Edge of Battle":
+    match:
+      mapping_id: 492719
+    sort_title: Godzilla Anime 2
+  "Godzilla: The Planet Eater":
+    match:
+      mapping_id: 536115
+    sort_title: Godzilla Anime 3
+
+  Shin Godzilla:
+    sort_title: Godzilla 2016
+  Godzilla Minus One:
+    sort_title: Godzilla 2023
+  Godzilla Minus One Minus Color:
+    match:
+      title: Godzilla Minus One
+      edition: Minus Color
+    sort_title: Godzilla 2023 2
+
+  Godzilla (1998):
+    match:
+      title: Godzilla
+      year: 1998
     title: Godzilla
-    sort_title: Godzilla Era 98
+    sort_title: Godzilla 98
 
 # ####################
 
@@ -376,8 +409,6 @@ CasinoRoyale2006:
     match:
       mapping_id: 2789
     sort_title: Chronicles of Riddick 2
-    edition: "Director's Cut"
-    content_rating: Unrated
   Riddick:
     match:
       mapping_id: 87421
@@ -434,6 +465,11 @@ CasinoRoyale2006:
     match:
       year: 2012
     sort_title: Dark Knight 3
+
+  The Batman:
+    match:
+      year: 2022
+    sort_title: Batman 2022
 
 # ####################
 
@@ -496,75 +532,6 @@ CasinoRoyale2006:
     sort_title: Gamera 2015
     edition: Short Film
 
-# ####################
-# MARVEL
-# ####################
-
-  24428:
-    sort_title: Avengers 1
-  99861:
-    sort_title: Avengers 2
-  299536:
-    sort_title: Avengers 3
-  299534:
-    sort_title: Avengers 4
-
-  1771:
-    sort_title: Captain America 1
-  100402:
-    sort_title: Captain America 2
-  271110:
-    sort_title: Captain America 3
-
-  76338:
-    sort_title: Thor 2
-  284053:
-    sort_title: Thor 3
-  616037:
-    sort_title: Thor 4
-
-  "Spider-Man: Homecoming":
-    match:
-      mapping_id: 315635
-    sort_title: Spider-Man Avengers 1
-  "Spider-Man: Far From Home":
-    match:
-      mapping_id: 429617
-    sort_title: Spider-Man Avengers 2
-  "Spider-Man: No Way Home":
-    match:
-      mapping_id: 634649
-    sort_title: Spider-Man Avengers 3
-
-  36658:
-    title: "X2: X-Men United"
-    sort_title: X-Men 2
-  36668:
-    sort_title: X-Men 3
-  "X-Men: First Class":
-    match:
-      mapping_id: 49538
-    sort_title: X-Men 4
-  "X-Men: Days of Future Past":
-    match:
-      mapping_id: 127585
-    sort_title: X-Men 5
-  "X-Men: Apocalypse":
-    match:
-      mapping_id: 246655
-    sort_title: X-Men 6
-
-  324857:
-    sort_title: Spider-Verse 1
-  569094:
-    sort_title: Spider-Verse 2
-
-  36647:
-    sort_title: Blade 1
-  36586:
-    sort_title: Blade 2
-  36648:
-    sort_title: Blade 3
 
 # ####################
   "Mission: Impossible":
@@ -614,36 +581,40 @@ CasinoRoyale2006:
   Ghostbusters:
     match:
       year: 1984
-    sort_title: Ghostbusters 1984
-  Ghostbusters2016:
+    sort_title: Ghostbusters 1
+  Ghostbusters II:
+    sort_title: Ghostbusters 2
+  Ghostbusters 2016:
     match:
-      year: 2016
       title: Ghostbusters
+      year: 2016
     title: Ghostbusters
-    sort_title: Ghostbusters 2016
+    sort_title: Ghostbusters Reboot
   "Ghostbusters: Afterlife":
-    sort_title: Ghostbusters 2021
+    sort_title: Ghostbusters 3
+  "Ghostbusters: Frozen Empire":
+    sort_title: Ghostbusters 4
 
-  9799:
-    sort_title: Fast and Furious 1
-  584:
-    sort_title: Fast and Furious 2
-  9615:
-    sort_title: Fast and Furious 3
-  13804:
-    sort_title: Fast and Furious 4
-  51497:
-    sort_title: Fast and Furious 5
-  82992:
-    sort_title: Fast and Furious 6
-  168259:
-    sort_title: Fast and Furious 7
-  337339:
-    sort_title: Fast and Furious 8
-  385128:
-    sort_title: Fast and Furious 9
-  385687:
-    sort_title: Fast and Furious 10
+  The Fast and the Furious:
+    sort_title: Fast 1
+  2 Fast 2 Furious:
+    sort_title: Fast 2
+  "The Fast and the Furious: Tokyo Drift":
+    sort_title: Fast 3
+  "Fast & Furious":
+    sort_title: Fast 4
+  Fast Five:
+    sort_title: Fast 5
+  "Fast & Furious 6":
+    sort_title: Fast 6
+  Furious 7:
+    sort_title: Fast 7
+  The Fate of the Furious:
+    sort_title: Fast 8
+  F9:
+    sort_title: Fast 9
+  Fast X:
+    sort_title: Fast 10
 
   348:
     sort_title: Alien 1
@@ -653,17 +624,15 @@ CasinoRoyale2006:
     sort_title: Alien 3
   8078:
     sort_title: Alien 4
-  Prometheus:
-    match:
-      year: 2012
+  70981: # Prometheus
     sort_title: Alien 5
-  "Alien: Covenant":
-    match:
-      year: 2017
+  126889: # Alien Covenant
     sort_title: Alien 6
 
   395:
     sort_title: Alien vs Predator 1
+  440:
+    sort_title: Alien vs Predator 2
 
   1685:
     sort_title: Planet of the Apes 2
@@ -756,6 +725,10 @@ CasinoRoyale2006:
     sort_title: Resident Evil 3
   "Resident Evil: Afterlife":
     sort_title: Resident Evil 4
+  "Resident Evil: Retribution":
+    sort_title: Resident Evil 5
+  "Resident Evil: The Final Chapter":
+    sort_title: Resident Evil 6
 
   Dracula:
     match:
