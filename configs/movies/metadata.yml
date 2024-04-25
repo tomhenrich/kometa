@@ -8,6 +8,123 @@ metadata:
     sort_title: A Star Is Born
 
 # ####################
+# JAMES BOND
+# ####################
+
+"Dr. No":
+  match:
+    year: 1962
+  sort_title: James Bond 1
+"From Russia with Love":
+  match:
+    year: 1963
+  sort_title: James Bond 2
+"Goldfinger":
+  match:
+    year: 1964
+  sort_title: James Bond 3
+"Thunderball":
+  match:
+    year: 1965
+  sort_title: James Bond 4
+CasinoRoyale1967:
+  match:
+    title: Casino Royale
+    year: 1967
+  title: Casino Royale
+  sort_title: James Bond 4.5
+"You Only Live Twice":
+  match:
+    year: 1967
+  sort_title: James Bond 5
+"On Her Majesty's Secret Service":
+  match:
+    year: 1969
+  sort_title: James Bond 6
+"Diamonds Are Forever":
+  match:
+    year: 1971
+  sort_title: James Bond 7
+"Live and Let Die":
+  match:
+    year: 1973
+  sort_title: James Bond 8
+"The Man with the Golden Gun":
+  match:
+    year: 1974
+  sort_title: James Bond 9
+"The Spy Who Loved Me":
+  match:
+    year: 1977
+  sort_title: James Bond 10
+"Moonraker":
+  match:
+    year: 1979
+  sort_title: James Bond 11
+"For Your Eyes Only":
+  match:
+    year: 1981
+  sort_title: James Bond 12
+"Octopussy":
+  match:
+    year: 1983
+  sort_title: James Bond 13
+"Never Say Never Again":
+  match:
+    year: 1983
+  sort_title: James Bond 13.5
+"A View to a Kill":
+  match:
+    year: 1985
+  sort_title: James Bond 14
+"The Living Daylights":
+  match:
+    year: 1987
+  sort_title: James Bond 15
+"Licence to Kill":
+  match:
+    year: 1989
+  sort_title: James Bond 16
+"GoldenEye":
+  match:
+    year: 1995
+  sort_title: James Bond 17
+"Tomorrow Never Dies":
+  match:
+    year: 1997
+  sort_title: James Bond 18
+"The World Is Not Enough":
+  match:
+    year: 1999
+  sort_title: James Bond 19
+"Die Another Day":
+  match:
+    year: 2002
+  sort_title: James Bond 20
+CasinoRoyale2006:
+  match:
+    title: Casino Royale
+    year: 2006
+  title: Casino Royale
+  sort_title: James Bond 21
+"Quantum of Solace":
+  match:
+    year: 2008
+  sort_title: James Bond 22
+"Skyfall":
+  match:
+    year: 2012
+  sort_title: James Bond 23
+"Spectre":
+  match:
+    year: 2015
+  sort_title: James Bond 24
+"No Time to Die":
+  match:
+    year: 2021
+  sort_title: James Bond 25
+  
+# ####################
 # STAR WARS
 # ####################
 
@@ -734,3 +851,4 @@ metadata:
     match:
       year: 2020
     sort_title: Tremors 7
+
