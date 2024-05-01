@@ -11,118 +11,118 @@ metadata:
 # JAMES BOND
 # ####################
 
-"Dr. No":
-  match:
-    year: 1962
-  sort_title: James Bond 1
-"From Russia with Love":
-  match:
-    year: 1963
-  sort_title: James Bond 2
-"Goldfinger":
-  match:
-    year: 1964
-  sort_title: James Bond 3
-"Thunderball":
-  match:
-    year: 1965
-  sort_title: James Bond 4
-CasinoRoyale1967:
-  match:
+  "Dr. No":
+    match:
+      year: 1962
+    sort_title: James Bond 1
+  "From Russia with Love":
+    match:
+      year: 1963
+    sort_title: James Bond 2
+  "Goldfinger":
+    match:
+      year: 1964
+    sort_title: James Bond 3
+  "Thunderball":
+    match:
+      year: 1965
+    sort_title: James Bond 4
+  CasinoRoyale1967:
+    match:
+      title: Casino Royale
+      year: 1967
     title: Casino Royale
-    year: 1967
-  title: Casino Royale
-  sort_title: James Bond 4.5
-"You Only Live Twice":
-  match:
-    year: 1967
-  sort_title: James Bond 5
-"On Her Majesty's Secret Service":
-  match:
-    year: 1969
-  sort_title: James Bond 6
-"Diamonds Are Forever":
-  match:
-    year: 1971
-  sort_title: James Bond 7
-"Live and Let Die":
-  match:
-    year: 1973
-  sort_title: James Bond 8
-"The Man with the Golden Gun":
-  match:
-    year: 1974
-  sort_title: James Bond 9
-"The Spy Who Loved Me":
-  match:
-    year: 1977
-  sort_title: James Bond 10
-"Moonraker":
-  match:
-    year: 1979
-  sort_title: James Bond 11
-"For Your Eyes Only":
-  match:
-    year: 1981
-  sort_title: James Bond 12
-"Octopussy":
-  match:
-    year: 1983
-  sort_title: James Bond 13
-"Never Say Never Again":
-  match:
-    year: 1983
-  sort_title: James Bond 13.5
-"A View to a Kill":
-  match:
-    year: 1985
-  sort_title: James Bond 14
-"The Living Daylights":
-  match:
-    year: 1987
-  sort_title: James Bond 15
-"Licence to Kill":
-  match:
-    year: 1989
-  sort_title: James Bond 16
-"GoldenEye":
-  match:
-    year: 1995
-  sort_title: James Bond 17
-"Tomorrow Never Dies":
-  match:
-    year: 1997
-  sort_title: James Bond 18
-"The World Is Not Enough":
-  match:
-    year: 1999
-  sort_title: James Bond 19
-"Die Another Day":
-  match:
-    year: 2002
-  sort_title: James Bond 20
-CasinoRoyale2006:
-  match:
+    sort_title: James Bond 4.5
+  "You Only Live Twice":
+    match:
+      year: 1967
+    sort_title: James Bond 5
+  "On Her Majesty's Secret Service":
+    match:
+      year: 1969
+    sort_title: James Bond 6
+  "Diamonds Are Forever":
+    match:
+      year: 1971
+    sort_title: James Bond 7
+  "Live and Let Die":
+    match:
+      year: 1973
+    sort_title: James Bond 8
+  "The Man with the Golden Gun":
+    match:
+      year: 1974
+    sort_title: James Bond 9
+  "The Spy Who Loved Me":
+    match:
+      year: 1977
+    sort_title: James Bond 10
+  "Moonraker":
+    match:
+      year: 1979
+    sort_title: James Bond 11
+  "For Your Eyes Only":
+    match:
+      year: 1981
+    sort_title: James Bond 12
+  "Octopussy":
+    match:
+      year: 1983
+    sort_title: James Bond 13
+  "Never Say Never Again":
+    match:
+      year: 1983
+    sort_title: James Bond 13.5
+  "A View to a Kill":
+    match:
+      year: 1985
+    sort_title: James Bond 14
+  "The Living Daylights":
+    match:
+      year: 1987
+    sort_title: James Bond 15
+  "Licence to Kill":
+    match:
+      year: 1989
+    sort_title: James Bond 16
+  "GoldenEye":
+    match:
+      year: 1995
+    sort_title: James Bond 17
+  "Tomorrow Never Dies":
+    match:
+      year: 1997
+    sort_title: James Bond 18
+  "The World Is Not Enough":
+    match:
+      year: 1999
+    sort_title: James Bond 19
+  "Die Another Day":
+    match:
+      year: 2002
+    sort_title: James Bond 20
+  CasinoRoyale2006:
+    match:
+      title: Casino Royale
+      year: 2006
     title: Casino Royale
-    year: 2006
-  title: Casino Royale
-  sort_title: James Bond 21
-"Quantum of Solace":
-  match:
-    year: 2008
-  sort_title: James Bond 22
-"Skyfall":
-  match:
-    year: 2012
-  sort_title: James Bond 23
-"Spectre":
-  match:
-    year: 2015
-  sort_title: James Bond 24
-"No Time to Die":
-  match:
-    year: 2021
-  sort_title: James Bond 25
+    sort_title: James Bond 21
+  "Quantum of Solace":
+    match:
+      year: 2008
+    sort_title: James Bond 22
+  "Skyfall":
+    match:
+      year: 2012
+    sort_title: James Bond 23
+  "Spectre":
+    match:
+      year: 2015
+    sort_title: James Bond 24
+  "No Time to Die":
+    match:
+      year: 2021
+    sort_title: James Bond 25
   
 # ####################
 # STAR WARS
@@ -305,7 +305,7 @@ CasinoRoyale2006:
   Terror of Mechagodzilla:
     sort_title: Godzilla 1975
 
-  "Godzilla, King of the Monsters!": #US Version
+  "Godzilla: King of the Monsters!": #US Version
     sort_title: Godzilla 1956
   "Gigantis, the Fire Monster": #US Version
     sort_title: Godzilla 1959
@@ -316,7 +316,7 @@ CasinoRoyale2006:
     title: King Kong vs. Godzilla
     sort_title: Godzilla 1963
 
-  Return of Godzilla:
+  The Return of Godzilla:
     sort_title: Godzilla 1984
   Godzilla vs. Biollante:
     sort_title: Godzilla 1989
@@ -325,7 +325,7 @@ CasinoRoyale2006:
     sort_title: Godzilla 1991
   Godzilla vs. Mothra:
     sort_title: Godzilla 1992
-  Godzilla vs. MechaGodzilla II:
+  Godzilla vs. Mechagodzilla II:
     sort_title: Godzilla 1993
   Godzilla vs. SpaceGodzilla:
     sort_title: Godzilla 1994
@@ -341,8 +341,7 @@ CasinoRoyale2006:
     sort_title: Godzilla 2000
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
   Giant Monsters All-Out Attack:
-    match:
-      title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack"
+    alt_title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack"
     sort_title: Godzilla 2001
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
   Godzilla Against MechaGodzilla:
@@ -357,7 +356,7 @@ CasinoRoyale2006:
 
   "Godzilla: Planet of the Monsters":
     match:
-      mapping_id: 535790
+      mapping_id: 449574
     sort_title: Godzilla Anime 1
   "Godzilla: City on the Edge of Battle":
     match:
@@ -578,15 +577,18 @@ CasinoRoyale2006:
   The Cloverfield Paradox:
     sort_title: Cloverfield 3
   
-  Ghostbusters:
+  Ghostbusters (1984):
     match:
+      title: Ghostbusters
       year: 1984
     sort_title: Ghostbusters 1
   Ghostbusters II:
     sort_title: Ghostbusters 2
-  Ghostbusters 2016:
+  Ghostbusters (2016):
     match:
-      title: Ghostbusters
+      title: 
+        - Ghostbusters
+        - "Ghostbusters: Answer the Call"
       year: 2016
     title: Ghostbusters
     sort_title: Ghostbusters Reboot
@@ -612,6 +614,7 @@ CasinoRoyale2006:
   The Fate of the Furious:
     sort_title: Fast 8
   F9:
+    alt_title: "F9: The Fast Saga"
     sort_title: Fast 9
   Fast X:
     sort_title: Fast 10
