@@ -65,6 +65,15 @@ collections:
         - 431605 # Christmas
     summary: Landmark mockumentary-maker Philomena Cunk guides us through history.
 
+  Eastrail 177:
+    template:
+      name: tmdb
+      movie: 
+        - 9741    # Unbreakable
+        - 381288  # Split
+        - 450465  # Glass
+    summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
+
   Gamera:
     template:
       name: tmdb
