@@ -63,13 +63,23 @@ collections:
     minimum_items: 1
     collection_mode: hide
   Letterkenny:
-    template: {name: tmdb, show: "65798, 158756"}
+    template:
+      name: tmdb
+      show:
+        - 65798 # Letterkenny
+        - 158756 # Shoresy
   Serenity:
     template: {name: tmdb, show: 1437}
     minimum_items: 1
     collection_mode: hide
   Stargate:
-    template: {name: tmdb, show: "4629, 2290, 5148, 72925"}
+    template:
+      name: tmdb
+      show:
+        - 4629 # SG1
+        - 2290 # Atlantis
+        - 5148 # Universe
+        - 72925 # Origins
     summary: "The missions and adventures of teams sent through an ancient alien wormhole network."
   Star Trek:
     template:
@@ -99,6 +109,13 @@ collections:
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
   Twilight Zone:
+    template:
+      name: tmdb
+      show:
+        - 6357    # 1959 w/ Rod Serling
+        - 1918    # 1985 w/ Charles Aidman
+        - 16399    # 2002 w/ Forest Whitaker
+        - 83135    # 2019 w/ Jordan Peele
     template: {name: tmdb, show: "6357, 1918, 83135, 16399"}
     summary: "A series of unrelated stories containing drama, psychological thriller, fantasy, science fiction, suspense, and/or horror, often concluding with a macabre or unexpected twist."
   X Files:
