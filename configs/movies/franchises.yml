@@ -32,7 +32,8 @@ dynamic_collections:
     sync: true
 
     exclude:
-      - 1072931 # Unknown
+      - 1072931 # unknown collection
+      - 1282917 # unknown collection
       - 945984  # I Am Legend
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
