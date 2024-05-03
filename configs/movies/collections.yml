@@ -131,8 +131,8 @@ collections:
         - 670   # Oldboy
         - 4550  # Lady Vengeance
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
-
     collection_order: release
+
   Wonka:
     template:
       name: tmdb
@@ -223,17 +223,21 @@ collections:
     sort_title: "zzzUnwatched"
     collection_filtering: user
 
-  Hot New Releases:
+  Trending:
     trakt_chart:
       chart: trending
       limit: 100
     sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
     smart_label:
       sort_by: audience_rating.desc
       all:
         label: <<smart_label>>
-    sort_title: "zzzNew Releases"
-    summary: "Top audience-rated recent movies."
+        release: 365
+    sort_title: "zzzTrending"
+    summary: "Highly-rated movies from the last year trending on Trakt."
 
   Non-English:
     smart_filter:
