@@ -284,6 +284,14 @@ collections:
     item_label.append: Star Trek
     summary: "All films from the iconic Star Trek franchise."
 
+  Stephen King:
+    trakt_list: https://trakt.tv/users/hawque/lists/stephen-king?display=movie
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
+    summary: "Movies adapted from Stephen King novels."
+
   Universal Classic Monsters:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/universal-monsters?sort=released,desc
     smart_label:
