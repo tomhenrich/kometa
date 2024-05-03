@@ -221,17 +221,17 @@ collections:
         unplayed: true
       sort_by: duration.asc
     sort_title: "zzzUnwatched"
+    collection_filtering: user
 
   Hot New Releases:
-    smart_filter:
-      any:
-        - all:
-            label: Featured
-            release: 360
-        - all:
-            release: 180
-            audience_rating.gte: 7
+    trakt_chart:
+      chart: trending
+      limit: 100
+    sync_mode: sync
+    smart_label:
       sort_by: audience_rating.desc
+      all:
+        label: <<smart_label>>
     sort_title: "zzzNew Releases"
     summary: "Top audience-rated recent movies."
 
