@@ -224,11 +224,16 @@ collections:
 
   Hot New Releases:
     smart_filter:
-      all:
-        release: 180
+      any:
+        - all:
+            label: Featured
+            release: 360
+        - all:
+            release: 180
+            audience_rating.gte: 7
       sort_by: audience_rating.desc
     sort_title: "zzzNew Releases"
-    summary: "Top movies released in the last 6 months."
+    summary: "Top audience-rated recent movies."
 
   Non-English:
     smart_filter:
