@@ -232,7 +232,6 @@ collections:
     visible_home: true
     visible_shared: true
     smart_label:
-      sort_by: audience_rating.desc
       all:
         label: <<smart_label>>
         release: 365
