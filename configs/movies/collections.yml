@@ -222,6 +222,14 @@ collections:
       sort_by: duration.asc
     sort_title: "zzzUnwatched"
 
+  Hot New Releases:
+    smart_filter:
+      all:
+        release: 180
+      sort_by: audience_rating.desc
+    sort_title: "zzzNew Releases"
+    summary: "Top movies released in the last 6 months."
+
   Non-English:
     smart_filter:
       any:
