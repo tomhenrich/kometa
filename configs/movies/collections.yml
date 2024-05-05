@@ -225,8 +225,9 @@ collections:
 
   Trending:
     trakt_chart:
-      chart: trending
-      limit: 100
+      chart: watched
+      time_period: monthly
+      limit: 50
     sync_mode: sync
     visible_library: true
     visible_home: true
@@ -237,7 +238,7 @@ collections:
         release: 365
       sort_by: audience_rating.desc
     sort_title: "!Trending"
-    summary: "Highly-rated movies from the last year trending on Trakt."
+    summary: "Highly-rated movies trending on Trakt over the last 30 days."
 
   Non-English:
     smart_filter:
