@@ -50,8 +50,8 @@ These files are currently hosted in this GitHub repository but can be downloaded
 
 To run specific files:
 
-`python kometa.py --run-collections "metadata.yml"`
+`python kometa.py --run-files "metadata.yml"`
 
 or
 
-`python kometa.py --run-collections "franchises.yml"`
+`python kometa.py --run-files "franchises.yml"`
