@@ -82,6 +82,9 @@ collections:
       show:
         - 65798 # Letterkenny
         - 158756 # Shoresy
+  Marvel Cinematic Universe:
+    tmdb_keyword: 180547
+    minimum_items: 1
   Orphan Black:
     plex_search:
       title.begins: Orphan Black
