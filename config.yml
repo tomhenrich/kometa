@@ -1,6 +1,7 @@
 libraries:
   Movies:
     schedule: daily
+    remove_overlays: false
     metadata_files:
     - repo: configs/movies/metadata
     collection_files:
@@ -11,12 +12,14 @@ libraries:
       - D:\PlexMedia\Movies
       - D:\PlexMedia\Movies\Collections
     operations:
-      assets_for_all: false
+      delete_collections:
+        managed: false
       genre_mapper:
         Anime: Animation
         History:
         Music:
         TV Movie:
+        Film-Noir:
   Movies (4K):
     schedule: weekly(sunday)
     metadata_files:
@@ -31,16 +34,24 @@ libraries:
       assets_for_all: false
   TV Shows:
     schedule: daily
+    remove_overlays: false
     metadata_files:
     - repo: configs/tv/metadata
     collection_files:
     - repo: configs/tv/collections
-    operations:
-      assets_for_all: false
     settings:
       asset_directory:
       - E:\TV
       - E:\TV\Collections
+    operations:
+      delete_collections:
+        managed: false
+      genre_mapper:
+        Anime: Animation
+        History:
+        Music:
+        TV Movie:
+        Film-Noir:
 settings:
   run_order:
   - operations
@@ -48,7 +59,7 @@ settings:
   - collections
   - overlays
   cache: true
-  cache_expiration: 60
+  cache_expiration: 30
   asset_directory: config/assets
   asset_folders: true
   asset_depth: 2
@@ -78,44 +89,45 @@ settings:
   ignore_ids:
   ignore_imdb_ids:
   item_refresh_delay: 0
-  playlist_sync_to_user: all
+  playlist_sync_to_users: all
   playlist_exclude_users:
   playlist_report: false
   verify_ssl: true
-  custom_repo: https://github.com/tomhenrich/kometa/main/
-  check_nightly: false
-webhooks:                        # Can be individually specified per library as well
-  error:
+  custom_repo: https://github.com/tomhenrich/kometa/tree/main/
+webhooks:
+  error: http://homeassistant.local:8123/api/webhook/kometa-error
   version:
-  run_start:
-  run_end:
+  run_start: http://homeassistant.local:8123/api/webhook/kometa-start
+  run_end: http://homeassistant.local:8123/api/webhook/kometa-complete
   changes:
   delete:
-plex:
-  url: ##########
-  token: ##########
+plex: # REQUIRED for the script to run
+  url: http://192.168.1.203:32400
+  token: ###
   timeout: 180
   db_cache:
-  clean_bundles: true
+  clean_bundles: false
   empty_trash: false
   optimize: false
-tmdb:
-  apikey: ##########
+  verify_ssl:
+tmdb: # REQUIRED for the script to run
+  apikey: ###
   language: en
-  cache_expiration: 60
   region: US
-tautulli:
-  url: ##########
-  apikey: ##########
+  cache_expiration: 60
+tautulli: # Can be individually specified per library as well
+  url: http://192.168.1.201:8181
+  apikey: ###
 trakt:
-  client_id: ##########
-  client_secret: ##########
+  client_id: ###
+  client_secret: ###
   pin:
   authorization:
     # everything below is autofilled by the script
-    access_token: ##########
+    access_token: 
     token_type: Bearer
     expires_in: 
-    refresh_token: ##########
+    refresh_token: 
     scope: public
     created_at: 
+
