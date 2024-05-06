@@ -4,15 +4,17 @@ metadata:
       title: Battlestar Galactica
       year: 1978
     sort_title: Battlestar Galactica 1978
-  Battlestar Galactica:
+  Battlestar Galactica 2003:
     match:
       title: Battlestar Galactica
       year: 2003
+    title: Battlestar Galactica (Miniseries)
     sort_title: Battlestar Galactica 2003
-  Battlestar Galactica:
+  Battlestar Galactica 2004:
     match:
       title: Battlestar Galactica
       year: 2004
+    title: Battlestar Galactica
     sort_title: Battlestar Galactica 2004
   Firefly:
     match:
