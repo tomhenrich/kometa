@@ -22,7 +22,7 @@ libraries:
     metadata_files:
     - repo: configs/movies4k/metadata
     collection_files:
-    - repo: configs/movies/franchises
+    - repo: configs/movies4k/franchises
     settings:
       asset_directory:
       - D:\PlexMedia\Movies4K
@@ -82,7 +82,7 @@ settings:
   playlist_exclude_users:
   playlist_report: false
   verify_ssl: true
-  custom_repo: https://github.com/tomhenrich/pmm/main/
+  custom_repo: https://github.com/tomhenrich/kometa/main/
   check_nightly: false
 webhooks:                        # Can be individually specified per library as well
   error:
