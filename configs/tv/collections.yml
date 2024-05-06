@@ -110,7 +110,6 @@ collections:
         - 1918    # 1985 w/ Charles Aidman
         - 16399    # 2002 w/ Forest Whitaker
         - 83135    # 2019 w/ Jordan Peele
-    template: {name: tmdb, show: "6357, 1918, 83135, 16399"}
     summary: "A series of unrelated stories containing drama, psychological thriller, fantasy, science fiction, suspense, and/or horror, often concluding with a macabre or unexpected twist."
   X Files:
     template: {name: tmdb, show: 4087}
