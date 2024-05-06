@@ -514,22 +514,26 @@ metadata:
 
   "Gamera: Guardian of the Universe":
     match:
-      year: 1995
+      mapping_id: 54433
+    year: 1995
     summary: "A monstrous new species of bird appears just as a teenage girl is gifted an amulet that was found on a mysterious atoll. As the creatures begin to attack, an ancient guardian emerges."
     sort_title: Gamera Heisei 1
   "Gamera 2: Attack of Legion":
     match:
-      year: 1996
+      mapping_id: 59480
+    year: 1996
     summary: "A meteor lands in Japan and unleashes hundreds of insect-like 'Legion' creatures. Gamera shows up to deal with the ever-evolving adversary, but the battle may result in him losing his bond with humanity."
     sort_title: Gamera Heisei 2
   "Gamera 3: Revenge of Iris":
     match:
-      year: 1999
+      mapping_id: 60159
+    year: 1999
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
     sort_title: Gamera Heisei 3
 
   Gamera:
     match:
+      title: Gamera
       year: 2015
     sort_title: Gamera 2015
     edition: Short Film
