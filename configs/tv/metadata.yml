@@ -1,14 +1,19 @@
 metadata:
   "Battlestar Galactica (1978)":
     match:
-      mapping_id: 71173
+      title: Battlestar Galactica
+      year: 1978
     sort_title: Battlestar Galactica 1978
-    label.sync: Battlestar Galactica
   Battlestar Galactica:
     match:
-      mapping_id: 73545
+      title: Battlestar Galactica
+      year: 2003
+    sort_title: Battlestar Galactica 2003
+  Battlestar Galactica:
+    match:
+      title: Battlestar Galactica
+      year: 2004
     sort_title: Battlestar Galactica 2004
-    label.sync: Battlestar Galactica,Reboot
   Firefly:
     match:
       mapping_id: 78874
