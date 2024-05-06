@@ -59,9 +59,11 @@ collections:
         - 33240 # Blood & Chrome Webseries
     minimum_items: 1
   Cunk:
-    template: {name: tmdb, show: 79063}
+    plex_search:
+      title.begins: Cunk on
     minimum_items: 1
     collection_mode: hide
+    collection_order: release
   Doctor Who:
     template:
       name: tmdb
@@ -84,6 +86,7 @@ collections:
     plex_search:
       title.begins: Orphan Black
     minimum_items: 2
+    collection_order: release
   Serenity:
     template: {name: tmdb, show: 1437}
     minimum_items: 1
@@ -102,10 +105,12 @@ collections:
       title.begins: Star Trek
     summary: "The continuing adventures of those who boldly go where no one has gone before."
     minimum_items: 1
+    collection_order: release
   Star Wars:
     tmdb_keyword: 327713
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
+    collection_order: release
   Twilight Zone:
     template:
       name: tmdb
