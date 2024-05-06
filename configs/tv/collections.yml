@@ -80,6 +80,10 @@ collections:
       show:
         - 65798 # Letterkenny
         - 158756 # Shoresy
+  Orphan Black:
+    plex_search:
+      title.begins: Orphan Black
+    minimum_items: 2
   Serenity:
     template: {name: tmdb, show: 1437}
     minimum_items: 1
