@@ -1,27 +1,12 @@
 templates:
   tmdb:
     optional:
-      - collection
       - show
-    tmdb_collection: <<collection>>
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
-  tmdb_or_tag:
-    optional:
-      - collection
-      - show
-      - tag
-    tmdb_collection_details: <<collection>>
-    tmdb_show: <<movie>>
-    plex_search:
-      all:
-        label: <<tag>>
-    summary: <<summary>>
-    sync_mode: sync
-    collection_order: release_date
-    move_prefix: The,A
+
 
 collections:
   "Sarah's Watchlist":
@@ -62,12 +47,14 @@ collections:
     minimum_items: 1
     collection_mode: hide
     collection_order: release
+
   Cunk:
     plex_search:
       title.begins: Cunk on
     minimum_items: 1
     collection_mode: hide
     collection_order: release
+
   Doctor Who:
     template:
       name: tmdb
@@ -80,46 +67,55 @@ collections:
         - 64073 # Class
         - 1057 # K-9 and Company (1981)
         - 25831 # K-9 (2009)
+
   Letterkenny:
     template:
       name: tmdb
       show:
         - 65798 # Letterkenny
         - 158756 # Shoresy
+
   Marvel Cinematic Universe:
     tmdb_keyword: 180547
     collection_order: release
     minimum_items: 1
+
   Orphan Black:
     plex_search:
       title.begins: Orphan Black
     minimum_items: 2
     collection_order: release
+
   Serenity:
     template: {name: tmdb, show: 1437}
     minimum_items: 1
     collection_mode: hide
+
   Stargate:
     plex_search:
       title.begins: Stargate
     summary: "The missions and adventures of teams sent through an ancient alien wormhole network."
     collection_order: release
+
   Star Trek:
     plex_search:
       title.begins: Star Trek
     summary: "The continuing adventures of those who boldly go where no one has gone before."
     minimum_items: 1
     collection_order: release
+
   Star Wars:
     tmdb_keyword: 327713
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
     collection_order: release
+
   Twilight Zone:
     plex_search:
       title: The Twilight Zone
     summary: "A series of unrelated stories containing drama, psychological thriller, fantasy, science fiction, suspense, and/or horror, often concluding with a macabre or unexpected twist."
     collection_order: release
+
   X Files:
     template: {name: tmdb, show: 4087}
     minimum_items: 1
