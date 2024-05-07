@@ -61,6 +61,7 @@ collections:
        year.gte: 2003
     minimum_items: 1
     collection_mode: hide
+    collection_order: release
   Cunk:
     plex_search:
       title.begins: Cunk on
@@ -102,6 +103,7 @@ collections:
     plex_search:
       title.begins: Stargate
     summary: "The missions and adventures of teams sent through an ancient alien wormhole network."
+    collection_order: release
   Star Trek:
     plex_search:
       title.begins: Star Trek
@@ -117,6 +119,7 @@ collections:
     plex_search:
       title: The Twilight Zone
     summary: "A series of unrelated stories containing drama, psychological thriller, fantasy, science fiction, suspense, and/or horror, often concluding with a macabre or unexpected twist."
+    collection_order: release
   X Files:
     template: {name: tmdb, show: 4087}
     minimum_items: 1
