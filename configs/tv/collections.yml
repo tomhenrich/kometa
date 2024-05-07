@@ -82,10 +82,7 @@ collections:
         - 158756 # Shoresy
   Marvel Cinematic Universe:
     tmdb_keyword: 180547
-    smart_label:
-      all:
-        label: <<smart_label>>
-      sort_by: release.asc
+    collection_order: release
     minimum_items: 1
   Orphan Black:
     plex_search:
