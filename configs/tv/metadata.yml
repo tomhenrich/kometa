@@ -1,14 +1,11 @@
 metadata:
   Battlestar Galactica (1978):
     match:
-      title: Battlestar Galactica
-      year: 1978
+      mapping_id: 71173
     sort_title: Battlestar Galactica 1978
   Battlestar Galactica (Reboot):
     match:
-      title: Battlestar Galactica
-      year: 2003
-    title: Battlestar Galactica (Reboot)
+      mapping_id: 73545
     sort_title: Battlestar Galactica 2003
   Firefly:
     match:
