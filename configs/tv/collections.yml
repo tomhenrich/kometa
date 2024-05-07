@@ -26,8 +26,8 @@ templates:
 collections:
   "Sarah's Watchlist":
     trakt_list:
-      - https://trakt.tv/users/tomhenrich/lists/sarah-s-netflix?sort=title,asc
-      - https://trakt.tv/users/nursesawa/watchlist?sort=rank,asc
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist
+      - https://trakt.tv/users/nursesawa/watchlist
     smart_label:
       all:
         unplayed_episodes: true
@@ -36,6 +36,8 @@ collections:
     sort_title: "+Sarahs Watchlist"
     name_mapping: Sarahs Watchlist
     label: noshare
+    sync_mode: sync
+    collection_filtering: admin
  
   "Tom's Watchlist":
     trakt_list: https://trakt.tv/users/tomhenrich/watchlist?sort=title,asc
@@ -47,6 +49,8 @@ collections:
     sort_title: "+Toms Watchlist"
     name_mapping: Toms Watchlist
     label: noshare
+    sync_mode: sync
+    collection_filtering: admin
      
   "Battlestar Galactica (Reboot)":
     sort_title: Battlestar Galactica 2003
