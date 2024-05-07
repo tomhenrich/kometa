@@ -11,6 +11,7 @@ templates:
       - build_collection
       - item_label
       - summary
+      - ignore_ids
     cache_builders: 1
     minimum_items: <<minimum_items>>
     tmdb_collection_details: <<value>>
@@ -31,6 +32,11 @@ dynamic_collections:
     template: collection
     sync: true
 
+    ignore_ids: 
+      - 4689  # Sympathy for Mr Vengeance
+      - 670   # Oldboy
+      - 4550  # Lady Vengeance
+
     exclude:
       - 1072931 # unknown collection
       - 1282917 # unknown collection
@@ -38,9 +44,6 @@ dynamic_collections:
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
       - 1162276 # Shin Japan Heroes
-      - 1149089 # Vengeance Trilogy (unavailable on TMDB)
-      - 1227730 # Vengeance Trilogy again
-      - 1278659 # people keep creating the Vengeance Trilogy
       - 1198260 # Star Wars Anthology Series (unavailable on TMDB)
       - 1952
       - 1011336 # Random "Eternals" collection that doesn't exist
