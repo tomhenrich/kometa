@@ -1,10 +1,10 @@
 metadata:
-  "Battlestar Galactica (1978)":
+  Battlestar Galactica (1978):
     match:
       title: Battlestar Galactica
       year: 1978
     sort_title: Battlestar Galactica 1978
-  Battlestar Galactica 2003:
+  Battlestar Galactica (Reboot):
     match:
       title: Battlestar Galactica
       year: 2003
