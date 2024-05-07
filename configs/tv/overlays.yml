@@ -1,0 +1,53 @@
+###########################
+#     TV Show Overlays    #
+###########################
+
+overlays:
+
+### SHOW STATUS ###
+
+#   Weekly:
+#     overlay:
+#       name: airing  # airing_dark for Dark Mode Theme
+#       group: STATUS
+#       weight: 800
+#     plex_all: true
+#     filters:
+#       tmdb_status:
+#          - returning
+#          - planned
+#          - production
+#     tmdb_on_the_air: 5000 
+
+#   Returning:
+#     overlay:
+#       name: returning  # returning_dark for Dark Mode Theme
+#       group: STATUS
+#       weight: 700
+#     plex_all: true
+#     filters:
+#       tmdb_status:
+#          - returning
+#          - planned
+#          - production
+
+  Cancelled:
+    overlay:
+      name: cancelled  # cancelled_dark for Dark Mode Theme
+      group: STATUS
+      weight: 600
+    plex_all: true
+    filters:
+      tmdb_status:
+         - canceled
+
+  Ended:
+    overlay:
+      name: ended  # ended_dark for Dark Mode Theme
+      group: STATUS
+      weight: 500
+    plex_all: true
+    filters:
+      tmdb_status:
+         - ended
+
