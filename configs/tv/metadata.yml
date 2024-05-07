@@ -8,14 +8,8 @@ metadata:
     match:
       title: Battlestar Galactica
       year: 2003
-    title: Battlestar Galactica (Miniseries)
+    title: Battlestar Galactica (Reboot)
     sort_title: Battlestar Galactica 2003
-  Battlestar Galactica 2004:
-    match:
-      title: Battlestar Galactica
-      year: 2004
-    title: Battlestar Galactica
-    sort_title: Battlestar Galactica 2004
   Firefly:
     match:
       mapping_id: 78874
