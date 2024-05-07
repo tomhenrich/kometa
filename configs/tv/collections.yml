@@ -56,6 +56,7 @@ collections:
        title.begins: Battlestar Galactica
        year.gte: 2003
     minimum_items: 1
+    collection_mode: hide
   Cunk:
     plex_search:
       title.begins: Cunk on
@@ -94,13 +95,8 @@ collections:
     minimum_items: 1
     collection_mode: hide
   Stargate:
-    template:
-      name: tmdb
-      show:
-        - 4629 # SG1
-        - 2290 # Atlantis
-        - 5148 # Universe
-        - 72925 # Origins
+    plex_search:
+      title.begins: Stargate
     summary: "The missions and adventures of teams sent through an ancient alien wormhole network."
   Star Trek:
     plex_search:
@@ -114,13 +110,8 @@ collections:
     minimum_items: 1
     collection_order: release
   Twilight Zone:
-    template:
-      name: tmdb
-      show:
-        - 6357    # 1959 w/ Rod Serling
-        - 1918    # 1985 w/ Charles Aidman
-        - 16399    # 2002 w/ Forest Whitaker
-        - 83135    # 2019 w/ Jordan Peele
+    plex_search:
+      title: The Twilight Zone
     summary: "A series of unrelated stories containing drama, psychological thriller, fantasy, science fiction, suspense, and/or horror, often concluding with a macabre or unexpected twist."
   X Files:
     template: {name: tmdb, show: 4087}
