@@ -158,20 +158,25 @@ collections:
   Black Widow:
     template: {name: tmdb, movie: 497698}
     minimum_items: 1
+    collection_mode: hide
   Incredible Hulk:
     template: {name: tmdb, movie: 1724}
     minimum_items: 1
+    collection_mode: hide
 
   Marvel Cinematic Universe:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/mcu?display=movie&sort=released,desc
-    # https://trakt.tv/users/asterlea/lists/mcu?display=movie&sort=release,asc
+    trakt_list:
+      - https://trakt.tv/users/tomhenrich/lists/mcu
+      - https://trakt.tv/users/asterlea/lists/mcu
     smart_label:
       all:
         label: <<smart_label>>
       sort_by: release.asc
 
   Marvel Extended Universe:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/mceu?display=movie&sort=released,desc
+    trakt_list:
+      - https://trakt.tv/users/tomhenrich/lists/mceu
+      - https://trakt.tv/users/asterlea/lists/marvel
     smart_label:
       all:
         label: <<smart_label>>
@@ -179,7 +184,9 @@ collections:
     summary: Movies based on Marvel properties but not officially part of the Marvel Cinematic Universe.
 
   DC Universe:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/dc-universe?sort=released,desc
+    trakt_list: 
+      - https://trakt.tv/users/tomhenrich/lists/dc-universe
+      - https://trakt.tv/users/asterlea/lists/dceu
     smart_label:
       all:
         label: <<smart_label>>
