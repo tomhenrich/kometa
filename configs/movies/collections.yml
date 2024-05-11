@@ -243,7 +243,7 @@ collections:
       all:
         label: <<smart_label>>
         release: 365
-      sort_by: audience_rating.desc
+      sort_by: release.desc
     sort_title: "!Trending"
     summary: "Highly-rated movies trending on Trakt over the last 30 days."
 
