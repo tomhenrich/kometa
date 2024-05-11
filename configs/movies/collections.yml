@@ -232,8 +232,7 @@ collections:
 
   Trending:
     trakt_chart:
-      chart: watched
-      time_period: monthly
+      chart: trending
       limit: 100
     sync_mode: sync
     visible_library: true
