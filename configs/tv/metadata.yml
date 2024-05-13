@@ -12,6 +12,10 @@ metadata:
       mapping_id: 78874
       title: Firefly
     episode_ordering: tvdb_absolute
+  Invasion (2021):
+    match:
+      mapping_id: 127235
+    title: Invasion
   Mystery Science Theater 3000:
     match:
       mapping_id: 74806
