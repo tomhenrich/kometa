@@ -283,6 +283,12 @@ collections:
       - 121938
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
 
+  MonsterVerse:
+    smart_filter:
+      all:
+        label: MonsterVerse
+      sort_by: release.asc
+
   Star Trek:
     smart_label: release.asc
     tmdb_collection:
