@@ -171,6 +171,7 @@ dynamic_collections:
       item_label:
         435259: Wizarding World
         535313: MonsterVerse
+        1280074: MonsterVerse
 
       collection_order:
         10: alpha     # Star Wars
