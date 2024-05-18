@@ -238,11 +238,11 @@ collections:
     visible_library: true
     visible_home: true
     visible_shared: true
+    collection_order: custom
     smart_label:
       all:
         label: <<smart_label>>
         release: 365
-      sort_by: release.desc
     sort_title: "!Trending"
     summary: "Highly-rated movies trending on Trakt over the last 30 days."
 
