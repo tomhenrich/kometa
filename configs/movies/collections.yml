@@ -151,6 +151,7 @@ collections:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
     collection_order: release
     minimum_items: 1
+    item_label.remove: Toho EU
 
 ########################################
 # Marvel/DC Movies
@@ -192,6 +193,7 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     minimum_items: 1
+    item_label.remove: DC,DCU,DCEU
 
 ########################################
 # OTHER
@@ -230,20 +232,25 @@ collections:
     sort_title: "zzzUnwatched"
     collection_filtering: user
 
-  Trending:
+  Trakt Trending:
     trakt_chart:
       chart: trending
       limit: 100
+    collection_order: custom
+    collection_mode: hide
     sync_mode: sync
-    visible_library: true
-    visible_home: true
-    visible_shared: true
-    smart_label:
+    sort_title: zzzTrending
+
+  Trending:
+    smart_filter:
       all:
-        label: <<smart_label>>
+        label: Trakt Trending
         release: 365
     sort_title: "!Trending"
     summary: "Highly-rated movies trending on Trakt over the last 30 days."
+    visible_library: true
+    visible_home: true
+    visible_shared: true
 
   Non-English:
     smart_filter:
@@ -280,7 +287,8 @@ collections:
     tmdb_collection:
       - 119
       - 121938
-    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins." 
+    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
+    item_label.remove: Middle-Earth
 
   MonsterVerse:
     smart_filter:
