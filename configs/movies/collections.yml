@@ -238,7 +238,6 @@ collections:
     visible_library: true
     visible_home: true
     visible_shared: true
-    collection_order: custom
     smart_label:
       all:
         label: <<smart_label>>
