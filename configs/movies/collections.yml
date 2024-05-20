@@ -224,6 +224,21 @@ collections:
     label: noshare
     minimum_items: 1
 
+  Trending:
+    trakt_chart:
+      chart: trending
+      limit: 50
+    smart_label:
+      all:
+        label: <<smart_label>>
+        audience_rating.gte: 6
+    sort_title: "!Trending"
+    summary: "Highly-rated movies trending on Trakt recently."
+    sync_mode: sync
+    visible_home: true
+    visible_library: true
+    visible_shared: true
+
   Unwatched:
     smart_filter:
       all:
