@@ -232,27 +232,6 @@ collections:
     sort_title: "zzzUnwatched"
     collection_filtering: user
 
-  Trakt Trending:
-    trakt_chart:
-      chart: trending
-      limit: 25
-    collection_order: custom
-    collection_mode: hide
-    sync_mode: sync
-    sort_title: zzzTrending
-    build_collection: false
-
-  Trending:
-    smart_filter:
-      all:
-        label: Trakt Trending
-        release: 365
-    sort_title: "!Trending"
-    summary: "Highly-rated movies released within the last year that are trending on Trakt over the last month."
-    visible_library: true
-    visible_home: true
-    visible_shared: true
-
   Non-English:
     smart_filter:
       any:
