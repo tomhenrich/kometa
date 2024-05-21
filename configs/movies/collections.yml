@@ -168,7 +168,6 @@ collections:
   Marvel Cinematic Universe:
     trakt_list:
       - https://trakt.tv/users/tomhenrich/lists/mcu
-      - https://trakt.tv/users/asterlea/lists/mcu
     smart_label:
       all:
         label: <<smart_label>>
@@ -177,7 +176,6 @@ collections:
   Marvel Extended Universe:
     trakt_list:
       - https://trakt.tv/users/tomhenrich/lists/mceu
-      - https://trakt.tv/users/asterlea/lists/marvel
     smart_label:
       all:
         label: <<smart_label>>
@@ -187,7 +185,6 @@ collections:
   DC Universe:
     trakt_list: 
       - https://trakt.tv/users/tomhenrich/lists/dc-universe
-      - https://trakt.tv/users/asterlea/lists/dceu
     smart_label:
       all:
         label: <<smart_label>>
@@ -227,11 +224,8 @@ collections:
   Trending:
     trakt_chart:
       chart: trending
-      limit: 50
-    smart_label:
-      all:
-        label: <<smart_label>>
-        audience_rating.gte: 6
+      limit: 35
+    smart_label: release.desc
     sort_title: "!Trending"
     summary: "Highly-rated movies trending on Trakt recently."
     sync_mode: sync
