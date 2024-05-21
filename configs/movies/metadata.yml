@@ -477,7 +477,7 @@ metadata:
 
   "Gamera, the Giant Monster":
     match:
-      year: 1965
+      mapping_id: 21930
     sort_title: Gamera 1
   Gamera vs. Barugon:
     match:
