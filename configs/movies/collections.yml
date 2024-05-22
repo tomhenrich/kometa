@@ -117,6 +117,7 @@ collections:
     item_label: Samurai
 
   Planet of the Apes:
+    collection_order: release
     plex_search:
       all:
         title: Planet of the Apes
