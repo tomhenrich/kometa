@@ -68,6 +68,12 @@ collections:
         - 1057 # K-9 and Company (1981)
         - 25831 # K-9 (2009)
 
+  Gamera:
+    plex_search:
+      title.begins: Gamera
+    minimum_items: 1
+    collection_mode: hide
+
   Letterkenny:
     template:
       name: tmdb
