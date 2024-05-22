@@ -117,10 +117,9 @@ collections:
     item_label: Samurai
 
   Planet of the Apes:
-    smart_filter:
-      any:
-        title: Planet of the Apes
-      sort_by: release.asc
+    plex_search:
+      title: Planet of the Apes
+    sort_by: release.asc
 
   Serenity:
     template:
