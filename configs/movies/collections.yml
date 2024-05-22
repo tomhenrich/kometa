@@ -118,8 +118,9 @@ collections:
 
   Planet of the Apes:
     plex_search:
-      title: Planet of the Apes
-    sort_by: release.asc
+      all:
+        title: Planet of the Apes
+      sort_by: release.asc
 
   Serenity:
     template:
