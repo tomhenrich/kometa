@@ -117,11 +117,13 @@ collections:
     item_label: Samurai
 
   Planet of the Apes:
-    collection_order: release
-    plex_search:
-      all:
-        title: Planet of the Apes
-      sort_by: release.asc
+    template:
+      name: tmdb
+      collection:
+        - 1709
+        - 173710
+      movie:
+        - 869
 
   Serenity:
     template:
