@@ -177,6 +177,7 @@ dynamic_collections:
       collection_order:
         10: alpha     # Star Wars
         2344: alpha   # The Matrix
+        2794: alpha   # Riddick
 
       minimum_items:
         912503: 1     # Shang-Chi
