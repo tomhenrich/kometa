@@ -116,6 +116,12 @@ collections:
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
     item_label: Samurai
 
+  Planet of the Apes:
+    smart_filter:
+      any:
+        title: Planet of the Apes
+      sort_by: release.asc
+
   Serenity:
     template:
       name: tmdb
