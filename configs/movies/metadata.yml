@@ -6,123 +6,6 @@ metadata:
 
   A Star Is Born:
     sort_title: A Star Is Born
-
-# ####################
-# JAMES BOND
-# ####################
-
-  "Dr. No":
-    match:
-      year: 1962
-    sort_title: James Bond 1
-  "From Russia with Love":
-    match:
-      year: 1963
-    sort_title: James Bond 2
-  "Goldfinger":
-    match:
-      year: 1964
-    sort_title: James Bond 3
-  "Thunderball":
-    match:
-      year: 1965
-    sort_title: James Bond 4
-  CasinoRoyale1967:
-    match:
-      title: Casino Royale
-      year: 1967
-    title: Casino Royale
-    sort_title: James Bond 4.5
-  "You Only Live Twice":
-    match:
-      year: 1967
-    sort_title: James Bond 5
-  "On Her Majesty's Secret Service":
-    match:
-      year: 1969
-    sort_title: James Bond 6
-  "Diamonds Are Forever":
-    match:
-      year: 1971
-    sort_title: James Bond 7
-  "Live and Let Die":
-    match:
-      year: 1973
-    sort_title: James Bond 8
-  "The Man with the Golden Gun":
-    match:
-      year: 1974
-    sort_title: James Bond 9
-  "The Spy Who Loved Me":
-    match:
-      year: 1977
-    sort_title: James Bond 10
-  "Moonraker":
-    match:
-      year: 1979
-    sort_title: James Bond 11
-  "For Your Eyes Only":
-    match:
-      year: 1981
-    sort_title: James Bond 12
-  "Octopussy":
-    match:
-      year: 1983
-    sort_title: James Bond 13
-  "Never Say Never Again":
-    match:
-      year: 1983
-    sort_title: James Bond 13.5
-  "A View to a Kill":
-    match:
-      year: 1985
-    sort_title: James Bond 14
-  "The Living Daylights":
-    match:
-      year: 1987
-    sort_title: James Bond 15
-  "Licence to Kill":
-    match:
-      year: 1989
-    sort_title: James Bond 16
-  "GoldenEye":
-    match:
-      year: 1995
-    sort_title: James Bond 17
-  "Tomorrow Never Dies":
-    match:
-      year: 1997
-    sort_title: James Bond 18
-  "The World Is Not Enough":
-    match:
-      year: 1999
-    sort_title: James Bond 19
-  "Die Another Day":
-    match:
-      year: 2002
-    sort_title: James Bond 20
-  CasinoRoyale2006:
-    match:
-      title: Casino Royale
-      year: 2006
-    title: Casino Royale
-    sort_title: James Bond 21
-  "Quantum of Solace":
-    match:
-      year: 2008
-    sort_title: James Bond 22
-  "Skyfall":
-    match:
-      year: 2012
-    sort_title: James Bond 23
-  "Spectre":
-    match:
-      year: 2015
-    sort_title: James Bond 24
-  "No Time to Die":
-    match:
-      year: 2021
-    sort_title: James Bond 25
   
 # ####################
 # STAR WARS
@@ -236,32 +119,20 @@ metadata:
       mapping_id: 120
     original_title: "The Lord of the Rings: The Fellowship of the Ring"
     summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron."
-    sort_title: LOTR 1
+    sort_title: Lord of the Rings 1
   The Two Towers:
     match:
       mapping_id: 121
     original_title: "The Lord of the Rings: The Two Towers"
     summary: "While Frodo and Sam edge closer to Mordor with the help of Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman."
-    sort_title: LOTR 2
+    sort_title: Lord of the Rings 2
   The Return of the King:
     match:
       mapping_id: 122
     original_title: "The Lord of the Rings: The Return of the King"
     summary: "Gandalf and Aragorn lead the world of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
-    sort_title: LOTR 3
+    sort_title: Lord of the Rings 3
 
-  "The Hobbit: An Unexpected Journey":
-    match:
-      mapping_id: 49051
-    sort_title: Hobbit 1
-  "The Hobbit: The Desolation of Smaug":
-    match:
-      mapping_id: 57158
-    sort_title: Hobbit 2
-  "The Hobbit: The Battle of the Five Armies":
-    match:
-      mapping_id: 122917
-    sort_title: Hobbit 3
 
 
 # ####################
@@ -273,105 +144,29 @@ metadata:
     match:
       mapping_id: 1678
       year: 1954
-    sort_title: Godzilla 1954
-  Godzilla Raids Again:
-    match:
-      mapping_id: 1679
-    sort_title: Godzilla 1955
-  King Kong vs. Godzilla:
-    sort_title: Godzilla 1962
-  Mothra vs. Godzilla:
-    sort_title: Godzilla 1964
-  Ghidorah, the Three-Headed Monster:
-    sort_title: Godzilla 1964 2
-  Invasion of Astro-Monster:
-    sort_title: Godzilla 1965
-  Ebirah, Horror of the Deep:
-    sort_title: Godzilla 1966
-  Son of Godzilla:
-    sort_title: Godzilla 1967
-  Destroy All Monsters:
-    sort_title: Godzilla 1968
-  All Monsters Attack:
-    sort_title: Godzilla 1969
-  Godzilla vs. Hedorah:
-    sort_title: Godzilla 1971
-  Godzilla vs. Gigan:
-    sort_title: Godzilla 1972
-  Godzilla vs. Megalon:
-    sort_title: Godzilla 1973
-  Godzilla vs. Mechagodzilla:
-    sort_title: Godzilla 1974
-  Terror of Mechagodzilla:
-    sort_title: Godzilla 1975
+    sort_title: Godzilla 1
 
-  "Godzilla: King of the Monsters!": #US Version
-    sort_title: Godzilla 1956
-  "Gigantis, the Fire Monster": #US Version
-    sort_title: Godzilla 1959
-  King Kong vs. Godzilla 1963: #US Version
-    match:
-      title: King Kong vs. Godzilla
-      year: 1963
-    title: King Kong vs. Godzilla
-    sort_title: Godzilla 1963
-
-  The Return of Godzilla:
-    sort_title: Godzilla 1984
   Godzilla vs. Biollante:
-    sort_title: Godzilla 1989
     summary: Concerned over Godzilla's possible return after the previous attack, the Japanese government uses his cells to create a new bioweapon, Anti-Nuclear Energy Bacteria. They enlist geneticist Genshiro Shiragami, whose experiments result in a new monstrous mutation.
-  Godzilla vs. King Ghidorah:
-    sort_title: Godzilla 1991
-  Godzilla vs. Mothra:
-    sort_title: Godzilla 1992
-  Godzilla vs. Mechagodzilla II:
-    sort_title: Godzilla 1993
   Godzilla vs. SpaceGodzilla:
-    sort_title: Godzilla 1994
     summary: "Godzilla is threatened by two new forces: Mogera (another UN-built machine), and SpaceGodzilla - an extraterrestrial beast spawned when Godzilla's cells were carried into space by Mothra and warped by a black hole."
-  Godzilla vs. Destoroyah:
-    sort_title: Godzilla 1995
-
 
   "Godzilla 2000: Millennium":
-    sort_title: Godzilla 1999
     summary: Godzilla is a literal force of nature to Japan. Scientists find a sixty-million-year-old UFO deep in the Japan Trench. As they attempt to raise the UFO to study it, it takes off into the sky on its own, searching for genetic information that only Godzilla possesses.
   Godzilla vs. Megaguirus:
-    sort_title: Godzilla 2000
     summary: In an alternate timeline, the original Godzilla was never defeated and now repeatedly re-emerges to feed on Japan's energy sources. A new inter-dimensional weapon called the Dimension Tide is created to eliminate Godzilla... however, the new weapon might also serve as a gateway to something far more sinister.
   Giant Monsters All-Out Attack:
     alt_title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack"
-    sort_title: Godzilla 2001
     summary: Ignoring all prior movies except the original, Godzilla is a distant memory for Japan when the destruction of a US submarine raises alarms. The ancient guardian monsters must rise to protect Japan against the vengeful spirits within Godzilla that seek revenge for the suffering Japan inflicted in the Pacific conflict.
   Godzilla Against MechaGodzilla:
-    sort_title: Godzilla Era 2002
     summary: When a new Godzilla emerges, a cyborg version named Kiryu is constructed from the remains of the 1954 monster. The machine is discovered to harbor the restless soul of the original Godzilla as JSDF pilot Akane Yashiro must learn to find value in her own life as well.
   "Godzilla: Tokyo S.O.S.":
-    sort_title: Godzilla 2003
     summary: In this sequel to "Godzilla Against MechaGodzilla", Mothra and her fairies return to Japan to warn mankind that Kiryu must be returned to the sea, for the dead must not be disturbed. However, Godzilla has survived to menace Japan, leaving MechaGodzilla as the nation's only defense.
   "Godzilla: Final Wars":
-    sort_title: Godzilla 2004
     summary: "Ignoring all prior movies from this era, humanity finally imprisons Godzilla in the South Pole. All is peaceful until monsters emerge to lay waste to Earth's cities. A race of benevolent aliens known as Xiliens arrive to help, but not all is what it seems with these bizarre visitors. If humanity wishes to survive, they must reluctantly resurrect their most hated enemy: Godzilla."
 
-  "Godzilla: Planet of the Monsters":
-    match:
-      mapping_id: 449574
-    sort_title: Godzilla Anime 1
-  "Godzilla: City on the Edge of Battle":
-    match:
-      mapping_id: 492719
-    sort_title: Godzilla Anime 2
-  "Godzilla: The Planet Eater":
-    match:
-      mapping_id: 536115
-    sort_title: Godzilla Anime 3
-
   Shin Godzilla:
-    sort_title: Godzilla 2016
     originally_available: 2016-10-11
-  Godzilla Minus One:
-    sort_title: Godzilla 2023
   Godzilla Minus One Minus Color:
     match:
       title: Godzilla Minus One
@@ -385,7 +180,7 @@ metadata:
       title: Godzilla
       year: 1998
     title: Godzilla
-    sort_title: Godzilla 98
+    sort_title: Godzilla Zilla98
 
 # ####################
 
@@ -440,33 +235,12 @@ metadata:
 # DC
 # ####################
 
-  Superman Returns:
-    sort_title: Superman 5
-
-  Batman:
-    sort_title: Batman 1
   Batman Returns:
-    sort_title: Batman 2
     summary: "While Batman deals with a deformed man calling himself the Penguin, an employee of a corrupt businessman transforms into the Catwoman."
   Batman Forever:
-    sort_title: Batman 3
     summary: "Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat."
   "Batman & Robin":
-    sort_title: Batman 4
     summary: "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City."
-
-  Batman Begins:
-    match:
-      year: 2005
-    sort_title: Dark Knight 1
-  The Dark Knight:
-    match:
-      year: 2008
-    sort_title: Dark Knight 2
-  The Dark Knight Rises:
-    match:
-      year: 2012
-    sort_title: Dark Knight 3
 
   The Batman:
     match:
@@ -478,360 +252,43 @@ metadata:
   "Gamera, the Giant Monster":
     match:
       mapping_id: 21930
-    sort_title: Gamera 1
-  Gamera vs. Barugon:
-    match:
-      year: 1966
-    sort_title: Gamera 2
-  Gamera vs. Gyaos:
-    match:
-      year: 1967
-    sort_title: Gamera 3
-  Gamera vs. Viras:
-    match:
-      year: 1968
-    sort_title: Gamera 4
-  Gamera vs. Guiron:
-    match:
-      year: 1969
-    sort_title: Gamera 5
-  Gamera vs. Jiger:
-    match:
-      year: 1970
-    sort_title: Gamera 6
-  Gamera vs. Zigra:
-    match:
-      year: 1971
-    sort_title: Gamera 7
-  "Gamera: Super Monster":
-    match:
-      year: 1980
-    sort_title: Gamera 8
-  Gamera the Brave:
-    match:
-      year: 2006
-    sort_title: Gamera 9
-
+    originally_available: 1965-11-27
   "Gamera: Guardian of the Universe":
     match:
       mapping_id: 54433
-    year: 1995
+    originally_available: 1995-03-11
     summary: "A monstrous new species of bird appears just as a teenage girl is gifted an amulet that was found on a mysterious atoll. As the creatures begin to attack, an ancient guardian emerges."
-    sort_title: Gamera Heisei 1
   "Gamera 2: Attack of Legion":
     match:
       mapping_id: 59480
-    year: 1996
+    originally_available: 1996-07-12
     summary: "A meteor lands in Japan and unleashes hundreds of insect-like 'Legion' creatures. Gamera shows up to deal with the ever-evolving adversary, but the battle may result in him losing his bond with humanity."
-    sort_title: Gamera Heisei 2
   "Gamera 3: Revenge of Iris":
     match:
       mapping_id: 60159
-    year: 1999
+    originally_available: 1999-03-06
     summary: "Gamera's ties to humanity have been severed as the monstrous Gyaos re-emerge. An orphaned girl named Ayana discovers a new creature she names Iris, and seeks revenge on Gamera for the death of her family."
-    sort_title: Gamera Heisei 3
 
   Gamera:
     match:
       title: Gamera
       year: 2015
-    sort_title: Gamera 2015
     edition: Short Film
 
 
 # ####################
-  "Mission: Impossible":
-    sort_title: Mission Impossible 1
-  "Mission: Impossible II":
-    sort_title: Mission Impossible 2
-  "Mission: Impossible III":
-    sort_title: Mission Impossible 3
-  "Mission: Impossible - Ghost Protocol":
-    sort_title: Mission Impossible 4
-  "Mission: Impossible - Rogue Nation":
-    sort_title: Mission Impossible 5
-  "Mission: Impossible - Fallout":
-    sort_title: Mission Impossible 6
+
   "Mission: Impossible - Dead Reckoning Part One":
     match:
       title: 
         - "Mission: Impossible - Dead Reckoning"
         - "Mission: Impossible - Dead Reckoning Part One"
     title: "Mission: Impossible - Dead Reckoning Part One"
-    sort_title: Mission Impossible 7
 
   Princess Mononoke:
     match:
       mapping_id: 128
-    year: 1997
+    originally_available: 1997-07-12
     summary: "Ashitaka is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he meets San, a human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it."
 
-  "Battlestar Galactica: Razor":
-    match:
-      mapping_id: 69315
-    sort_title: Battlestar Reboot 1
-  "Battlestar Galactica: The Plan":
-    match:
-      mapping_id: 105077
-    sort_title: Battlestar Reboot 2
-  "Battlestar Galactica: Blood & Chrome":
-    match:
-      mapping_id: 257368
-    sort_title: Battlestar Reboot 3
-
-  10 Cloverfield Lane:
-    sort_title: Cloverfield 2
-  The Cloverfield Paradox:
-    sort_title: Cloverfield 3
-  
-  Ghostbusters (1984):
-    match:
-      title: Ghostbusters
-      year: 1984
-    sort_title: Ghostbusters 1
-  Ghostbusters II:
-    sort_title: Ghostbusters 2
-  Ghostbusters (2016):
-    match:
-      title: 
-        - Ghostbusters
-        - "Ghostbusters: Answer the Call"
-      year: 2016
-    title: Ghostbusters
-    sort_title: Ghostbusters Reboot
-  "Ghostbusters: Afterlife":
-    sort_title: Ghostbusters 3
-  "Ghostbusters: Frozen Empire":
-    sort_title: Ghostbusters 4
-
-  The Fast and the Furious:
-    sort_title: Fast 1
-  2 Fast 2 Furious:
-    sort_title: Fast 2
-  "The Fast and the Furious: Tokyo Drift":
-    sort_title: Fast 3
-  "Fast & Furious":
-    sort_title: Fast 4
-  Fast Five:
-    sort_title: Fast 5
-  "Fast & Furious 6":
-    sort_title: Fast 6
-  Furious 7:
-    sort_title: Fast 7
-  The Fate of the Furious:
-    sort_title: Fast 8
-  F9:
-    alt_title: "F9: The Fast Saga"
-    sort_title: Fast 9
-  Fast X:
-    sort_title: Fast 10
-
-  348:
-    sort_title: Alien 1
-  679:
-    sort_title: Alien 2
-  8077:
-    sort_title: Alien 3
-  8078:
-    sort_title: Alien 4
-  70981: # Prometheus
-    sort_title: Alien 5
-  126889: # Alien Covenant
-    sort_title: Alien 6
-
-  395:
-    sort_title: Alien vs Predator 1
-  440:
-    sort_title: Alien vs Predator 2
-
-  1685:
-    sort_title: Planet of the Apes 2
-  1687:
-    sort_title: Planet of the Apes 3
-  1688:
-    sort_title: Planet of the Apes 4
-  1705:
-    sort_title: Planet of the Apes 5
-
-  61791:
-    sort_title: Planet of the Apes Reboot 1
-  119450:
-    sort_title: Planet of the Apes Reboot 2
-  281338:
-    sort_title: Planet of the Apes Reboot 3
-
-  2501:
-    sort_title: Bourne 1
-  2502:
-    sort_title: Bourne 2
-  2503:
-    sort_title: Bourne 3
-  49040:
-    sort_title: Bourne 4
-  324668:
-    sort_title: Bourne 5
-
-  1572:
-    sort_title: Die Hard 3
-  1571:
-    sort_title: Die Hard 4
-
-  "Transformers: Revenge of the Fallen":
-    sort_title: Transformers 2
-  "Transformers: Dark of the Moon":
-    sort_title: Transformers 3
-  "Transformers: Age of Extinction":
-    sort_title: Transformers 4
-  "Transformers: The Last Knight":
-    sort_title: Transformers 5
-
-  Finding Dory:
-    sort_title: Finding Nemo 2
-
-  Raiders of the Lost Ark:
-    sort_title: Indiana Jones 1
-  Indiana Jones and the Temple of Doom:
-    sort_title: Indiana Jones 2
-  Indiana Jones and the Last Crusade:
-    sort_title: Indiana Jones 3
-  Indiana Jones and the Kingdom of the Crystal Skull:
-    sort_title: Indiana Jones 4
-  Indiana Jones and the Dial of Destiny:
-    sort_title: Indiana Jones 5
-
-  "Jumanji: Welcome to the Jungle":
-    sort_title: Jumanji 2
-  "Jumanji: The Next Level":
-    sort_title: Jumanji 3
-
-  Men in Black II:
-    sort_title: Men in Black 2
-  "Men in Black: International":
-    sort_title: Men in Black 4
-
-  The Mummy:
-    match:
-      year: 1999
-    sort_title: Mummy 1
-  The Mummy Returns:
-    match:
-      year: 2001
-    sort_title: Mummy 2
-  "The Mummy: Tomb of the Dragon Emperor":
-    match:
-      year: 2008
-    sort_title: Mummy 3
-
-  Terminator Salvation:
-    sort_title: Terminator 4
-  Terminator Genisys:
-    sort_title: Terminator 5
-  "Terminator: Dark Fate":
-    sort_title: Terminator 6
-
-  "Resident Evil: Apocalypse":
-    sort_title: Resident Evil 2
-  "Resident Evil: Extinction":
-    sort_title: Resident Evil 3
-  "Resident Evil: Afterlife":
-    sort_title: Resident Evil 4
-  "Resident Evil: Retribution":
-    sort_title: Resident Evil 5
-  "Resident Evil: The Final Chapter":
-    sort_title: Resident Evil 6
-
-  Dracula:
-    match:
-      year: 1931
-    sort_title: Dracula Universal 1
-  "Dracula's Daughter":
-    match:
-      year: 1936
-    sort_title: Dracula Universal 2
-  Son of Dracula:
-    match:
-      year: 1943
-    sort_title: Dracula Universal 3
-  House of Dracula:
-    match:
-      year: 1945
-    sort_title: Dracula Universal 4
-
-  Frankenstein:
-    match:
-      year: 1931
-    sort_title: Frankenstein Universal 1
-  Bride of Frankenstein:
-    match:
-      year: 1935
-    sort_title: Frankenstein Universal 2
-  Son of Frankenstein:
-    match:
-      year: 1939
-    sort_title: Frankenstein Universal 3
-  The Ghost of Frankenstein:
-    match:
-      year: 1942
-    sort_title: Frankenstein Universal 4
-  House of Frankenstein:
-    match:
-      year: 1944
-    sort_title: Frankenstein Universal 5
-
-  The Mummy 1932:
-    match:
-      title: The Mummy
-      year: 1932
-    title: The Mummy
-    sort_title: Mummy Universal 1
-  "The Mummy's Hand":
-    match:
-      year: 1940
-    sort_title: Mummy Universal 2
-  "The Mummy's Tomb":
-    match:
-      year: 1942
-    sort_title: Mummy Universal 3
-  "The Mummy's Ghost":
-    match:
-      year: 1944
-    sort_title: Mummy Universal 4
-  "The Mummy's Curse":
-    match:
-      year: 1944
-    sort_title: Mummy Universal 5
-
-
-  Before Sunrise:
-    match:
-      year: 1995
-    sort_title: Before 1
-  Before Sunset:
-    match:
-      year: 2004
-    sort_title: Before 2
-  Before Midnight:
-    match:
-      year: 2013
-    sort_title: Before 3
-
-
-  Rocky Balboa:
-    match:
-      year: 2006
-    sort_title: Rocky VI
-
-
-  "Tremors II: Aftershocks":
-    match:
-      year: 1996
-    sort_title: Tremors 2
-  "Tremors: A Cold Day in Hell":
-    match:
-      year: 2018
-    sort_title: Tremors 6
-  "Tremors: Shrieker Island":
-    match:
-      year: 2020
-    sort_title: Tremors 7
 
