@@ -107,6 +107,7 @@ collections:
   I Am Legend:
     template:
       name: tmdb
+      movie:
         - 21159 # The Last Man on Earth
         - 11234 # Omega Man
         - 6479  # I Am Legend
