@@ -57,6 +57,16 @@ collections:
         - 333371  # 10 Cloverfield Lane
         - 384521  # Cloverfield Paradox
 
+  Cornetto Trilogy:
+    template:
+      name: tmdb
+      movie:
+        - 747 # Shaun of the Dead
+        - 4638 # Hot Fuzz
+        - 107985 # The World's End
+    summary: The Three Flavours Cornetto trilogy is an anthology series of British comedies by Edgar Wright and Simon Pegg, starring Pegg and Nick Frost. 
+    name_mapping: Cornetto
+
   Cunk:
     template:
       name: tmdb
