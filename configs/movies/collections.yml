@@ -105,11 +105,11 @@ collections:
     sort_title: Godzilla Era 2016
 
   I Am Legend:
-    smart_label: release.asc
-    tmdb_movie:
-      - 21159 # The Last Man on Earth
-      - 11234 # Omega Man
-      - 6479  # I Am Legend
+    template:
+      name: tmdb
+        - 21159 # The Last Man on Earth
+        - 11234 # Omega Man
+        - 6479  # I Am Legend
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
 
   Italian Job:
@@ -139,16 +139,15 @@ collections:
       - 670   # Oldboy
       - 4550  # Lady Vengeance
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
-    collection_order: release
 
   Wonka:
-    smart_label: release.asc
-    tmdb_movie:
-      - 252
-      - 118
-      - 787699
+    template:
+      name: tmdb
+      movie:
+        - 252
+        - 118
+        - 787699
     summary: "Come with me... and you'll be... in a world of pure imagination..."
-    collection_order: release
 
   Studio Ghibli:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
