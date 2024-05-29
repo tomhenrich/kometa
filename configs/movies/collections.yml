@@ -66,6 +66,7 @@ collections:
         - 107985 # The World's End
     summary: The Three Flavours Cornetto trilogy is an anthology series of British comedies by Edgar Wright and Simon Pegg, starring Pegg and Nick Frost. 
     name_mapping: Cornetto
+    minimum_items: 3
 
   Cunk:
     template:
