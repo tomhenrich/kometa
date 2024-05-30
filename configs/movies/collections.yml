@@ -58,14 +58,16 @@ collections:
         - 384521  # Cloverfield Paradox
 
   Cornetto Trilogy:
-    smart_label: release.asc
-    tmdb_movie:
-      - 747 # Shaun of the Dead
-      - 4638 # Hot Fuzz
-      - 107985 # The World's End
+    template:
+      name: tmdb
+      movie:
+        - 747 # Shaun of the Dead
+        - 4638 # Hot Fuzz
+        - 107985 # The World's End
     summary: The Three Flavours Cornetto trilogy is an anthology series of British comedies by Edgar Wright and Simon Pegg, starring Pegg and Nick Frost. 
     name_mapping: Cornetto
     minimum_items: 3
+    collection_mode: show_items
 
   Cunk:
     template:
@@ -133,12 +135,14 @@ collections:
     collection_mode: hide
 
   Vengeance Trilogy:
-    smart_label: release.asc
-    tmdb_movie:
-      - 4689  # Sympathy for Mr Vengeance
-      - 670   # Oldboy
-      - 4550  # Lady Vengeance
+    template:
+      name: tmdb
+      movie:
+        - 4689  # Sympathy for Mr Vengeance
+        - 670   # Oldboy
+        - 4550  # Lady Vengeance
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
+    collection_mode: show_items
 
   Wonka:
     template:
