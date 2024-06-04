@@ -140,6 +140,8 @@ dynamic_collections:
           - 55931     #+ Animatrix
         259027:     # Wolf Man
           - 27970     #+ Wolf Man of London
+        105995:     # Anaconda
+          - 336560    #+ Lake Placid vs Anaconda
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
