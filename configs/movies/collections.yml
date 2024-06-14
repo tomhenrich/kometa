@@ -127,12 +127,30 @@ collections:
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
     item_label: Samurai
 
+  Middle Earth:
+    tmdb_collection:
+      - 119
+      - 121938
+    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
+    item_label.remove: Middle-Earth
+
   Serenity:
     template:
       name: tmdb
       movie: 16320
     minimum_items: 1
     collection_mode: hide
+
+  Studio Ghibli:
+    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
+    collection_order: release
+
+  Toho Kaiju:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
+    collection_order: release
+    minimum_items: 1
+    item_label.remove: Toho EU
+
 
   Vengeance Trilogy:
     template:
@@ -144,6 +162,13 @@ collections:
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
     collection_mode: show_items
 
+  Wizarding World:
+    template:
+      name: tmdb
+      collection:
+        - 1241
+        - 435259
+
   Wonka:
     template:
       name: tmdb
@@ -152,16 +177,6 @@ collections:
         - 118
         - 787699
     summary: "Come with me... and you'll be... in a world of pure imagination..."
-
-  Studio Ghibli:
-    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
-    collection_order: release
-
-  Toho Kaiju:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
-    collection_order: release
-    minimum_items: 1
-    item_label.remove: Toho EU
 
 ########################################
 # Marvel/DC Movies
@@ -269,14 +284,6 @@ collections:
         studio.begins: Laika
       sort_by: release.asc
 
-  Middle Earth:
-    smart_label: title.asc
-    tmdb_collection:
-      - 119
-      - 121938
-    summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
-    item_label.remove: Middle-Earth
-
   MonsterVerse:
     smart_filter:
       all:
@@ -307,3 +314,4 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
+
