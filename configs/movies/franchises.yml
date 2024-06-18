@@ -52,6 +52,8 @@ dynamic_collections:
       - 491768  # Toho Frankenstein/Gargantuas
       - 161766  # Gamera Showa
       - 657313  # Gamera Heisei
+      - 135495 # 1930+
+      - 135498  # 1976+
 
     addons: # combine collections
       8091:       # Alien
