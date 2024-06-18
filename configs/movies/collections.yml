@@ -122,6 +122,15 @@ collections:
         - 9654  # 2003
     summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
 
+  King Kong:
+    template:
+      name: tmdb
+      collection:
+        - 135495 # 1930+
+        - 135498  # 1976+
+      movie:
+        - 254 # 2005
+
   Kurosawa Samurai:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
