@@ -96,6 +96,7 @@ dynamic_collections:
       115575: "Star Trek: Kelvin Timeline"
       259401: "Invisible Man (Universal)"
       259027: "Wolf Man (Universal)"
+      1079486: "Winnie the Pooh: Blood & Honey"
 
     template_variables:
 
@@ -172,6 +173,7 @@ dynamic_collections:
         115575: Star Trek Alternate Reality
         529: Wallace and Gromit
         2794: Chronicles of Riddick
+        1079486: Winnie-the-Pooh (Horror)
 
       item_label:
         435259: Wizarding World
