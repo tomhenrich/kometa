@@ -167,6 +167,12 @@ metadata:
 
   Shin Godzilla:
     originally_available: 2016-10-11
+  Shin Godzilla Orthochromatic:
+    match:
+      title: Shin Godzilla
+      edition: Orthochromatic
+    sort_title: Godzilla 2016 Ortho
+    originally_available: 2023-07-14
   Godzilla Minus One Minus Color:
     match:
       title: Godzilla Minus One
