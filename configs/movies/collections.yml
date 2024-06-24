@@ -338,10 +338,9 @@ collections:
     name_mapping: Genre - Action
   Animation:
     smart_filter:
-      any:
+      all:
         genre:
           - Animation
-          - Anime
       sort_by: title.asc
     sort_title: ~Genre Animation
     name_mapping: Genre - Animation
