@@ -329,10 +329,12 @@ collections:
 # GENRES
 # =====
 
-  Action:
+  "Action/Adventure":
     smart_filter:
-      all:
-        genre: Action
+      any:
+        genre:
+          - Action
+          - Adventure
       sort_by: title.asc
     sort_title: ~Genre Action
     name_mapping: Genre - Action
@@ -351,6 +353,13 @@ collections:
       sort_by: title.asc
     sort_title: ~Genre Comedy
     name_mapping: Genre - Comedy
+  Crime:
+    smart_filter:
+      all:
+        genre: Crime
+      sort_by: title.asc
+    sort_title: ~Genre Crime
+    name_mapping: Genre - Crime
   Family:
     smart_filter:
       any:
