@@ -369,6 +369,14 @@ collections:
       sort_by: title.asc
     sort_title: ~Genre Family
     name_mapping: Genre - Family
+  Horror:
+    smart_filter:
+      any:
+        genre:
+          - Horror
+      sort_by: title.asc
+    sort_title: ~Genre Horror
+    name_mapping: Genre - Horror
   Sci-Fi:
     smart_filter:
       all:
