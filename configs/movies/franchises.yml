@@ -97,7 +97,7 @@ dynamic_collections:
       259401: "Invisible Man (Universal)"
       259027: "Wolf Man (Universal)"
       1079486: "Winnie the Pooh: Blood & Honey"
-      4438: Space Odyssey
+      4438: "2001/2010"
 
     template_variables:
 
@@ -175,6 +175,7 @@ dynamic_collections:
         529: Wallace and Gromit
         2794: Chronicles of Riddick
         1079486: Winnie-the-Pooh (Horror)
+        4438: Space Odyssey
 
       item_label:
         435259: Wizarding World
