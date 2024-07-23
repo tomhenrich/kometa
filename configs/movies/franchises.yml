@@ -34,6 +34,7 @@ dynamic_collections:
     exclude:
       - 1072931 # unknown collection
       - 1282917 # unknown collection
+      - 1313932 # ghibli
       - 945984  # I Am Legend
       - 627389  # Sanjuro
       - 578704  # Edge of Tomorrow
