@@ -77,6 +77,13 @@ collections:
         - 431605 # Christmas
     summary: Landmark mockumentary-maker Philomena Cunk guides us through history.
 
+  Daredevil:
+    template:
+      name: tmdb
+      movie:
+        - 9480
+        - 9947
+
   Eastrail 177:
     template:
       name: tmdb
