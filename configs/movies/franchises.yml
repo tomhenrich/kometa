@@ -147,6 +147,8 @@ dynamic_collections:
           - 27970     #+ Wolf Man of London
         105995:     # Anaconda
           - 336560    #+ Lake Placid vs Anaconda
+        448150:     # Deadpool
+          - 567604    #+ Once Upon a Deadpool
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
