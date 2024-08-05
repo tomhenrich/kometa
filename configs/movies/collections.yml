@@ -169,6 +169,15 @@ collections:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
     collection_order: release
 
+  Three Mothers:
+    template:
+      name: tmdb
+      movie:
+        - 11906 # Suspiria
+        - 16395 # Inferno
+        - 15206 # Mother of Tears
+    summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale, killing anyone who discover their whereabouts, and who are determined to rule the world."
+
   Toho Kaiju:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
     collection_order: release
