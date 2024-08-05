@@ -157,6 +157,14 @@ collections:
     minimum_items: 1
     collection_mode: hide
 
+  Star Trek:
+    tmdb_collection:
+      - 151
+      - 115570
+      - 115575
+    item_label.append: Star Trek
+    summary: "All films from the iconic Star Trek franchise."
+
   Studio Ghibli:
     trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
     collection_order: release
@@ -305,15 +313,6 @@ collections:
       all:
         label: MonsterVerse
       sort_by: release.asc
-
-  Star Trek:
-    smart_label: release.asc
-    tmdb_collection:
-      - 151
-      - 115570
-      - 115575
-    item_label.append: Star Trek
-    summary: "All films from the iconic Star Trek franchise."
 
   Stephen King:
     trakt_list: https://trakt.tv/users/hawque/lists/stephen-king?display=movie
