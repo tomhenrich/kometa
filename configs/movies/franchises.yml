@@ -47,6 +47,9 @@ dynamic_collections:
       - 1149089 # Vengeance Trilogy
       - 1227730 # Vengeance Trilogy again
       - 1278659 # people keep creating the Vengeance Trilogy, then TMDB deletes it
+      - 151    # Star Trek TOS
+      - 115570 # Star Trek TNG
+      - 115575 # Star Trek KEL
       ## Kaiju Series
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
