@@ -323,11 +323,13 @@ collections:
         label: MonsterVerse
       sort_by: release.asc
 
+
   Criterion Collection:
     trakt_list: https://trakt.tv/users/twentywashere/lists/the-complete-criterion-collection?sort=rank,asc
     smart_label:
       all:
         label: <<smart_label>>
+    collection_order: custom
     summary: "Since 1984, the Criterion Collection has been dedicated to publishing important classic and contemporary films from around the world in editions that offer the highest technical quality and award-winning, original supplements."
 
   Stephen King:
