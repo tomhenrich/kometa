@@ -152,6 +152,9 @@ dynamic_collections:
           - 336560    #+ Lake Placid vs Anaconda
         448150:     # Deadpool
           - 567604    #+ Once Upon a Deadpool
+        17235:  # Hellboy (Ron Perlman)
+          - 456740  #+ David Harbour
+          - 1087822 #+ 2024
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
