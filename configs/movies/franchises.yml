@@ -42,6 +42,7 @@ dynamic_collections:
       - 1198260 # Star Wars Anthology Series (unavailable on TMDB)
       - 1952
       - 1011336 # Random "Eternals" collection that doesn't exist
+      - 192492 # Jack Ryan
       - 995464 # Moon/Mute
       - 1272685 # Muppets
       - 1149089 # Vengeance Trilogy
