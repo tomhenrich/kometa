@@ -129,6 +129,17 @@ collections:
         - 9654  # 2003
     summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
 
+
+  Jack Ryan:
+    template:
+      name: tmdb
+      collection:
+        - 192492
+      movie:
+        - 4614 # Sum of all Fears
+        - 137094 # Shadow Recruit
+    collection_mode: show_items
+
   King Kong:
     template:
       name: tmdb
