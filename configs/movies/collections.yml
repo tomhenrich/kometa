@@ -92,6 +92,7 @@ collections:
         - 381288  # Split
         - 450465  # Glass
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
+    collection_mode: show_items
 
   Gamera:
     template:
@@ -188,6 +189,7 @@ collections:
         - 16395 # Inferno
         - 15206 # Mother of Tears
     summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale, killing anyone who discover their whereabouts, and who are determined to rule the world."
+    collection_mode: show_items
 
   Toho Kaiju:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
