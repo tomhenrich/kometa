@@ -3,36 +3,15 @@ templates:
     optional:
       - collection
       - movie
+      - company
       - tmdb_summary
       - summary
       - order
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+    tmdb_company: <<company>>
     tmdb_summary: <<tmdb_summary>>
     summary: <<summary>>
-    sync_mode: sync
-    collection_order: release
-    move_prefix: The,A
-
-  tmdb_or_tag:
-    optional:
-      - collection
-      - movie
-      - tag
-      - tmdb_summary
-      - summary
-      - order
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    tmdb_summary: <<tmdb_summary>>
-    plex_search:
-      all:
-        label: <<tag>>
-    sync_mode: sync
-    collection_order: <<order>>
-    move_prefix: The,A
-  tmdb_keyword:
-    tmdb_keyword: <<keyword>>
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
@@ -48,7 +27,9 @@ templates:
 # CURATED COLLECTIONS
 # Curated -- either not official TMDB collections, or specific combinations of movies
 #
+
 collections:
+
   Cloverfield:
     template:
       name: tmdb
@@ -61,9 +42,9 @@ collections:
     template:
       name: tmdb
       movie:
-        - 747 # Shaun of the Dead
-        - 4638 # Hot Fuzz
-        - 107985 # The World's End
+        - 747     # Shaun of the Dead
+        - 4638    # Hot Fuzz
+        - 107985  # The World's End
     summary: The Three Flavours Cornetto trilogy is an anthology series of British comedies by Edgar Wright and Simon Pegg, starring Pegg and Nick Frost. 
     name_mapping: Cornetto
     minimum_items: 3
@@ -73,16 +54,16 @@ collections:
     template:
       name: tmdb
       movie:
-        - 397385 # Shakespeare
-        - 431605 # Christmas
+        - 397385 # Cunk on Shakespeare
+        - 431605 # Cunk on Christmas
     summary: Landmark mockumentary-maker Philomena Cunk guides us through history.
 
   Daredevil:
     template:
       name: tmdb
       movie:
-        - 9480
-        - 9947
+        - 9480  # Daredevil
+        - 9947  # Elektra
 
   Eastrail 177:
     template:
@@ -98,11 +79,11 @@ collections:
     template:
       name: tmdb
       collection:
-        - 161766 # Showa
-        - 657313 # Heisei
+        - 161766  # Showa
+        - 657313  # Heisei
       movie:
-        - 60160 # Gamera the Brave
-        - 664048 # 2015 short
+        - 60160   # Gamera the Brave
+        - 664048  # 2015 short
     summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
 
   "Godzilla (Reiwa)":
@@ -112,6 +93,7 @@ collections:
         - 315011 # Shin Godzilla
         - 940721 # Minus One
     sort_title: Godzilla Era 2016
+    collection_mode: show_items
 
   I Am Legend:
     template:
@@ -130,25 +112,24 @@ collections:
         - 9654  # 2003
     summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
 
-
   Jack Ryan:
     template:
       name: tmdb
       collection:
-        - 192492
+        - 192492  # Red October, Patriot Games, Clear and Present Danger
       movie:
-        - 4614 # Sum of all Fears
-        - 137094 # Shadow Recruit
+        - 4614    # Sum of all Fears
+        - 137094  # Shadow Recruit
     collection_mode: show_items
 
   King Kong:
     template:
       name: tmdb
       collection:
-        - 135495 # 1930+
-        - 135498  # 1976+
+        - 135495  # 1930+
+        - 135498  # 1976-1986
       movie:
-        - 254 # 2005
+        - 254     # 2005 Peter Jackson
 
   Kurosawa Samurai:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
@@ -157,10 +138,9 @@ collections:
 
   Middle Earth:
     tmdb_collection:
-      - 119
-      - 121938
+      - 119     # LOTR
+      - 121938  # Hobbit
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
-    item_label.remove: Middle-Earth
 
   Serenity:
     template:
@@ -171,14 +151,19 @@ collections:
 
   Star Trek:
     tmdb_collection:
-      - 151
-      - 115570
-      - 115575
+      - 151     # TOS
+      - 115570  # TNG
+      - 115575  # KEL
     item_label.append: Star Trek
     summary: "All films from the iconic Star Trek franchise."
 
   Studio Ghibli:
-    trakt_list_details: https://trakt.tv/users/tomhenrich/lists/ghibli
+    template:
+      name: tmdb
+      movie:
+        - 81  # Nausicaa
+      company:
+        - 10342
     collection_order: release
 
   Three Mothers:
@@ -188,15 +173,13 @@ collections:
         - 11906 # Suspiria
         - 16395 # Inferno
         - 15206 # Mother of Tears
-    summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale, killing anyone who discover their whereabouts, and who are determined to rule the world."
+    summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale."
     collection_mode: show_items
 
   Toho Kaiju:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
     collection_order: release
     minimum_items: 1
-    item_label.remove: Toho EU
-
 
   Vengeance Trilogy:
     template:
@@ -212,17 +195,20 @@ collections:
     template:
       name: tmdb
       collection:
-        - 1241
-        - 435259
+        - 1241    # Harry Potter
+        - 435259  # Fantastic Beasts
 
-  Wonka:
+  The Chocolate Factory:
     template:
       name: tmdb
       movie:
-        - 252
-        - 118
-        - 787699
+        - 252     # Willie Wonka (1971)
+        - 118     # Charlie and the Chocolate Factory (2005)
+        - 787699  # Wonka (2023)
     summary: "Come with me... and you'll be... in a world of pure imagination..."
+    collection_mode: show_items
+    name_mapping: Wonka
+
 
 ########################################
 # Marvel/DC Movies
@@ -237,8 +223,7 @@ collections:
     collection_mode: hide
 
   Marvel Cinematic Universe:
-    trakt_list:
-      - https://trakt.tv/users/tomhenrich/lists/mcu
+    tmdb_keyword: 180547
     smart_label:
       all:
         label: <<smart_label>>
@@ -261,7 +246,7 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     minimum_items: 1
-    item_label.remove: DC,DCU,DCEU
+
 
 ########################################
 # OTHER
@@ -269,8 +254,8 @@ collections:
 
   "Sarah's Watchlist":
     trakt_list: 
-      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie&sort=title,asc
-      - https://trakt.tv/users/nursesawa/watchlist?display=movie&sort=title,asc
+      - https://trakt.tv/users/tomhenrich/lists/sarah-s-watchlist?display=movie
+      - https://trakt.tv/users/nursesawa/watchlist?display=movie
     smart_label:
       all:
         label: <<smart_label>>
@@ -282,11 +267,12 @@ collections:
     minimum_items: 1
 
   "Tom's Watchlist":
-    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie&sort=title,asc
+    trakt_list: https://trakt.tv/users/tomhenrich/watchlist?display=movie
     smart_label:
       all:
         label: <<smart_label>>
         unplayed: true
+      sort_by: title.asc
     sort_title: "!Toms Watchlist"
     name_mapping: Toms Watchlist
     label: noshare
@@ -297,7 +283,7 @@ collections:
       all:
         unplayed: true
       sort_by: duration.asc
-    sort_title: "zzzUnwatched"
+    sort_title: "!Unwatched"
     collection_filtering: user
 
   Non-English:
