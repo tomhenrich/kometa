@@ -104,6 +104,7 @@ dynamic_collections:
       259027: "Wolf Man (Universal)"
       1079486: "Winnie the Pooh: Blood & Honey"
       4438: "2001/2010"
+      123726: Quatermass
 
     template_variables:
 
@@ -162,31 +163,32 @@ dynamic_collections:
                     # include any folders where title_override value specifies that it starts with "The"
         1565: 28 Days Later
         948485: The Batman
-        263: Dark Knight
         91697: Battlestar Galactica
+        2794: Chronicles of Riddick
+        758369: Craft
+        464577: Croods
+        263: Dark Knight
         9485: Fast and Furious
         535313: Godzilla (MonsterVerse)
         535790: Godzilla (Anime)
-        1280074: Kong (MonsterVerse)
-        325470: LEGO Movies
-        304: Oceans
-        119: Lord of the Rings
         121938: Hobbit
-        479888: Thing
-        758369: Craft
-        464577: Croods
         468222: Incredibles
         259401: Invisible Man (Universal)
-        1733: Mummy # the 1999 cinematic masterpiece
+        1280074: Kong (MonsterVerse)
+        325470: LEGO Movies
+        119: Lord of the Rings
         9649: Mariachi
         2344: Matrix
+        1733: Mummy # the 1999 cinematic masterpiece
+        304: Oceans
+        4438: Space Odyssey
         115570: Star Trek The Original Series
         151: Star Trek The Next Generation
         115575: Star Trek Alternate Reality
+        479888: Thing
         529: Wallace and Gromit
-        2794: Chronicles of Riddick
         1079486: Winnie-the-Pooh (Horror)
-        4438: Space Odyssey
+        123726: Quatermass
 
       item_label:
         435259: Wizarding World
@@ -215,10 +217,10 @@ dynamic_collections:
         115575: Star Trek 2009
         4438: 2001 A Space Odyssey
 
-
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
         374509: "The original! The first era of Godzilla movies, from 1954 through 1975. Godzilla emerges as terror incarnate, and evolves over the series into a benevolent (but still destructive) protector of Earth."
         374511: "After a hiatus, Toho relaunched the Godzilla franchise in 1984 with a new continuity, ignoring the Showa era titles except for the 1954 original."
         374512: "Toho brought Godzilla back for the new millennium, re-asserting Godzilla as a terrifying force of nature. Each movie in this series disregards all prior movies (with the exception of 'MechaGodzilla' being followed by 'Tokyo S.O.S.')."
         1582: "Heroes in a half-shell!"
+        123726: "Professor Bernard Quatermass is a fictional scientist originally created for BBC Television. Quatermass is a pioneer of the British space programme who continually finds himself confronting sinister alien forces that threaten to destroy humanity."
