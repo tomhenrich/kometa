@@ -147,6 +147,7 @@ collections:
       - 115575  # KEL
     item_label.append: Star Trek
     summary: "All films from the iconic Star Trek franchise."
+    collection_order: release
 
   Studio Ghibli:
     template:
