@@ -108,6 +108,7 @@ dynamic_collections:
       1079486: "Winnie the Pooh: Blood & Honey"
       4438: "2001/2010"
       123726: Quatermass
+      575987: "The Girl with the Dragon Tattoo (American)"
 
     template_variables:
 
@@ -192,6 +193,7 @@ dynamic_collections:
         529: Wallace and Gromit
         1079486: Winnie-the-Pooh (Horror)
         123726: Quatermass
+        575987: The Girl - Millennium
 
       item_label:
         435259: Wizarding World
