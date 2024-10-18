@@ -109,6 +109,7 @@ dynamic_collections:
       4438: "2001/2010"
       123726: Quatermass
       575987: "The Girl with the Dragon Tattoo (American)"
+      44215: Stargate
 
     template_variables:
 
@@ -161,7 +162,9 @@ dynamic_collections:
           - 567604    #+ Once Upon a Deadpool
         17235:  # Hellboy (Ron Perlman)
           - 456740  #+ David Harbour
-          - 1087822 #+ 2024
+          - 1087822 #+ Crooked Man (2024)
+        44215:  # Stargate SG-1
+          - 2164    #+ Stargate (1994)
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
@@ -194,6 +197,7 @@ dynamic_collections:
         1079486: Winnie-the-Pooh (Horror)
         123726: Quatermass
         575987: The Girl - Millennium
+        44215: Stargate
 
       item_label:
         435259: Wizarding World
@@ -207,6 +211,7 @@ dynamic_collections:
 
       minimum_items:
         912503: 1     # Shang-Chi
+        44215: 1      # Stargate (to connect with TV shows)
 
       sort_title:
         115762: Alien vs Predator
