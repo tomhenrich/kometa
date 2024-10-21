@@ -54,7 +54,6 @@ dynamic_collections:
       - 1229144 # Three Mothers
       ## Kaiju Series
       - 813157  # Godzilla (Americanized)
-      - 1326214 # Godzilla (Reiwa)
       - 171732  # Rebirth of Mothra
       - 491768  # Toho Frankenstein/Gargantuas
       - 161766  # Gamera Showa
@@ -122,8 +121,8 @@ dynamic_collections:
           - 732670    # LEGO Holiday Special
           - 12180     # The Clone Wars animated movie
           - 765673    # Holiday Special Documentary
-        8091:
-          - 945961 # Romulus
+        8091:       # Alien
+          - 945961    # Romulus
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
         374509:     # Godzilla Showa
