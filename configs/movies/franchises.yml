@@ -167,6 +167,8 @@ dynamic_collections:
           - 1087822 #+ Crooked Man (2024)
         44215:  # Stargate SG-1
           - 2164    #+ Stargate (1994)
+        10455:  # Childs Play
+          - 533642 # 2019
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
