@@ -75,6 +75,14 @@ collections:
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
     collection_mode: show_items
 
+  Galaxy Quest:
+    template:
+      name: tmdb
+      movie:
+        - 926 # Galaxy Quest
+        - 637963 # Documentary
+    collection_mode: hide
+
   Gamera:
     template:
       name: tmdb
