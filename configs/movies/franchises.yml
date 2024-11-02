@@ -64,8 +64,6 @@ dynamic_collections:
     addons: # combine collections
       8091:       # Alien
         - 135416    #+ Prometheus
-      521226:     # A Quiet Place
-        - 762441 #+ Day One
       86066:      # Despicable Me
         - 544669    #+ Minions
       17255:      # Resident Evil
@@ -123,6 +121,8 @@ dynamic_collections:
           - 765673    # Holiday Special Documentary
         8091:       # Alien
           - 945961    # Romulus
+        521226:     # A Quiet Place
+          - 762441    #+ Day One
         2980:       # Ghostbusters
           - 43074     #+ Ghostbusters 2016
         374509:     # Godzilla Showa
