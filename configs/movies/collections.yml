@@ -348,3 +348,18 @@ collections:
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
 
 
+  Choice Fatigue:
+    smart_filter:
+      limit: 5
+      all:
+        unplayed: true
+        audio_language: English
+        release: 3650
+        audience_rating.gte: 6
+        genre.not:
+          - Horror
+          - Short
+      sort_by: random
+    sort_title: "!Choice Fatigue"
+    collection_filtering: user
+    summary: "Can't decide what to watch? Here are a few popular selections released in the last decade."
