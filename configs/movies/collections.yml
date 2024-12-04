@@ -134,6 +134,7 @@ collections:
     template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
     item_label: Samurai
+    collection_mode: show_items
 
   Middle Earth:
     tmdb_collection:
