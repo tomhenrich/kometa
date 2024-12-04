@@ -135,6 +135,7 @@ collections:
     summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
     item_label: Samurai
     collection_mode: show_items
+    sort_title: Samurai Kurosawa
 
   Middle Earth:
     tmdb_collection:
