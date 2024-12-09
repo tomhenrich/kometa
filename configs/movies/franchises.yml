@@ -3,6 +3,7 @@ templates:
     default:
       collection_order: release
       minimum_items: 2
+      collection_mode: hide_items
     optional:
       - collection
       - movie
@@ -11,6 +12,7 @@ templates:
       - build_collection
       - item_label
       - summary
+      - collection_mode
     cache_builders: 1
     minimum_items: <<minimum_items>>
     tmdb_collection_details: <<value>>
@@ -20,6 +22,7 @@ templates:
     build_collection: <<build_collection>>
     sync_mode: sync
     collection_order: <<collection_order>>
+    collection_mode: <<collection_mode>>
     item_label: <<item_label>>
     summary: <<summary>>
 
@@ -32,26 +35,20 @@ dynamic_collections:
     sync: true
 
     exclude:
-      - 1072931 # unknown collection
-      - 1282917 # unknown collection
-      - 1313932 # ghibli
-      - 945984  # I Am Legend
+      - 1072931 # Shin Japan Heroes
+      - 1282917 # Unbreakable/Eastrail
+      - 1313932 # Studio Ghibli
+      - 945984  # I Am Legend (Will Smith)
       - 627389  # Sanjuro
-      - 578704  # Edge of Tomorrow
-      - 1162276 # Shin Japan Heroes
-      - 1198260 # Star Wars Anthology Series (unavailable on TMDB)
-      - 1952
-      - 1011336 # Random "Eternals" collection that doesn't exist
+      - 1952 # Land of Opportunities (Dogville)
       - 192492 # Jack Ryan
       - 995464 # Moon/Mute
       - 1272685 # Muppets
-      - 1149089 # Vengeance Trilogy
-      - 1227730 # Vengeance Trilogy again
-      - 1278659 # people keep creating the Vengeance Trilogy, then TMDB deletes it
       - 151    # Star Trek TOS
       - 115570 # Star Trek TNG
       - 115575 # Star Trek KEL
       - 1229144 # Three Mothers
+      - 721111 # US Marshals
       ## Kaiju Series
       - 813157  # Godzilla (Americanized)
       - 171732  # Rebirth of Mothra
@@ -169,6 +166,9 @@ dynamic_collections:
           - 2164    #+ Stargate (1994)
         10455:  # Childs Play
           - 533642 # 2019
+        192492:  # Jack Ryan
+          - 4614 # Sum of All Fears
+          - 137094 # Shadow Recruit
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
@@ -212,6 +212,9 @@ dynamic_collections:
         10: alpha     # Star Wars
         2344: alpha   # The Matrix
         2794: alpha   # Riddick
+
+      collection_mode:
+        192492: hide
 
       minimum_items:
         912503: 1     # Shang-Chi
