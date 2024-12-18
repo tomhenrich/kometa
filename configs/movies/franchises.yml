@@ -214,7 +214,8 @@ dynamic_collections:
         2794: alpha   # Riddick
 
       collection_mode:
-        192492: hide
+        192492: hide # Jack Ryan
+        386534: hide # [Olympus/London/Angel] Has Fallen
 
       minimum_items:
         912503: 1     # Shang-Chi
