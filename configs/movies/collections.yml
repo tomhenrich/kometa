@@ -159,6 +159,7 @@ collections:
       company:
         - 10342
     collection_order: release
+    collection_mode: show_items
 
   Three Mothers:
     template:
