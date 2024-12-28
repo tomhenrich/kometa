@@ -3,7 +3,6 @@ templates:
     default:
       collection_order: release
       minimum_items: 2
-      collection_mode: hide_items
     optional:
       - collection
       - movie
