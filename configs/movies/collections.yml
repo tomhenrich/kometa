@@ -64,6 +64,7 @@ collections:
       movie:
         - 9480  # Daredevil
         - 9947  # Elektra
+      collection_mode: hide
 
   Eastrail 177:
     template:
