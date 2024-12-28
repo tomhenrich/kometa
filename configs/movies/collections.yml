@@ -102,6 +102,7 @@ collections:
         - 21159 # The Last Man on Earth
         - 11234 # Omega Man
         - 6479  # I Am Legend
+      collection_mode: hide
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
 
   Italian Job:
