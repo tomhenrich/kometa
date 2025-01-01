@@ -193,18 +193,6 @@ collections:
         - 1241    # Harry Potter
         - 435259  # Fantastic Beasts
 
-  The Land of Oz:
-    template:
-      name: tmdb
-      movie:
-        - 630     # The Wizard of Oz (1939)
-        - 187542  # Journey Back to Oz (1972)
-        - 68728   # Oz the Great and Powerful (2013)
-        - 402431  # Wicked (2024)
-    summary: "We're not in Kansas anymore."
-    collection_mode: show_items
-    name_mapping: Land of Oz
-
   The Chocolate Factory:
     template:
       name: tmdb
