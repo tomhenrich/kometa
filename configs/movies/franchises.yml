@@ -168,6 +168,8 @@ dynamic_collections:
         192492:  # Jack Ryan
           - 4614 # Sum of All Fears
           - 137094 # Shadow Recruit
+        479888: # The Thing
+          - 10785 # Thing from Another World (1951)
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
