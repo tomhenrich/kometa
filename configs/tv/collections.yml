@@ -111,8 +111,8 @@ collections:
     collection_order: release
 
   Star Wars:
-    plex_search:
-      title.begins: Star Wars
+    trakt_list:
+      - https://trakt.tv/users/tomhenrich/lists/star-wars?sort=released,asc
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
     collection_order: release
