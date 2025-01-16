@@ -111,7 +111,8 @@ collections:
     collection_order: release
 
   Star Wars:
-    tmdb_keyword: 327713
+    plex_search:
+      title.begins: Star Wars
     summary: "Stories from a galaxy far, far away."
     minimum_items: 1
     collection_order: release
