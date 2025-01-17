@@ -12,11 +12,12 @@ metadata:
       mapping_id: 78874
       title: Firefly
     episode_ordering: tvdb_absolute
+  Lost:
+    match:
+      mapping_id: 73739
+      title: Lost
+    episode_ordering: tvdb_dvd
   Invasion (2021):
     match:
       mapping_id: 404492
     title: Invasion
-  Mystery Science Theater 3000:
-    match:
-      mapping_id: 74806
-    summary: "Joel Robinson is held captive by mad scientists, forced to watch B-Grade movies with his robot friends. (Limited episode availability due to haphazard DVD releases.)"
