@@ -93,9 +93,6 @@ dynamic_collections:
       9649: El Mariachi
       2344: The Matrix
       573436: "Spider-Verse"
-      115570: "Star Trek: TOS"
-      151: "Star Trek: TNG"
-      115575: "Star Trek: Kelvin Timeline"
       259401: "Invisible Man (Universal)"
       259027: "Wolf Man (Universal)"
       1079486: "Winnie the Pooh: Blood & Honey"
@@ -194,9 +191,6 @@ dynamic_collections:
         1733: Mummy # the 1999 cinematic masterpiece
         304: Oceans
         4438: Space Odyssey
-        115570: Star Trek The Original Series
-        151: Star Trek The Next Generation
-        115575: Star Trek Alternate Reality
         479888: Thing
         529: Wallace and Gromit
         1079486: Winnie-the-Pooh (Horror)
@@ -233,9 +227,6 @@ dynamic_collections:
         535313: Godzilla Era 2014 #monsterverse
         1326214: Godzilla Era 2016 #reiwa
         535790: Godzilla Era 2017 #anime
-        115570: Star Trek 1979
-        151: Star Trek 1994
-        115575: Star Trek 2009
         4438: 2001 A Space Odyssey
 
       summary:
