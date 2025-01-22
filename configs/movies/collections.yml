@@ -50,21 +50,13 @@ collections:
     minimum_items: 3
     collection_mode: show_items
 
-  Cunk:
-    template:
-      name: tmdb
-      movie:
-        - 397385 # Cunk on Shakespeare
-        - 431605 # Cunk on Christmas
-    summary: Landmark mockumentary-maker Philomena Cunk guides us through history.
-
   Daredevil:
     template:
       name: tmdb
       movie:
         - 9480  # Daredevil
         - 9947  # Elektra
-      collection_mode: hide
+    collection_mode: hide
 
   Eastrail 177:
     template:
@@ -102,7 +94,7 @@ collections:
         - 21159 # The Last Man on Earth
         - 11234 # Omega Man
         - 6479  # I Am Legend
-      collection_mode: hide
+    collection_mode: hide
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
 
   Italian Job:
@@ -133,6 +125,7 @@ collections:
     tmdb_collection:
       - 119     # LOTR
       - 121938  # Hobbit
+    item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
 
   Serenity:
@@ -208,14 +201,6 @@ collections:
 ########################################
 # Marvel/DC Movies
 ########################################
-  Black Widow:
-    template: {name: tmdb, movie: 497698}
-    minimum_items: 1
-    collection_mode: hide
-  Incredible Hulk:
-    template: {name: tmdb, movie: 1724}
-    minimum_items: 1
-    collection_mode: hide
 
   Marvel Cinematic Universe:
     tmdb_keyword: 180547
@@ -289,26 +274,10 @@ collections:
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
 
-  Best of Robin Williams:
-    sort_title: Robin Williams
-    smart_filter:
-      all:
-        actor: tmdb
-        audience_rating.gte: 7
-      sort_by: release.asc
-    tmdb_person: 2157
-    summary: Films starring Robin Williams that received a 70% or higher score from audiences.
-
   Hitchcock:
     smart_filter:
       all:
         director: Alfred Hitchcock
-      sort_by: release.asc
-
-  Laika Studios:
-    smart_filter:
-      all:
-        studio.begins: Laika
       sort_by: release.asc
 
   MonsterVerse:
@@ -332,7 +301,6 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     summary: "Showcasing the most iconic monsters in motion picture history, including Dracula, Frankenstein's Monster, the Mummy, the Invisible Man, the Wolf Man, and more!"
-
 
   Choice Fatigue:
     smart_filter:
