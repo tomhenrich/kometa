@@ -213,8 +213,7 @@ dynamic_collections:
 
       collection_mode:
         192492: hide # Jack Ryan
-        386534: hide # [Olympus/London/Angel] Has Fallen
-        575987: hide # Girl with the Dragon Tattoo (American)
+        386534: show_items # [Olympus/London/Angel] Has Fallen
 
       minimum_items:
         912503: 1     # Shang-Chi
@@ -226,7 +225,7 @@ dynamic_collections:
         948485: Batman Pattinson
         374509: Godzilla C1 # Showa
         374511: Godzilla C2 # Heisei
-        374512: Godzilla C3 # Mmillennium
+        374512: Godzilla C3 # Millennium
         1326214: Godzilla C4 # Reiwa
         535313: Godzilla C5 # Monsterverse
         535790: Godzilla C6 # Anime
