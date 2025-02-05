@@ -334,7 +334,7 @@ collections:
         audience_rating.gte: 6
         label.not:
           - "Exclude From Recent"
-      sort_by: random
+      sort_by: added.asc
     sort_title: "zzRecent"
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
