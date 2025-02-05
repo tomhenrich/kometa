@@ -331,10 +331,9 @@ collections:
       limit: 100
       all:
         added: 60    # added within this many days
-        audience_rating.gte: 6
         label.not:
           - "Exclude From Recent"
-      sort_by: added.asc
+      sort_by: added.desc
     sort_title: "zzRecent"
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
