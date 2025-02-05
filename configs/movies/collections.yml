@@ -324,3 +324,19 @@ collections:
     sort_title: "!Choice Fatigue"
     collection_filtering: user
     summary: "Can't decide what to watch? Here are a few popular selections released in the last decade."
+
+
+  Recently Added to Plex:
+    smart_filter:
+      limit: 100
+      all:
+        added: 60    # added within this many days
+        audience_rating.gte: 6
+        label.not:
+          - Exclude From Recent
+      sort_by: random
+    sort_title: "zzRecent"
+    summary: "Here's what's been added to Plex within the last couple months."
+    collection_mode: hide
+
+
