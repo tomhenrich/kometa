@@ -116,9 +116,11 @@ collections:
         - 39276   # King Kong Escapes (1967)
 
   Middle Earth:
-    tmdb_collection:
-      - 119     # LOTR
-      - 121938  # Hobbit
+    template:
+      name: tmdb
+      collection:
+        - 119     # LOTR
+        - 121938  # Hobbit
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
 
