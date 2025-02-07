@@ -130,7 +130,7 @@ collections:
       collection:
         - 10789  # Original
         - 830781 # Reboot
-    sumamary: "Adapted from Stephen King's 1983 novel, a pet cemetery allows the dead to reanimate as a murderous shell of their former living selves."
+    summary: "Adapted from Stephen King's 1983 novel, a pet cemetery allows the dead to reanimate as a murderous shell of their former living selves."
 
   Serenity:
     template:
