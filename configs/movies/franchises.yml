@@ -34,30 +34,28 @@ dynamic_collections:
     sync: true
 
     exclude:
-      - 1072931 # Shin Japan Heroes
-      - 1282917 # Unbreakable/Eastrail
-      - 1313932 # Studio Ghibli
       - 945984  # I Am Legend (Will Smith)
       - 627389  # Sanjuro
       - 1952 # Land of Opportunities (Dogville)
-      - 995464 # Moon/Mute
       - 1272685 # Muppets
       - 151    # Star Trek TOS
       - 115570 # Star Trek TNG
       - 115575 # Star Trek KEL
-      - 1229144 # Three Mothers
-      - 721111 # US Marshals
-      - 1326786 # Wolfs (deleted)
-      - 10789 # Pet Sematary (Original)
-      - 830781 # Pet Sematary (Reboot)
+      - 721111 # The Fugitive/US Marshals
+      - 11712 # Yojimbo/Sanjuro
       ## Kaiju Series
-      - 813157  # Godzilla (Americanized)
-      - 171732  # Rebirth of Mothra
-      - 491768  # Toho Frankenstein/Gargantuas
+      - 813157  # Godzilla (American re-releases)
       - 161766  # Gamera Showa
       - 657313  # Gamera Heisei
       - 135495  # King Kong 1930+
       - 135498  # King Kong 1976+
+      ## Removed from TMDB:
+      - 1072931 # Shin Japan Heroes (removed from TMDB)
+      - 1282917 # Unbreakable/Eastrail (removed from TMDB)
+      - 1313932 # Studio Ghibli (removed from TMDB)
+      - 995464 # Moon/Mute (removed from TMDB)
+      - 1326786 # Wolfs (deleted)
+      - 1229144 # Three Mothers
 
     addons: # combine collections
       8091:       # Alien
@@ -76,6 +74,8 @@ dynamic_collections:
         - 939352    #+ Rise of the Beasts
       748:        # X-Men
         - 453993    #+ The Wolverine
+      10789:      # Pet Sematary
+        - 830781    #+ Reboots
 
     title_override:
       1733: The Mummy # 1999 cinematic masterpiece
@@ -124,10 +124,10 @@ dynamic_collections:
           - 18983     # Godzilla, King of the Monsters (US)
           - 329237    # Gigantis the Fire Monster (US Version of Godzilla Raids Again)
           - 686487    # King Kong vs Godzilla (US)
-        535313:     # Godzilla (MonsterVerse)
-          - 823464  #+ Godzilla x Kong 
         374511:     # Godzilla (Heisei)
           - 39256     #+ Godzilla 1985 (US Version)
+        535313:     # Godzilla (MonsterVerse)
+          - 823464    #+ Godzilla x Kong 
         328:        # Jurassic Park
           - 630322    #+ Battle at Big Rock
         645:        # James Bond
@@ -139,9 +139,9 @@ dynamic_collections:
         304:        # Oceans Heists
           - 402900    #+ Oceans 8
         2794:       # Riddick
-          - 2791      # +Dark Fury
+          - 2791      #+ Dark Fury
         5547:       # Robocop
-          - 97020     #+ Robocop Reboot
+          - 97020     #+ 2014 Reboot
         8650:       # Transformers
           - 424783    #+ Bumblebee
           - 698687    #+ Transformers One
@@ -200,6 +200,7 @@ dynamic_collections:
         123726: Quatermass
         575987: The Girl - Millennium
         44215: Stargate
+        10789: Pet Sematary Combined
 
       item_label:
         435259: Wizarding World
@@ -238,3 +239,4 @@ dynamic_collections:
         374512: "Toho brought Godzilla back for the new millennium, re-asserting Godzilla as a terrifying force of nature. Each movie in this series disregards all prior movies (with the exception of 'MechaGodzilla' being followed by 'Tokyo S.O.S.')."
         1582: "Heroes in a half-shell!"
         123726: "Professor Bernard Quatermass is a fictional scientist originally created for BBC Television. Quatermass is a pioneer of the British space programme who continually finds himself confronting sinister alien forces that threaten to destroy humanity."
+        10789: "Adapted from Stephen King's 1983 novel, a pet cemetery allows the dead to reanimate as a murderous shell of their former living selves."
