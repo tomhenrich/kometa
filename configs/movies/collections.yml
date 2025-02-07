@@ -113,13 +113,7 @@ collections:
         - 135498  # 1976-1986
       movie:
         - 254     # 2005 Peter Jackson
-
-  Kurosawa Samurai:
-    template: {name: tmdb, movie: "548, 346, 3777, 1059, 11878, 11712, 11953, 11645"}
-    summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
-    item_label: Samurai
-    collection_mode: show_items
-    sort_title: Samurai Kurosawa
+        - 39276   # King Kong Escapes (1967)
 
   Middle Earth:
     tmdb_collection:
@@ -127,13 +121,6 @@ collections:
       - 121938  # Hobbit
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
-
-  Pet Sematary:
-    tmdb_collection:
-      - 10789 # Original
-      - 830781 # Reboot
-    summary: "Adapted from Stephen King's 1983 novel, a pet cemetery (formerly a Native burial ground) allows the dead to reanimate as a murderous shell of their former living selves."
-    name_mapping: Pet Sematary Combined
 
   Serenity:
     template:
@@ -143,10 +130,14 @@ collections:
     collection_mode: hide
 
   Star Trek:
-    tmdb_collection:
-      - 151     # TOS
-      - 115570  # TNG
-      - 115575  # KEL
+    template:
+      name: tmdb
+      collection:
+        - 151     # The Original Series
+        - 115570  # The Next Generation
+        - 115575  # Kelvin/Alternate Reality
+      movie:
+        - 1114894     # Section 31
     item_label.append: Star Trek
     summary: "All films from the iconic Star Trek franchise."
     collection_order: release
@@ -170,11 +161,6 @@ collections:
         - 15206 # Mother of Tears
     summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale."
     collection_mode: show_items
-
-  Toho Kaiju:
-    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
-    collection_order: release
-    minimum_items: 1
 
   Vengeance Trilogy:
     template:
@@ -287,6 +273,23 @@ collections:
         director: Alfred Hitchcock
       sort_by: release.asc
 
+  Kurosawa Samurai:
+    template:
+      name: tmdb
+      movie:
+        - 548 # Rashomon
+        - 346 # Seven Samurai
+        - 3777 # Throne of Blood
+        - 1059 # The Hidden Fortress
+        - 11878 # Yojimbo
+        - 11712 # Sanjuro
+        - 11953 # Kagemusha
+        - 11645 # Ran
+    summary: "Samurai films by the legendary Japanese director, Akira Kurosawa."
+    item_label: Samurai
+    collection_mode: show_items
+    sort_title: Samurai Kurosawa
+
   MonsterVerse:
     smart_filter:
       all:
@@ -300,6 +303,13 @@ collections:
         label: <<smart_label>>
       sort_by: release.asc
     summary: "Movies adapted from Stephen King novels."
+
+  Toho Kaiju:
+    trakt_list: https://trakt.tv/users/tomhenrich/lists/toho-kaiju
+    smart_label:
+      all:
+        label: <<smart_label>>
+      sort_by: release.asc
 
   Universal Classic Monsters:
     trakt_list: https://trakt.tv/users/tomhenrich/lists/universal-monsters?sort=released,desc
@@ -324,7 +334,6 @@ collections:
     sort_title: "!Choice Fatigue"
     collection_filtering: user
     summary: "Can't decide what to watch? Here are a few popular selections released in the last decade."
-
 
   Recently Added to Plex:
     smart_filter:
