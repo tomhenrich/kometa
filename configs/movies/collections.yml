@@ -37,6 +37,7 @@ collections:
         - 7191    # Cloverfield
         - 333371  # 10 Cloverfield Lane
         - 384521  # Cloverfield Paradox
+    collection_order: release
 
   Cornetto Trilogy:
     template:
@@ -48,6 +49,7 @@ collections:
     summary: The Three Flavours Cornetto trilogy is an anthology series of British comedies by Edgar Wright and Simon Pegg, starring Pegg and Nick Frost. 
     name_mapping: Cornetto
     minimum_items: 3
+    collection_order: release
     collection_mode: show_items
 
   Daredevil:
@@ -56,6 +58,7 @@ collections:
       movie:
         - 9480  # Daredevil
         - 9947  # Elektra
+    collection_order: release
     collection_mode: hide
 
   Eastrail 177:
@@ -66,6 +69,7 @@ collections:
         - 381288  # Split
         - 450465  # Glass
     summary: "A superhero thriller and psychological horror film series involving the derailment of the fictitious Eastrail 177 train."
+    collection_order: release
     collection_mode: show_items
 
   Galaxy Quest:
@@ -74,6 +78,7 @@ collections:
       movie:
         - 926 # Galaxy Quest
         - 637963 # Documentary
+    collection_order: release
     collection_mode: hide
 
   Gamera:
@@ -86,6 +91,7 @@ collections:
         - 60160   # Gamera the Brave
         - 664048  # 2015 short
     summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
+    collection_order: release
 
   I Am Legend:
     template:
@@ -94,6 +100,7 @@ collections:
         - 21159 # The Last Man on Earth
         - 11234 # Omega Man
         - 6479  # I Am Legend
+    collection_order: release
     collection_mode: hide
     summary: "Films adapted from the novel I AM LEGEND by Richard Matheson."
 
@@ -104,6 +111,7 @@ collections:
         - 10536 # 1969
         - 9654  # 2003
     summary: "A team of criminals risk shifting allegiances and double-crosses to take on a daring heist."
+    collection_order: release
 
   King Kong:
     template:
@@ -114,6 +122,7 @@ collections:
       movie:
         - 254     # 2005 Peter Jackson
         - 39276   # King Kong Escapes (1967)
+    collection_order: release
 
   Middle Earth:
     template:
@@ -123,6 +132,7 @@ collections:
         - 121938  # Hobbit
     item_label.append: Middle Earth
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
+    collection_order: release
 
   Pet Sematary:
     template:
@@ -131,6 +141,7 @@ collections:
         - 10789  # Original
         - 830781 # Reboot
     summary: "Adapted from Stephen King's 1983 novel, a pet cemetery allows the dead to reanimate as a murderous shell of their former living selves."
+    collection_order: release
 
   Serenity:
     template:
@@ -170,6 +181,7 @@ collections:
         - 16395 # Inferno
         - 15206 # Mother of Tears
     summary: "Dario Argento's Italian supernatural horror saga that deals with a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale."
+    collection_order: release
     collection_mode: show_items
 
   Vengeance Trilogy:
@@ -180,6 +192,7 @@ collections:
         - 670   # Oldboy
         - 4550  # Lady Vengeance
     summary: "Park Chan-wook's Vengeance Trilogy proves revenge is a lot more than a dish best served cold."
+    collection_order: release
     collection_mode: show_items
 
   Wizarding World:
@@ -188,6 +201,7 @@ collections:
       collection:
         - 1241    # Harry Potter
         - 435259  # Fantastic Beasts
+    collection_order: release
 
   The Chocolate Factory:
     template:
@@ -197,6 +211,7 @@ collections:
         - 118     # Charlie and the Chocolate Factory (2005)
         - 787699  # Wonka (2023)
     summary: "Come with me... and you'll be... in a world of pure imagination..."
+    collection_order: release
     collection_mode: show_items
     name_mapping: Wonka
 
