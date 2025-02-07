@@ -43,6 +43,8 @@ dynamic_collections:
       - 115575 # Star Trek KEL
       - 721111 # The Fugitive/US Marshals
       - 11712 # Yojimbo/Sanjuro
+      - 10789 # Pet Sematary (Original)
+      - 830781 # Pet Sematary (Reboot)
       ## Kaiju Series
       - 813157  # Godzilla (American re-releases)
       - 161766  # Gamera Showa
@@ -241,4 +243,3 @@ dynamic_collections:
         374512: "Toho brought Godzilla back for the new millennium, re-asserting Godzilla as a terrifying force of nature. Each movie in this series disregards all prior movies (with the exception of 'MechaGodzilla' being followed by 'Tokyo S.O.S.')."
         1582: "Heroes in a half-shell!"
         123726: "Professor Bernard Quatermass is a fictional scientist originally created for BBC Television. Quatermass is a pioneer of the British space programme who continually finds himself confronting sinister alien forces that threaten to destroy humanity."
-        10789: "Adapted from Stephen King's 1983 novel, a pet cemetery allows the dead to reanimate as a murderous shell of their former living selves."
