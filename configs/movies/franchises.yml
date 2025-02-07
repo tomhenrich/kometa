@@ -56,6 +56,8 @@ dynamic_collections:
       - 995464 # Moon/Mute (removed from TMDB)
       - 1326786 # Wolfs (deleted)
       - 1229144 # Three Mothers
+      - 1403306 # Wallace & Gromit
+      - 1326214 # Godzilla (Reiwa)
 
     addons: # combine collections
       8091:       # Alien
