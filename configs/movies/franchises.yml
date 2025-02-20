@@ -65,8 +65,6 @@ dynamic_collections:
     addons: # combine collections
       8091:       # Alien
         - 135416    #+ Prometheus
-      86066:      # Despicable Me
-        - 544669    #+ Minions
       17255:      # Resident Evil
         - 133352    #+ Animated
       10:         # Star Wars
@@ -175,6 +173,9 @@ dynamic_collections:
           - 137094 # Shadow Recruit
         479888: # The Thing
           - 10785 # Thing from Another World (1951)
+        86066: # Despicable Me
+          - 211672 # Minions
+          - 438148 # Minions the Rise of Gru
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
