@@ -100,6 +100,7 @@ collections:
         - 940721   # Minus One
         - 315011  # Shin Godzilla
     collection_order: release
+    sort_title: Godzilla C4
 
   I Am Legend:
     template:
