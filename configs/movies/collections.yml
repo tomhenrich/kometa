@@ -381,13 +381,3 @@ collections:
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
 
-
-
-  RIP Gene Hackman:
-    sort_title: Gene Hackman
-    smart_filter:
-      all:
-        actor: tmdb
-        audience_rating.gte: 6
-      sort_by: release.asc
-    tmdb_person: 193
