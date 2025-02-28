@@ -93,6 +93,14 @@ collections:
     summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
     collection_order: release
 
+  Godzilla (Reiwa Era):
+    template:
+      name: tmdb
+      movie:
+        - 940721   # Minus One
+        - 315011  # Shin Godzilla
+    collection_order: release
+
   I Am Legend:
     template:
       name: tmdb
