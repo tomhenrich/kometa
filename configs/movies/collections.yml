@@ -301,6 +301,14 @@ collections:
     sort_title: "zzzNon-English"
     summary: "You're gonna need to be okay with subtitles."
 
+  Batman:
+    smart_filter:
+      all:
+        title: Batman
+        title: Dark Knight
+      sort_by: release.asc
+    collection_mode: hide
+
   Hitchcock:
     smart_filter:
       all:
