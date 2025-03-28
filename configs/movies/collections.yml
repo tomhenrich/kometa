@@ -304,8 +304,9 @@ collections:
   Gotham:
     smart_filter:
       all:
-        title: Batman
-        title: Dark Knight
+        title:
+          - Batman
+          - Dark Knight
       sort_by: release.asc
     collection_mode: hide
 
