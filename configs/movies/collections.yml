@@ -303,7 +303,7 @@ collections:
 
   Gotham:
     smart_filter:
-      all:
+      any:
         title:
           - Batman
           - Dark Knight
