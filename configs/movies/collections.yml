@@ -309,6 +309,7 @@ collections:
           - Dark Knight
       sort_by: release.asc
     collection_mode: hide
+    sort_title: "Batman(All)"
 
   Hitchcock:
     smart_filter:
@@ -389,4 +390,3 @@ collections:
     sort_title: "zzRecent"
     summary: "Here's what's been added to Plex within the last couple months."
     collection_mode: hide
-
