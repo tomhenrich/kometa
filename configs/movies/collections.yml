@@ -97,8 +97,8 @@ collections:
     template:
       name: tmdb
       movie:
-        - 940721   # Minus One
         - 315011  # Shin Godzilla
+        - 940721  # Minus One
     collection_order: release
     sort_title: Godzilla C4
 
