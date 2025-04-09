@@ -8,8 +8,9 @@ templates:
     sync_mode: sync
     collection_order: release
     move_prefix: The,A
-#collections:
-#  The Lord of the Rings:
-#    template: {name: tmdb, collection: 119}
-#    name_mapping: Lord of the Rings
-#    item_label: LOTR,Middle Earth
+
+collections:
+  The Lord of the Rings:
+    template: {name: tmdb, collection: 119}
+    name_mapping: Lord of the Rings
+    item_label: LOTR,Middle Earth
