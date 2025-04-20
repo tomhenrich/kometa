@@ -31,7 +31,7 @@ collections:
         - 727128
         - 727129
         - 727136
-        - 2607595
+        - 260795
     collection_order: alpha
     collection_mode: show_items
 
@@ -53,7 +53,6 @@ collections:
         - 40877 # The Familiar
         - 274081 # The Inflicted
         - 83323 # The Nurse
-        - 7281 # Venom
         - 106028 # Summer School
     summary: "You'll never sleep again!"
     collection_order: alpha
