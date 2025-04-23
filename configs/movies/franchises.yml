@@ -78,8 +78,6 @@ dynamic_collections:
         - 939352    #+ Rise of the Beasts
       748:        # X-Men
         - 453993    #+ The Wolverine
-      10789:      # Pet Sematary
-        - 830781    #+ Reboots
 
     title_override:
       1733: The Mummy # 1999 cinematic masterpiece
