@@ -66,6 +66,9 @@ dynamic_collections:
     addons: # combine collections
       8091:       # Alien
         - 135416    #+ Prometheus
+        - 1434946   #+ Romulus
+      86066:      # Despicable Me
+        - 544669    #+ Minions
       17255:      # Resident Evil
         - 133352    #+ Animated
       10:         # Star Wars
@@ -172,9 +175,6 @@ dynamic_collections:
           - 137094 # Shadow Recruit
         479888: # The Thing
           - 10785 # Thing from Another World (1951)
-        86066: # Despicable Me
-          - 211672 # Minions
-          - 438148 # Minions the Rise of Gru
         1709: # Planet of the Apes
           - 17244 # Behind the POTA (Documentary)
 
