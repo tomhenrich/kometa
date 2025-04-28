@@ -62,6 +62,9 @@ dynamic_collections:
       - 1229144 # Three Mothers
       - 1403306 # Wallace & Gromit
       - 1326214 # Godzilla (Reiwa)
+      - 524837 # Atomic Blonde
+      - 1402107 # Barbie
+      - 939352 # Transformers Rise of the Beasts
 
     addons: # combine collections
       8091:       # Alien
@@ -77,8 +80,6 @@ dynamic_collections:
       1582:       # TMNT
         - 1156855   #+ Animated TMNT
         - 401562    #+ Reboot TMNT
-      8650:       # Transformers
-        - 939352    #+ Rise of the Beasts
       748:        # X-Men
         - 453993    #+ The Wolverine
 
@@ -150,6 +151,7 @@ dynamic_collections:
         8650:       # Transformers
           - 424783    #+ Bumblebee
           - 698687    #+ Transformers One
+          - 667538    #+ Rise of the Beasts
         529:        # Wallace and Gromit
           - 533       #+ Curse of the Were-Rabbit
           - 929204    #+ Vengeance Most Fowl
