@@ -84,23 +84,23 @@ collections:
   Gamera:
     template:
       name: tmdb
-      collection:
-        - 161766  # Showa
-        - 657313  # Heisei
       movie:
         - 60160   # Gamera the Brave
         - 664048  # 2015 short
     summary: "Gamera is a giant turtle Kaiju created by Daiei Motion Picture Company in 1965 to rival the success of Toho Studios' Godzilla franchise."
     collection_order: release
 
-  Godzilla (Reiwa):
+  "Godzilla (Reiwa)":
     template:
       name: tmdb
       movie:
         - 315011  # Shin Godzilla
         - 940721  # Minus One
+      collection:
+        - 1437740 # Minus One Collection
     collection_order: release
-    sort_title: Godzilla C4
+    sort_title: Godzilla 2016
+    summary: "Toho's Japanese-language Godzilla movies resumed in 2016, running concurrently with the American MonsterVerse series.
 
   I Am Legend:
     template:
