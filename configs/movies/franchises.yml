@@ -49,8 +49,6 @@ dynamic_collections:
       ## Kaiju Series
       - 813157  # Godzilla (American re-releases)
       - 1437740 # Godzilla Minus One
-      - 161766  # Gamera Showa
-      - 657313  # Gamera Heisei
       - 135495  # King Kong 1930+
       - 135498  # King Kong 1976+
       ## Removed from TMDB:
@@ -233,12 +231,14 @@ dynamic_collections:
         115762: Alien vs Predator
         263: Batman Dark Knight
         948485: Batman Pattinson
-        374509: Godzilla C1 # Showa
-        374511: Godzilla C2 # Heisei
-        374512: Godzilla C3 # Millennium
-        535313: Godzilla C5 # Monsterverse
-        535790: Godzilla C6 # Anime
+        374509: Godzilla 1954 # Showa
+        374511: Godzilla 1984 # Heisei
+        374512: Godzilla 1999 # Millennium
+        535313: Godzilla 2014 # Monsterverse
+        535790: Godzilla 2017 # Anime
         4438: 2001 A Space Odyssey
+        161766: Gamera 1965
+        657313: Gamera 1997
 
       summary:
         2344: "A cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of machines that imprisoned mankind in a virtual reality system — the Matrix."
@@ -246,4 +246,4 @@ dynamic_collections:
         374511: "After a hiatus, Toho relaunched the Godzilla franchise in 1984 with a new continuity, ignoring the Showa era titles except for the 1954 original."
         374512: "Toho brought Godzilla back for the new millennium, re-asserting Godzilla as a terrifying force of nature. Each movie in this series disregards all prior movies (with the exception of 'MechaGodzilla' being followed by 'Tokyo S.O.S.')."
         1582: "Heroes in a half-shell!"
-        123726: "Professor Bernard Quatermass is a fictional scientist originally created for BBC Television. Quatermass is a pioneer of the British space programme who continually finds himself confronting sinister alien forces that threaten to destroy humanity."
+        123726: "Professor Bernard Quatermass is a fictional scientist originally created for BBC Television – a pioneer of the British space program who finds himself confronting sinister forces."
