@@ -35,16 +35,11 @@ dynamic_collections:
 
     exclude:
       - 945984  # I Am Legend (Will Smith)
-      - 627389  # Sanjuro
-      - 1952 # Land of Opportunities (Dogville)
-      - 1272685 # Muppets
+      - 627389  # Yojimbo/Sanjuro
       - 151    # Star Trek TOS
       - 115570 # Star Trek TNG
       - 115575 # Star Trek KEL
       - 721111 # The Fugitive/US Marshals
-      - 11712 # Yojimbo/Sanjuro
-      - 10789 # Pet Sematary (Original)
-      - 830781 # Pet Sematary (Reboot)
       - 531242 # Suicide Squad
       ## Kaiju Series
       - 813157  # Godzilla (American re-releases)
@@ -52,14 +47,14 @@ dynamic_collections:
       - 135495  # King Kong 1930+
       - 135498  # King Kong 1976+
       ## Removed from TMDB:
-      - 1072931 # Shin Japan Heroes (removed from TMDB)
-      - 1282917 # Unbreakable/Eastrail (removed from TMDB)
-      - 1313932 # Studio Ghibli (removed from TMDB)
-      - 995464 # Moon/Mute (removed from TMDB)
-      - 1326786 # Wolfs (deleted)
+      - 1072931 # Shin Japan Heroes
+      - 1282917 # Unbreakable/Eastrail
+      - 1313932 # Studio Ghibli
+      - 995464 # Moon/Mute
+      - 1326786 # Wolfs
       - 1229144 # Three Mothers
       - 1403306 # Wallace & Gromit
-      - 1326214 # Godzilla (Reiwa)
+      - 1326214 # Godzilla Reiwa
       - 524837 # Atomic Blonde
       - 1402107 # Barbie
       - 939352 # Transformers Rise of the Beasts
