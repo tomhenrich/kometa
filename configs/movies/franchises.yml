@@ -56,6 +56,7 @@ dynamic_collections:
       - 1326786 # Wolfs
       - 1229144 # Three Mothers
       - 1403306 # Wallace & Gromit
+      - 1478536 # Wallace & Gromit
       - 1326214 # Godzilla Reiwa
       - 524837 # Atomic Blonde
       - 1402107 # Barbie
@@ -147,7 +148,7 @@ dynamic_collections:
           - 424783    #+ Bumblebee
           - 698687    #+ Transformers One
           - 667538    #+ Rise of the Beasts
-        529:        # Wallace and Gromit
+        529:        # Wallace & Gromit
           - 533       #+ Curse of the Were-Rabbit
           - 929204    #+ Vengeance Most Fowl
         748:        # X-Men
