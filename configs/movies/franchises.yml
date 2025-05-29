@@ -175,6 +175,17 @@ dynamic_collections:
           - 10785 # Thing from Another World (1951)
         1709: # Planet of the Apes
           - 17244 # Behind the POTA (Documentary)
+        256377: # The Muppets
+          - 11176 # The Muppet Movie
+          - 14900 # The Great Muppet Caper
+          - 11899 # The Muppets Take Manhattan
+          - 10437 # Muppet Christmas Carol
+          - 10874 # Muppet Treasure Island
+          - 10208 # Muppets from Space
+          - 13352 # Very Merry Christmas
+          - 20910 # Wizard of Oz
+          - 27190 # Letters to Santa
+          - 
 
       name_mapping: # provide the folder name if it's not identical to the collection name
                     # include any folders where title_override value specifies that it starts with "The"
