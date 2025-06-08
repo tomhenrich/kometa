@@ -140,6 +140,8 @@ dynamic_collections:
           - 479455    #+ MIB International
         304:        # Oceans Heists
           - 402900    #+ Oceans 8
+        399:        # Predator
+          - 1376434   #+ Killer of Killers
         2794:       # Riddick
           - 2791      #+ Dark Fury
         5547:       # Robocop
