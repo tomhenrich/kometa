@@ -144,15 +144,6 @@ collections:
     summary: "J.R.R. Tolkien's fantasy series following the adventures of Bilbo and Frodo Baggins."
     collection_order: release
 
-  Pet Sematary:
-    template:
-      name: tmdb
-      collection:
-        - 10789  # Original
-        - 830781 # Reboot
-    summary: "Adapted from Stephen King's 1983 novel, a pet cemetery allows the dead to reanimate as a murderous shell of their former living selves."
-    collection_order: release
-
   Serenity:
     template:
       name: tmdb
