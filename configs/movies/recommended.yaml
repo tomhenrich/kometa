@@ -1,0 +1,15 @@
+# Template for a "Recommended" collection
+# Further criteria will be appended by an external script
+
+collections:
+
+  Recommended for You:
+    sort_title: "!!Recommendations"
+    collection_filtering: user
+    summary: "Top picks for you!"
+    smart_filter:
+      limit: 25
+      sort_by: random
+      all:
+        unplayed: true
+        audience_rating.gte: 6
