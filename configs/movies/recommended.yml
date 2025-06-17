@@ -4,11 +4,11 @@
 collections:
 
   Recommended for You:
-    sort_title: "!!Recommendations"
+    sort_title: "zzRecommendations"
     collection_filtering: user
     summary: "Top picks for you!"
     smart_filter:
-      limit: 25
+      limit: 50
       sort_by: random
       all:
         unplayed: true
