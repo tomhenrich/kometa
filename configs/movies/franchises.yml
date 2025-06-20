@@ -58,9 +58,12 @@ dynamic_collections:
       - 1403306 # Wallace & Gromit
       - 1478536 # Wallace & Gromit
       - 1326214 # Godzilla Reiwa
+      - 1437740 # Godzilla Minus One
       - 524837 # Atomic Blonde
       - 1402107 # Barbie
       - 939352 # Transformers Rise of the Beasts
+      - 1036499 # Hancock
+      
 
     addons: # combine collections
       8091:       # Alien
@@ -221,7 +224,6 @@ dynamic_collections:
         123726: Quatermass
         575987: The Girl - Millennium
         44215: Stargate
-        10789: Pet Sematary Combined
 
       item_label:
         435259: Wizarding World
